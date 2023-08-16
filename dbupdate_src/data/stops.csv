@@ -1,0 +1,576 @@
+uid,district,truename
+1,Dúbravka,Alexyho
+3,Staré Mesto,Americké nám.
+4,Staré Mesto,Depo Hroboňova
+5,Staré Mesto,Autobusová stanica
+6,Ružinov,Astronomická
+8,Ružinov,Bajkalská
+9,Lamač,Bakošova
+11,Nové Mesto,Bárdošova
+12,Rača,Barónka
+13,Podunajské Biskupice,Lieskovská cesta
+14,Rača,Rybničná
+15,Dúbravka,Bilíkova
+16,Ružinov,Bočná
+17,Podunajské Biskupice,Bodrocká
+18,Ružinov,Bojnická
+19,Karlova Ves,Borská
+20,Petržalka,Bosákova
+21,Karlova Ves,Botanická záhrada
+22,Petržalka,Bradáčova
+23,Ružinov,Brodná
+24,Petržalka,Budatínska
+25,Rača,Bukovinská
+26,Ružinov,Bulharská
+27,Petržalka,Bulíkova
+28,Devínska Nová Ves,Bystrická
+29,Petržalka,Bzovícka
+30,Nové Mesto,Deviaty mlyn
+31,,Letisko P+R
+32,Vrakuňa,Cintorín Vrakuňa
+33,Staré Mesto,Ondrejský cintorín
+34,Ružinov,Clementisova
+36,Rača,Černockého
+38,Staré Mesto,Červený kríž
+41,Vajnory,Čierny chodník
+42,Vrakuňa,Čiližská
+43,Devínska Nová Ves,ČOV Dev. Nová Ves
+44,Ružinov,ČOV Vlčie hrdlo
+45,Nové Mesto,Čremchová
+46,Staré Mesto,Čulenova
+47,Čunovo,Čunovo
+48,Čunovo,MiÚ Čunovo
+49,Čunovo,"Čunovo, kostol"
+50,Čunovo,Čunovské jazerá
+51,Dúbravka,Záluhy
+52,Ružinov,OC Rožňavská
+54,Devínska Nová ves,Uhrovecká
+55,Podunajské Biskupice,Devätinová
+56,Devín,Hrad Devín
+57,Devín,Slovanské nábr.
+58,Devínska Nová Ves,Waitov lom
+59,Záhorská Bystrica,Dievčí hrádok
+60,Dúbravka,Dolné Krčace
+61,Petržalka,Depo Petržalka
+62,Petržalka,Kopčany
+63,Ružinov,Domkárska
+64,Nové Mesto,Mokrač
+66,Petržalka,Starý háj
+67,Nové Mesto,Drieňová
+68,Dúbravka,Drobného
+69,Staré Mesto,Búdková
+70,Staré Mesto,Dubová
+71,Vrakuňa,Dudvážska
+72,Ružinov,Dulovo nám.
+74,Petržalka,Dvory
+76,Petržalka,Einsteinova
+77,Petržalka,Ekonom. univerzita
+78,Vrakuňa,Estónska
+79,Petržalka,Farského
+80,Staré Mesto,Blumentál
+81,Dúbravka,Agátová
+82,Ružinov,Gagarinova
+83,Ružinov,Ivanská cesta
+84,Ružinov,Haburská
+85,Devín,Hájovňa
+86,Nové Mesto,Hálkova
+87,Petržalka,Hálova
+88,Ružinov,Hanácka
+89,Karlova Ves,Hany Meličkovej
+90,Dúbravka,Harmincova
+91,Rača,Hečkova
+92,Ružinov,Herlianska
+93,Staré Mesto,Hlavná stanica
+95,Staré Mesto,Hodžovo nám.
+96,Petržalka,Holíčska
+97,Dúbravka,Homolova
+98,Dúbravka,Horné Krčace
+99,Staré Mesto,Horský park
+100,Vajnory,Hospodárska
+101,Staré Mesto,Hrad
+102,Devínska Nová ves,Hradištná
+104,Ružinov,Hraničná
+105,Petržalka,Hrobákova
+106,Staré Mesto,Hroboňova
+107,Vrakuňa,Hronská
+108,Rača,Hubeného
+109,Staré Mesto,Hummelova
+110,Nové Mesto,Husova
+111,Rača,Hybešova
+112,Ružinov,Závodná
+113,Podunajské Biskupice,Jánske hony
+114,Staré Mesto,Hýrošova
+115,Ružinov,Chlumeckého
+116,Rača,Ihrisková
+117,Ružinov,Klientske centrum
+119,Staré Mesto,Inovecká
+120,Ružinov,"V. hrdlo, internát"
+121,Devínska Nová Ves,Ivana Bukovčana
+122,Ružinov,Planét
+123,Staré Mesto,Jančova
+124,Karlova ves,Janotova
+125,Jarovce,Jarovce
+126,Jarovce,"Jarovce, záhrady"
+127,Petržalka,Jasovská
+129,Nové Mesto,Jeséniova
+130,Staré Mesto,Jesenského
+131,Petržalka,Jiráskova
+132,Petržalka,Jungmannova
+133,Nové mesto,Jurajov dvor
+134,Karlova Ves,Jurigovo nám.
+135,Devín,Jurigrad
+137,Devín,Kadlečík
+138,Rača,Kadnárova
+139,Staré Mesto,Centrum
+140,Nové Mesto,Kameňolom
+141,Staré Mesto,Kapucínska
+142,Ružinov,Karadžičova
+143,Karlova Ves,Kútiky
+144,Staré Mesto,Karpatská
+146,Podunajské Biskupice,Ketelec
+147,Ružinov,MiÚ Ružinov
+148,Lamač,Klanec
+149,Nové mesto,Klenová
+150,Nové Mesto,Klepáč
+151,Nové Mesto,Koliba
+152,Staré Mesto,Kollárovo nám.
+153,Petržalka,Kolmá
+155,Podunajské Biskupice,Komárovská
+156,Rača,Komisárky
+157,Vajnory,Koniarkova
+158,Petržalka,"Kopčany, sídlisko"
+159,Podunajské Biskupice,Korytnická
+160,Ružinov,Košická
+161,Rusovce,Kovácsova
+163,Staré Mesto,Kozia
+164,Nové Mesto,Nemocnica Kramáre
+165,Ružinov,Krásna
+168,Záhorská Bystrica,Krče
+169,Záhorská Bystrica,Krematórium
+170,Devín,K Zlatému rohu
+172,Petržalka,Kremnická
+173,Staré Mesto,Krížna
+174,Devínska Nová Ves,Krpáš
+175,Karlova Ves,Dlhé diely
+176,Nové Mesto,Slovany
+177,Ružinov,Kulíškova
+178,Petržalka,Kapitulský dvor
+179,Ružinov,Kvačalova
+180,Karlova Ves,Nám. sv. Františka
+181,Staré Mesto,Lanfranconi
+182,Petržalka,Lachova
+183,Lamač,Lamač
+184,Nové Mesto,Lanovka
+187,Nové Mesto,Bukva
+188,Nové Mesto,Lesopark
+189,Ružinov,Letisko / Airport
+191,Podunajské Biskupice,Lieskovec
+192,Karlova Ves,Dúbravská cesta
+193,Dúbravka,Lipského
+194,Ružinov,Lodenica
+195,Rača,Rušňové depo I
+196,Rača,Rušňové depo II
+197,Nové Mesto,Lopenícka
+198,Staré Mesto,Lovinského
+199,Petržalka,Ľubovnianska
+200,Petržalka,Lúčanka
+201,Ružinov,Lúčna
+202,Petržalka,Lúky II
+203,Petržalka,Lúky V
+204,Petržalka,Tupolevova
+205,Nové Mesto,Magnetová
+206,Nové Mesto,Magurská
+207,Vrakuňa,Majerská
+208,Staré Mesto,Malá scéna
+209,Staré Mesto,Mariánska
+210,Petržalka,Markova
+211,Ružinov,Martinský cintorín
+212,Karlova Ves,Matejkova
+213,Nové Mesto,MiÚ Nové Mesto
+214,Ružinov,Maximiliána Hella
+215,Rača,Na pántoch
+218,Ružinov,Mierová
+219,Nové Mesto,Mierová kolónia
+220,Ružinov,Micherov majer
+221,Devínska Nová Ves,Milana Marečka
+222,Ružinov,Miletičova
+223,Ružinov,"Studená, zastávka"
+224,Nové Mesto,Mladá garda
+225,Ružinov,Mliekarenská
+226,Petržalka,Mlynarovičova
+227,Devínska Nová Ves,Mlynská
+228,Ružinov,Malý trh
+229,Karlova Ves,Mokrohájska
+230,Karlova Ves,Riviéra
+231,Devín,Pod Dev. Kobylou
+233,Nové Mesto,OC Stará Vajnorská
+234,Ružinov,Líščie nivy
+235,Petržalka,Muchovo nám.
+236,Devínska Nová Ves,Na Grbe
+237,Devínska Nová Ves,Pri Sandbergu
+238,Rača,Na pasekách
+240,Karlova Ves,Nad lúčkami
+241,Petržalka,OC Lúky
+242,Vajnory,"Vajnory, nadjazd"
+243,Podunajské Biskupice,Nákupná
+245,Nové Mesto,Nám. Biely kríž
+246,Petržalka,Nám. hraničiarov
+247,Rača,Nám. A.Hlinku
+248,Staré Mesto,Nám. Ľ. Štúra
+249,Devín,Cyril a Metod
+250,Staré Mesto,Prezident. záhrada
+252,Nové Mesto,Nár. onkol. ústav
+253,Petržalka,Nemocnica Antolská
+254,Podunajské Biskupice,Nem. P. Biskupice
+255,Ružinov,Nevädzová
+256,Nové Mesto,Nobelova
+257,Nové Mesto,Nová doba
+258,Ružinov,Novohradská
+259,Devínska Nová Ves,Novoveská
+260,Devín,Nový kameňolom
+261,Staré Mesto,Most SNP
+262,Rača,Malokrasňanská
+263,Lamač,Hodonínska
+264,Ružinov,DK Ružinov
+265,Dúbravka,Podvornice
+266,Nové Mesto,Kukučínova
+267,Nové Mesto,Česká
+268,Nové Mesto,Odborárska
+271,Ružinov,Ondrejovova
+272,Nové Mesto,Krahulčia
+273,Vajnory,Osloboditeľská
+274,Rača,"Na pántoch, školy"
+275,Rača,"Na pántoch, stred"
+276,Petržalka,Ovsište
+277,Petržalka,Ovsištské nám.
+278,Podunajské Biskupice,MiÚ P. Biskupice
+279,Rača,žabí majer
+280,Ružinov,Cvernovka
+281,Staré Mesto,Kráľovské údolie
+282,Staré Mesto,Partizánska
+283,Rača,Pastierska
+284,Staré Mesto,Patrónka
+285,Ružinov,Pažítková
+286,Ružinov,Čierny les
+287,Rača,Pekná cesta
+288,Dúbravka,Pekníkova
+290,Ružinov,"AVION, IKEA"
+291,Podunajské Biskupice,Petőfiho
+292,Jarovce,Píla
+293,Nové Mesto,Pionierska
+294,Ružinov,Plynárenská
+295,Lamač,Pod násypom
+296,Lamač,Podháj
+297,Podunajské Biskupice,Podzáhradná
+298,Dúbravka,Polianky
+299,Podunajské Biskupice,PD P. Biskupice
+301,Devínska Nová Ves,Kamenáče
+302,Staré Mesto,Poštová
+303,Ružinov,Povodie Dunaja
+304,Staré Mesto,Povraznícka
+305,Vajnory,Pračanská
+306,Staré Mesto,Pod stanicou
+307,Staré Mesto,Panorama City
+308,Ružinov,Nemocnica Ružinov
+309,Záhorská Bystrica,Pri krematóriu
+310,Dúbravka,Pri kríži
+311,Vajnory,Pri mlyne
+312,Nové Mesto,Pri nadjazde
+313,Karlova Ves,Pri podchode
+314,Vajnory,OC Vajnory
+315,Staré Mesto,Suchý mlyn
+316,Devínska Nová Ves,Rakyta
+317,Devín,Pri záhradách
+318,Ružinov,Pri zvonici
+319,Rača,Pribylinská
+320,Lamač,Pridánky
+321,Podunajské Biskupice,Priekopnícka
+322,Rača,Mikulášov dvor
+323,Lamač,Pod Zečákom
+324,Ružinov,"Prievoz, most"
+325,Ružinov,Prievozská
+326,Ružinov,Nákladný prístav
+327,Ružinov,Prístavná
+328,Ružinov,Prístavný most
+329,Podunajské Biskupice,Plniareň plynu
+330,Staré Mesto,Prokopa Veľkého
+331,Rača,MiÚ Rača
+332,Nové Mesto,Račianske mýto
+333,Ružinov,Rádiová
+334,Ružinov,Radničné nám.
+335,Staré Mesto,Radvanská
+336,Staré Mesto,Rajská
+337,Nové Mesto,Riazanská
+338,Vrakuňa,Ríbezľová
+340,Petržalka,Romanova
+341,Nové Mesto,Shopping Palace
+342,Rusovce,Gerulata
+343,Petržalka,Rusovská cesta
+344,Ružinov,Súhvezdná
+345,Ružinov,Ružová dolina
+346,Nové Mesto,Drieňovské lúky
+347,Ružinov,Sabinovská
+348,Petržalka,Sad Janka Kráľa
+349,Jarovce,Sady
+350,Devínska Nová Ves,Morava
+352,Lamač,Segnáre
+353,Karlova Ves,Segnerova
+354,Devínska Nová Ves,Jána Jonáša
+355,Rača,Sklabinská
+356,Záhorská Bystrica,Podkerepušky
+357,Karlova Ves,Cintorín Slávičie
+358,Karlova Ves,Zoo
+359,Nové Mesto,Sliačska
+360,Staré Mesto,Slov. nár. archív
+361,Ružinov,Slovinská
+362,Ružinov,Vlčie hrdlo
+363,Ružinov,Zajačie
+364,Podunajské Biskupice,Slovnaftská
+365,Ružinov,Slowackého
+366,Petržalka,Malý Draždiak
+367,Petržalka,Smolenická
+368,Staré Mesto,Sokolská
+369,Ružinov,Solivarská
+370,Devínska Nová Ves,Mláka
+371,Strmý vŕšok,Strmé vŕšky
+372,Ružinov,Spaľovňa
+373,Ružinov,Spoločenská
+374,Ružinov,Na križovatkách
+375,Nové Mesto,Staré ihrisko
+376,Petržalka,Starohájska
+377,Devín,Starý kameňolom
+378,Vrakuňa,Stavbárska
+380,Rača,Staviteľská
+381,Rača,Stavivá
+382,Dúbravka,Húščavova
+383,Rača,Stolárska
+384,Petržalka,Strečnianska
+385,Jarovce,Strelnica
+386,Ružinov,Strojnícka
+387,Devínska Nová Ves,Panské
+388,Nové Mesto,Stromová
+389,Lamač,Studenohorská
+390,Petržalka,Aupark
+391,Ružinov,Súmračná
+392,Nové Mesto,NÚSCH
+394,Staré Mesto,Šafárikovo nám.
+395,Staré Mesto,Šafranová
+398,Podunajské Biskpice,Šikmá
+399,Petržalka,Šintavská
+400,Vrakuňa,Šípová
+401,Vrakuňa,MiÚ Vrakuňa
+402,Staré Mesto,Šoltésovej
+403,Staré Mesto,Špitálska
+404,Vajnory,Šprinclov majer
+408,Podunajské Biskupice,Topoľové
+409,Rusovce,Gaštanová aleja
+410,Devínska Nová Ves,Štefana Králika
+412,Dúbravka,Štepná
+413,Devín,Štrbská
+415,Staré Mesto,Šulekova
+416,Petržalka,Šustekova
+417,Petržalka,Švabinského
+418,Dúbravka,Švantnerova
+419,Rača,Tbiliská
+420,Nové Mesto,Tehelná
+422,Staré Mesto,STU
+423,Ružinov,Technická
+424,Dúbravka,Technické sklo
+425,Rača,Púchovská
+426,Petržalka,Technopol
+427,Karlova Ves,Televízia
+428,Ružinov,Piesčiny
+429,Podunajské Biskupice,Vinohradnícka
+430,Ružinov,Úrad BSK
+431,Karlova Ves,Tománkova
+432,Ružinov,Tomášikova
+433,Petržalka,Topoľčianska
+434,Vrakuňa,Toryská
+435,Rača,Trávna
+436,Ružinov,Trenčianska
+437,Nové Mesto,Trnavské mýto
+438,Nové Mesto,Trojdomy
+439,Staré Mesto,Chatam Sófer
+440,Nové Mesto,Tupého
+441,Záhorská Bystrica,Bratislavská
+442,Podunajské Biskupice,Učiteľská
+443,Vajnory,Uhliská
+444,Staré Mesto,29. augusta
+445,Podunajské Biskupice,8. mája
+446,Nové Mesto,Ursínyho
+447,Vrakuňa,Pod gaštanmi
+449,Vajnory,Roľnícka
+450,Vajnory,MiÚ Vajnory
+451,Vajnory,Vajnory
+452,Staré Mesto,Valašská
+453,Devínska Nová Ves,Vápenka
+456,Ružinov,Studená
+457,Ružinov,Zálužická
+458,Rača,"Kubačova, NKD"
+459,Nové Mesto,Vlárska
+460,Karlova Ves,Sihož
+461,Ružinov,Vodostav
+462,Karlova ves,Červený most
+463,Rača,Regrútska
+464,Nové Mesto,Depo Jurajov dvor
+465,Rača,Depo Krasňany
+466,Nové Mesto,Depo Trnávka
+467,Vrakuňa,Podpriehradná
+469,Lamač,Vrančovičova
+471,Devínska Nová Ves,"Jána Jonáša, VW1"
+472,Rača,Východné
+473,Staré Mesto,Vysoká
+475,Petržalka,Vyšehradská
+476,Rusovce,Vývojová
+477,Devín,Dolné koruny
+479,Záhorská Bystrica,Záhorská
+481,Záhorská Bystrica,Záhorská Bystrica
+482,Ružinov,Saleziáni
+483,Ružinov,Fafruny
+484,Rača,Záhumenice
+485,Lamač,Stn. Lamač
+486,Staré Mesto,Zámocká
+487,Petržalka,Záporožská
+488,Nové Mesto,Kuchajda
+489,Rača,Závadská
+490,Petržalka,"Kopčianska, stred"
+491,Ružinov,Trnavská cesta
+492,Rusovce,Kaštieľ Rusovce
+493,Rača,Pri Šajbách
+494,Ružinov,Dvojstudňové polia
+495,Ružinov,Zimný štadión
+496,Nové Mesto,Stará Vajnorská
+497,Ružinov,Zlaté piesky
+498,Devín,Zlaté schody
+499,Petržalka,Znievska
+500,Staré Mesto,Zochova
+501,Staré Mesto,Habánsky mlyn
+502,Petržalka,ZŠ Budatínska
+503,Karlova Ves,ZŠ Majerníkova
+504,Rača,Zvončeková
+505,Dúbravka,žatevná
+506,Petržalka,žehrianska
+507,Nové Mesto,železná studnička
+508,Vrakuňa,železničná
+510,Vajnory,Staré letisko
+512,Vrakuňa,žitavská
+513,Devínska Nová Ves,Stn. Dev. Nová Ves
+514,Lamač,Skerličova
+515,Nové Mesto,Stn. Nové Mesto
+516,Podunajské Biskupice,Stn. P. Biskupice
+517,Petržalka,Stn. Petržalka
+518,Rusovce,Stn. Rusovce
+519,Ružinov,Stn. ÚNS
+521,Vajnory,Stn. Vajnory
+522,Nové Mesto,Stn. Vinohrady
+523,Petržalka,Antolská
+524,Rača,Potočná
+525,Ružinov,Syslia
+527,Petržalka,Prokofievova
+528,Petržalka,Kopčianska
+531,Devínska Nová Ves,Vápencová
+553,Ružinov,Avion Shop. Park
+554,Devínska Nová Ves,Paulinské
+558,Čunovo,Danubiana
+559,Čunovo,VE Čunovo
+560,Staré Mesto,Súbežná
+561,Staré Mesto,Prvosienková
+562,Staré Mesto,Stará vinárska
+563,Staré Mesto,Slavín
+564,Staré Mesto,Havlíčkova
+565,Staré Mesto,Mišíkova
+566,Staré Mesto,Donovalova
+567,Čunovo,"Čunovo, priehrada"
+568,Čunovo,Areál vod. športov
+572,Devínska Nová Ves,"Volkswagen, VW2"
+574,Karlova Ves,Tesco Lamač
+575,Podunajské Biskupice,Podunajská
+577,Nové Mesto,Vihorlatská
+579,Petržalka,Cintorín Petržalka
+580,Ružinov,Pestovateľská
+581,Ružinov,Most Apollo
+582,Ružinov,Trhovisko
+584,Staré Mesto,Kalvária
+585,Nové Mesto,Na Revíne
+586,Nové Mesto,Júnová
+587,Nové Mesto,Cesta na Kamzík
+588,Nové Mesto,Jaskový rad
+589,Nové Mesto,Matúškova
+590,Nové Mesto,žabotova
+591,Nové Mesto,Rozvodná
+592,Nové Mesto,Briežky
+593,Nové Mesto,L. Dérera
+594,Nové Mesto,Guothova
+595,Nové Mesto,Višňová
+596,Rača,Vajnorský potok
+603,Vajnory,Tuhovská
+604,Rusovce,Pieskový hon
+605,Petržalka,Ševčenkova
+606,Záhorská Bystrica,MiÚ Záh. Bystrica
+607,Staré Mesto,Nové SND
+608,Staré mesto,Bubnovka
+609,Ružinov,"V. hrdlo, záhrady"
+616,Nové Mesto,Vajnorská
+617,Petržalka,Dargovská
+618,Staré Mesto,Na hrebienku
+619,Petržalka,Gercenova
+625,Karlova Ves,Pod Kráľovou horou
+626,Karlova Ves,Kuklovská
+627,Karlova Ves,Sološnická
+628,Karlova Ves,Šaštínska
+631,Petržalka,Betliarska
+632,Rača,Kalné jazero
+633,Rača,Spádovisko I
+634,Rača,Spádovisko II
+635,Devínska Nová Ves,Zamajerské
+641,Nové Mesto,Kamzík
+646,Čunovo,"Čunovo, záhrady"
+647,Nové Mesto,Júlová
+656,Karlova Ves,Hájnická
+657,Karlova Ves,Vretenová
+658,Karlova Ves,Na Sitine
+659,Karlova Ves,Bedľová
+660,Karlova Ves,Panoráma
+661,Karlova Ves,Tôňava
+662,Karlova Ves,Rudolfa Mocka
+663,Karlova Ves,Konvalinková
+664,Karlova Ves,Nad vinicami
+665,Rača,Karpatské nám.
+670,Devínska Nová Ves,Veľkolúcky potok
+671,Čunovo,Schengenská
+675,Dúbravka,Cabanova
+676,Dúbravka,Moyšova
+677,Dúbravka,Tranovského
+678,Dúbravka,Konopné diely
+679,Dúbravka,Tulipánová
+680,Dúbravka,Vendelínska
+691,Petržalka,žltá
+693,Nové Mesto,Partizánska lúka
+694,Devínska Nová Ves,T. P. Kolakoviča
+696,Podunajské Biskupice,OC Slovnaftská
+699,Dúbravka,OC Dubrawa
+700,Lamač,OC Bory
+701,Strmý vŕšok,Rudavská
+702,Strmý vŕšok,Pri kaplnke
+705,Ružinov,Pharos
+707,Karlova Ves,OC Patrónka
+708,Čunovo,MVE Mošoň
+709,Rača,Rostovská
+710,Devínska Nová Ves,"Opletalova, VW5"
+711,Vrakuňa,Arménska
+712,Rača,Cudzinecká polícia
+713,Rača,Detvianska
+714,Staré Mesto,Úrad vlády SR
+715,Rača,OC Rača
+716,Nové Mesto,ZŠ Odborárska
+719,Nové Mest,Koliba P+R
+720,Ružinov,Hrachová
+721,Lamač,Kúpalisko Lamač
+722,Lamač,Hany Ponickej
+723,Lamač,Hrubé lúky
+724,Nové Mesto,Muštová
+725,Ružinov,Krížové polia
+726,Ružinov,"Letisko, cargo"
+727,Ružinov,Letové služby
+728,Ružinov,Galvaniho
+740,Staré Mesto,Nám. slobody
