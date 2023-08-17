@@ -26,7 +26,7 @@ uid,district,truename,alias
 28,Devínska Nová Ves,Bystrická,bystricka
 29,Petržalka,Bzovícka,bzovicka
 30,Nové Mesto,Deviaty mlyn,deviatymlyn
-31,Ružinov,Letisko P+R,letiskoparkandride
+31,,Letisko P+R,letiskoparkandride
 32,Vrakuňa,Cintorín Vrakuňa,cintorinvrakuna
 33,Staré Mesto,Ondrejský cintorín,ondrejskycintorin
 34,Ružinov,Clementisova,clementisova
@@ -203,7 +203,7 @@ uid,district,truename,alias
 229,Karlova Ves,Mokrohájska,mokrohajska
 230,Karlova Ves,Riviéra,riviera
 231,Devín,Pod Dev. Kobylou,poddevkobylou
-233,Nové Mesto,OC Stará Vajnorská,ocstaravajnorska
+233,Nové Mesto,OC Stará Vajnorská,staravajnorska
 234,Ružinov,Líščie nivy,liscienivy
 235,Petržalka,Muchovo nám.,muchovonam
 236,Devínska Nová Ves,Na Grbe,nagrbe
@@ -247,7 +247,7 @@ uid,district,truename,alias
 279,Rača,žabí majer,zabimajer
 280,Ružinov,Cvernovka,cvernovka
 281,Staré Mesto,Kráľovské údolie,kralovskeudolie
-282,Staré Mesto,Partizánska,partizanska
+282,Staré Mesto,Partizánska,partizanskaluka
 283,Rača,Pastierska,pastierska
 284,Staré Mesto,Patrónka,patronka
 285,Ružinov,Pažítková,pazitkova
@@ -283,7 +283,7 @@ uid,district,truename,alias
 317,Devín,Pri záhradách,prizahradach
 318,Ružinov,Pri zvonici,prizvonici
 319,Rača,Pribylinská,pribylinska
-320,Lamač,Pridánky,pridanky
+320,Lamač,Pridánky,pridanky§
 321,Podunajské Biskupice,Priekopnícka,priekopnicka
 322,Rača,Mikulášov dvor,mikulasovdvor
 323,Lamač,Pod Zečákom,podzecakom
@@ -355,7 +355,7 @@ uid,district,truename,alias
 392,Nové Mesto,NÚSCH,nusch
 394,Staré Mesto,Šafárikovo nám.,safarikovonam
 395,Staré Mesto,Šafranová,safranova
-398,Podunajské Biskupice,Šikmá,sikma
+398,Podunajské Biskpice,Šikmá,sikma
 399,Petržalka,Šintavská,sintavska
 400,Vrakuňa,Šípová,sipova
 401,Vrakuňa,MiÚ Vrakuňa,miuvrakuna
@@ -445,7 +445,7 @@ uid,district,truename,alias
 499,Petržalka,Znievska,znievska
 500,Staré Mesto,Zochova,zochova
 501,Staré Mesto,Habánsky mlyn,habanskymlyn
-502,Petržalka,ZŠ Budatínska,zsbudatinska
+502,Petržalka,ZŠ Budatínska,budatinska
 503,Karlova Ves,ZŠ Majerníkova,zsmajernikova
 504,Rača,Zvončeková,zvoncekova
 505,Dúbravka,žatevná,zatevna
@@ -483,7 +483,7 @@ uid,district,truename,alias
 567,Čunovo,"Čunovo, priehrada",priehrada
 568,Čunovo,Areál vod. športov,arealvodsportov
 572,Devínska Nová Ves,"Volkswagen, VW2",vw2
-574,Karlova Ves,Tesco Lamač,tescolamac
+574,Karlova Ves,Tesco Lamač,lamac
 575,Podunajské Biskupice,Podunajská,podunajska
 577,Nové Mesto,Vihorlatská,vihorlatska
 579,Petržalka,Cintorín Petržalka,cintorinpetrzalka
@@ -574,35 +574,3 @@ uid,district,truename,alias
 727,Ružinov,Letové služby,letovesluzby
 728,Ružinov,Galvaniho,galvaniho
 740,Staré Mesto,Nám. slobody,namslobody
-741,Čunovo,"Čunovo, Priehrada",cunovopriehrada
-742,Nové Mesto,Kačínska Dolina,kacinskadolina
-743,Rača,Drozdová,drozdova
-744,Staré Mesto,Svoradová,svoradova
-746,Jarovce,Ovocná,ovocna
-748,Ružinov,Grófska Niva,grofskaniva
-749,Čunovo,Konopiská,konopiska
-750,Lamač,Vladimíra Jukla,vladimirajukla
-751,Rača,Slanec,slanec
-752,Záhorská Bystrica,Pod vŕškami,podvrskami
-753,Petržalka,OC Einsteinova,oceinsteinova
-754,Ružinov,Stachanovská,stachanovska
-755,Záhorská Bystrica,Bystrické sady,bystrickesady
-756,Podunajské Biskupice,Ligurčeková,ligurcekova
-757,Ružinov,Jelačičová,jelacicova
-758,Ružinov,Alejová,alejova
-759,Podunajské Biskupice,Farmárska,farmarska
-760,Staré Mesto,Gorazdova,gorazdova
-761,Vrakuňa,Bodvianska,bodvianska
-762,Devínska Nová Ves,Napájiská,napajiska
-763,Podunajské Biskupice,Ovčiarska,ovciarska
-764,Rača,Horáreň Krasňany,horarenkrasnany
-765,Ružinov,Pálenisko,palenisko
-767,Lamač,Nemocnica Bory,nemocnicabory
-768,Rača,Mokraď,mokrad
-769,Petržalka,Bratská,bratska
-770,Petržalka,Nesto,nesto
-771,Záhorská Bystrica,Kulháň,kulhan
-773,Nové Mesto,Kačín,kacin
-774,Ružinov,Pri Letisku,priletisku
-775,Rača,Muničné sklady,municnesklady
-776,Ružinov,Čierny les,cienyles

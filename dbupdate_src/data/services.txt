@@ -1414,7 +1414,7 @@
         hodoninska
         prikrematoriu
         podkerepusky
-        kuhlan
+        kulhan
         dievcihradok
         bratislavska
         krce
@@ -1428,7 +1428,7 @@
         krce
         bratislavska
         dievcihradok
-        kuhlan
+        kulhan
         podkerepusky
         prikrematoriu
         hodoninska

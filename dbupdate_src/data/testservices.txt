@@ -1,0 +1,20 @@
+/line 1234 {
+    /subservice 1 [
+        alexyho
+        americkenam
+        depohrobonova
+        autobusovastanica
+        astronomicka
+        zahorska
+        zahorskabystrica
+    ]
+    /subservice 2 [
+        zahorskabystrica
+        zahorska
+        astronomicka
+        autobusovastanica
+        depohrobonova
+        americkenam
+        alexyho
+    ]
+}
