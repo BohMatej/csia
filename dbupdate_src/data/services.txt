@@ -1615,6 +1615,7 @@
         herlianska
         tomasikova
         maximilianahella
+        zaluzicka
         haburska
         klientskecentrum
         stnnovemesto
