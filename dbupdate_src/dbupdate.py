@@ -45,29 +45,30 @@ def updateStops():
             to_add_aliases.add(line)
     
     # write new aliases into stops.csv
+    number_of_appends = 0
     with open(os.path.join(DIRNAME, "data/stops.csv"), "a", newline="") as aliases:
         writer = csv.DictWriter(aliases, fieldnames=["uid", "district", "truename", "alias"])
-        number_of_appends = 0
         for item in to_add_aliases:
             writer.writerow({"uid": maximum_uid+1, "district": "DISTRICT", "alias": item, "truename": "TRUENAME"})
             number_of_appends += 1
             maximum_uid += 1
-        
-        print("")
-        if number_of_appends == 0:
-            print("All aliases from services.txt are already present in stops.csv.")
-        else:
-            print(f"Sync complete. Successfully added {number_of_appends} aliases. Now go correct them!")
 
-        # warn user of duplicate aliases
-        if len(duplicate_aliases) == 0:
-            print("No duplicate aliases have been found.")
-        else:
-            print(f"{len(duplicate_aliases)} duplicate aliases found:")
-            for alias in duplicate_aliases:
-                print(alias)
-        
-        aliases.close()
+    #print out results
+    print("")
+    if number_of_appends == 0:
+        print("All aliases from services.txt are already present in stops.csv.")
+    else:
+        print(f"Sync complete. Successfully added {number_of_appends} aliases. Now go correct them!")
+
+    # warn user of duplicate aliases
+    if len(duplicate_aliases) == 0:
+        print("No duplicate aliases have been found.")
+    else:
+        print(f"{len(duplicate_aliases)} duplicate aliases found:")
+        for alias in duplicate_aliases:
+            print(alias)
+    
+    aliases.close()
 
 def updateAliases():
     print("Legacy command, use (3) instead.")
