@@ -1,4 +1,5 @@
 /line 1 {
+    /color ff6600
     /subservice 1 [
         hlavnastanica
         podstanicou
@@ -21,6 +22,7 @@
 }
 
 /line 3 {
+    /color e31e24
     /subservice 1 [
         komisarky
         puchovska
@@ -76,6 +78,7 @@
 }
 
 /line 4 {
+    /color 7690c9
     /subservice 1 [
         prikrizi
         podvornice
@@ -219,6 +222,7 @@
 }
 
 /line 7 {
+    /color ffed00
     /subservice 1 [
         komisarky
         puchovska
@@ -269,6 +273,7 @@
 }
 
 /line 9 {
+    /color b0cb1f
     /subservice 1 [
         kutiky
         borska
@@ -323,6 +328,7 @@
 }
 
 /line 33 {
+    /color a79ecd
     /subservice 1 [
         dlhediely
         zsmajernikova
@@ -346,6 +352,7 @@
 }
 
 /line 40 {
+    /color e51a4b
     /subservice 1 [
         hlavnastanica
         podstanicou
@@ -371,6 +378,7 @@
 }
 
 /line 42 {
+    /color a65430
     /subservice 1 [
         cervenymost
         patronka
@@ -430,6 +438,7 @@
 }
 
 /line 44 {
+    /color ce82b5
     /subservice 1 [
         budkova
         cervenykriz
@@ -494,6 +503,7 @@
 }
 
 /line 47 {
+    /color eabd00
     /subservice 1 [
         cervenymost
         patronka
@@ -546,6 +556,7 @@
 }
 
 /line 49 {
+    /color ef7f1a
     /subservice 1 [
         narodnyonkologickyustav
         klenova
@@ -613,6 +624,7 @@
 }
 
 /line 60 {
+    /color 2a4493
     /subservice 1 [
         radiova
         bulharska
@@ -654,6 +666,7 @@
 }
 
 /line 64 {
+    /color 009846
     /subservice 1 [
         jelacicova
         trnavskemyto
@@ -669,7 +682,7 @@
         hyrosova
         valasska
     ]
-    /subservice 1 [
+    /subservice 2 [
         valasska
         suchymlyn
         nemocnicakramare
@@ -685,6 +698,7 @@
 }
 
 /line 71 {
+    /color 00a0e3
     /subservice 1 [
         hlavnastanica
         podstanicou
@@ -736,6 +750,7 @@
 }
 
 /line 72 {
+    /color b0cb1f
     /subservice 1 [
         rajska
         ondrejskycintorin
@@ -840,6 +855,7 @@
 }
 
 /line 21 {
+    /color 338632
     /subservice 1 [
         autobusovastanica
         krizna
@@ -1396,6 +1412,7 @@
 }
 
 /line 37 {
+    /color e31e24
     /subservice 1 [
         mostsnp
         chatamsofer
@@ -1576,6 +1593,7 @@
 }
 
 /line 50 {
+    /color 57a7b3
     /subservice 1 [
         kukucinova
         slovany
@@ -1903,6 +1921,7 @@
 }
 
 /line 61 {
+    /color ec6a6d
     /subservice 1 [
         letisko
         farfuny
@@ -1950,6 +1969,7 @@
 }
 
 /line 63 {
+    /color ae4a84
     /subservice 1 [
         avionshoppark
         ivanskacesta
@@ -2099,7 +2119,7 @@
         stnuns
         domkarska
     ]
-    /subservice 1 [
+    /subservice 2 [
         domkarska
         stnuns
         syslia
@@ -2164,6 +2184,7 @@
 }
 
 /line 68 {
+    /color c7bc6a
     /subservice 1 [
         holicska
         smolenicka
@@ -2334,13 +2355,13 @@
         covvlciehrdlo
         spalovna
     ]
-    /subservice 1 [
+    /subservice 3 [
         povodiedunaja
         lodenica
         zajacie
         vlciehrdlo
     ]
-    /subservice 2 [
+    /subservice 4 [
         spalovna
         covvlciehrdlo
         micherovmajer
@@ -2431,6 +2452,7 @@
 }
 
 /line 80 {
+    /color f7aa47
     /subservice 1 [
         kollarovonam
         zochova
@@ -2482,6 +2504,7 @@
 }
 
 /line 83 {
+    /color 008dd2
     /subservice 1 [
         kutlikova
         bradacova
@@ -2545,6 +2568,7 @@
 }
 
 /line 84 {
+    /color 008dd2
     /subservice 1 [
         ovsiste
         ovsistskenam
@@ -2649,6 +2673,7 @@
 }
 
 /line 88 {
+    /color ae4a84
     /subservice 1 [
         mostsnp
         einsteinova
@@ -2668,7 +2693,7 @@
         culenova
         autobusovastanica
     ]
-    /subservice 1 [
+    /subservice 2 [
         autobusovastanica
         culenova
         landererova
@@ -2824,6 +2849,7 @@
 }
 
 /line 93 {
+    /color e5097f
     /subservice 1 [
         hlavnastanica
         podstanicou
@@ -2863,6 +2889,7 @@
 }
 
 /line 94 {
+    /color e5097f
     /subservice 1 [
         holicska
         smolenicka
@@ -2890,6 +2917,7 @@
 }
 
 /line 95 {
+    /color ff6600
     /subservice 1 [
         vysehradska
         lucanka
@@ -2904,7 +2932,7 @@
         farskeho
         muchovonam
     ]
-    /subservice 1 [
+    /subservice 2 [
         muchovonam
         farskeho
         namhraniciarov
@@ -2921,6 +2949,7 @@
 }
 
 /line 96 {
+    /color 66c3d0
     /subservice 1 [
         prokofievova
         markova
@@ -2970,6 +2999,7 @@
 }
 
 /line 98 {
+    /color cc6f3c
     /subservice 1 [
         jasovska
         zehrianska
@@ -3021,6 +3051,7 @@
 }
 
 /line 99 {
+    /color f5b5d2
     /subservice 1 [
         ovsiste
         ovsistskenam
@@ -3301,3 +3332,4 @@
         cervenymost
     ]
 }
+
