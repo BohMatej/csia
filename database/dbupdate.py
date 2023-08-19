@@ -7,11 +7,11 @@ DIRNAME = os.path.dirname(__file__)
 
 def main():
     print("What do you want to do?")
-    print("Enter 1 to update the database.")
-    print("Enter 2 to load all stop aliases from services.txt to the database.")
+    print("Enter 1 to load line service information from services.txt and loops.csv into the database.")
+    print("Enter 2 to load all stop aliases from services.txt to the database. Called automatically with (1).")
     print("Enter 3 to synchronize aliases from stops.csv with services.txt and check for duplicate aliases (LEGACY).")
-    print("Enter 4 to synchronize aliases from aliases.csv with services.txt (NOT FUNCTIONAL).")
-    print("Enter 5 to load stops.csv into the database's stops table (LEGACY).")
+    print("Enter 4 to load stops.csv into the database's stops table (LEGACY).")
+    print("Enter 5 to synchronize aliases from aliases.csv with services.txt (NOT FUNCTIONAL).")
 
     action = input("Action: >")
 
@@ -22,9 +22,10 @@ def main():
     if (action == "3"):
         updateStopsCSV()
     if (action == "4"):
-        updateAliases()
-    if (action == "5"):
         loadStops()
+    if (action == "5"):
+        updateAliases()
+
 
 
 def updateAllDatabase():
@@ -114,12 +115,21 @@ def updateAllDatabase():
 
             rownumber += 1
 
+    # read loops.csv
+    loops_tuples = []
+    with open(os.path.join(DIRNAME, "data/loops.csv"), "r", encoding="utf-8") as loops:
+        reader = csv.DictReader(loops)
+        for row in reader:
+            loops_tuples.append((row["looptype"], row["alias"],))
+
     # execute query on lines table
     cur.executemany("INSERT OR REPLACE INTO lines (label) VALUES (?)", lines_tuples)
 
     # execute query on lines table, adding line color
     cur.executemany("UPDATE lines SET color = ? WHERE label = ?", colors_tuples)
 
+    # execute query on lines table, adding line looping status
+    cur.executemany("UPDATE lines SET looping_status = ? WHERE label = ?", loops_tuples)
 
     # execute query on services table
     cur.executemany("INSERT OR REPLACE INTO services (line_label, stop_id, subservice, order_in_subservice) VALUES (?, ?, ?, ?)", services_tuples)
@@ -131,31 +141,14 @@ def updateAllDatabase():
     cur.execute("DELETE FROM lines WHERE label NOT IN (%s)" % ','.join('?'*len(mylist)), mylist)
 
     # execute query to remove unwanted values from services table
-    temp_line_label = []
-    temp_stop_id = []
-    temp_subservice = []
-    temp_order = []
+    mylist = []
     for tuple in services_tuples:
-        temp_line_label.append(tuple[0])
-        temp_stop_id.append(tuple[1])
-        temp_subservice.append(tuple[2])
-        temp_order.append(tuple[3])
-    temp_master = chain(temp_line_label, temp_stop_id, temp_subservice, temp_order)
-    temp_master = (*temp_master, )
-    
-    mylist = cur.execute("""SELECT services_id FROM services 
-                         WHERE line_label IN (%s) 
-                         AND stop_id IN (%s) 
-                         AND subservice IN (%s) 
-                         AND order_in_subservice IN (%s)""" % (','.join('?'*len(services_tuples)), 
-                                                               ','.join('?'*len(services_tuples)), 
-                                                               ','.join('?'*len(services_tuples)), 
-                                                               ','.join('?'*len(services_tuples))),
-                                                               temp_master).fetchall()
-    myactualfuckinglist = []
-    for tuple in mylist:
-        myactualfuckinglist.append(tuple[0])
-    cur.execute("DELETE FROM services WHERE services_id NOT IN (%s)" % ','.join('?'*len(myactualfuckinglist)), myactualfuckinglist)
+        mylist.append(cur.execute("""SELECT services_id FROM services 
+                                  WHERE line_label = ?
+                                  AND stop_id = ?
+                                  AND subservice = ?
+                                  AND order_in_subservice = ?""", tuple).fetchone()[0])
+    cur.execute("DELETE FROM services WHERE services_id NOT IN (%s)" % ','.join('?'*len(mylist)), mylist)
 
     # commit queries
     conn.commit()
