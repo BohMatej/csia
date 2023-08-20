@@ -32,6 +32,7 @@ def updateAllDatabase():
 
     # calls updateStopsDatabase to establish relation between alias and stopID. District and truename are not necessary just yet.
     updateStopsDatabase()
+    print("")
 
     # establishes DB connection
     conn = sqlite3.connect(os.path.join(DIRNAME, "mhdle.db"))
@@ -121,6 +122,27 @@ def updateAllDatabase():
         reader = csv.DictReader(loops)
         for row in reader:
             loops_tuples.append((row["looptype"], row["alias"],))
+    
+    # read nearstops.csv
+    nearstops_tuples = []
+    with open(os.path.join(DIRNAME, "data/nearstops.csv"), "r", encoding="utf-8") as nearstops:
+        reader = csv.DictReader(nearstops)
+        rownumber = 2
+        for row in reader:
+            stopone_id = cur.execute("SELECT stop_id FROM stops WHERE alias = ?", (row["first"],)).fetchone()
+            stoptwo_id = cur.execute("SELECT stop_id FROM stops WHERE alias = ?", (row["second"],)).fetchone()
+            if stopone_id == None:
+                print(f"Error in nearstops, at line {rownumber}: column \"first\" has undefined stop alias \"{row['first']}\".")
+                print("This stop alias is not present neither in the database, nor in services.txt.")
+                return
+            if stoptwo_id == None:
+                print(f"Error in nearstops, at line {rownumber}: column \"second\" has undefined alias \"{row['second']}\".")
+                print("This stop alias is not present neither in the database, nor in services.txt.")
+                return
+            nearstops_tuples.append((stopone_id[0], stoptwo_id[0], row["walktime"]))
+            rownumber += 1
+
+
 
     # execute query on lines table
     cur.executemany("INSERT OR REPLACE INTO lines (label) VALUES (?)", lines_tuples)
@@ -130,6 +152,9 @@ def updateAllDatabase():
 
     # execute query on lines table, adding line looping status
     cur.executemany("UPDATE lines SET looping_status = ? WHERE label = ?", loops_tuples)
+
+    # execute query on nearstops table
+    cur.executemany("INSERT OR REPLACE INTO nearstops (stopone_id, stoptwo_id, walktime) VALUES (?, ?, ?)", nearstops_tuples)
 
     # execute query on services table
     cur.executemany("INSERT OR REPLACE INTO services (line_label, stop_id, subservice, order_in_subservice) VALUES (?, ?, ?, ?)", services_tuples)
@@ -149,6 +174,16 @@ def updateAllDatabase():
                                   AND subservice = ?
                                   AND order_in_subservice = ?""", tuple).fetchone()[0])
     cur.execute("DELETE FROM services WHERE services_id NOT IN (%s)" % ','.join('?'*len(mylist)), mylist)
+
+    # execute query to remove unwanted values from nearstops table
+    mylist = []
+    for tuple in nearstops_tuples:
+        mylist.append(cur.execute("""SELECT nearstops_id FROM nearstops 
+                                  WHERE stopone_id = ?
+                                  AND stoptwo_id = ?
+                                  AND walktime = ?""", tuple).fetchone()[0])
+    cur.execute("DELETE FROM nearstops WHERE nearstops_id NOT IN (%s)" % ','.join('?'*len(mylist)), mylist)
+
 
     # commit queries
     conn.commit()
@@ -180,7 +215,7 @@ def updateStopsDatabase():
     cur.close()
     conn.close()
 
-    print(f"Successfully added entries. Now go into the database and fix them!")
+    print(f"Successfully added aliases from services.txt to the database's 'stops' table. Now go into the database and fix them!")
 
 
 def updateStopsCSV():
@@ -225,7 +260,7 @@ def updateStopsCSV():
     if number_of_appends == 0:
         print("All aliases from services.txt are already present in stops.csv.")
     else:
-        print(f"Sync complete. Successfully added {number_of_appends} aliases. Now go correct them!")
+        print(f"Sync complete. Successfully added {number_of_appends} aliases into the CSV file. Now go correct them!")
 
     # warn user of duplicate aliases
     if len(duplicate_aliases) == 0:
