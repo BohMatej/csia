@@ -50,7 +50,7 @@ def standardGeneration(
             stops = random.shuffle(generateFirstStops(area, useGreyLines, selectedLine))
 
             for selectedStop in stops:
-                # !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+                # if length > 1, then more lines and stops still have to be generated.
                 if length > 1:
                     if transferIsPossible(area, linelist, stoplist, selectedLine, selectedStop): # requires transfer
                         linelist.append(selectedLine)
@@ -62,6 +62,7 @@ def standardGeneration(
                         else:
                             linelist.pop()
                             stoplist.pop()
+                # if length == 1, then the last (core) line and stop has to be added, alongside a final stop
                 else:
                     if finalStopIsPossible(area, linelist, stoplist, selectedLine, selectedStop): # does not require transfer
                         linelist.append(selectedLine)
