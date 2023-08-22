@@ -1,3 +1,4 @@
+import random
 mylist = [2, 3, 5]
 myvariable = 5
 
@@ -17,9 +18,13 @@ def main():
 
     global successCondition
     successCondition = 5
-    print(successCondition)
-    bar(10)
-    print(successCondition)
+    #print(successCondition)
+    #bar(10)
+    #print(successCondition)
+    emptylist = []
+    random.shuffle(emptylist)
+    for item in emptylist:
+        print(item)
 
     
 def foo(target):
