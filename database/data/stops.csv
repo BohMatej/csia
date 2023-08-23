@@ -116,7 +116,7 @@ uid,district,truename,alias
 130,Staré Mesto,Jesenského,jesenskeho
 131,Petržalka,Jiráskova,jiraskova
 132,Petržalka,Jungmannova,jungmannova
-133,Nové mesto,Jurajov dvor,jurajovdvor
+133,Nové Mesto,Jurajov dvor,jurajovdvor
 134,Karlova Ves,Jurigovo nám.,jurigovonam
 135,Devín,Jurigrad,jurigrad
 137,Devín,Kadlečík,kadlecik
@@ -130,7 +130,7 @@ uid,district,truename,alias
 146,Podunajské Biskupice,Ketelec,ketelec
 147,Ružinov,MiÚ Ružinov,miuruzinov
 148,Lamač,Klanec,klanec
-149,Nové mesto,Klenová,klenova
+149,Nové Mesto,Klenová,klenova
 150,Nové Mesto,Klepáč,klepac
 151,Nové Mesto,Koliba,koliba
 152,Staré Mesto,Kollárovo nám.,kollarovonam
@@ -332,7 +332,7 @@ uid,district,truename,alias
 368,Staré Mesto,Sokolská,sokolska
 369,Ružinov,Solivarská,solivarska
 370,Devínska Nová Ves,Mláka,mlaka
-371,Strmý vŕšok,Strmé vŕšky,strmevrsky
+371,Záhorská Bystrica,Strmé vŕšky,strmevrsky
 372,Ružinov,Spaľovňa,spalovna
 373,Ružinov,Spoločenská,spolocenska
 374,Ružinov,Na križovatkách,nakrizovatkach
@@ -508,7 +508,7 @@ uid,district,truename,alias
 605,Petržalka,Ševčenkova,sevcenkova
 606,Záhorská Bystrica,MiÚ Záh. Bystrica,miuzahbystrica
 607,Staré Mesto,Nové SND,novesnd
-608,Staré mesto,Bubnovka,bubnovka
+608,Staré Mesto,Bubnovka,bubnovka
 609,Ružinov,"V. hrdlo, záhrady",vhrdlozahrady
 616,Nové Mesto,Vajnorská,vajnorska
 617,Petržalka,Dargovská,dargovska
@@ -550,8 +550,8 @@ uid,district,truename,alias
 696,Podunajské Biskupice,OC Slovnaftská,ocslovnaftska
 699,Dúbravka,OC Dubrawa,ocdubrawa
 700,Lamač,OC Bory,ocbory
-701,Strmý vŕšok,Rudavská,rudavska
-702,Strmý vŕšok,Pri kaplnke,prikaplnke
+701,Záhorská Bystrica,Rudavská,rudavska
+702,Záhorská Bystrica,Pri kaplnke,prikaplnke
 705,Ružinov,Pharos,pharos
 707,Karlova Ves,OC Patrónka,ocpatronka
 708,Čunovo,MVE Mošoň,mvemoson
@@ -563,7 +563,7 @@ uid,district,truename,alias
 714,Staré Mesto,Úrad vlády SR,uradvladysr
 715,Rača,OC Rača,ocraca
 716,Nové Mesto,ZŠ Odborárska,zsodborarska
-719,Nové Mest,Koliba P+R,kolibaparkandride
+719,Nové Mesto,Koliba P+R,kolibaparkandride
 720,Ružinov,Hrachová,hrachova
 721,Lamač,Kúpalisko Lamač,kupaliskolamac
 722,Lamač,Hany Ponickej,hanyponickej
