@@ -73,8 +73,6 @@ def generateFirstLines(area: Tuple[str, ...], useGreyLines: bool) -> List[str]:
     conn = sqlite3.connect(os.path.join(DIRNAME, "../database/mhdle.db"))
     cur = conn.cursor()
 
-    print("Generating first line")
-
     area = list(unpackAreaTuple(area))
     possibleAreaLines = cur.execute("""SELECT DISTINCT line_label FROM services WHERE stop_id IN 
                                 (SELECT stop_id FROM stops WHERE district IN (%s))""" % ','.join('?'*len(area)), area).fetchall()
@@ -97,7 +95,6 @@ def generateFirstLines(area: Tuple[str, ...], useGreyLines: bool) -> List[str]:
 def generateFirstStops(area: Tuple[str, ...], selectedLine: str) -> List[int]:
     conn = sqlite3.connect(os.path.join(DIRNAME, "../database/mhdle.db"))
     cur = conn.cursor()
-    print("Generating first stops")
     params = []
     params.append(selectedLine)
     params.extend(list(unpackAreaTuple(area)))
@@ -117,7 +114,6 @@ def generateFirstStops(area: Tuple[str, ...], selectedLine: str) -> List[int]:
 def generateCoreLines(area: Tuple[str, ...], useGreyLines: bool, linelist: List[str], stoplist: List[int], passedstops: List[List[int]]) -> List[str]:
     conn = sqlite3.connect(os.path.join(DIRNAME, "../database/mhdle.db"))
     cur = conn.cursor()
-    print("Generating core lines")
     
     # get information about which subservices of the current line run on the current stop, and their order
     params1 = []
@@ -186,7 +182,6 @@ def generateCoreLines(area: Tuple[str, ...], useGreyLines: bool, linelist: List[
 def generateCoreStops(area: Tuple[str, ...], linelist: List[str], stoplist: List[int], passedstops: List[List[int]], selectedLine: str) -> Dict:
     conn = sqlite3.connect(os.path.join(DIRNAME, "../database/mhdle.db"))
     cur = conn.cursor()
-    print("Generating core stops")
 
     # get information about which subservices of the current line run on the current stop, and their order
     params1 = []
@@ -257,7 +252,7 @@ def generateCoreStops(area: Tuple[str, ...], linelist: List[str], stoplist: List
 def generateFinalStops(area: Tuple[str, ...], linelist: List[str], stoplist: List[int], passedstops: List[List[int]]) -> Dict:
     conn = sqlite3.connect(os.path.join(DIRNAME, "../database/mhdle.db"))
     cur = conn.cursor()
-    print("Generating final stop")
+    
 
     # get information about which subservices of the current line run on the current stop, and their order
     params1 = []
