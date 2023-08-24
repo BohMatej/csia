@@ -8,11 +8,11 @@ EVERYWHERE = ("staremesto", "ruzinov", "novemesto", "karlovaves", "petrzalka", "
         "devinskanovaves", "zahorskabystrica", "jarovce", "rusovce", "cunovo")
 
 def main():
-    myroute = generateRoute(length=3, useGreyLines=True, area=EVERYWHERE)
-    # myroute = verifyRoute(("41", "47", "42"))
+    myroute = generateRoute()
+    # myroute = verifyRoute(("72", "3", "95"))
     print("---------------------------")
-    for i in range(40):
-        print()
+    # for i in range(40):
+    #     print()
     if myroute is None:
         print("Route is impossible.")
         return
@@ -132,6 +132,7 @@ def standardGeneration(recDepth: int, route: Route) -> Route:
                     route.data.passedstoplist.append(selectedStop["passed"])
                     route.data.excludedlinelist.append(selectedStop["l_excluded"])
                     route.data.excludedstoplist.append(selectedStop["s_excluded"])
+                    route.data.walkingtransferlist.append(selectedStop["walking"])
                     # recursively call standardGeneration at a "higher" depth (really, the function is at its deepest at recDepth = 0)
                     returnroute = standardGeneration(recDepth+1, route)
                     if returnroute is not None:
@@ -143,6 +144,7 @@ def standardGeneration(recDepth: int, route: Route) -> Route:
                         route.data.passedstoplist.pop()
                         route.data.excludedlinelist.pop()
                         route.data.excludedstoplist.pop()
+                        route.data.walkingtransferlist.pop()
                 # if length == recDepth, then the last (core) line and stop has to be added, alongside a final stop
                 else:
                     route.data.linelist.append(selectedLine)
@@ -150,6 +152,7 @@ def standardGeneration(recDepth: int, route: Route) -> Route:
                     route.data.passedstoplist.append(selectedStop["passed"])
                     route.data.excludedlinelist.append(selectedStop["l_excluded"])
                     route.data.excludedstoplist.append(selectedStop["s_excluded"])
+                    route.data.walkingtransferlist.append(selectedStop["walking"])
                     print("    " * recDepth + "Generating final stops")
                     final_stops = route.generateFinalStops()
                     random.shuffle(final_stops)
@@ -166,6 +169,7 @@ def standardGeneration(recDepth: int, route: Route) -> Route:
                     route.data.passedstoplist.pop()
                     route.data.excludedlinelist.pop()
                     route.data.excludedstoplist.pop()
+                    route.data.walkingtransferlist.pop()
                 print("    " * recDepth + f"Stop {unpackStops(selectedStop['select'])} does not work.")
             print("    " * recDepth + f"No stops work with line {selectedLine}, picking another line.")
         # if none of the lines work with any of the stops, return None.
@@ -240,6 +244,7 @@ def standardVerification(recDepth: int, route: Route, enteredLines: Tuple[str, .
                 route.data.linelist.append(selectedLine)
                 route.data.stoplist.append(selectedStop["select"])
                 route.data.passedstoplist.append(selectedStop["passed"])
+                route.data.walkingtransferlist.append(selectedStop["walking"])
                 # recursively call standardVerification at a "higher" depth (really, the function is at its deepest at recDepth = 0)
                 returnroute = standardVerification(recDepth+1, route, enteredLines)
                 if returnroute is not None:
@@ -249,11 +254,13 @@ def standardVerification(recDepth: int, route: Route, enteredLines: Tuple[str, .
                     route.data.linelist.pop()
                     route.data.stoplist.pop()
                     route.data.passedstoplist.pop()
+                    route.data.walkingtransferlist.pop()
             # if length == recDepth, then the last (core) line and stop has to be added, alongside a final stop
             else:
                 route.data.linelist.append(selectedLine)
                 route.data.stoplist.append(selectedStop["select"])
                 route.data.passedstoplist.append(selectedStop["passed"])
+                route.data.walkingtransferlist.append(selectedStop["walking"])
                 print("    " * recDepth + "Generating final stops")
                 final_stops = route.generateFinalStops()
                 random.shuffle(final_stops)
@@ -267,6 +274,7 @@ def standardVerification(recDepth: int, route: Route, enteredLines: Tuple[str, .
                 route.data.linelist.pop()
                 route.data.stoplist.pop()
                 route.data.passedstoplist.pop()
+                route.data.walkingtransferlist.pop()
             print("    " * recDepth + f"Stop {unpackStops(selectedStop['select'])} does not work.")
         # if none of the lines work with any of the stops, return None.
         print("    " * recDepth + f"No lines work, returning None and going to depth {recDepth-1}")
