@@ -21,6 +21,7 @@ class RouteConditions:
 class RouteData:
     def __init__(self) -> None:
         self.linelist = []
+        self.excludedlinelist = []
         self.stoplist = []
         self.passedstoplist = []
         self.excludedstoplist = []
