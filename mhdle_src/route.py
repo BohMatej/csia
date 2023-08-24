@@ -28,6 +28,7 @@ class RouteData:
         self.passedstoplist = []
         self.excludedstoplist = []
         self.walkingtransferlist = []
+        self.walkingtransferlist.append(None)
 
 class Route:
     def __init__(self, 
@@ -280,7 +281,7 @@ class Route:
         for service in currentStopServiceData:
             for rawstop in walkingTransferStopsRaw:
                 if rawstop[0] == service[0] and rawstop[1] > service[1]:
-                    transfers.append(rawstop[2])
+                    transfers.append((rawstop[2], rawstop[4]))
                     possibleStops.append(rawstop[3])
                     temp = cur.execute("""SELECT stop_id FROM services 
                                     WHERE line_label = ? 
@@ -296,7 +297,7 @@ class Route:
                     temp = cur.execute("""SELECT stop_id FROM services
                                     WHERE line_label = ?
                                     AND subservice = ?
-                                    AND order_in_subservice > ?""",
+                                    AND order_in_subservice >= ?""",
                                     (self.data.linelist[-1], rawstop[0], rawstop[1])).fetchall()
                     out = []
                     for t in temp:
@@ -315,7 +316,7 @@ class Route:
 
         out = []
         for i in range(len(possibleStops)):
-            out.append({"select": possibleStops[i], "passed": skippedStops[i], "s_excluded": excludedStops[i], "l_excluded": exlcudedLines[i], "walking": transfers})
+            out.append({"select": possibleStops[i], "passed": skippedStops[i], "s_excluded": excludedStops[i], "l_excluded": exlcudedLines[i], "walking": transfers[i]})
         
 
         cur.close()
@@ -411,3 +412,27 @@ class Route:
         cur.close()
         conn.close()
         return out
+    
+    def printRoute(self):
+        print("--------- Printing Route -------")
+        print()
+        print(f"Travel from {unpackStops(self.data.stoplist[0])} to {unpackStops(self.data.stoplist[-1])} using {len(self.data.linelist)} lines.")
+        print("Answers: ", end="")
+        print(*self.data.linelist)
+        print(self.data.walkingtransferlist)
+        print()
+        for i in range(len(self.data.linelist)):
+            if i == 0:
+                print("Start by taking ", end="")
+            elif i < len(self.data.linelist)-1:
+                print("Transfer to ", end="")
+            if i < len(self.data.linelist)-1:
+                if self.data.walkingtransferlist[i+1] is None:
+                    print(f"{self.data.linelist[i]} to travel from {unpackStops(self.data.stoplist[i])} to {unpackStops(self.data.stoplist[i+1])}.")
+                else:
+                    
+                    print(f"{self.data.linelist[i]} to travel from {unpackStops(self.data.stoplist[i])} to {unpackStops(self.data.walkingtransferlist[i+1][0])}.")
+                    print(f"Walk from {unpackStops(self.data.walkingtransferlist[i+1][0])} to {unpackStops(self.data.stoplist[i+1])}. This transfer will take around {self.data.walkingtransferlist[i+1][1]} minutes.")
+            else:
+                print(f"Finally, use {self.data.linelist[i]} to travel from {unpackStops(self.data.stoplist[i])} to {unpackStops(self.data.stoplist[i+1])}.")
+

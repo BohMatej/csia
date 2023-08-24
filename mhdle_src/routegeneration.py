@@ -24,6 +24,10 @@ def main():
     print("passing through")
     for lst in myroute.data.passedstoplist:
         print(unpackStops(lst))
+    print("Testing printroute")
+    print()
+    print()
+    myroute.printRoute()
     
 
 def generateRoute(
