@@ -29,6 +29,7 @@ class RouteData:
         self.excludedstoplist = []
         self.walkingtransferlist = []
         self.walkingtransferlist.append(None)
+        self.interlinedlist = []
 
 class Route:
     def __init__(self, 
@@ -239,6 +240,7 @@ class Route:
         excludedStops = []
         exlcudedLines = []
         transfers = []
+        interlinedServices = []
 
         # first, sort out the direct transfers
         for service in currentStopServiceData:
@@ -276,7 +278,32 @@ class Route:
                         for item in t:
                             out.append(item)
                     exlcudedLines.append(out)
-        
+
+                    traveledstops = []
+                    traveledstops.append(self.data.stoplist[-1])
+                    traveledstops.extend(skippedStops[-1])
+                    traveledstops.append(rawstop[2])
+                    #print(self.data.stoplist[-1])
+                    linestuples = cur.execute("""SELECT line_label, subservice, order_in_subservice 
+                                              FROM services WHERE stop_id = ? AND line_label != ?""", (self.data.stoplist[-1], self.data.linelist[-1])).fetchall()
+                    
+                    out = set()
+                    for linetuple in linestuples:
+                        tll = linetuple[0]
+                        tss = linetuple[1]
+                        to = linetuple[2]
+                        success = True
+                        for traveledstop in traveledstops:
+                            result = cur.execute("""SELECT services_id FROM services WHERE line_label = ? 
+                                                 AND stop_id = ? AND subservice = ? AND order_in_subservice = ?""", (tll, traveledstop, tss, to)).fetchone()
+                            to += 1
+                            if result is None:
+                                success = False
+                                break
+                        if success == True:
+                            out.add(tll)
+                    interlinedServices.append(out)
+                    
         # now sort out the walking transfers
         for service in currentStopServiceData:
             for rawstop in walkingTransferStopsRaw:
@@ -314,9 +341,33 @@ class Route:
                             out.append(item)
                     exlcudedLines.append(out)
 
+                    traveledstops = []
+                    traveledstops.append(self.data.stoplist[-1])
+                    traveledstops.extend(skippedStops[-1])
+                    traveledstops.append(rawstop[2])
+                    linestuples = cur.execute("""SELECT line_label, subservice, order_in_subservice 
+                                              FROM services WHERE stop_id = ? AND line_label != ?""", (self.data.stoplist[-1], self.data.linelist[-1])).fetchall()
+                    
+                    out = set()
+                    for linetuple in linestuples:
+                        tll = linetuple[0]
+                        tss = linetuple[1]
+                        to = linetuple[2]
+                        success = True
+                        for traveledstop in traveledstops:
+                            result = cur.execute("""SELECT services_id FROM services WHERE line_label = ? 
+                                                 AND stop_id = ? AND subservice = ? AND order_in_subservice = ?""", (tll, traveledstop, tss, to)).fetchone()
+                            to += 1
+                            if result is None:
+                                success = False
+                                break
+                        if success == True:
+                            out.add(tll)
+                    interlinedServices.append(out)
+
         out = []
         for i in range(len(possibleStops)):
-            out.append({"select": possibleStops[i], "passed": skippedStops[i], "s_excluded": excludedStops[i], "l_excluded": exlcudedLines[i], "walking": transfers[i]})
+            out.append({"select": possibleStops[i], "passed": skippedStops[i], "s_excluded": excludedStops[i], "l_excluded": exlcudedLines[i], "walking": transfers[i], "interlined": interlinedServices[i]})
         
 
         cur.close()
@@ -368,6 +419,7 @@ class Route:
         skippedStops = []
         excludedStops = []
         exlcudedLines = []
+        interlinedServices = []
         for service in currentStopServiceData:
             for rawstop in kindaPossibleStopsRaw:
                 if rawstop[0] == service[0] and rawstop[1] > service[1]:
@@ -403,10 +455,35 @@ class Route:
                             out.append(item)
                     exlcudedLines.append(out)
 
+                    traveledstops = []
+                    traveledstops.append(self.data.stoplist[-1])
+                    traveledstops.extend(skippedStops[-1])
+                    traveledstops.append(rawstop[2])
+                    #print(self.data.stoplist[-1])
+                    linestuples = cur.execute("""SELECT line_label, subservice, order_in_subservice 
+                                              FROM services WHERE stop_id = ? AND line_label != ?""", (self.data.stoplist[-1], self.data.linelist[-1])).fetchall()
+                    
+                    out = set()
+                    for linetuple in linestuples:
+                        tll = linetuple[0]
+                        tss = linetuple[1]
+                        to = linetuple[2]
+                        success = True
+                        for traveledstop in traveledstops:
+                            result = cur.execute("""SELECT services_id FROM services WHERE line_label = ? 
+                                                 AND stop_id = ? AND subservice = ? AND order_in_subservice = ?""", (tll, traveledstop, tss, to)).fetchone()
+                            to += 1
+                            if result is None:
+                                success = False
+                                break
+                        if success == True:
+                            out.add(tll)
+                    interlinedServices.append(out)
+
         out = []
         for i in range(len(possibleStops)):
             #out.append((unpackStops(possibleStopsRaw[i][2]), unpackStops(skippedStops[i])))
-            out.append({"select": possibleStops[i], "passed": skippedStops[i], "s_excluded": excludedStops[i], "l_excluded": exlcudedLines[i]})
+            out.append({"select": possibleStops[i], "passed": skippedStops[i], "s_excluded": excludedStops[i], "l_excluded": exlcudedLines[i], "interlined": interlinedServices[i]})
         
 
         cur.close()
@@ -419,7 +496,10 @@ class Route:
         print(f"Travel from {unpackStops(self.data.stoplist[0])} to {unpackStops(self.data.stoplist[-1])} using {len(self.data.linelist)} lines.")
         print("Answers: ", end="")
         print(*self.data.linelist)
+        print("Walking transfers:")
         print(self.data.walkingtransferlist)
+        print("Interlined services:")
+        print(self.data.interlinedlist)
         print()
         for i in range(len(self.data.linelist)):
             if i == 0:
