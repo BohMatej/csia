@@ -491,15 +491,17 @@ class Route:
         return out
     
     def printRoute(self):
+        for i in range(40):
+            print()
         print("--------- Printing Route -------")
-        print()
+        print() 
         print(f"Travel from {unpackStops(self.data.stoplist[0])} to {unpackStops(self.data.stoplist[-1])} using {len(self.data.linelist)} lines.")
         print("Answers: ", end="")
         print(*self.data.linelist)
-        print("Walking transfers:")
-        print(self.data.walkingtransferlist)
-        print("Interlined services:")
-        print(self.data.interlinedlist)
+        #print("Walking transfers:")
+        #print(self.data.walkingtransferlist)
+        #print("Interlined services:")
+        #print(self.data.interlinedlist)
         print()
         for i in range(len(self.data.linelist)):
             if i == 0:

@@ -8,25 +8,27 @@ EVERYWHERE = ("staremesto", "ruzinov", "novemesto", "karlovaves", "petrzalka", "
         "devinskanovaves", "zahorskabystrica", "jarovce", "rusovce", "cunovo")
 
 def main():
-    # myroute = generateRoute()
-    myroute = verifyRoute(("45", "83", "94"))
+    myroute = generateRoute()
+    # myroute = verifyRoute(("45", "83", "94"))
     print("---------------------------")
     # for i in range(40):
     #     print()
+    for i in range(40):
+            print()
     if myroute is None:
         print("Route is impossible.")
         return
     print("MHDLE:")
     print(f"Travel from {unpackStops(myroute.data.stoplist[0])} to {unpackStops(myroute.data.stoplist[-1])} using {len(myroute.data.linelist)} lines.")
     input()
-    print(*myroute.data.linelist)
-    print(unpackStops(myroute.data.stoplist))
-    print("passing through")
-    for lst in myroute.data.passedstoplist:
-        print(unpackStops(lst))
-    print("Testing printroute")
-    print()
-    print()
+    # print(*myroute.data.linelist)
+    # print(unpackStops(myroute.data.stoplist))
+    # print("passing through")
+    # for lst in myroute.data.passedstoplist:
+    #     print(unpackStops(lst))
+    # print("Testing printroute")
+    # print()
+    # print()
     myroute.printRoute()
     
 
