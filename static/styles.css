@@ -1,1 +1,13 @@
+.form-check .form-check-input{
+    float: none;
+}
 
+.form-label{
+    text-align: center;
+}
+
+
+.fitcontent{
+    display: inline-block;
+    text-align: center;
+}

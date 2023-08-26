@@ -1,0 +1,136 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Custom Route
+{% endblock %}
+
+{% block main %}
+    <form class="text-center">
+        <div class="row">
+            <div class="col leftcolumn">
+                <div class="mb-3 fitcontent">
+                    <label for="areaselect" class="form-label">Route Areas</label>
+                    <br>
+                    <div class="btn-group-vertical" role="group" id="areaselect" aria-label="Select which Bratislava districts to generate route in">
+                        <input type="checkbox" class="btn-check" id="areastaremesto" autocomplete="off" checked>
+                        <label class="btn btn-outline-primary" for="areastaremesto">Staré Mesto</label>
+                    
+                        <input type="checkbox" class="btn-check" id="arearuzinov" autocomplete="off" checked>
+                        <label class="btn btn-outline-primary" for="arearuzinov">Ružinov</label>
+                    
+                        <input type="checkbox" class="btn-check" id="areanovemesto" autocomplete="off" checked>
+                        <label class="btn btn-outline-primary" for="areanovemesto">Nové Mesto</label>
+
+                        <input type="checkbox" class="btn-check" id="areakarlovaves" autocomplete="off" checked>
+                        <label class="btn btn-outline-primary" for="areakarlovaves">Karlova Ves</label>
+
+                        <input type="checkbox" class="btn-check" id="areapetrzalka" autocomplete="off" checked>
+                        <label class="btn btn-outline-primary" for="areapetrzalka">Petržalka</label>
+
+                        <input type="checkbox" class="btn-check" id="areavrakuna" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="areavrakuna">Vrakuňa</label>
+
+                        <input type="checkbox" class="btn-check" id="areapodunajskebiskupice" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="areapodunajskebiskupice">Podunajské Biskupice</label>
+
+                        <input type="checkbox" class="btn-check" id="arearaca" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="arearaca">Rača</label>
+
+                        <input type="checkbox" class="btn-check" id="areavajnory" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="areavajnory">Vajnory</label>
+
+                        <input type="checkbox" class="btn-check" id="areadubravka" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="areadubravka">Dubravka</label>
+
+                        <input type="checkbox" class="btn-check" id="arealamac" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="arealamac">Lamač</label>
+
+                        <input type="checkbox" class="btn-check" id="areadevin" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="areadevin">Devín</label>
+
+                        <input type="checkbox" class="btn-check" id="areadevinskanovaves" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="areadevinskanovaves">Devínska Nová Ves</label>
+
+                        <input type="checkbox" class="btn-check" id="areazahorskabystrica" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="areazahorskabystrica">Záhorská Bystrica</label>
+
+                        <input type="checkbox" class="btn-check" id="areajarovce" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="areajarovce">Jarovce</label>
+
+                        <input type="checkbox" class="btn-check" id="arearusovce" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="arearusovce">Rusovce</label>
+
+                        <input type="checkbox" class="btn-check" id="areacunovo" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="areacunovo">Čunovo</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col rightcolumn">
+                <div class="fitcontent">
+                    <div class="mb-3">
+                        <label for="lengthselect" class="form-label">Route Length</label>
+                        <br>
+                        <div class="btn-group" role="group" id="lengthselect" aria-label="Select length of route to generate">
+                            <input type="radio" class="btn-check" name="btnroute" id="length1" autocomplete="off">
+                            <label class="btn btn-outline-primary" for="length1">1</label>
+
+                            <input type="radio" class="btn-check" name="btnroute" id="length2" autocomplete="off">
+                            <label class="btn btn-outline-primary" for="length2">2</label>
+                        
+                            <input type="radio" class="btn-check" name="btnroute" id="length3" autocomplete="off" checked>
+                            <label class="btn btn-outline-primary" for="length3">3</label>
+                        
+                            <input type="radio" class="btn-check" name="btnroute" id="length4" autocomplete="off">
+                            <label class="btn btn-outline-primary" for="length4">4</label>
+
+                            <input type="radio" class="btn-check" name="btnroute" id="length5" autocomplete="off">
+                            <label class="btn btn-outline-primary" for="length5">5</label>
+
+                            <input type="radio" class="btn-check" name="btnroute" id="length6" autocomplete="off">
+                            <label class="btn btn-outline-primary" for="length6">6</label>
+                        </div>
+                        <div id="lengthHelp" class="form-text">Select how many lines will make up the route you guess.</div>
+                    </div>
+
+                    <br>
+
+                    <div class="mb-3">
+                        <label for="sizeselect" class="form-label">Number of Guesses (Default for a length 3 route is 6 guesses)</label>
+                        <br>
+                        <div class="btn-group-vertical" role="group" id="sizeselect" aria-label="Select length of route to generate">
+                            <input type="radio" class="btn-check" name="btnguess" id="easiest" autocomplete="off">
+                            <label class="btn btn-outline-primary" for="easiest">+2 (Easiest)</label>
+
+                            <input type="radio" class="btn-check" name="btnguess" id="easy" autocomplete="off">
+                            <label class="btn btn-outline-primary" for="easy">+1 (Easy)</label>
+                        
+                            <input type="radio" class="btn-check" name="btnguess" id="default" autocomplete="off" checked>
+                            <label class="btn btn-outline-primary" for="default">0 (Default Value)</label>
+                        
+                            <input type="radio" class="btn-check" name="btnguess" id="hard" autocomplete="off">
+                            <label class="btn btn-outline-primary" for="hard">-1 (Hard)</label>
+
+                            <input type="radio" class="btn-check" name="btnguess" id="hardest" autocomplete="off">
+                            <label class="btn btn-outline-primary" for="hardest">-2 (Hardest)</label>
+
+                        </div>
+                        <div id="guesssizeHelp" class="form-text">Add or remove guesses depending on the difficulty you wish to obtain.</div>
+                        <div id="guesssizeHelp" class="form-text">For every change change in route length, the defaut number of guesses changes respectively.</div>
+                    </div>
+
+                    <br>
+
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Use Grey Lines</label>
+                        <div id="checkboxHelp" class="form-text">Allows the route to contain auxiliary lines labeled with a grey icon.</div>
+                    </div>
+                </div>
+            </div>     
+        </div>
+        <div class="row">
+            <button type="submit" class="btn btn-primary">Start Game</button>
+        </div>
+    </form>
+{% endblock %}
