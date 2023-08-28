@@ -6,6 +6,7 @@ from flask_session import Session
 from werkzeug.security import check_password_hash, generate_password_hash
 import json
 from routegeneration import generateRoute, verifyRoute
+from routehelpers import unpackStops
 
 app = Flask(__name__)
 
@@ -22,23 +23,36 @@ def index():
 @app.route('/custom', methods=["GET", "POST"])
 def custom():
     if request.method == "POST":
-
         if request.form.get("usegreylines") is None:
             ugl = False
         else:
             ugl = True
-
-        
 
         route = generateRoute(
             length=int(request.form.get("btnroute")),
             area=tuple(request.form.getlist("area")),
             useGreyLines=ugl
         )
+        
+        # convert walkingtransfers without list comprehension
 
+        data = {
+            "gamemode": "custom",
+            "linelist": route.data.linelist,
+            "stoplist": unpackStops(route.data.stoplist),
+            "passedstoplist": [unpackStops(stops) for stops in route.data.passedstoplist],
+            "walkingtransferlist": [[transfers[0], unpackStops(transfers[1])] for transfers in route.data.walkingtransferlist if transfers is not None],
+            "interlinedlist": route.data.interlinedlist,
+            "useGreyLines": ugl,
+            "numberOfGuessesRaw": request.form.get("btnguess")
+        }
+        
         route.printRoute()
-        return render_template("customgame.html")
-
+        
+        return render_template(
+            "customgame.html", 
+            data=json.dumps(data, indent=4)
+        )
     else:
         return render_template("custommenu.html")
 

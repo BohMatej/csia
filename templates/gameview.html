@@ -1,98 +1,94 @@
-<div class="container centered pcontainer">
-    <p>
-        This is an old javascript game I made like 6 years ago.
-    </p>
-    <p>
-        It is inaccessible via the navbar, as it serves the main page no purpose.
-    </p>
-    <p>
-        However, cs50 has a requirement to implement javascript, in one way or another. The game was made in javascript.
-    </p>
-    <p>
-        This is a children's game. If you don't understand how to play it, it literally means you're stupider than a child.
-    </p>
-    <br>
-    <p>
-        Enjoy!
-    </p>
-</div>
-<div id="hangmancontainer">
-    <p id="keyboard"></p><br>
-    <p id="guessspace"></p><br>
-    <img id="hangmanspace" src="imgs/hang1.png" alt="Incorrect guesses: 0">
-    <button id="startbutton" onclick="start()">start</button>
-    <p id="deathtext"></p>
+<div id="gamecontainer" class="container-fluid" onload="start">
+    <div id="guessspace">
+        
+    </div>
 </div>
 
-<script>
-    var list=['q','w','e','r','t','y','u','i','o','p','a','s','d','f','g','h','j','k','l','z','x','c','v','b','n','m'];
-    var guesslist=['foo', 'bar', 'baz']
-    var guesstext=guesslist[randomnum(0,guesslist.length-1)];
-    var htmlfill=""; /*pouzite pre robenie klavesnice, fillne keyboard*/
-    var guessspace=[]; /*List vsetkych characters v <p id="guessspace">. Ak nie je pismeno uhadnute, tak je " _ " Ak je uhadnute, je to to pismeno.*/
-    var incorrectGuesses=1; /* Vzdy o 1 viac ako ozajstny pocet incorrect guesses. Je to tak, kvoli tomu ze som dosral naming tych hang obrazkov ktore pouzivam.*/
-    var correctLetter=0;
-    var winCondition=false; /*pri false sa este hra.*/
-    function start(){	
-        document.getElementById("startbutton").disabled=true;
-        for (var i = 0; i<list.length; i++) /* urobi klavesnicu */{
-            htmlfill+="<button id=\"btn"+list[i]+"\" onclick=\"press('"+list[i]+"')\" class=\"keyboard-button\">"+list[i]+"</button>";
-            if (list[i]=='p' || list[i]=='l' || list[i]=='m') htmlfill+="<br>";
+<script type="text/javascript">
+    var data = JSON.parse({{ data|tojson|safe }})
+    console.log(data)
+    const ROUTELENGTH = data.linelist.length
+    const STARTING_NUMBER_OF_GUESSES = 3 + parseInt(data.numberOfGuessesRaw) + parseInt(ROUTELENGTH)
+    function start(){
+        for (var i=0; i<ROUTELENGTH; i++){
+            document.getElementById("guessspace").innerHTML
         }
-        document.getElementById('keyboard').innerHTML=htmlfill;
-
-        for (var i=0; i<guesstext.length; i++)/* urobi pomlcky */{
-            guessspace[i]=" _ ";
-            document.getElementById("guessspace").innerHTML+=guessspace[i];
-        }
+        
     }
     
-    function press(letter){
-        //alert(letter);
-        if (incorrectGuesses<8 && winCondition==false){
-            var letterid="btn" /* (1/2) */
-            letterid+=letter /* (2/2) Nastavi letterid na id jedneho z button elementov klavesnice*/
-            document.getElementById(letterid).disabled = true; /*vypne gombik, nemoze byt repressed*/
-            //alert("dwwffwfwfw");
 
-            document.getElementById("guessspace").innerHTML="";
-            correctLetter=0;
-            for (var i = 0; i<guesstext.length; i++){
-                //alert("gsgdsed");
-                if (letter === "Space"){
-                    letter = " ";
-                }
-                if (letter==guesstext[i].toLowerCase()){
-                    guessspace[i]=letter;
-                    correctLetter+=1;
-                }
-                document.getElementById("guessspace").innerHTML+=guessspace[i];
-            }
-            //alert("dwwffwfwfw");
-            if (correctLetter==0){
-                incorrectGuesses+=1;
-            }
-            document.getElementById("hangmanspace").src="static/line_icons/line"+incorrectGuesses+".png";
-            incorrectGuesses-=1;
-            document.getElementById("hangmanspace").alt="Incorrect guesses: "+incorrectGuesses;
-            if (incorrectGuesses==7){
-                document.getElementById("deathtext").innerHTML="You lost. The phrase was "+guesstext;
-            }
-            incorrectGuesses+=1;
-            winCondition=true;
-            for (var i = 0; i<guesstext.length; i++){
-                if (guessspace[i]==" _ "){
-                    winCondition=false;
-                }
-            }
-            //alert("dwwffwfwfw");
-            if (winCondition==true){
-                document.getElementById("deathtext").innerHTML="You won.";
-            }
+
+
+
+
+    // var list=['q','w','e','r','t','y','u','i','o','p','a','s','d','f','g','h','j','k','l','z','x','c','v','b','n','m'];
+    // var guesslist=['foo', 'bar', 'baz']
+    // var guesstext=guesslist[randomnum(0,guesslist.length-1)];
+    // var htmlfill=""; /*pouzite pre robenie klavesnice, fillne keyboard*/
+    // var guessspace=[]; /*List vsetkych characters v <p id="guessspace">. Ak nie je pismeno uhadnute, tak je " _ " Ak je uhadnute, je to to pismeno.*/
+    // var incorrectGuesses=1; /* Vzdy o 1 viac ako ozajstny pocet incorrect guesses. Je to tak, kvoli tomu ze som dosral naming tych hang obrazkov ktore pouzivam.*/
+    // var correctLetter=0;
+    // var winCondition=false; /*pri false sa este hra.*/
+    // function start(){	
+    //     document.getElementById("startbutton").disabled=true;
+    //     for (var i = 0; i<list.length; i++) /* urobi klavesnicu */{
+    //         htmlfill+="<button id=\"btn"+list[i]+"\" onclick=\"press('"+list[i]+"')\" class=\"keyboard-button\">"+list[i]+"</button>";
+    //         if (list[i]=='p' || list[i]=='l' || list[i]=='m') htmlfill+="<br>";
+    //     }
+    //     document.getElementById('keyboard').innerHTML=htmlfill;
+
+    //     for (var i=0; i<guesstext.length; i++)/* urobi pomlcky */{
+    //         guessspace[i]=" _ ";
+    //         document.getElementById("guessspace").innerHTML+=guessspace[i];
+    //     }
+    // }
+    
+    // function press(letter){
+    //     //alert(letter);
+    //     if (incorrectGuesses<8 && winCondition==false){
+    //         var letterid="btn" /* (1/2) */
+    //         letterid+=letter /* (2/2) Nastavi letterid na id jedneho z button elementov klavesnice*/
+    //         document.getElementById(letterid).disabled = true; /*vypne gombik, nemoze byt repressed*/
+    //         //alert("dwwffwfwfw");
+
+    //         document.getElementById("guessspace").innerHTML="";
+    //         correctLetter=0;
+    //         for (var i = 0; i<guesstext.length; i++){
+    //             //alert("gsgdsed");
+    //             if (letter === "Space"){
+    //                 letter = " ";
+    //             }
+    //             if (letter==guesstext[i].toLowerCase()){
+    //                 guessspace[i]=letter;
+    //                 correctLetter+=1;
+    //             }
+    //             document.getElementById("guessspace").innerHTML+=guessspace[i];
+    //         }
+    //         //alert("dwwffwfwfw");
+    //         if (correctLetter==0){
+    //             incorrectGuesses+=1;
+    //         }
+    //         document.getElementById("hangmanspace").src="static/line_icons/line"+incorrectGuesses+".png";
+    //         incorrectGuesses-=1;
+    //         document.getElementById("hangmanspace").alt="Incorrect guesses: "+incorrectGuesses;
+    //         if (incorrectGuesses==7){
+    //             document.getElementById("deathtext").innerHTML="You lost. The phrase was "+guesstext;
+    //         }
+    //         incorrectGuesses+=1;
+    //         winCondition=true;
+    //         for (var i = 0; i<guesstext.length; i++){
+    //             if (guessspace[i]==" _ "){
+    //                 winCondition=false;
+    //             }
+    //         }
+    //         //alert("dwwffwfwfw");
+    //         if (winCondition==true){
+    //             document.getElementById("deathtext").innerHTML="You won.";
+    //         }
             
-        }
-    }
-    function randomnum(smallest,largest){
-        return Math.floor(Math.random() * largest-smallest )+smallest;
-    }
+    //     }
+    // }
+    // function randomnum(smallest,largest){
+    //     return Math.floor(Math.random() * largest-smallest )+smallest;
+    // }
 </script>

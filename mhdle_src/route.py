@@ -302,7 +302,7 @@ class Route:
                                 break
                         if success == True:
                             out.add(tll)
-                    interlinedServices.append(out)
+                    interlinedServices.append(sorted(out))
                     
         # now sort out the walking transfers
         for service in currentStopServiceData:
@@ -363,7 +363,7 @@ class Route:
                                 break
                         if success == True:
                             out.add(tll)
-                    interlinedServices.append(out)
+                    interlinedServices.append(sorted(out))
 
         out = []
         for i in range(len(possibleStops)):
@@ -478,7 +478,7 @@ class Route:
                                 break
                         if success == True:
                             out.add(tll)
-                    interlinedServices.append(out)
+                    interlinedServices.append(sorted(out))
 
         out = []
         for i in range(len(possibleStops)):
