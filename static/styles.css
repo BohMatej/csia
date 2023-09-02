@@ -6,8 +6,39 @@
     text-align: center;
 }
 
+.centered{
+    text-align: center;
+}
 
 .fitcontent{
     display: inline-block;
     text-align: center;
 }
+
+#gamecontainer{
+    margin-top: 20px;
+    max-width: 50%;
+    min-width: 500px;
+}
+
+.guesscol{
+    width: 64px;
+    height: 64px;
+}
+
+.linebtn{
+    width: 64px;
+    height: 64px;
+    margin: 4px;
+    border: 1px solid #e8e8e8;
+    background-color: #e8e8e8;
+    border-radius: 5px;
+}
+
+.bottombutton{
+    margin: 10px;
+}
+/* .linebtn{
+    width: 48px;
+    height: 48px;
+} */

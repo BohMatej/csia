@@ -1,20 +1,97 @@
-<div id="gamecontainer" class="container-fluid" onload="start">
-    <div id="guessspace">
-        
+<div id="content" class="container-fluid">
+    <div id="task" class="centered">
+
     </div>
+    <div id="gamecontainer" class="container-sm">
+        <div id="guessspace" class="text-center">
+        </div>
+    </div>
+    <br>
+    <footer>
+        <div id="buttoncontainer" class="container-sm">
+            <div id="buttonspace" class="text-center">
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col bottombutton">
+                <div class="row">
+                    <button id="gameview_delete" type="submit" class="btn btn-primary " onclick="deleteLine()">Delete</button>
+                </div>
+            </div>
+            <div class="col bottombutton">
+                <div class="row">
+                    <button id="gameview_submit" type="button" class="btn btn-primary ">Submit</button>
+                </div>
+            </div>
+        </div>
+    </footer>
 </div>
 
 <script type="text/javascript">
-    var data = JSON.parse({{ data|tojson|safe }})
-    console.log(data)
-    const ROUTELENGTH = data.linelist.length
-    const STARTING_NUMBER_OF_GUESSES = 3 + parseInt(data.numberOfGuessesRaw) + parseInt(ROUTELENGTH)
-    function start(){
-        for (var i=0; i<ROUTELENGTH; i++){
-            document.getElementById("guessspace").innerHTML
+    var data = JSON.parse({{ data|tojson|safe }});
+    console.log(data);
+    const ROUTELENGTH = data.linelist.length;
+    var currentrow = 0
+    var currentcolumn = 0
+    var guess = []
+    const STARTING_NUMBER_OF_GUESSES = 3 + parseInt(data.numberOfGuessesRaw) + parseInt(ROUTELENGTH);
+    
+    document.getElementById("task").innerHTML = `Travel from ${data.stoplist[0]} to ${data.stoplist[data.stoplist.length - 1]} using ${data.linelist.length - 1} transfers.`;
+
+    for (var i=0; i<STARTING_NUMBER_OF_GUESSES; i++){
+        document.getElementById("guessspace").innerHTML += `
+            <div id='guessrow_${i}' class='row guessrow mb-2'>
+            </div>
+        `;
+        for (var j=0; j<ROUTELENGTH; j++){
+            document.getElementById(`guessrow_${i}`).innerHTML += `
+                <div id='guesscell_${i}_${j}' class='col guesscol'>
+                    <img src="/../static/other_icons/blankicon.png" alt='placeholder' width='64'>
+                </div>
+            `;
         }
-        
     }
+
+    for (var i=0; i<data.availablelines.length; i++){
+        document.getElementById("buttonspace").innerHTML += `
+            <span id='linespan_${data.availablelines[i]}' class='linespan'>
+                <button id='linespan_${data.availablelines[i]}' class='linebtn' onclick="clickLine(${data.availablelines[i]})">
+                    <img src="/../static/line_icons/line${data.availablelines[i]}.png" alt='Line ${data.availablelines[i]}' width='50'>
+                </button>
+            </span>
+        `;
+    }
+
+    function clickLine(line){
+        if (guess.length < ROUTELENGTH){
+            document.getElementById(`guesscell_${currentrow}_${currentcolumn}`).innerHTML = `
+                <img src="/../static/line_icons/line${line}.png" alt='Line ${line}' width='64'>
+            `;
+            guess.push(line);
+            currentcolumn += 1;
+        }
+    }
+
+    function deleteLine(){
+        if (guess.length > 0){
+            currentcolumn -= 1;
+            document.getElementById(`guesscell_${currentrow}_${currentcolumn}`).innerHTML = `
+                <img src="/../static/other_icons/blankicon.png" alt='placeholder' width='64'>
+            `;
+            guess.pop();
+            
+        }
+    }
+
+    window.addEventListener("keydown", function(event){
+        if (event.key === "Backspace"){
+            deleteLine();
+        }
+    })
+
+
+        
     
 
 

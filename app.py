@@ -34,14 +34,13 @@ def custom():
             useGreyLines=ugl
         )
         
-        # convert walkingtransfers without list comprehension
-
         data = {
             "gamemode": "custom",
+            "availablelines": sorted(route.generateFirstLines(), key=len),
             "linelist": route.data.linelist,
             "stoplist": unpackStops(route.data.stoplist),
             "passedstoplist": [unpackStops(stops) for stops in route.data.passedstoplist],
-            "walkingtransferlist": [[transfers[0], unpackStops(transfers[1])] for transfers in route.data.walkingtransferlist if transfers is not None],
+            "walkingtransferlist": [[unpackStops(transfers[0]), transfers[1]] if transfers is not None else None for transfers in route.data.walkingtransferlist],
             "interlinedlist": route.data.interlinedlist,
             "useGreyLines": ugl,
             "numberOfGuessesRaw": request.form.get("btnguess")
