@@ -58,7 +58,7 @@ def packStopsFromAlias(stoplist):
     cur = conn.cursor()
     stopids = []
     for stop in stoplist:
-        stopids.append(cur.execute("SELECT stop_id FROM stops WHERE alias = ?", (stop,)).fetchone())
+        stopids.append(cur.execute("SELECT stop_id FROM stops WHERE truename = (SELECT truename FROM aliases WHERE alias = ?)", (stop,)).fetchone())
 
     out = []
     for t in stopids:
