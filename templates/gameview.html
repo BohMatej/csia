@@ -121,10 +121,12 @@
 
     function commitEntry(){
         alert("Here!");
+        wincon = 0
         for (var i=0; i<ROUTELENGTH; i++){
             if (guess[i] == ROUTE[i]){
                 document.getElementById(`guesscellcontainer_${currentrow}_${i}`).style.backgroundColor = "green";
                 document.getElementById(`linebtn_${guess[i]}`).style.backgroundColor = "green";
+                wincon += 1
                 continue;
             }
             isPresent = false;
@@ -159,6 +161,11 @@
             }
             document.getElementById(`guesscellcontainer_${currentrow}_${i}`).style.backgroundColor = "black";
             document.getElementById(`linebtn_${guess[i]}`).style.backgroundColor = "black";
+        }
+        
+        if (wincon == ROUTELENGTH){
+            alert("Winner!");
+            return;
         }
 
         currentrow += 1;

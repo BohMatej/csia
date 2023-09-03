@@ -395,6 +395,7 @@ class Route:
         
         # restrict stops on current line according to subservices, and not allowing to travel to/beyond a stop that the route has already been at
         flat_passedstops = [item for sublist in self.data.passedstoplist for item in sublist]
+        flat_excludedstoplist = [item for sublist in self.data.excludedstoplist for item in sublist]
         subserviceBreakpoint = 9999 # lol, just need it to be a big number such that no order_in_subservice can reach it
         acceptableStops = []
 
@@ -403,7 +404,7 @@ class Route:
                 if stop[0] == service[0] and stop[1] > service[1]:
                     if stop[2] in flat_passedstops or stop[2] in self.data.stoplist:
                         subserviceBreakpoint = stop[1]
-                    elif stop[1] < subserviceBreakpoint:
+                    elif stop[1] < subserviceBreakpoint and stop[2] not in flat_excludedstoplist:
                         acceptableStops.append(stop[2])
             subserviceBreakpoint = 9999
 
