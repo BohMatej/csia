@@ -68,9 +68,11 @@ def verifyroute():
     myroute = verifyRoute(lines) # buggy
 
     if myroute is None:
-        res = {"message": "Valid"}
-    else:
         res = {"message": "Invalid"}
+    else:
+        res = {"message": "Valid"}
+        
+    print(res)
     
     out = make_response(jsonify(res), 200)
     return out
