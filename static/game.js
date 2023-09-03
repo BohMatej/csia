@@ -88,7 +88,6 @@ function verifyEntry(){
 }
 
 function commitEntry(){
-    alert("Here!");
     wincon = 0
     for (var i=0; i<ROUTELENGTH; i++){
         if (guess[i] == ROUTE[i]){
