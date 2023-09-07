@@ -40,16 +40,64 @@ for (var i=0; i<data.availablelines.length; i++){
 // create winner/loser popups
 document.getElementById("winnerModalLabel").innerHTML = `
     Congratulations, you are correct!
-`
-document.getElementById("winnerModalBody").innerHTML = `
-    Winner modal body
-`
+`;
+
 document.getElementById("loserModalLabel").innerHTML = `
-    Looks like you got lost...
-`
-document.getElementById("loserModalBody").innerHTML = `
-    loser modal body
-`
+    Looks like you got lost. Here's the route you were trying to guess.
+`;
+
+document.getElementById("winnerModalBody").innerHTML = "";
+document.getElementById("loserModalBody").innerHTML = "";
+
+
+for (var i=0; i<ROUTELENGTH; i++){
+    var htmldump = ``
+    if (i == 0){
+        htmldump += `Start by taking `;
+    }
+    else if (i<ROUTELENGTH-1){
+        htmldump += `Transfer to `;
+        
+    }
+    if (i<ROUTELENGTH-1){
+        if (data.walkingtransferlist[i+1] === null){
+            htmldump += `
+                <img src="/../static/line_icons/line${data.linelist[i]}.png" alt='Line ${data.linelist[i]}' width='40'>
+                from ${data.stoplist[i]} to ${data.stoplist[i+1]}
+            `;
+        }
+        else {
+            htmldump += `
+                <img src="/../static/line_icons/line${data.linelist[i]}.png" alt='Line ${data.linelist[i]}' width='40'>
+                from ${data.stoplist[i]} to ${data.walkingtransferlist[i+1][0]}
+            `;
+            htmldump += `
+                Walk from ${data.walkingtransferlist[i+1][0]} to ${data.stoplist[i+1]}.
+                This transfer should take about ${data.walkingtransferlist[i+1][1]} minutes.
+            `;
+        }
+    }
+    else {
+        htmldump += `
+            Finally, transfer to 
+            <img src="/../static/line_icons/line${data.linelist[i]}.png" alt='Line ${data.linelist[i]}' width='40'>
+            from ${data.stoplist[i]} to ${data.stoplist[i+1]}
+        `;
+    }
+    document.getElementById("winnerModalBody").innerHTML += `
+        <p>
+            ${htmldump}
+        </p>
+        <br>
+    `;
+    document.getElementById("loserModalBody").innerHTML += `
+        <p>
+            ${htmldump}
+        </p>
+        <br>
+    `;
+}
+
 
 function clickLine(line){
     if (guess.length < ROUTELENGTH){
