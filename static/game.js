@@ -52,36 +52,35 @@ document.getElementById("loserModalBody").innerHTML = "";
 
 for (var i=0; i<ROUTELENGTH; i++){
     var htmldump = ``
-    if (i == 0){
-        htmldump += `Start by taking `;
-    }
-    else if (i<ROUTELENGTH-1){
-        htmldump += `Transfer to `;
-        
-    }
+    // if (i == 0){
+    //     htmldump += `Start by taking `;
+    // }
+    // else if (i<ROUTELENGTH-1){
+    //     htmldump += `Transfer to `;
+    // }
     if (i<ROUTELENGTH-1){
         if (data.walkingtransferlist[i+1] === null){
             htmldump += `
-                <img src="/../static/line_icons/line${data.linelist[i]}.png" alt='Line ${data.linelist[i]}' width='40'>
-                from ${data.stoplist[i]} to ${data.stoplist[i+1]}
+                <img src="/../static/line_icons/line${data.linelist[i]}.png" alt='Line ${data.linelist[i]}' width='40'> - 
+                from <strong>${data.stoplist[i]}</strong> to <strong>${data.stoplist[i+1]}</strong>
             `;
         }
         else {
             htmldump += `
-                <img src="/../static/line_icons/line${data.linelist[i]}.png" alt='Line ${data.linelist[i]}' width='40'>
-                from ${data.stoplist[i]} to ${data.walkingtransferlist[i+1][0]}
+                <img src="/../static/line_icons/line${data.linelist[i]}.png" alt='Line ${data.linelist[i]}' width='40'> - 
+                from <strong>${data.stoplist[i]}</strong> to <strong>${data.walkingtransferlist[i+1][0]}</strong>
+                <br>
             `;
             htmldump += `
-                Walk from ${data.walkingtransferlist[i+1][0]} to ${data.stoplist[i+1]}.
+                Walk from <strong>${data.walkingtransferlist[i+1][0]}</strong> to <strong>${data.stoplist[i+1]}</strong>.
                 This transfer should take about ${data.walkingtransferlist[i+1][1]} minutes.
             `;
         }
     }
     else {
         htmldump += `
-            Finally, transfer to 
-            <img src="/../static/line_icons/line${data.linelist[i]}.png" alt='Line ${data.linelist[i]}' width='40'>
-            from ${data.stoplist[i]} to ${data.stoplist[i+1]}
+            <img src="/../static/line_icons/line${data.linelist[i]}.png" alt='Line ${data.linelist[i]}' width='40'> - 
+            from <strong>${data.stoplist[i]}</strong> to <strong>${data.stoplist[i+1]}</strong>
         `;
     }
     document.getElementById("winnerModalBody").innerHTML += `
