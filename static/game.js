@@ -97,6 +97,11 @@ for (var i=0; i<ROUTELENGTH; i++){
     `;
 }
 
+// set route length and number of guesses for help box
+document.getElementById("modalbody-guesses").innerHTML = `${STARTING_NUMBER_OF_GUESSES}`;
+document.getElementById("modalbody-length").innerHTML = `${ROUTELENGTH}`;
+
+
 
 function clickLine(line){
     if (guess.length < ROUTELENGTH){

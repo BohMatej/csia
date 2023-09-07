@@ -4,7 +4,17 @@
     Custom
 {% endblock %}
 
+{% block modalheader %}
+    Guess your custom MHDle route!
+{% endblock %}
+
+{% block modalbody %}
+    {% include 'modalbody.html' %}
+{% endblock %}
+
+
 {% block main %}
     <h5 class="centered">Custom MHDle</h5>
     {% include 'gameview.html' %}
 {% endblock %}
+

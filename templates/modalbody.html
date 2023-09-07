@@ -1,0 +1,35 @@
+<div style="text-align: center;">   
+    Guess the <strong>MHDle</strong> in <span id="modalbody-guesses"></span> tries.
+    <br><br>
+    Each guess must be a valid trip on Bratislava's public transit system operated by DP Bratislava. The trip involves <span id="modalbody-length"></span> services,
+    with transfers possible on stops with the same name, or within a pair of stops a short distance apart.
+    The route will never backtrack and cover a stop more than once, and may only loop at specific points where transfer stops are not possible; 
+    for example, at the junction under the SNP bridge.
+    <br><br>
+    The route you're guessing is a specific ordered set of services that make the trip.
+    As you make guesses, the backgrounds of the line icons will change color depending on how close your guess is to the actual route.
+    <br><br>
+    <strong>Examples:</strong>
+    <br>
+    <div>
+        <img src="../static/other_icons/help-green.png" class="img-fluid img-help m-3" alt="Green Highlight">
+        <br>
+        Line <img src="/../static/line_icons/line1.png" alt='Line 1' width='32'> is in the correct place in the route.
+        <br>
+        <img src="../static/other_icons/help-yellow.png" class="img-fluid img-help m-3" alt="Yellow Highlight">
+        <br>
+        Line <img src="/../static/line_icons/line88.png" alt='Line 88' width='32'> is included within the route, but is in the incorrect place.
+        <br>
+        <img src="../static/other_icons/help-gray.png" class="img-fluid img-help m-3" alt="Gray Highlight">
+        <br>
+        Neither of lines <img src="/../static/line_icons/line72.png" alt='Line 72' width='32'>,
+        <img src="/../static/line_icons/line40.png" alt='Line 40' width='32'>, and
+        <img src="/../static/line_icons/line9.png" alt='Line 9' width='32'>, make up any part of the route.
+        <br>
+        <img src="../static/other_icons/help-blue.png" class="img-fluid img-help m-3" alt="Blue Highlight">
+        <br>
+        There is another line which shares a portion of its route with <img src="/../static/line_icons/line84.png" alt='Line 84' width='32'>, that is in this position of the route.
+        This means that a potential passenger who would want to cover this exact same route, transfering at the same stops, may choose from two or more services to cover this segment.
+        In the example above, the passenger could have gone with <img src="/../static/line_icons/line83.png" alt='Line 83' width='32'>, which turns out to be the correct answer.
+    </div>
+</div> 

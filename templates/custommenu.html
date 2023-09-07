@@ -4,6 +4,35 @@
     Custom Route
 {% endblock %}
 
+{% block modalheader %}
+    Generate a new route according to the conditions you choose!
+{% endblock %}
+
+{% block modalbody %}
+    <strong>Route Areas:</strong> <br> Select the city parts you want the route to generate in. 
+    Note that this setting only restricts points of transfer: it remains entirely possible for a service in the route to travel through a city part that isn't selected.
+    As such, it remains possible to generate a route from one city part into a non-neighbouring one, as long as the route doesn't transfer anywhere within an excluded city part.
+    <br>
+
+    <strong>Route Length:</strong> <br> Select how many services will be included in your route: i.e. how many lines you will guess.
+    The amount of transfers will always be 1 less than the route length.
+    <br>
+
+    <strong>Number of Guesses:</strong> <br> Select how many guesses, relative to the selected route length, will you be allowed to make.
+    Since longer routes are harder to guess and shorter routes are easier to guess, for every 1 increase (or decrease) of route length, the number of guesses will also increase (or decrease) by 1.
+    For a length 3 route, the default is 6 guesses. The easiest setting leaves 8 (6+2) guesses, and the hardest setting leaves 4 (6-2) guesses.
+    For the easiest setting on a length 6 route, you will have the maximum (11) number of guesses possible.
+    For the hardest setting on a length 1 route, you will have the minimum (2) number of guesses possible.
+    <br>
+
+    <strong>Use Grey Lines:</strong> <br> Select if the lines labeled with a grey icon are allowed.
+    These lines make up over half of the services provided by DP Bratislava, and generally run niche and infrequent services.
+    As such, unless you live nearby one of these services or use them on a regular basis, you probably don't know their service pattern. 
+    As working with all lines to find a route would be frustrating for most people, this setting is off by default.
+
+{% endblock %}
+
+
 {% block main %}
     <form class="text-center" action="/custom" method="post">
         <div class="row">
@@ -134,3 +163,4 @@
         </div>
     </form>
 {% endblock %}
+
