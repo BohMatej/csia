@@ -16,18 +16,51 @@
         <div class="row">
             <div class="col bottombutton">
                 <div class="row">
-                    <button id="gameview_delete" type="submit" class="btn btn-primary " onclick="deleteLine()">Delete</button>
+                    <button id="gameview_delete" type="submit" class="btn btn-primary" onclick="deleteLine()">Delete</button>
                 </div>
             </div>
             <div class="col bottombutton">
                 <div class="row">
-                    <button id="gameview_submit" type="button" class="btn btn-primary " onclick="verifyEntry()">Submit</button>
+                    <button id="gameview_submit" type="button" class="btn btn-primary" onclick="verifyEntry()">Submit</button>
                 </div>
             </div>
         </div>
     </footer>
 </div>
+<div class="modal fade" id="winnerModal" tabindex="-1" aria-labelledby="winnerModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="winnerModalLabel">You won!</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" id="winnerModalBody">
+                blah blah blah
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="loserModal" tabindex="-1" aria-labelledby="loserModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="loserModalLabel">You lost</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" id="loserModalBody">
+                blah blah blah
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
 
+<script src="../static/jquery.js"></script>
 <script type="text/javascript">
     var data = JSON.parse({{ data|tojson|safe }});
 </script>

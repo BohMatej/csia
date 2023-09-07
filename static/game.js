@@ -6,8 +6,10 @@ var currentcolumn = 0
 var guess = []
 const STARTING_NUMBER_OF_GUESSES = 3 + parseInt(data.numberOfGuessesRaw) + parseInt(ROUTELENGTH);
 
+// define task
 document.getElementById("task").innerHTML = `Travel from ${data.stoplist[0]} to ${data.stoplist[data.stoplist.length - 1]} using ${data.linelist.length - 1} transfers.`;
 
+// create cells for guessing
 for (var i=0; i<STARTING_NUMBER_OF_GUESSES; i++){
     document.getElementById("guessspace").innerHTML += `
         <div id='guessrow_${i}' class='row guessrow mb-3'>
@@ -24,6 +26,7 @@ for (var i=0; i<STARTING_NUMBER_OF_GUESSES; i++){
     }
 }
 
+// create line buttons
 for (var i=0; i<data.availablelines.length; i++){
     document.getElementById("buttonspace").innerHTML += `
         <span id='linespan_${data.availablelines[i]}' class='linespan'>
@@ -33,6 +36,20 @@ for (var i=0; i<data.availablelines.length; i++){
         </span>
     `;
 }
+
+// create winner/loser popups
+document.getElementById("winnerModalLabel").innerHTML = `
+    Congratulations, you are correct!
+`
+document.getElementById("winnerModalBody").innerHTML = `
+    Winner modal body
+`
+document.getElementById("loserModalLabel").innerHTML = `
+    Looks like you got lost...
+`
+document.getElementById("loserModalBody").innerHTML = `
+    loser modal body
+`
 
 function clickLine(line){
     if (guess.length < ROUTELENGTH){
@@ -91,8 +108,8 @@ function commitEntry(){
     wincon = 0
     for (var i=0; i<ROUTELENGTH; i++){
         if (guess[i] == ROUTE[i]){
-            document.getElementById(`guesscellcontainer_${currentrow}_${i}`).style.backgroundColor = "green";
-            document.getElementById(`linebtn_${guess[i]}`).style.backgroundColor = "green";
+            document.getElementById(`guesscellcontainer_${currentrow}_${i}`).style.backgroundColor = "#40bd40";
+            document.getElementById(`linebtn_${guess[i]}`).style.backgroundColor = "#40bd40";
             wincon += 1
             continue;
         }
@@ -112,26 +129,28 @@ function commitEntry(){
 
         if (isPresent && isInterlined){
             document.getElementById(`guesscellcontainer_${currentrow}_${i}`).style.backgroundColor = "#f283f7";
-            document.getElementById(`guesscellcontainer_${currentrow}_${i}`).style.backgroundImage = "linear-gradient(45deg, red 0%, red 50%, yellow 50%, yellow 100%)";
-            document.getElementById(`linebtn_${guess[i]}`).style.backgroundColor = "yellow";
+            document.getElementById(`guesscellcontainer_${currentrow}_${i}`).style.backgroundImage = "linear-gradient(45deg, #34b4eb 0%, #34b4eb 50%, #f28f37 50%, #f28f37 100%)";
+            document.getElementById(`linebtn_${guess[i]}`).style.backgroundColor = "#f28f37";
             continue;
         }
         if (isPresent){
-            document.getElementById(`guesscellcontainer_${currentrow}_${i}`).style.backgroundColor = "yellow";
-            document.getElementById(`linebtn_${guess[i]}`).style.backgroundColor = "yellow";
+            document.getElementById(`guesscellcontainer_${currentrow}_${i}`).style.backgroundColor = "#f28f37";
+            document.getElementById(`linebtn_${guess[i]}`).style.backgroundColor = "#f28f37";
             continue;
         }
         if (isInterlined){
-            document.getElementById(`guesscellcontainer_${currentrow}_${i}`).style.backgroundColor = "blue";
-            document.getElementById(`linebtn_${guess[i]}`).style.backgroundColor = "black";
+            document.getElementById(`guesscellcontainer_${currentrow}_${i}`).style.backgroundColor = "#34b4eb";
+            document.getElementById(`linebtn_${guess[i]}`).style.backgroundColor = "#696969";
             continue;
         }
-        document.getElementById(`guesscellcontainer_${currentrow}_${i}`).style.backgroundColor = "black";
-        document.getElementById(`linebtn_${guess[i]}`).style.backgroundColor = "black";
+        document.getElementById(`guesscellcontainer_${currentrow}_${i}`).style.backgroundColor = "#696969";
+        document.getElementById(`linebtn_${guess[i]}`).style.backgroundColor = "#696969";
     }
     
     if (wincon == ROUTELENGTH){
-        alert("Winner!");
+        $(document).ready(function(){
+            $("#winnerModal").modal('show');
+        });
         return;
     }
 
@@ -139,7 +158,9 @@ function commitEntry(){
     currentcolumn = 0;
     guess = []
     if (currentrow === STARTING_NUMBER_OF_GUESSES){
-        alert("You fail!");
+        $(document).ready(function(){
+            $("#loserModal").modal('show');
+        });
     }
 }
 
