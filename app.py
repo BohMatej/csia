@@ -5,9 +5,11 @@ from flask import Flask, redirect, render_template, request, session, url_for, j
 from flask_session import Session
 from werkzeug.security import check_password_hash, generate_password_hash
 import json
-from helpers import login_required
+from helpers import login_required, query_database
 from routegeneration import generateRoute, verifyRoute
 from routehelpers import unpackStops
+
+DIRNAME = os.path.dirname(__file__)
 
 app = Flask(__name__)
 
@@ -74,25 +76,30 @@ def login():
     if request.method == "POST":
         # Ensure username was submitted
         if not request.form.get("username"):
-            return render_template("login.html")
+            return "Username was not submitted."
 
         # Ensure password was submitted
         elif not request.form.get("password"):
-            return render_template("login.html")
+            return "Password was not sumbitted."
 
         # Query database for username
-        rows = db.execute(
-            "SELECT * FROM users WHERE username = ?", request.form.get("username")
+        # rows = db.execute(
+        #     "SELECT * FROM users WHERE username = ?", request.form.get("username")
+        # )
+        rows = query_database(
+            os.path.join(DIRNAME, "database/mhdle_private.db"), 
+            "SELECT user_id, hashed_password FROM users WHERE username = ?", 
+            (request.form.get("username"),)
         )
 
         # Ensure username exists and password is correct
         if len(rows) != 1 or not check_password_hash(
-            rows[0]["hash"], request.form.get("password")
+            rows[0][1], request.form.get("password")
         ):
-            return render_template("login.html")
+            return "Username or password are incorrect."
 
         # Remember which user has logged in
-        session["user_id"] = rows[0]["id"]
+        session["user_id"] = rows[0][0]
 
         # Redirect user to home page
         return redirect("/")
@@ -122,37 +129,42 @@ def register():
     if request.method == "POST":
         # Ensure username was submitted
         if not request.form.get("username"):
-            return apology("must provide username")
+            return "must provide username"
 
         # Ensure password was submitted
         elif not request.form.get("password"):
-            return apology("must provide password")
+            return "must provide password"
 
         # Ensure confirmation was submitted
         elif not request.form.get("confirmation"):
-            return apology("Password and confirmation do not match")
+            return "Password and confirmation do not match"
 
         # Ensure confirmation is the same as password
         elif request.form.get("confirmation") != request.form.get("password"):
-            return apology("Password and confirmation do not match")
+            return "Password and confirmation do not match"
 
         # Query database for username
-        rows = db.execute(
-            "SELECT * FROM users WHERE username = ?", request.form.get("username")
+        # rows = db.execute(
+        #     "SELECT * FROM users WHERE username = ?", request.form.get("username")
+        # )
+        rows = query_database(
+            os.path.join(DIRNAME, "database/mhdle_private.db"),
+            "SELECT user_id, username FROM users WHERE username = ?", 
+            (request.form.get("username"),)
         )
 
         # Ensure username does not exist
         if len(rows) >= 1:
-            return apology("username already exists")
+            return "username already exists"
 
         # hash password
         hashed_password = generate_password_hash(request.form.get("password"))
 
         # add registered user to database
-        db.execute(
-            "INSERT INTO users (username, hash) VALUES (?, ?)",
-            request.form.get("username"),
-            hashed_password,
+        query_database(
+            os.path.join(DIRNAME, "database/mhdle_private.db"),
+            "INSERT INTO users (username, hashed_password, time_of_creation) VALUES (?, ?, datetime('now'))",
+            (request.form.get("username"), hashed_password)
         )
 
         # Redirect user to home page
@@ -170,37 +182,39 @@ def changepassword():
     if request.method == "POST":
         # Ensure old password is submitted
         if not request.form.get("old_password"):
-            return apology("must provide username")
+            return "must provide username"
 
         # Ensure new password was submitted
         elif not request.form.get("password"):
-            return apology("must provide password")
+            return "must provide password"
 
         # Ensure confirmation was submitted
         elif not request.form.get("confirmation"):
-            return apology("Password and confirmation do not match")
+            return "Password and confirmation do not match"
 
         # Ensure old password is correct
         if not check_password_hash(
-            db.execute("SELECT hash FROM users WHERE id = ?", session["user_id"])[0][
-                "hash"
-            ],
-            request.form.get("old_password"),
+            query_database(
+                os.path.join(DIRNAME, "database/mhdle_private.db"),
+                "SELECT hashed_password FROM users WHERE user_id = ?",
+                (session["user_id"],)
+            )[0][0],
+            request.form.get("old_password")
         ):
-            return apology("Password does not match current password")
+            "Password does not match current password"
 
         # Ensure confirmation is the same as password
         elif request.form.get("confirmation") != request.form.get("password"):
-            return apology("Password and confirmation do not match")
+            return "Password and confirmation do not match"
 
         # hash password
         hashed_password = generate_password_hash(request.form.get("password"))
 
         # update user's password in the database
-        db.execute(
-            "UPDATE users SET hash = ? WHERE id = ?",
-            hashed_password,
-            session["user_id"],
+        query_database(
+            os.path.join(DIRNAME, "database/mhdle_private.db"),
+            "UPDATE users SET hashed_password = ? WHERE user_id = ?",
+            (hashed_password, session["user_id"])
         )
 
         # Redirect user to home page
