@@ -10,6 +10,16 @@ def login_required(f):
         return f(*args, **kwargs)
     return decorated_function
 
+def admin_required(f):
+    @wraps(f)
+    def decorated_function(*args, **kwargs):
+        if session.get("user_id") is None:
+            return redirect("/login")
+        if session.get("user_id") != 1:
+            return "Page is only accessible to the admin."
+        return f(*args, **kwargs)
+    return decorated_function
+
 def query_database(dbpath: str, query: str, arguments, fetchtype = "all", executetype: str = "single"):
     # create connection and cursor
     conn = sqlite3.connect(dbpath)

@@ -5,7 +5,7 @@ from flask import Flask, redirect, render_template, request, session, url_for, j
 from flask_session import Session
 from werkzeug.security import check_password_hash, generate_password_hash
 import json
-from helpers import login_required, query_database
+from helpers import login_required, admin_required, query_database
 from routegeneration import generateRoute, verifyRoute
 from routehelpers import unpackStops
 
@@ -221,6 +221,14 @@ def changepassword():
         return redirect("/")
     else:
         return render_template("change_password.html")
+    
+@app.route("/admin-daily", methods=["GET", "POST"])
+@admin_required
+def admin_daily():
+    if request.method == "POST":
+        pass
+    else:
+        return render_template("admindaily.html")
 
 @app.route('/verifyroute', methods=["POST"])
 def verifyroute():
