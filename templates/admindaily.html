@@ -13,18 +13,40 @@
 {% endblock %}
 
 {% block main %}
-    Herro
     <div class="row">
         <div class="col bottombutton">
             <div class="row">
-                <button id="admin_addroute" type="submit" class="btn btn-primary" onclick="deleteLine()">Delete</button>
+                <button id="admin_generateroute" type="button" class="btn btn-primary" onclick="generateRoute()">Generate Route</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="routedisplay" class="row" style="text-align: center">
+        <p>Press the button above to generate a route. If you like the route, add it using the "Add" button. </p>
+        <p>If not, you can generate a new route pressing the button above again. </p>
+        <p>You can also remove the most recently added route using the "Remove" button. </p>
+    </div>
+
+    <div id="recentroutetable" class="row" style="text-align: center">
+        <p>This is where the recent route is going to go.</p>
+    </div>
+
+    <div class="row">
+        <div class="col bottombutton">
+            <div class="row">
+                <button id="admin_addroute" type="button" class="btn btn-primary" onclick="addRoute()">Add</button>
             </div>
         </div>
         <div class="col bottombutton">
             <div class="row">
-                <button id="admin_deleteroute" type="button" class="btn btn-primary" onclick="verifyEntry()">Submit</button>
+                <button id="admin_removeroute" type="button" class="btn btn-primary" onclick="removeRoute()">Remove</button>
             </div>
         </div>
     </div>
+    <script src="../static/jquery.js"></script>
+    <script type="text/javascript">
+        var data = JSON.parse({{ data|tojson|safe }});
+    </script>
+    <script src="../static/admindaily.js"></script>
 {% endblock %}
 

@@ -228,7 +228,17 @@ def admin_daily():
     if request.method == "POST":
         pass
     else:
-        return render_template("admindaily.html")
+        jsonobject = query_database(
+            os.path.join(DIRNAME, "database/mhdle_private.db"),
+            "SELECT routejson FROM dailyroutes ORDER BY routedate DESC LIMIT 1",
+            False
+            )
+        if len(jsonobject) != 0:
+            jsonobject = jsonobject[0][0]
+        else:
+            jsonobject = 0
+        
+        return render_template("admindaily.html", data = json.dumps(jsonobject, indent=4))
 
 @app.route('/verifyroute', methods=["POST"])
 def verifyroute():
@@ -246,6 +256,22 @@ def verifyroute():
     print(res)
     
     out = make_response(jsonify(res), 200)
+    return out
+
+@app.route('/generateDailyRoute', methods=["POST"])
+def generateDailyRoute():
+    route = generateRoute()
+    data = {
+        "gamemode": "daily",
+        "availablelines": sorted(route.generateFirstLines(), key=len),
+        "linelist": route.data.linelist,
+        "stoplist": unpackStops(route.data.stoplist),
+        "passedstoplist": [unpackStops(stops) for stops in route.data.passedstoplist],
+        "walkingtransferlist": [[unpackStops(transfers[0]), transfers[1]] if transfers is not None else None for transfers in route.data.walkingtransferlist],
+        "interlinedlist": route.data.interlinedlist,
+    }
+    
+    out = make_response(jsonify(data), 200)
     return out
 
 with app.test_request_context():

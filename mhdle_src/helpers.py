@@ -27,9 +27,15 @@ def query_database(dbpath: str, query: str, arguments, fetchtype = "all", execut
     
     # execute query, returning a cursor object
     if executetype == "single":
-        output_superraw = cur.execute(query, arguments)
+        if arguments is False:
+            output_superraw = cur.execute(query)
+        else:
+            output_superraw = cur.execute(query, arguments)
     else:
-        output_superraw = cur.executemany(query, arguments)
+        if arguments is False:
+            output_superraw = cur.executemany(query, arguments)
+        else:
+            output_superraw = cur.executemany(query, arguments)
     
     # fetch data from the cursor object
     if fetchtype == "all":
