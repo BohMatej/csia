@@ -1978,6 +1978,7 @@
         martinskycintorin
         trnavskacesta
         klientskecentrum
+        sabinovska
         bajkalska
         zimnystadion
         trnavskemyto
@@ -2008,6 +2009,7 @@
         trnavskemyto
         zimnystadion
         bajkalska
+        sabinovska
         klientskecentrum
         trnavskacesta
         martinskycintorin
@@ -2964,6 +2966,7 @@
         nevadzova
         dkruzinov
         maximilianahella
+        zaluzicka
         haburska
         slovinska
         depotrnavka
