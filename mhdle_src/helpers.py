@@ -1,6 +1,7 @@
 import sqlite3
 from flask import redirect, render_template, session
 from functools import wraps
+from datetime import datetime, timedelta
 
 def login_required(f):
     @wraps(f)
@@ -49,3 +50,19 @@ def query_database(dbpath: str, query: str, arguments, fetchtype = "all", execut
     cur.close()
     conn.close()
     return output_raw # because.
+
+def find_missing_consecutive_date(date_list):
+    if not date_list:
+        return None
+
+    date_list = sorted(date_list)
+    start_date = datetime.strptime(date_list[0], "%Y-%m-%d")
+    
+    for date_str in date_list:
+        date = datetime.strptime(date_str, "%Y-%m-%d")
+        if date == start_date:
+            start_date += timedelta(days=1)
+        else:
+            return start_date.strftime("%Y-%m-%d")
+
+    return (start_date).strftime("%Y-%m-%d")
