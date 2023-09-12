@@ -1,6 +1,6 @@
 from typing import Tuple, List
 from route import Route
-from routehelpers import *
+from helpers import unpackStops
 import random
 
 EVERYWHERE = ("staremesto", "ruzinov", "novemesto", "karlovaves", "petrzalka", "vrakuna",
