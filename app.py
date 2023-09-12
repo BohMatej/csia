@@ -226,19 +226,56 @@ def changepassword():
 @admin_required
 def admin_daily():
     if request.method == "POST":
-        pass
-    else:
-        jsonobject = query_database(
+        req = request.get_json()
+        print("HERE")
+        print(req)
+        print(req["linelist"])
+        raw = query_database(
             os.path.join(DIRNAME, "database/mhdle_private.db"),
-            "SELECT routejson FROM dailyroutes ORDER BY routedate DESC LIMIT 1",
+            "SELECT routedate FROM dailyroutes WHERE routedate >= DATE('now') ORDER BY routedate DESC",
+            False
+        )
+
+        if len(raw) == 0:
+            query_database(
+                os.path.join(DIRNAME, "database/mhdle_private.db"),
+                "INSERT INTO dailyroutes (routejson, routedate) VALUES (?, DATE('now'))",
+                (json.dumps(req),)
+            )
+        else:
+            dates = [obj[0] for obj in raw]
+            print(dates)
+        
+        raw = query_database(
+            os.path.join(DIRNAME, "database/mhdle_private.db"),
+            "SELECT routejson FROM dailyroutes WHERE routedate >= DATE('now') ORDER BY routedate DESC",
             False
             )
-        if len(jsonobject) != 0:
-            jsonobject = jsonobject[0][0]
+        if len(raw) != 0:
+            jsonobject = [obj[0] for obj in raw]
+        else:
+            jsonobject = 0
+        
+        return make_response(jsonify(jsonobject), 200)
+            
+    else:
+        raw = query_database(
+            os.path.join(DIRNAME, "database/mhdle_private.db"),
+            "SELECT routejson FROM dailyroutes WHERE routedate >= DATE('now') ORDER BY routedate DESC",
+            False
+            )
+        if len(raw) != 0:
+            jsonobject = [obj[0] for obj in raw]
         else:
             jsonobject = 0
         
         return render_template("admindaily.html", data = json.dumps(jsonobject, indent=4))
+
+# @app.route("/admin-writedailyroute")
+# @admin_required
+# def admin_writeDailyRoute():
+#     req = 
+    
 
 @app.route('/verifyroute', methods=["POST"])
 def verifyroute():
