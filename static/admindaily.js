@@ -1,3 +1,5 @@
+//data = JSON.parse(data)
+console.log("Initial Data:")
 console.log(data);
 if (data == 0){
     console.log("There is no data")
@@ -82,8 +84,51 @@ function addRoute(){
             console.log(`Response was not 200: ${response.status}`);
             return;
         }
-        response.json().then(function(data){
-            alert("HEre!");
+        response.json().then(function(datastring){
+            console.log("Data:");
+            console.log(data);
+            displayAllDailyRoutes();
         })
     })
+}
+
+function displayAllDailyRoutes(){
+    if (data == 0){
+        return;
+    }
+    document.getElementById("dailyroute_tablebody").innerHTML = ""
+    for (var i=0; i<data.length; i++){
+        let htmldump = ``;
+        htmldump += `
+            <tr>
+                <th scope="row">${data[i].routedate}</th>
+                <td>
+        `
+        for (var j=0; j<data[i].routejson.linelist.length; j++){
+            htmldump += `
+                <img src="/../static/line_icons/line${data[i].routejson.linelist[j]}.png" alt='Line ${data[i].routejson.linelist[j]}' width='40'>
+            `
+        }
+        htmldump += `
+            </td>
+            <td>
+        `
+        for (var j=0; j<data[i].routejson.stoplist.length; j++){
+            htmldump += `
+                ${data[i].routejson.stoplist[j]}
+            `
+            if (j != data[i].routejson.stoplist.length - 1){
+                htmldump += `
+                    ->
+                `
+            }
+        }
+        
+        htmldump += `
+                </td>
+                <td>${data[i].route_id}</td>
+            </tr>
+        `
+        document.getElementById("dailyroute_tablebody").innerHTML += htmldump
+    }
 }

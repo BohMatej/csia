@@ -227,9 +227,9 @@ def changepassword():
 def admin_daily():
     if request.method == "POST":
         req = request.get_json()
-        print("HERE")
-        print(req)
-        print(req["linelist"])
+        # print("HERE")
+        # print(req)
+        # print(req["linelist"])
         raw = query_database(
             os.path.join(DIRNAME, "database/mhdle_private.db"),
             "SELECT routedate FROM dailyroutes WHERE routedate >= DATE('now') ORDER BY routedate DESC",
@@ -248,11 +248,11 @@ def admin_daily():
         
         raw = query_database(
             os.path.join(DIRNAME, "database/mhdle_private.db"),
-            "SELECT routejson FROM dailyroutes WHERE routedate >= DATE('now') ORDER BY routedate DESC",
+            "SELECT routejson, routedate, route_id FROM dailyroutes WHERE routedate >= DATE('now') ORDER BY routedate DESC",
             False
             )
         if len(raw) != 0:
-            jsonobject = [obj[0] for obj in raw]
+            jsonobject = [{"routejson": json.loads(obj[0]), "routedate": obj[1], "route_id": obj[2]} for obj in raw]
         else:
             jsonobject = 0
         
@@ -261,15 +261,20 @@ def admin_daily():
     else:
         raw = query_database(
             os.path.join(DIRNAME, "database/mhdle_private.db"),
-            "SELECT routejson FROM dailyroutes WHERE routedate >= DATE('now') ORDER BY routedate DESC",
+            "SELECT routejson, routedate, route_id FROM dailyroutes WHERE routedate >= DATE('now') ORDER BY routedate DESC",
             False
             )
         if len(raw) != 0:
-            jsonobject = [obj[0] for obj in raw]
+            #print(raw)
+            jsonobject = [{"routejson": json.loads(obj[0]), "routedate": obj[1], "route_id": obj[2]} for obj in raw]
         else:
             jsonobject = 0
         
-        return render_template("admindaily.html", data = json.dumps(jsonobject, indent=4))
+        #print(jsonobject)
+        data = json.dumps(jsonobject, indent=4)
+        print(data)
+        
+        return render_template("admindaily.html", data = data)
 
 # @app.route("/admin-writedailyroute")
 # @admin_required

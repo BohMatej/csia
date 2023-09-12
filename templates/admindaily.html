@@ -28,7 +28,21 @@
     </div>
 
     <div id="recentroutetable" class="row" style="text-align: center">
-        <p>This is where the recent route is going to go.</p>
+        <table class="table table-striped table-bordered">
+            <thead>
+                <tr>
+                    <th scope="col">Date</th>
+                    <th scope="col">Lines</th>
+                    <th scope="col">Starting/Transfer/Ending Stops</th>
+                    <th scope="col">ID</th>
+                </tr>
+            </thead>
+            <tbody id="dailyroute_tablebody">
+                <tr>
+                    <td colspan="4">No daily routes exist. Generate some routes using the "Generate Route" button, and once you like a route, add it using the "add" button.</td>
+                </tr>
+            </tbody>
+        </table>
     </div>
 
     <div class="row">
@@ -48,5 +62,8 @@
         var data = JSON.parse({{ data|tojson|safe }});
     </script>
     <script src="../static/admindaily.js"></script>
+    <script type="text/javascript">
+        displayAllDailyRoutes();
+    </script>
 {% endblock %}
 
