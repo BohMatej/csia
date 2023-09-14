@@ -70,7 +70,7 @@ function displayGeneratedRoute(arg){
 function addRoute(){
     console.log("generated_route:")
     console.log(generated_route)
-    fetch(`${window.origin}/admin-daily`, {
+    fetch(`${window.origin}/admin-writedailyroute`, {
         method: "POST",
         credentials: "include",
         body: JSON.stringify(generated_route),
@@ -85,6 +85,31 @@ function addRoute(){
             return;
         }
         response.json().then(function(datastring){
+            data = datastring
+            console.log("Data:");
+            console.log(data);
+            displayAllDailyRoutes();
+        })
+    })
+}
+
+function removeRoute(){
+    console.log("removing route")
+    fetch(`${window.origin}/admin-deletedailyroute`, {
+        method: "POST",
+        credentials: "include",
+        cache: "no-cache",
+        headers: new Headers({
+            "content-type": "application/json"
+        })
+    })
+    .then(function(response){
+        if (response.status !== 200) {
+            console.log(`Response was not 200: ${response.status}`);
+            return;
+        }
+        response.json().then(function(datastring){
+            data = datastring
             console.log("Data:");
             console.log(data);
             displayAllDailyRoutes();
@@ -94,6 +119,12 @@ function addRoute(){
 
 function displayAllDailyRoutes(){
     if (data == 0){
+        document.getElementById("dailyroute_tablebody").innerHTML = `
+        <tr><td colspan="4">
+        No daily routes exist. Generate some routes using the "Generate Route" button, 
+        and once you like a route, add it using the "add" button.
+        </td></tr>
+        `
         return;
     }
     document.getElementById("dailyroute_tablebody").innerHTML = ""

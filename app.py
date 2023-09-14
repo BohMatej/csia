@@ -29,6 +29,24 @@ def after_request(response):
 def index():
     return redirect("/custom")
 
+@app.route('/daily')
+def daily():
+    
+    raw = query_database(
+        os.path.join(DIRNAME, "database/mhdle_private.db"),
+        "SELECT routejson FROM dailyroutes WHERE routedate = DATE('now')",
+        False
+    )[0][0]
+    
+    data = json.loads(raw)
+    data["useGreyLines"] = False
+    data["numberOfGuessesRaw"] = 0
+    
+    return render_template(
+        "customgame.html", 
+        data=json.dumps(data, indent=4)
+    )
+    
 
 @app.route('/custom', methods=["GET", "POST"])
 def custom():
@@ -226,37 +244,7 @@ def changepassword():
 @admin_required
 def admin_daily():
     if request.method == "POST":
-        req = request.get_json()
-        # print("HERE")
-        # print(req)
-        # print(req["linelist"])
-        raw = query_database(
-            os.path.join(DIRNAME, "database/mhdle_private.db"),
-            "SELECT routedate FROM dailyroutes WHERE routedate >= DATE('now') ORDER BY routedate DESC",
-            False
-        )
-
-        if len(raw) == 0:
-            query_database(
-                os.path.join(DIRNAME, "database/mhdle_private.db"),
-                "INSERT INTO dailyroutes (routejson, routedate) VALUES (?, DATE('now'))",
-                (json.dumps(req),)
-            )
-        else:
-            dates = [obj[0] for obj in raw]
-            print(dates)
-        
-        raw = query_database(
-            os.path.join(DIRNAME, "database/mhdle_private.db"),
-            "SELECT routejson, routedate, route_id FROM dailyroutes WHERE routedate >= DATE('now') ORDER BY routedate DESC",
-            False
-            )
-        if len(raw) != 0:
-            jsonobject = [{"routejson": json.loads(obj[0]), "routedate": obj[1], "route_id": obj[2]} for obj in raw]
-        else:
-            jsonobject = 0
-        
-        return make_response(jsonify(jsonobject), 200)
+        pass
             
     else:
         raw = query_database(
@@ -276,11 +264,72 @@ def admin_daily():
         
         return render_template("admindaily.html", data = data)
 
-# @app.route("/admin-writedailyroute")
-# @admin_required
-# def admin_writeDailyRoute():
-#     req = 
+@app.route("/admin-writedailyroute", methods=["POST"])
+@admin_required
+def admin_writeDailyRoute():
+    req = request.get_json()
+    # print("HERE")
+    # print(req)
+    # print(req["linelist"])
+    raw = query_database(
+        os.path.join(DIRNAME, "database/mhdle_private.db"),
+        "SELECT routedate FROM dailyroutes WHERE routedate >= DATE('now') ORDER BY routedate DESC",
+        False
+    )
+
+    if len(raw) == 0:
+        query_database(
+            os.path.join(DIRNAME, "database/mhdle_private.db"),
+            "INSERT INTO dailyroutes (routejson, routedate) VALUES (?, DATE('now'))",
+            (json.dumps(req),)
+        )
+    else:
+        dates = [obj[0] for obj in raw]
+        selectedDate = find_missing_consecutive_date(dates)
+        query_database(
+            os.path.join(DIRNAME, "database/mhdle_private.db"),
+            "INSERT INTO dailyroutes (routejson, routedate) VALUES (?, ?)",
+            (json.dumps(req), selectedDate)
+        )
     
+    raw = query_database(
+        os.path.join(DIRNAME, "database/mhdle_private.db"),
+        "SELECT routejson, routedate, route_id FROM dailyroutes WHERE routedate >= DATE('now') ORDER BY routedate DESC",
+        False
+        )
+    #print(raw)
+    if len(raw) != 0:
+        jsonobject = [{"routejson": json.loads(obj[0]), "routedate": obj[1], "route_id": obj[2]} for obj in raw]
+    else:
+        jsonobject = 0
+    
+    data = json.dumps(jsonobject, indent=4)
+    print(data)
+    
+    return make_response(data, 200)
+
+@app.route("/admin-deletedailyroute", methods=["POST"])
+@admin_required
+def admin_deleteDailyRoute():
+    query_database(
+        os.path.join(DIRNAME, "database/mhdle_private.db"),
+        "DELETE FROM dailyroutes WHERE route_id = (SELECT route_id FROM dailyroutes ORDER BY routedate DESC LIMIT 1)",
+        False
+    )
+    raw = query_database(
+        os.path.join(DIRNAME, "database/mhdle_private.db"),
+        "SELECT routejson, routedate, route_id FROM dailyroutes WHERE routedate >= DATE('now') ORDER BY routedate DESC",
+        False
+        )
+    #print(raw)
+    if len(raw) != 0:
+        jsonobject = [{"routejson": json.loads(obj[0]), "routedate": obj[1], "route_id": obj[2]} for obj in raw]
+    else:
+        jsonobject = 0
+    
+    data = json.dumps(jsonobject, indent=4)
+    print(data)
+    return make_response(data, 200)
 
 @app.route('/verifyroute', methods=["POST"])
 def verifyroute():
