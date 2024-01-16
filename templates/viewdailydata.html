@@ -1,0 +1,29 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Stats Viewer
+{% endblock %}
+
+{% block modalbody %}
+TODO
+{% endblock %}
+
+{% block main %}
+TODO
+<div id="recentroutetable" class="row" style="text-align: center">
+    <table class="table table-striped table-bordered">
+        <thead>
+            <tr>
+                <th scope="col">Date</th>
+                <th scope="col">Lines</th>
+                <th scope="col">Number of guesses</th>
+            </tr>
+        </thead>
+        <tbody id="dailyroute_tablebody">
+            <tr>
+                <td colspan="3">No daily routes exist. Generate some routes using the "Generate Route" button, and once you like a route, add it using the "add" button.</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+{% endblock %}

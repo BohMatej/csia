@@ -96,6 +96,18 @@ for (var i=0; i<ROUTELENGTH; i++){
         <br>
     `;
 }
+if (data.gamemode == "daily"){
+    document.getElementById("winnerModalFooter").innerHTML = `
+    <form action="/viewDailyData" method="post">
+    <button class="btn btn-secondary" type="submit">View Stats</button>
+    </form>
+    `
+    document.getElementById("loserModalFooter").innerHTML = `
+    <form action="/viewDailyData" method="post">
+    <button class="btn btn-secondary" type="submit">View Stats</button>
+    </form>
+    `
+}
 
 // set route length and number of guesses for help box
 document.getElementById("modalbody-guesses").innerHTML = `${STARTING_NUMBER_OF_GUESSES}`;
@@ -203,6 +215,10 @@ function commitEntry(){
         $(document).ready(function(){
             $("#winnerModal").modal('show');
         });
+        if (data.gamemode == "daily"){
+            alert(currentrow+1)
+            writeDatabaseWinOrLoss(1)
+        }
         return;
     }
 
@@ -213,7 +229,41 @@ function commitEntry(){
         $(document).ready(function(){
             $("#loserModal").modal('show');
         });
+        if (data.gamemode == "daily"){
+            alert("Daily Lost!")
+            writeDatabaseWinOrLoss(0)
+        }
     }
+}
+
+function writeDatabaseWinOrLoss(status){
+    var entry = {
+        status: status,
+        numberOfGuesses: currentrow+1
+    }
+    fetch(`${window.origin}/logDailyRoute`, {
+        method: "POST",
+        credentials: "include",
+        body: JSON.stringify(entry),
+        cache: "no-cache",
+        headers: new Headers({
+            "content-type": "application/json"
+        })
+    })
+    .then(function(response){
+        if (response.status !== 200) {
+            console.log(`Response was not 200: ${response.status}`);
+            return;
+        }
+        response.json().then(function(data){ // useless code left over from copypaste
+            // if (data.message === "Invalid") {
+            //     alert("Invalid route");
+            //     return;
+            // }
+            // commitEntry();
+            alert("Daily entry logged to database!")
+        })
+    })
 }
 
 function logEverything(){

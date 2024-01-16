@@ -5,6 +5,7 @@ from flask import Flask, redirect, render_template, request, session, url_for, j
 from flask_session import Session
 from werkzeug.security import check_password_hash, generate_password_hash
 import json
+import datetime
 from helpers import unpackStops, login_required, admin_required, query_database, find_missing_consecutive_date
 from routegeneration import generateRoute, verifyRoute
 # from routehelpers import unpackStops
@@ -30,6 +31,7 @@ def index():
     return redirect("/custom")
 
 @app.route('/daily')
+@login_required
 def daily():
     
     raw = query_database(
@@ -347,7 +349,36 @@ def verifyroute():
     print(res)
     
     out = make_response(jsonify(res), 200)
+    print("success")
     return out
+
+@app.route('/logDailyRoute', methods=["POST"])
+def logDailyRoute():
+    req = request.get_json()
+    user_id = session.get("user_id")
+    route_id = query_database(
+        os.path.join(DIRNAME, "database/mhdle_private.db"),
+        "SELECT route_id FROM dailyroutes WHERE routedate = DATE('now')",
+        False
+    )[0][0]
+    print('ayoooooo')
+    print("///")
+    print()
+    if req["status"] == 0:
+        req["numberOfGuesses"] = -1
+    print(req)
+    print(user_id)
+    print(route_id)
+    query_database(
+        os.path.join(DIRNAME, "database/mhdle_private.db"),
+        "INSERT INTO dailyguesses (routedate, user_id, number_of_guesses) VALUES (?, ?, ?)",
+        (datetime.date.today(), user_id, req["numberOfGuesses"])
+    )
+    return make_response("kek",200)
+    #return redirect("/")
+    #return make_response(render_template("custommenu.html"))
+    #return redirect("/viewDailyData")
+    
 
 @app.route('/generateDailyRoute', methods=["POST"])
 def generateDailyRoute():
@@ -365,5 +396,23 @@ def generateDailyRoute():
     out = make_response(jsonify(data), 200)
     return out
 
+@app.route('/viewDailyData', methods=["GET", "POST"])
+def viewDailyData():
+    rawData = query_database(
+        os.path.join(DIRNAME, "database/mhdle_private.db"),
+        """SELECT dailyguesses.routedate, routejson, number_of_guesses
+        FROM dailyguesses LEFT JOIN dailyroutes ON dailyguesses.routedate = dailyroutes.routedate
+        WHERE user_id = ?""",
+        (session.get("user_id"),)
+    )
+    #print(rawData)
+    print("Here!")
+    data = [{"routedate": row[0], "linelist": json.loads(row[1])["linelist"], "number_of_guesses": row[2]} for row in rawData]
+    print(data)
+        
+    # TODO: Data
+    return render_template("viewdailydata.html")
+
 with app.test_request_context():
     print("Hello")
+    
