@@ -6,7 +6,7 @@ from flask_session import Session
 from werkzeug.security import check_password_hash, generate_password_hash
 import json
 import datetime
-from helpers import unpackStops, login_required, admin_required, query_database, find_missing_consecutive_date
+from helpers import unpackStops, login_required, admin_required, daily_not_beaten_required, query_database, find_missing_consecutive_date, date_streaks
 from routegeneration import generateRoute, verifyRoute
 # from routehelpers import unpackStops
 
@@ -32,6 +32,7 @@ def index():
 
 @app.route('/daily')
 @login_required
+@daily_not_beaten_required
 def daily():
     
     raw = query_database(
@@ -282,7 +283,7 @@ def admin_writeDailyRoute():
     if len(raw) == 0:
         query_database(
             os.path.join(DIRNAME, "database/mhdle_private.db"),
-            "INSERT INTO dailyroutes (routejson, routedate) VALUES (?, DATE('now'))",
+            "INSERT INTO dailyroutes (route_id, routejson, routedate) VALUES ((SELECT IFNULL(MAX(route_id), 0) + 1 FROM dailyroutes), ?, DATE('now'))",
             (json.dumps(req),)
         )
     else:
@@ -290,7 +291,7 @@ def admin_writeDailyRoute():
         selectedDate = find_missing_consecutive_date(dates)
         query_database(
             os.path.join(DIRNAME, "database/mhdle_private.db"),
-            "INSERT INTO dailyroutes (routejson, routedate) VALUES (?, ?)",
+            "INSERT INTO dailyroutes (route_id, routejson, routedate) VALUES ((SELECT IFNULL(MAX(route_id), 0) + 1 FROM dailyroutes), ?, ?)",
             (json.dumps(req), selectedDate)
         )
     
@@ -315,9 +316,10 @@ def admin_writeDailyRoute():
 def admin_deleteDailyRoute():
     query_database(
         os.path.join(DIRNAME, "database/mhdle_private.db"),
-        "DELETE FROM dailyroutes WHERE route_id = (SELECT route_id FROM dailyroutes ORDER BY routedate DESC LIMIT 1)",
+        "DELETE FROM dailyroutes WHERE route_id = (SELECT route_id FROM dailyroutes WHERE routedate > DATE('now') ORDER BY routedate DESC LIMIT 1)",
         False
-    )
+    ) # admins can only delete routes for upcoming days 
+    
     raw = query_database(
         os.path.join(DIRNAME, "database/mhdle_private.db"),
         "SELECT routejson, routedate, route_id FROM dailyroutes WHERE routedate >= DATE('now') ORDER BY routedate DESC",
@@ -365,7 +367,7 @@ def logDailyRoute():
     print("///")
     print()
     if req["status"] == 0:
-        req["numberOfGuesses"] = -1
+        req["numberOfGuesses"] = 7
     print(req)
     print(user_id)
     print(route_id)
@@ -397,21 +399,53 @@ def generateDailyRoute():
     return out
 
 @app.route('/viewDailyData', methods=["GET", "POST"])
+@login_required
 def viewDailyData():
     rawData = query_database(
         os.path.join(DIRNAME, "database/mhdle_private.db"),
         """SELECT dailyguesses.routedate, routejson, number_of_guesses
         FROM dailyguesses LEFT JOIN dailyroutes ON dailyguesses.routedate = dailyroutes.routedate
-        WHERE user_id = ?""",
+        WHERE user_id = ? ORDER BY dailyguesses.routedate DESC""",
+        (session.get("user_id"),)
+    )    
+    data = [{"routedate": row[0], "linelist": json.loads(row[1])["linelist"], "number_of_guesses": row[2]} for row in rawData]
+    
+    global_average_guesses = query_database(
+        os.path.join(DIRNAME, "database/mhdle_private.db"),
+        """SELECT avg(number_of_guesses)
+        FROM dailyguesses ORDER BY routedate DESC""",
+        False
+    )[0][0]
+    user_average_guesses = query_database(
+        os.path.join(DIRNAME, "database/mhdle_private.db"),
+        """SELECT avg(number_of_guesses)
+        FROM dailyguesses
+        WHERE user_id = ? ORDER BY routedate DESC""",
+        (session.get("user_id"),)
+    )[0][0]
+    datelist_raw = query_database(
+        os.path.join(DIRNAME, "database/mhdle_private.db"),
+        """SELECT routedate
+        FROM dailyguesses
+        WHERE user_id = ? AND number_of_guesses != 7 ORDER BY routedate DESC""",
         (session.get("user_id"),)
     )
-    #print(rawData)
-    print("Here!")
-    data = [{"routedate": row[0], "linelist": json.loads(row[1])["linelist"], "number_of_guesses": row[2]} for row in rawData]
-    print(data)
-        
-    # TODO: Data
-    return render_template("viewdailydata.html")
+    datelist = [line[0] for line in datelist_raw]
+    print(type(datelist[0]))
+    #print(datelist)
+    #print(datetime.date.today().strftime('%Y-%m-%d'))
+    streaks = date_streaks(datelist, datetime.date.today().strftime('%Y-%m-%d'))
+    
+    # 0: total MHDle solves
+    # 1: Global average guess #
+    # 2: Player's average guess #
+    # 3: Current streak
+    # 4: Longest streak
+    extra = (len(data), round(global_average_guesses, 3), round(user_average_guesses, 3), streaks[1], streaks[0])
+    
+    print(extra)
+    
+    return render_template("viewdailydata.html", data = data, extra = extra)
 
 with app.test_request_context():
     print("Hello")

@@ -6,8 +6,8 @@ CREATE TABLE IF NOT EXISTS users (
     time_of_creation NUMERIC NOT NULL
 );
 CREATE TABLE IF NOT EXISTS dailyroutes (
-    route_id INTEGER PRIMARY KEY AUTOINCREMENT,
-    routedate NUMERIC,
+    route_id INTEGER,
+    routedate NUMERIC PRIMARY KEY,
     routejson TEXT
 );
 CREATE TABLE IF NOT EXISTS dailyguesses (

@@ -1,31 +1,13 @@
 import sqlite3
 from flask import redirect, render_template, session
 from functools import wraps
-from datetime import datetime, timedelta
+from datetime import datetime, date, timedelta
 import os
 from typing import Tuple, List, Dict
 
 DIRNAME = os.path.dirname(__file__)
 
 # WSGI helpers
-
-def login_required(f):
-    @wraps(f)
-    def decorated_function(*args, **kwargs):
-        if session.get("user_id") is None:
-            return redirect("/login")
-        return f(*args, **kwargs)
-    return decorated_function
-
-def admin_required(f):
-    @wraps(f)
-    def decorated_function(*args, **kwargs):
-        if session.get("user_id") is None:
-            return redirect("/login")
-        if session.get("user_id") != 1:
-            return "Page is only accessible to the admin."
-        return f(*args, **kwargs)
-    return decorated_function
 
 def query_database(dbpath: str, query: str, arguments, fetchtype = "all", executetype: str = "single"):
     # create connection and cursor
@@ -57,6 +39,41 @@ def query_database(dbpath: str, query: str, arguments, fetchtype = "all", execut
     conn.close()
     return output_raw # because.
 
+def login_required(f):
+    @wraps(f)
+    def decorated_function(*args, **kwargs):
+        if session.get("user_id") is None:
+            return redirect("/login")
+        return f(*args, **kwargs)
+    return decorated_function
+
+def admin_required(f):
+    @wraps(f)
+    def decorated_function(*args, **kwargs):
+        if session.get("user_id") is None:
+            return redirect("/login")
+        if session.get("user_id") != 1:
+            return "Page is only accessible to the admin."
+        return f(*args, **kwargs)
+    return decorated_function
+
+def daily_not_beaten_required(f):
+    @wraps(f)
+    def decorated_function(*args, **kwargs):
+        datelistlmao = query_database(
+            os.path.join(DIRNAME, "../database/mhdle_private.db"),
+            """SELECT routedate
+            FROM dailyguesses
+            WHERE user_id = ? AND routedate = ?""",
+            (session.get("user_id"), date.today())
+        )
+        if len(datelistlmao) != 0:
+            return "You have already completed today's MHDle."
+        return f(*args, **kwargs)
+    return decorated_function
+
+
+
 def find_missing_consecutive_date(date_list):
     if not date_list:
         return None
@@ -72,6 +89,45 @@ def find_missing_consecutive_date(date_list):
             return start_date.strftime("%Y-%m-%d")
 
     return (start_date).strftime("%Y-%m-%d")
+
+
+def date_streaks(date_list, latest_date):
+    if not date_list or not latest_date:
+        return (0, 0)
+
+    print(date_list)
+    print(latest_date)
+    
+    date_objects = [datetime.strptime(date, "%Y-%m-%d") for date in date_list]
+    latest_date = datetime.strptime(latest_date, "%Y-%m-%d")
+    date_objects.sort()
+
+    current_streak = 1
+    longest_streak = 1
+    streak_including_previous_day = 0
+
+    if len(date_objects) > 1:
+        for i in range(1, len(date_objects)):
+            if (date_objects[i] - date_objects[i - 1]).days == 1:
+                current_streak += 1
+            else:
+                current_streak = 1
+
+            longest_streak = max(longest_streak, current_streak)
+
+            if date_objects[i] <= latest_date:
+                streak_including_previous_day = current_streak  
+
+        if (latest_date - date_objects[len(date_objects)-1]).days > 1:
+            streak_including_previous_day = 0
+            print("nope!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
+    elif len(date_objects) == 1:
+        if (latest_date - date_objects[0]).days < 2: # only one day played, and it's either today od yesterday. Hence, keep 1 streak
+            streak_including_previous_day = 1
+            print("yep!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
+    else:
+        return (0, 0)
+    return (longest_streak, streak_including_previous_day)
 
 # route helpers
 

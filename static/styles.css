@@ -62,6 +62,11 @@
     margin-right: 10px;
 }
 
+#databutton{
+    margin-right: 10px;
+    padding-bottom: 9px;
+}
+
 .img-help{
     max-width: 65%;
 }
