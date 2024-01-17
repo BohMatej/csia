@@ -32,23 +32,33 @@ def index():
 
 @app.route('/daily')
 @login_required
-@daily_not_beaten_required
+# @daily_not_beaten_required
 def daily():
     
-    raw = query_database(
+    rawdata = query_database(
         os.path.join(DIRNAME, "database/mhdle_private.db"),
         "SELECT routejson FROM dailyroutes WHERE routedate = DATE('now')",
         False
     )[0][0]
     
-    data = json.loads(raw)
+    data = json.loads(rawdata)
     data["useGreyLines"] = False
     data["numberOfGuessesRaw"] = 0
     
+    rawprogress = query_database(
+        os.path.join(DIRNAME, "database/mhdle_private.db"),
+        """SELECT route_order, labelone, labeltwo, labelthree
+        FROM solution_progress_table
+        WHERE user_id = ? AND routedate = DATE('now')
+        ORDER BY route_order ASC""",
+        (session["user_id"],)
+    )
     return render_template(
         "dailymhdle.html", 
-        data=json.dumps(data, indent=4)
+        data=json.dumps(data, indent=4),
+        progress=json.dumps(rawprogress, indent=4)
     )
+
     
 
 @app.route('/custom', methods=["GET", "POST"])
@@ -376,11 +386,22 @@ def logDailyRoute():
         "INSERT INTO dailyguesses (routedate, user_id, number_of_guesses) VALUES (?, ?, ?)",
         (datetime.date.today(), user_id, req["numberOfGuesses"])
     )
-    return make_response("kek",200)
+    return make_response("kek", 200)
     #return redirect("/")
     #return make_response(render_template("custommenu.html"))
     #return redirect("/viewDailyData")
-    
+
+@app.route('/logDailyProgress', methods=["POST"])
+def logDailyProgress():
+    req = request.get_json()
+    user_id = session.get("user_id")
+    query_database(
+        os.path.join(DIRNAME, "database/mhdle_private.db"),
+        """INSERT INTO solution_progress_table (routedate, user_id, route_order, labelone, labeltwo, labelthree)
+        VALUES (?, ?, ?, ?, ?, ?)""",
+        (datetime.date.today(), user_id, req["currentrow"], req["guess0"], req["guess1"], req["guess2"])
+    )
+    return make_response("kek2", 200)
 
 @app.route('/generateDailyRoute', methods=["POST"])
 def generateDailyRoute():

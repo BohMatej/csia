@@ -15,4 +15,10 @@
 {% block main %}
     <h5 class="centered">Daily MHDle</h5>
     {% include 'gameview.html' %}
+    <script src="../static/jquery.js"></script>
+    <script type="text/javascript">
+        var data = JSON.parse({{ data|tojson|safe }});
+        var progress = JSON.parse({{ progress|tojson|safe }});
+    </script>
+    <script src="../static/game.js"></script>
 {% endblock %}

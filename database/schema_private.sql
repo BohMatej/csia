@@ -15,6 +15,7 @@ CREATE TABLE IF NOT EXISTS dailyguesses (
     routedate NUMERIC NOT NULL,
     user_id INTEGER,
     number_of_guesses INTEGER,
+    UNIQUE (routedate, user_id) ON CONFLICT IGNORE
     FOREIGN KEY (user_id)
         REFERENCES users (user_id)
         ON DELETE CASCADE
@@ -32,6 +33,7 @@ CREATE TABLE IF NOT EXISTS solution_progress_table (
     labelone TEXT,
     labeltwo TEXT,
     labelthree TEXT,
+    UNIQUE (routedate, user_id, route_order) ON CONFLICT IGNORE
     FOREIGN KEY (user_id)
         REFERENCES users (user_id)
         ON DELETE CASCADE

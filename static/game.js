@@ -96,7 +96,15 @@ for (var i=0; i<ROUTELENGTH; i++){
         <br>
     `;
 }
+
 if (data.gamemode == "daily"){
+    console.log(progress);
+    for (var i=0; i<progress.length; i++){
+        clickLine(progress[i][1]);
+        clickLine(progress[i][2]);
+        clickLine(progress[i][3]);
+        commitEntry();
+    }
     document.getElementById("winnerModalFooter").innerHTML = `
     <form action="/viewDailyData" method="post">
     <button class="btn btn-secondary" type="submit">View Stats</button>
@@ -180,8 +188,6 @@ function commitEntry(){
         isPresent = false;
         isInterlined = false;
         if (ROUTE.includes(guess[i].toString()) == true){
-            console.log(ROUTE)
-            console.log(guess[i])
             isPresent = true;
         }
         if (data.interlinedlist[i].includes(guess[i].toString()) == true){
@@ -210,7 +216,11 @@ function commitEntry(){
         document.getElementById(`guesscellcontainer_${currentrow}_${i}`).style.backgroundColor = "#696969";
         document.getElementById(`linebtn_${guess[i]}`).style.backgroundColor = "#696969";
     }
-    
+
+    if (data.gamemode == "daily"){
+        writeProgress(guess, currentrow);
+    }
+
     if (wincon == ROUTELENGTH){
         $(document).ready(function(){
             $("#winnerModal").modal('show');
@@ -232,6 +242,33 @@ function commitEntry(){
             writeDatabaseWinOrLoss(0)
         }
     }
+}
+
+function writeProgress(guess, currentrow){
+    var entry = {
+        guess0: guess[0],
+        guess1: guess[1],
+        guess2: guess[2],
+        currentrow: currentrow
+    }
+    fetch(`${window.origin}/logDailyProgress`, {
+        method: "POST",
+        credentials: "include",
+        body: JSON.stringify(entry),
+        cache: "no-cache",
+        headers: new Headers({
+            "content-type": "application/json"
+        })
+    })
+    .then(function(response){
+        if (response.status !== 200){
+            console.log(`Response was not 200: $(response.status)`);
+            return;
+        }
+        response.json().then(function(data){
+            alert("Progress logged to database.")
+        })
+    })
 }
 
 function writeDatabaseWinOrLoss(status){
