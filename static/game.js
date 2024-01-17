@@ -216,7 +216,6 @@ function commitEntry(){
             $("#winnerModal").modal('show');
         });
         if (data.gamemode == "daily"){
-            alert(currentrow+1)
             writeDatabaseWinOrLoss(1)
         }
         return;
@@ -230,7 +229,6 @@ function commitEntry(){
             $("#loserModal").modal('show');
         });
         if (data.gamemode == "daily"){
-            alert("Daily Lost!")
             writeDatabaseWinOrLoss(0)
         }
     }

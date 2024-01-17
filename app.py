@@ -46,7 +46,7 @@ def daily():
     data["numberOfGuessesRaw"] = 0
     
     return render_template(
-        "customgame.html", 
+        "dailymhdle.html", 
         data=json.dumps(data, indent=4)
     )
     
@@ -431,7 +431,6 @@ def viewDailyData():
         (session.get("user_id"),)
     )
     datelist = [line[0] for line in datelist_raw]
-    print(type(datelist[0]))
     #print(datelist)
     #print(datetime.date.today().strftime('%Y-%m-%d'))
     streaks = date_streaks(datelist, datetime.date.today().strftime('%Y-%m-%d'))
@@ -441,7 +440,11 @@ def viewDailyData():
     # 2: Player's average guess #
     # 3: Current streak
     # 4: Longest streak
-    extra = (len(data), round(global_average_guesses, 3), round(user_average_guesses, 3), streaks[1], streaks[0])
+    if global_average_guesses is None:
+        global_average_guesses = 0
+    if user_average_guesses is None:
+        user_average_guesses = 0
+    extra = (len(datelist_raw), round(global_average_guesses, 3), round(user_average_guesses, 3), streaks[1], streaks[0])
     
     print(extra)
     

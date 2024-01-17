@@ -24,4 +24,21 @@ CREATE TABLE IF NOT EXISTS dailyguesses (
         ON DELETE CASCADE
         ON UPDATE CASCADE
 );
+CREATE TABLE IF NOT EXISTS solution_progress_table (
+    progress_id INTEGER PRIMARY KEY AUTOINCREMENT,
+    routedate NUMERIC,
+    user_id INTEGER,
+    route_order INTEGER,
+    labelone TEXT,
+    labeltwo TEXT,
+    labelthree TEXT,
+    FOREIGN KEY (user_id)
+        REFERENCES users (user_id)
+        ON DELETE CASCADE
+        ON UPDATE CASCADE,
+    FOREIGN KEY (routedate)
+        REFERENCES dailyroutes (routedate)
+        ON DELETE CASCADE
+        ON UPDATE CASCADE
+);
 COMMIT;

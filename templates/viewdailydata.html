@@ -49,7 +49,11 @@ The daily streak represents how many consecutive daily MHDle puzzles were you ab
                             <img src="/../static/line_icons/line{{ linenum }}.png" alt="Line{{ linenum }}" width='40'>
                         {% endfor %}
                     </td>
-                    <td>{{ datarow["number_of_guesses"] }}</td>
+                    {% if datarow["number_of_guesses"] == 7 %}
+                        <td>Fail</td>
+                    {% else %}
+                        <td>{{ datarow["number_of_guesses"] }}</td>
+                    {% endif %}
                 </tr>
             {% endfor %}
         </tbody>

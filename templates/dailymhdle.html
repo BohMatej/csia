@@ -1,10 +1,18 @@
-{% extends "gameview.html" %}
+{% extends "layout.html" %}
 
 {% block title %}
     Daily
 {% endblock %}
 
+{% block modalheader %}
+    Guess the daily MHDle route!
+{% endblock %}
+
+{% block modalbody %}
+    {% include 'modalbody.html' %}
+{% endblock %}
+
 {% block main %}
-    <h1>Daily MHDle</h1>
+    <h5 class="centered">Daily MHDle</h5>
     {% include 'gameview.html' %}
 {% endblock %}
