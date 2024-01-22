@@ -2,9 +2,16 @@ BEGIN;
 CREATE TABLE IF NOT EXISTS stops (
     stop_id INTEGER PRIMARY KEY AUTOINCREMENT,
     district TEXT, 
-    truename TEXT UNIQUE NOT NULL
+    truename TEXT
 );
-
+CREATE TABLE IF NOT EXISTS aliases (
+    alias TEXT UNIQUE ON CONFLICT REPLACE,
+    truename TEXT,
+    FOREIGN KEY (truename)
+        REFERENCES stops (truename)
+        ON DELETE CASCADE
+        ON UPDATE CASCADE
+);
 CREATE TABLE IF NOT EXISTS lines (
     label TEXT UNIQUE NOT NULL,
     looping_status INTEGER NOT NULL DEFAULT 0,

@@ -7,21 +7,31 @@ DIRNAME = os.path.dirname(__file__)
 
 def main():
     print("What do you want to do?")
-    print("Enter 1 to load stops to the database.")
-    print("Enter 2 to to load services, nearstops, and loops to the database.")
+    print("Enter 1 to to synchronize aliases from aliases.csv with services.txt.")
+    print("Enter 2 to to synchronize truenames from stops.csv with aliases.csv.")
+    print("Enter 3 to to load everything to the database.")
+    print("Enter 4 to load stops.csv into the database's stops table (LEGACY).")
 
     action = input("Action: >")
 
     if (action == "1"):
-        updateStopsDatabase()
+        updateAliasesCSV()
     if (action == "2"):
+        updateStopsCSV()
+    if (action == "3"):
         updateAllDatabase()
+    if (action == "4"):
+        loadStops()
     
     x = input()
 
 
 
 def updateAllDatabase():
+
+    # calls updateStopsDatabase to establish relation between alias and stopID. District and truename are not necessary just yet.
+    updateStopsDatabase()
+    print("")
 
     # establishes DB connection
     conn = sqlite3.connect(os.path.join(DIRNAME, "mhdle.db"))
@@ -58,6 +68,7 @@ def updateAllDatabase():
                         return
                     subservicenumber = None
                     linenumber = row[1]
+                    #cur.execute("INSERT INTO lines (label) VALUES (?) ON CONFLICT DO NOTHING", (linenumber,))
                     lines_tuples.append((linenumber,))
                 elif row[0] == "/subservice":
                     if linenumber == None:
@@ -92,14 +103,13 @@ def updateAllDatabase():
                 linenumber = None
                 color = None
                 subservicenumber = None
-            # elif len(row) > 1:
-            #     print(f"Error on line {rownumber} of services.txt. Wrongly structured line. Please fix.")
-            #     return
+            elif len(row) > 1:
+                print(f"Error on line {rownumber} of services.txt. Wrongly structured line. Please fix.")
+                return
             
             # sort out each subservice's stops
             else:
-                row = " ".join(row)
-                stop_id = cur.execute("SELECT stop_id FROM stops WHERE truename = ?", (row,)).fetchone()[0]
+                stop_id = cur.execute("SELECT stop_id FROM stops WHERE truename = (SELECT truename FROM aliases WHERE alias = ?)", (row[0],)).fetchone()[0]
                 services_tuples.append((linenumber, stop_id, subservicenumber, order_in_subservice,))
                 order_in_subservice += 1
 
@@ -118,15 +128,17 @@ def updateAllDatabase():
         reader = csv.DictReader(nearstops)
         rownumber = 2
         for row in reader:
-            stopone_id = row["first"]
-            stoptwo_id = row["second"]
+            stopone_id = cur.execute("SELECT stop_id FROM stops WHERE truename = (SELECT truename FROM aliases WHERE alias = ?)", (row["first"],)).fetchone()
+            stoptwo_id = cur.execute("SELECT stop_id FROM stops WHERE truename = (SELECT truename FROM aliases WHERE alias = ?)", (row["second"],)).fetchone()
             if stopone_id == None:
-                print(f"Error in nearstops, at line {rownumber}: column \"first\" has undefined stop ID \"{row['first']}\".")
+                print(f"Error in nearstops, at line {rownumber}: column \"first\" has undefined stop alias \"{row['first']}\".")
+                print("This stop alias is not present neither in the database, nor in services.txt.")
                 return
             if stoptwo_id == None:
-                print(f"Error in nearstops, at line {rownumber}: column \"second\" has undefined ID \"{row['second']}\".")
+                print(f"Error in nearstops, at line {rownumber}: column \"second\" has undefined alias \"{row['second']}\".")
+                print("This stop alias is not present neither in the database, nor in services.txt.")
                 return
-            nearstops_tuples.append((stopone_id, stoptwo_id, row["walktime"]))
+            nearstops_tuples.append((stopone_id[0], stoptwo_id[0], row["walktime"]))
             rownumber += 1
 
 
@@ -183,6 +195,16 @@ def updateAllDatabase():
 def updateStopsDatabase():
     conn = sqlite3.connect(os.path.join(DIRNAME, "mhdle.db"))
     cur = conn.cursor()
+
+    # read aliases.csv and add stop aliases and truenames
+    list_of_tuples = []
+    with open(os.path.join(DIRNAME, "data/aliases.csv"), "r", encoding="utf-8") as aliases:
+        reader = csv.DictReader(aliases)
+        for row in reader:
+            list_of_tuples.append((row["alias"],row["truename"]))
+    
+    # execute DB query
+    cur.executemany("INSERT INTO aliases (alias, truename) VALUES (?,?) ON CONFLICT DO NOTHING", list_of_tuples)
     
     # read stops.csv and add stop uids, districts, and truenames
     list_of_tuples = []
@@ -198,7 +220,104 @@ def updateStopsDatabase():
     cur.close()
     conn.close()
 
-    print(f"Successfully added data from stops.csv to the database's 'stops' table.")
+    print(f"Successfully added data from stops.csv and aliases.csv to the database's 'stops' and 'aliases' tables.")
+
+
+def updateStopsCSV():
+
+    # read existing stop truenames from stops.csv into variable
+    existing_truenames = set()
+    maximum_uid = 0
+    duplicate_truenames = set()
+    with open(os.path.join(DIRNAME, "data/stops.csv"), "r", encoding="utf-8") as stops:
+        reader = csv.DictReader(stops)
+        for row in reader:
+            # check and warn for duplicate aliases
+            if row["truename"] in existing_truenames:
+                duplicate_truenames.add(row["truename"])
+            existing_truenames.add(row["truename"])
+            maximum_uid = int(row["uid"])
+
+    # read aliases.csv and select which truenames to add to stops.csv
+    to_add_truenames = set()
+    with open(os.path.join(DIRNAME, "data/aliases.csv"), "r", encoding="utf-8") as aliases:
+        reader = csv.DictReader(aliases)
+        for row in reader:
+            if row["truename"] in existing_truenames:
+                continue
+            to_add_truenames.add(row["truename"])
+    
+    # write new aliases into stops.csv
+    number_of_appends = 0
+    with open(os.path.join(DIRNAME, "data/stops.csv"), "a", newline="") as stops:
+        writer = csv.DictWriter(stops, fieldnames=["uid", "district", "truename"])
+        for item in to_add_truenames:
+            writer.writerow({"uid": maximum_uid+1, "district": "DISTRICT", "truename": item})
+            number_of_appends += 1
+            maximum_uid += 1
+
+    #print out results
+    print("")
+    if number_of_appends == 0:
+        print("All aliases from services.txt are already present in stops.csv.")
+    else:
+        print(f"Sync complete. Successfully added {number_of_appends} aliases into the stops.csv file. Now go correct them!")
+
+    # warn user of duplicate aliases
+    if len(duplicate_truenames) == 0:
+        print("No duplicate stops have been found.")
+    else:
+        print(f"{len(duplicate_truenames)} duplicate stops found:")
+        for truename in duplicate_truenames:
+            print(truename)
+    
+    aliases.close()
+
+
+def updateAliasesCSV():
+    # read existing aliases.csv into variable
+    existing_aliases = set()
+    with open(os.path.join(DIRNAME, "data/aliases.csv"), "r", encoding="utf-8") as aliases:
+        reader = csv.DictReader(aliases)
+        for row in reader:
+            existing_aliases.add(row["alias"])
+    # read services and select which aliases to add to aliases.csv
+    to_add_aliases = set()
+    with open(os.path.join(DIRNAME, "data/services.txt"), "r", encoding="utf-8") as services:
+        for line in services:
+            line = line.strip()
+            if len(line) == 0:
+                continue
+            if line[0] in ["]", "}", "/"]:
+                continue
+            if line in existing_aliases:
+                continue
+            to_add_aliases.add(line)
+    with open(os.path.join(DIRNAME, "data/aliases.csv"), "a", encoding="utf-8", newline="") as aliases:
+        writer = csv.DictWriter(aliases, fieldnames=["alias", "truename"])
+        number_of_appends = 0
+        for item in to_add_aliases:
+            print(item)
+            writer.writerow({"alias": item, "truename": ""})
+            number_of_appends += 1
+        print(f"Append complete. Successfully added {number_of_appends} aliases. Now go correct them!")
+        aliases.close()
+
+
+def loadStops():
+    conn = sqlite3.connect(os.path.join(DIRNAME, "mhdle.db"))
+    cur = conn.cursor()
+
+    with open(os.path.join(DIRNAME, "data/stops.csv"), "r", encoding="utf-8") as stops:
+        reader = csv.DictReader(stops)
+        for row in reader:
+            # check and warn for duplicate aliases
+            cur.execute("INSERT INTO stops (stop_id, district, truename, alias) VALUES (?, ?, ?, ?) ON CONFLICT DO NOTHING;", (row["uid"], row["district"], row["truename"], row["alias"]))
+            conn.commit()
+
+    cur.close()
+    conn.close()
+
 
 if __name__ == "__main__":
     main()

@@ -1,3337 +1,3337 @@
 /line 1 {
     /color ff6600
     /subservice 1 [
-        hlavnastanica
-        podstanicou
-        uradvladysr
-        stu
-        vysoka
-        postova
-        centrum
-        jesenskeho
-        namlstura
-        safarikovonam
-        centrum
-        postova
-        vysoka
-        stu
-        uradvladysr
-        podstanicou
-        hlavnastanica
+        Hlavná stanica
+        Pod stanicou
+        Úrad vlády SR
+        STU
+        Vysoká
+        Poštová
+        Centrum
+        Jesenského
+        Nám. Ľ. Štúra
+        Šafárikovo nám.
+        Centrum
+        Poštová
+        Vysoká
+        STU
+        Úrad vlády SR
+        Pod stanicou
+        Hlavná stanica
     ]
 }
-
+ 
 /line 3 {
     /color e31e24
     /subservice 1 [
-        komisarky
-        puchovska
-        zahumenice
-        detvianska
-        hybesova
-        heckova
-        cernockeho
-        peknacesta
-        malokrasnanska
-        depokrasnany
-        stnvinohrady
-        nambielykriz
-        mladagarda
-        riazanska
-        pionierska
-        ursinyho
-        racianskemyto
-        blumental
-        americkenam
-        marianska
-        safarikovonam
-        sadjankakrala
-        farskeho
-        jungmannova
+        Komisárky
+        Púchovská
+        Záhumenice
+        Detvianska
+        Hybešova
+        Hečkova
+        Černockého
+        Pekná cesta
+        Malokrasňanská
+        Depo Krasňany
+        Stn. Vinohrady
+        Nám. Biely kríž
+        Mladá garda
+        Riazanská
+        Pionierska
+        Ursínyho
+        Račianske mýto
+        Blumentál
+        Americké nám.
+        Mariánska
+        Šafárikovo nám.
+        Sad Janka Kráľa
+        Farského
+        Jungmannova
     ]
     /subservice 2 [
-        jungmannova
-        farskeho
-        sadjankakrala
-        safarikovonam
-        marianska
-        americkenam
-        blumental
-        racianskemyto
-        ursinyho
-        pionierska
-        riazanska
-        mladagarda
-        nambielykriz
-        stnvinohrady
-        depokrasnany
-        malokrasnanska
-        peknacesta
-        cernockeho
-        heckova
-        hybesova
-        detvianska
-        zahumenice
-        puchovska
-        komisarky
+        Jungmannova
+        Farského
+        Sad Janka Kráľa
+        Šafárikovo nám.
+        Mariánska
+        Americké nám.
+        Blumentál
+        Račianske mýto
+        Ursínyho
+        Pionierska
+        Riazanská
+        Mladá garda
+        Nám. Biely kríž
+        Stn. Vinohrady
+        Depo Krasňany
+        Malokrasňanská
+        Pekná cesta
+        Černockého
+        Hečkova
+        Hybešova
+        Detvianska
+        Záhumenice
+        Púchovská
+        Komisárky
     ]
 }
-
+ 
 /line 4 {
     /color 7690c9
     /subservice 1 [
-        prikrizi
-        podvornice
-        drobneho
-        alexyho
-        svantnerova
-        zaluhy
-        hornekrcace
-        dolnekrcace
-        kutiky
-        borska
-        namsvfrantiska
-        nadluckami
-        segnerova
-        riviera
-        botanickazahrada
-        lafranconi
-        kralovskeudolie
-        chatamsofer
-        mostsnp
-        safarikovonam
-        centrum
-        marianska
-        americkenam
-        krizna
-        trnavskemyto
-        ceska
-        novadoba
-        miunovemesto
-        kuchajda
-        stnnovemesto
+        Pri kríži
+        Podvornice
+        Drobného
+        Alexyho
+        Švantnerova
+        Záluhy
+        Horné Krčace
+        Dolné Krčace
+        Kútiky
+        Borská
+        Nám. sv. Františka
+        Nad lúčkami
+        Segnerova
+        Riviéra
+        Botanická záhrada
+        Lanfranconi
+        Kráľovské údolie
+        Chatam Sófer
+        Most SNP
+        Šafárikovo nám.
+        Centrum
+        Mariánska
+        Americké nám.
+        Krížna
+        Trnavské mýto
+        Česká
+        Nová doba
+        MiÚ Nové Mesto
+        Kuchajda
+        Stn. Nové Mesto
     ]
     /subservice 2 [
-        prikrizi
-        podvornice
-        drobneho
-        alexyho
-        svantnerova
-        zaluhy
-        hornekrcace
-        dolnekrcace
-        kutiky
-        borska
-        namsvfrantiska
-        nadluckami
-        segnerova
-        riviera
-        botanickazahrada
-        lafranconi
-        kralovskeudolie
-        chatamsofer
-        mostsnp
-        safarikovonam
-        centrum
-        marianska
-        americkenam
-        krizna
-        trnavskemyto
-        ceska
-        novadoba
-        miunovemesto
-        kuchajda
-        odborarska
-        magnetova
-        jurajovdvor
-        vajnorska
-        shoppingpalace
-        zlatepiesky
+        Pri kríži
+        Podvornice
+        Drobného
+        Alexyho
+        Švantnerova
+        Záluhy
+        Horné Krčace
+        Dolné Krčace
+        Kútiky
+        Borská
+        Nám. sv. Františka
+        Nad lúčkami
+        Segnerova
+        Riviéra
+        Botanická záhrada
+        Lanfranconi
+        Kráľovské údolie
+        Chatam Sófer
+        Most SNP
+        Šafárikovo nám.
+        Centrum
+        Mariánska
+        Americké nám.
+        Krížna
+        Trnavské mýto
+        Česká
+        Nová doba
+        MiÚ Nové Mesto
+        Kuchajda
+        Odborárska
+        Magnetová
+        Jurajov dvor
+        Vajnorská
+        Shopping Palace
+        Zlaté piesky
     ]
     /subservice 3 [
-        stnnovemesto
-        kuchajda
-        miunovemesto
-        novadoba
-        ceska
-        trnavskemyto
-        krizna
-        americkenam
-        marianska
-        centrum
-        jesenskeho
-        namlstura
-        mostsnp
-        chatamsofer
-        kralovskeudolie
-        lafranconi
-        botanickazahrada
-        riviera
-        segnerova
-        nadluckami
-        namsvfrantiska
-        borska
-        kutiky
-        dolnekrcace
-        hornekrcace
-        zaluhy
-        svantnerova
-        alexyho
-        drobneho
-        podvornice
-        prikrizi
+        Stn. Nové Mesto
+        Kuchajda
+        MiÚ Nové Mesto
+        Nová doba
+        Česká
+        Trnavské mýto
+        Krížna
+        Americké nám.
+        Mariánska
+        Centrum
+        Jesenského
+        Nám. Ľ. Štúra
+        Most SNP
+        Chatam Sófer
+        Kráľovské údolie
+        Lanfranconi
+        Botanická záhrada
+        Riviéra
+        Segnerova
+        Nad lúčkami
+        Nám. sv. Františka
+        Borská
+        Kútiky
+        Dolné Krčace
+        Horné Krčace
+        Záluhy
+        Švantnerova
+        Alexyho
+        Drobného
+        Podvornice
+        Pri kríži
     ]
     /subservice 4 [
-        zlatepiesky
-        shoppingpalace
-        vajnorska
-        jurajovdvor
-        magnetova
-        odborarska
-        kuchajda
-        miunovemesto
-        novadoba
-        ceska
-        trnavskemyto
-        krizna
-        americkenam
-        marianska
-        centrum
-        jesenskeho
-        namlstura
-        mostsnp
-        chatamsofer
-        kralovskeudolie
-        lafranconi
-        botanickazahrada
-        riviera
-        segnerova
-        nadluckami
-        namsvfrantiska
-        borska
-        kutiky
-        dolnekrcace
-        hornekrcace
-        zaluhy
-        svantnerova
-        alexyho
-        drobneho
-        podvornice
-        prikrizi
+        Zlaté piesky
+        Shopping Palace
+        Vajnorská
+        Jurajov dvor
+        Magnetová
+        Odborárska
+        Kuchajda
+        MiÚ Nové Mesto
+        Nová doba
+        Česká
+        Trnavské mýto
+        Krížna
+        Americké nám.
+        Mariánska
+        Centrum
+        Jesenského
+        Nám. Ľ. Štúra
+        Most SNP
+        Chatam Sófer
+        Kráľovské údolie
+        Lanfranconi
+        Botanická záhrada
+        Riviéra
+        Segnerova
+        Nad lúčkami
+        Nám. sv. Františka
+        Borská
+        Kútiky
+        Dolné Krčace
+        Horné Krčace
+        Záluhy
+        Švantnerova
+        Alexyho
+        Drobného
+        Podvornice
+        Pri kríži
     ]
 }
-
+ 
 /line 7 {
     /color ffed00
     /subservice 1 [
-        komisarky
-        puchovska
-        zahumenice
-        detvianska
-        hybesova
-        heckova
-        cernockeho
-        peknacesta
-        malokrasnanska
-        depokrasnany
-        stnvinohrady
-        nambielykriz
-        mladagarda
-        riazanska
-        pionierska
-        ursinyho
-        racianskemyto
-        blumental
-        stu
-        uradvladysr
-        podstanicou
-        hlavnastanica
+        Komisárky
+        Púchovská
+        Záhumenice
+        Detvianska
+        Hybešova
+        Hečkova
+        Černockého
+        Pekná cesta
+        Malokrasňanská
+        Depo Krasňany
+        Stn. Vinohrady
+        Nám. Biely kríž
+        Mladá garda
+        Riazanská
+        Pionierska
+        Ursínyho
+        Račianske mýto
+        Blumentál
+        STU
+        Úrad vlády SR
+        Pod stanicou
+        Hlavná stanica
     ]
     /subservice 2 [
-        hlavnastanica
-        podstanicou
-        uradvladysr
-        blumental
-        racianskemyto
-        ursinyho
-        pionierska
-        riazanska
-        mladagarda
-        nambielykriz
-        stnvinohrady
-        depokrasnany
-        malokrasnanska
-        peknacesta
-        cernockeho
-        heckova
-        hybesova
-        detvianska
-        zahumenice
-        puchovska
-        komisarky
+        Hlavná stanica
+        Pod stanicou
+        Úrad vlády SR
+        Blumentál
+        Račianske mýto
+        Ursínyho
+        Pionierska
+        Riazanská
+        Mladá garda
+        Nám. Biely kríž
+        Stn. Vinohrady
+        Depo Krasňany
+        Malokrasňanská
+        Pekná cesta
+        Černockého
+        Hečkova
+        Hybešova
+        Detvianska
+        Záhumenice
+        Púchovská
+        Komisárky
     ]
 }
-
+ 
 /line 9 {
     /color b0cb1f
     /subservice 1 [
-        kutiky
-        borska
-        namsvfrantiska
-        nadluckami
-        segnerova
-        riviera
-        botanickazahrada
-        lafranconi
-        kralovskeudolie
-        kapucinska
-        postova
-        vysoka
-        blumental
-        krizna
-        trnavskemyto
-        saleziani
-        liscienivy
-        nemocnicaruzinov
-        herlianska
-        tomasikova
-        sumracna
-        chlumeckeho
-        astronomicka
+        Kútiky
+        Borská
+        Nám. sv. Františka
+        Nad lúčkami
+        Segnerova
+        Riviéra
+        Botanická záhrada
+        Lanfranconi
+        Kráľovské údolie
+        Kapucínska
+        Poštová
+        Vysoká
+        Blumentál
+        Krížna
+        Trnavské mýto
+        Saleziáni
+        Líščie nivy
+        Nemocnica Ružinov
+        Herlianska
+        Tomášikova
+        Súmračná
+        Chlumeckého
+        Astronomická
     ]
     /subservice 2 [
-        astronomicka
-        chlumeckeho
-        sumracna
-        tomasikova
-        herlianska
-        nemocnicaruzinov
-        liscienivy
-        saleziani
-        trnavskemyto
-        krizna
-        blumental
-        stu
-        vysoka
-        postova
-        kapucinska
-        kralovskeudolie
-        lafranconi
-        botanickazahrada
-        riviera
-        segnerova
-        nadluckami
-        namsvfrantiska
-        borska
-        kutiky
+        Astronomická
+        Chlumeckého
+        Súmračná
+        Tomášikova
+        Herlianska
+        Nemocnica Ružinov
+        Líščie nivy
+        Saleziáni
+        Trnavské mýto
+        Krížna
+        Blumentál
+        STU
+        Vysoká
+        Poštová
+        Kapucínska
+        Kráľovské údolie
+        Lanfranconi
+        Botanická záhrada
+        Riviéra
+        Segnerova
+        Nad lúčkami
+        Nám. sv. Františka
+        Borská
+        Kútiky
     ]
 }
-
+ 
 /line 33 {
     /color a79ecd
     /subservice 1 [
-        dlhediely
-        zsmajernikova
-        matejkova
-        tomankova
-        hanymelickovej
-        pripodchode
-        janotova
-        riviera
+        Dlhé diely
+        ZŠ Majerníkova
+        Matejkova
+        Tománkova
+        Hany Meličkovej
+        Pri podchode
+        Janotova
+        Riviéra
     ]
     /subservice 2 [
-        riviera
-        janotova
-        pripodchode
-        hanymelickovej
-        tomankova
-        matejkova
-        zsmajernikova
-        dlhediely
+        Riviéra
+        Janotova
+        Pri podchode
+        Hany Meličkovej
+        Tománkova
+        Matejkova
+        ZŠ Majerníkova
+        Dlhé diely
     ]
 }
-
+ 
 /line 40 {
     /color e51a4b
     /subservice 1 [
-        hlavnastanica
-        podstanicou
-        karpatska
-        racianskemyto
-        krizna
-        soltesovej
-        autobusovastanica
-        culenova
-        novesnd
+        Hlavná stanica
+        Pod stanicou
+        Karpatská
+        Račianske mýto
+        Krížna
+        Šoltésovej
+        Autobusová stanica
+        Čulenova
+        Nové SND
     ]
     /subservice 2 [
-        novesnd
-        culenova
-        autobusovastanica
-        malytrh
-        soltesovej
-        krizna
-        racianskemyto
-        karpatska
-        hlavnastanica
+        Nové SND
+        Čulenova
+        Autobusová stanica
+        Malý trh
+        Šoltésovej
+        Krížna
+        Račianske mýto
+        Karpatská
+        Hlavná stanica
     ]
 }
-
+ 
 /line 42 {
     /color a65430
     /subservice 1 [
-        cervenymost
-        patronka
-        suchymlyn
-        nemocnicakramare
-        magurska
-        bardosova
-        sokolska
-        podstanicou
-        hodzovonam
-        kollarovonam
-        spitalska
-        ondrejskycintorin
-        autobusovastanica
-        kosicka
-        novohradska
-        mileticova
-        prievozska
-        hranicna
-        miuruzinov
-        mierova
-        radnicnenam
-        strojnicka
-        hrachova
-        prievozmost
-        cintorinvrakuna
+        Červený most
+        Patrónka
+        Suchý mlyn
+        Nemocnica Kramáre
+        Magurská
+        Bárdošova
+        Sokolská
+        Pod stanicou
+        Hodžovo nám.
+        Kollárovo nám.
+        Špitálska
+        Ondrejský cintorín
+        Autobusová stanica
+        Košická
+        Novohradská
+        Miletičova
+        Prievozská
+        Hraničná
+        MiÚ Ružinov
+        Mierová
+        Radničné nám.
+        Strojnícka
+        Hrachová
+        Prievoz, most
+        Cintorín Vrakuňa
     ]
     /subservice 2 [
-        cintorinvrakuna
-        prievozmost
-        hrachova
-        strojnicka
-        radnicnenam
-        mierova
-        miuruzinov
-        hranicna
-        pazitkova
-        prievozska
-        mileticova
-        novohradska
-        kosicka
-        autobusovastanica
-        ondrejskycintorin
-        spitalska
-        kollarovonam
-        hodzovonam
-        podstanicou
-        sokolska
-        stromova
-        bardosova
-        magurska
-        nemocnicakramare
-        suchymlyn
-        patronka
-        cervenymost
+        Cintorín Vrakuňa
+        Prievoz, most
+        Hrachová
+        Strojnícka
+        Radničné nám.
+        Mierová
+        MiÚ Ružinov
+        Hraničná
+        Pažítková
+        Prievozská
+        Miletičova
+        Novohradská
+        Košická
+        Autobusová stanica
+        Ondrejský cintorín
+        Špitálska
+        Kollárovo nám.
+        Hodžovo nám.
+        Pod stanicou
+        Sokolská
+        Stromová
+        Bárdošova
+        Magurská
+        Nemocnica Kramáre
+        Suchý mlyn
+        Patrónka
+        Červený most
     ]
 }
-
+ 
 /line 44 {
     /color ce82b5
     /subservice 1 [
-        budkova
-        cervenykriz
-        hummelova
-        radvanska
-        inovecka
-        hrad
-        zamocka
-        svoradova
-        kozia
-        hodzovonam
-        prezidentskazahrada
-        uradvladysr
-        karpatska
-        tupeho
-        jeseniova
-        cremchova
-        husova
-        koliba
+        Búdková
+        Červený kríž
+        Hummelova
+        Radvanská
+        Inovecká
+        Hrad
+        Zámocká
+        Svoradová
+        Kozia
+        Hodžovo nám.
+        Prezident. záhrada
+        Úrad vlády SR
+        Karpatská
+        Tupého
+        Jeséniova
+        Čremchová
+        Husova
+        Koliba
     ]
     /subservice 2 [
-        koliba
-        husova
-        cremchova
-        jeseniova
-        tupeho
-        karpatska
-        uradvladysr
-        prezidentskazahrada
-        hodzovonam
-        kozia
-        svoradova
-        zamocka
-        hrad
-        inovecka
-        radvanska
-        hummelova
-        cervenykriz
-        budkova
+        Koliba
+        Husova
+        Čremchová
+        Jeséniova
+        Tupého
+        Karpatská
+        Úrad vlády SR
+        Prezident. záhrada
+        Hodžovo nám.
+        Kozia
+        Svoradová
+        Zámocká
+        Hrad
+        Inovecká
+        Radvanská
+        Hummelova
+        Červený kríž
+        Búdková
     ]
 }
-
+ 
 /line 45 {
     /subservice 1 [
-        cervenymost
-        patronka
-        suchymlyn
-        nemocnicakramare
-        vlarska
-        klenova
-        narodnyonkologickyustav
+        Červený most
+        Patrónka
+        Suchý mlyn
+        Nemocnica Kramáre
+        Vlárska
+        Klenová
+        Nár. onkol. ústav
     ]
     /subservice 2 [
-        narodnyonkologickyustav
-        klenova
-        vlarska
-        nemocnicakramare
-        suchymlyn
-        patronka
-        cervenymost
+        Nár. onkol. ústav
+        Klenová
+        Vlárska
+        Nemocnica Kramáre
+        Suchý mlyn
+        Patrónka
+        Červený most
     ]
 }
-
+ 
 /line 47 {
     /color eabd00
     /subservice 1 [
-        cervenymost
-        patronka
-        hyrosova
-        valasska
-        lovinskeho
-        depohrobonova
-        horskypark
-        budkova
-        cervenykriz
-        hummelova
-        radvanska
-        inovecka
-        hrad
-        zamocka
-        svoradova
-        kozia
-        hodzovonam
-        kollarovonam
-        americkenam
-        karadzicova
-        kvacalova
-        saleziani
-        zimnystadion
+        Červený most
+        Patrónka
+        Hýrošova
+        Valašská
+        Lovinského
+        Depo Hroboňova
+        Horský park
+        Búdková
+        Červený kríž
+        Hummelova
+        Radvanská
+        Inovecká
+        Hrad
+        Zámocká
+        Svoradová
+        Kozia
+        Hodžovo nám.
+        Kollárovo nám.
+        Americké nám.
+        Karadžičova
+        Kvačalova
+        Saleziáni
+        Zimný štadión
     ]
     /subservice 2 [
-        zimnystadion
-        saleziani
-        kvacalova
-        karadzicova
-        americkenam
-        kollarovonam
-        hodzovonam
-        kozia
-        svoradova
-        zamocka
-        hrad
-        inovecka
-        radvanska
-        hummelova
-        cervenykriz
-        budkova
-        horskypark
-        depohrobonova
-        lovinskeho
-        valasska
-        patronka
-        cervenymost
+        Zimný štadión
+        Saleziáni
+        Kvačalova
+        Karadžičova
+        Americké nám.
+        Kollárovo nám.
+        Hodžovo nám.
+        Kozia
+        Svoradová
+        Zámocká
+        Hrad
+        Inovecká
+        Radvanská
+        Hummelova
+        Červený kríž
+        Búdková
+        Horský park
+        Depo Hroboňova
+        Lovinského
+        Valašská
+        Patrónka
+        Červený most
     ]
 }
-
+ 
 /line 49 {
     /color ef7f1a
     /subservice 1 [
-        narodnyonkologickyustav
-        klenova
-        vlarska
-        magurska
-        bardosova
-        sokolska
-        podstanicou
-        karpatska
-        racianskemyto
-        trnavskemyto
-        saleziani
-        trhovisko
-        ruzovadolina
-        mliekarenska
+        Nár. onkol. ústav
+        Klenová
+        Vlárska
+        Magurská
+        Bárdošova
+        Sokolská
+        Pod stanicou
+        Karpatská
+        Račianske mýto
+        Trnavské mýto
+        Saleziáni
+        Trhovisko
+        Ružová dolina
+        Mliekarenská
     ]
     /subservice 2 [
-        nusch
-        vlarska
-        magurska
-        bardosova
-        sokolska
-        podstanicou
-        karpatska
-        racianskemyto
-        trnavskemyto
-        saleziani
-        trhovisko
-        ruzovadolina
-        mliekarenska
+        NÚSCH
+        Vlárska
+        Magurská
+        Bárdošova
+        Sokolská
+        Pod stanicou
+        Karpatská
+        Račianske mýto
+        Trnavské mýto
+        Saleziáni
+        Trhovisko
+        Ružová dolina
+        Mliekarenská
     ]
     /subservice 3 [
-        mliekarenska
-        ruzovadolina
-        trhovisko
-        saleziani
-        trnavskemyto
-        racianskemyto
-        karpatska
-        podstanicou
-        sokolska
-        stromova
-        bardosova
-        magurska
-        vlarska
-        nusch
+        Mliekarenská
+        Ružová dolina
+        Trhovisko
+        Saleziáni
+        Trnavské mýto
+        Račianske mýto
+        Karpatská
+        Pod stanicou
+        Sokolská
+        Stromová
+        Bárdošova
+        Magurská
+        Vlárska
+        NÚSCH
     ]
     /subservice 4 [
-        mliekarenska
-        ruzovadolina
-        trhovisko
-        saleziani
-        trnavskemyto
-        racianskemyto
-        karpatska
-        podstanicou
-        sokolska
-        stromova
-        bardosova
-        magurska
-        vlarska
-        klenova
-        narodnyonkologickyustav
+        Mliekarenská
+        Ružová dolina
+        Trhovisko
+        Saleziáni
+        Trnavské mýto
+        Račianske mýto
+        Karpatská
+        Pod stanicou
+        Sokolská
+        Stromová
+        Bárdošova
+        Magurská
+        Vlárska
+        Klenová
+        Nár. onkol. ústav
     ]
 }
-
+ 
 /line 60 {
     /color 2a4493
     /subservice 1 [
-        radiova
-        bulharska
-        spolocenska
-        hanacka
-        slovinska
-        klientskecentrum
-        sabinovska
-        bajkalska
-        zimnystadion
-        saleziani
-        kvacalova
-        kuliskova
-        cvernovka
-        kosicka
-        autobusovastanica
-        ondrejskycintorin
-        rajska
+        Rádiová
+        Bulharská
+        Spoločenská
+        Hanácka
+        Slovinská
+        Klientske centrum
+        Sabinovská
+        Bajkalská
+        Zimný štadión
+        Saleziáni
+        Kvačalova
+        Kulíškova
+        Cvernovka
+        Košická
+        Autobusová stanica
+        Ondrejský cintorín
+        Rajská
     ]
     /subservice 2 [
-        rajska
-        ondrejskycintorin
-        autobusovastanica
-        kosicka
-        cvernovka
-        kuliskova
-        kvacalova
-        saleziani
-        zimnystadion
-        bajkalska
-        sabinovska
-        klientskecentrum
-        slovinska
-        hanacka
-        spolocenska
-        bulharska
-        radiova
+        Rajská
+        Ondrejský cintorín
+        Autobusová stanica
+        Košická
+        Cvernovka
+        Kulíškova
+        Kvačalova
+        Saleziáni
+        Zimný štadión
+        Bajkalská
+        Sabinovská
+        Klientske centrum
+        Slovinská
+        Hanácka
+        Spoločenská
+        Bulharská
+        Rádiová
     ]
 }
-
+ 
 /line 64 {
     /color 009846
     /subservice 1 [
-        jelacicova
-        trnavskemyto
-        racianskemyto
-        karpatska
-        podstanicou
-        sokolska
-        stromova
-        bardosova
-        magurska
-        nemocnicakramare
-        suchymlyn
-        hyrosova
-        valasska
+        Jelačičová
+        Trnavské mýto
+        Račianske mýto
+        Karpatská
+        Pod stanicou
+        Sokolská
+        Stromová
+        Bárdošova
+        Magurská
+        Nemocnica Kramáre
+        Suchý mlyn
+        Hýrošova
+        Valašská
     ]
     /subservice 2 [
-        valasska
-        suchymlyn
-        nemocnicakramare
-        magurska
-        bardosova
-        sokolska
-        podstanicou
-        karpatska
-        racianskemyto
-        trnavskemyto
-        jelacicova
+        Valašská
+        Suchý mlyn
+        Nemocnica Kramáre
+        Magurská
+        Bárdošova
+        Sokolská
+        Pod stanicou
+        Karpatská
+        Račianske mýto
+        Trnavské mýto
+        Jelačičová
     ]
 }
-
+ 
 /line 71 {
     /color 00a0e3
     /subservice 1 [
-        hlavnastanica
-        podstanicou
-        karpatska
-        racianskemyto
-        trnavskemyto
-        saleziani
-        trhovisko
-        mileticova
-        prievozska
-        hranicna
-        gagarinova
-        brodna
-        ondrejovova
-        ribezlova
-        cintorinvrakuna
-        priekopnicka
-        komarovska
-        toryska
-        hronska
-        dudvazska
-        cilizska
+        Hlavná stanica
+        Pod stanicou
+        Karpatská
+        Račianske mýto
+        Trnavské mýto
+        Saleziáni
+        Trhovisko
+        Miletičova
+        Prievozská
+        Hraničná
+        Gagarinova
+        Brodná
+        Ondrejovova
+        Ríbezľová
+        Cintorín Vrakuňa
+        Priekopnícka
+        Komárovská
+        Toryská
+        Hronská
+        Dudvážska
+        Čiližská
     ]
     /subservice 2 [
-        cilizska
-        zitavska
-        dudvazska
-        hronska
-        toryska
-        komarovska
-        priekopnicka
-        cintorinvrakuna
-        ribezlova
-        ondrejovova
-        brodna
-        gagarinova
-        hranicna
-        pazitkova
-        prievozska
-        mileticova
-        trencianska
-        trhovisko
-        saleziani
-        trnavskemyto
-        racianskemyto
-        karpatska
-        hlavnastanica
+        Čiližská
+        žitavská
+        Dudvážska
+        Hronská
+        Toryská
+        Komárovská
+        Priekopnícka
+        Cintorín Vrakuňa
+        Ríbezľová
+        Ondrejovova
+        Brodná
+        Gagarinova
+        Hraničná
+        Pažítková
+        Prievozská
+        Miletičova
+        Trenčianska
+        Trhovisko
+        Saleziáni
+        Trnavské mýto
+        Račianske mýto
+        Karpatská
+        Hlavná stanica
     ]
 }
-
+ 
 /line 72 {
     /color b0cb1f
     /subservice 1 [
-        rajska
-        ondrejskycintorin
-        autobusovastanica
-        kosicka
-        novohradska
-        mileticova
-        prievozska
-        hranicna
-        gagarinova
-        brodna
-        ondrejovova
-        ribezlova
-        cintorinvrakuna
-        priekopnicka
-        komarovska
-        toryska
-        hronska
-        dudvazska
-        cilizska
+        Rajská
+        Ondrejský cintorín
+        Autobusová stanica
+        Košická
+        Novohradská
+        Miletičova
+        Prievozská
+        Hraničná
+        Gagarinova
+        Brodná
+        Ondrejovova
+        Ríbezľová
+        Cintorín Vrakuňa
+        Priekopnícka
+        Komárovská
+        Toryská
+        Hronská
+        Dudvážska
+        Čiližská
     ]
     /subservice 2 [
-        cilizska
-        zitavska
-        dudvazska
-        hronska
-        toryska
-        komarovska
-        priekopnicka
-        cintorinvrakuna
-        ribezlova
-        ondrejovova
-        brodna
-        gagarinova
-        hranicna
-        pazitkova
-        prievozska
-        mileticova
-        novohradska
-        kosicka
-        autobusovastanica
-        ondrejskycintorin
-        rajska
+        Čiližská
+        žitavská
+        Dudvážska
+        Hronská
+        Toryská
+        Komárovská
+        Priekopnícka
+        Cintorín Vrakuňa
+        Ríbezľová
+        Ondrejovova
+        Brodná
+        Gagarinova
+        Hraničná
+        Pažítková
+        Prievozská
+        Miletičova
+        Novohradská
+        Košická
+        Autobusová stanica
+        Ondrejský cintorín
+        Rajská
     ]
 }
-
+ 
 /line 20 {
     /subservice 1 [
-        opetalovavw5
-        paulinske
-        panske
-        bystricka
-        stndevnovaves
-        mlynska
-        novoveska
-        uhrovecka
-        hradistna
-        milanamarecka
-        stefanakralika
-        vapenka
-        krpas
-        kamenace
-        tpkolakovica
-        agatova
-        prikrizi
-        podvornice
-        drobneho
-        alexyho
-        svantnerova
-        zaluhy
-        lipskeho
-        huscavova
-        tescolamac
+        Opletalova, VW5
+        Paulinské
+        Panské
+        Bystrická
+        Stn. Dev. Nová Ves
+        Mlynská
+        Novoveská
+        Uhrovecká
+        Hradištná
+        Milana Marečka
+        Štefana Králika
+        Vápenka
+        Krpáš
+        Kamenáče
+        T. P. Kolakoviča
+        Agátová
+        Pri kríži
+        Podvornice
+        Drobného
+        Alexyho
+        Švantnerova
+        Záluhy
+        Lipského
+        Húščavova
+        Tesco Lamač
     ]
     /subservice 2 [
-        tescolamac
-        huscavova
-        lipskeho
-        zaluhy
-        svantnerova
-        alexyho
-        drobneho
-        podvornice
-        prikrizi
-        agatova
-        tpkolakovica
-        kamenace
-        krpas
-        vapenka
-        stefanakralika
-        milanamarecka
-        hradistna
-        uhrovecka
-        novoveska
-        mlynska
-        stndevnovaves
-        bystricka
-        panske
-        paulinske
-        opetalovavw5
+        Tesco Lamač
+        Húščavova
+        Lipského
+        Záluhy
+        Švantnerova
+        Alexyho
+        Drobného
+        Podvornice
+        Pri kríži
+        Agátová
+        T. P. Kolakoviča
+        Kamenáče
+        Krpáš
+        Vápenka
+        Štefana Králika
+        Milana Marečka
+        Hradištná
+        Uhrovecká
+        Novoveská
+        Mlynská
+        Stn. Dev. Nová Ves
+        Bystrická
+        Panské
+        Paulinské
+        Opletalova, VW5
     ]
 }
-
+ 
 /line 21 {
     /color 338632
     /subservice 1 [
-        autobusovastanica
-        krizna
-        racianskemyto
-        podstanicou
-        patronka
-        mokrohajska
-        ocbory
-        tpkolakovica
-        stefanakralika
-        milanamarecka
-        hradistna
-        prisandbergu
+        Autobusová stanica
+        Krížna
+        Račianske mýto
+        Pod stanicou
+        Patrónka
+        Mokrohájska
+        OC Bory
+        T. P. Kolakoviča
+        Štefana Králika
+        Milana Marečka
+        Hradištná
+        Pri Sandbergu
     ]
     /subservice 2 [
-        autobusovastanica
-        krizna
-        racianskemyto
-        podstanicou
-        patronka
-        mokrohajska
-        ocbory
-        tpkolakovica
-        stefanakralika
-        milanamarecka
-        hradistna
-        novoveska
-        mlynska
-        stndevnovaves
-        zamajerske
-        vw1
-        janajonasa
-        vw2
+        Autobusová stanica
+        Krížna
+        Račianske mýto
+        Pod stanicou
+        Patrónka
+        Mokrohájska
+        OC Bory
+        T. P. Kolakoviča
+        Štefana Králika
+        Milana Marečka
+        Hradištná
+        Novoveská
+        Mlynská
+        Stn. Dev. Nová Ves
+        Zamajerské
+        Jána Jonáša, VW1
+        Jána Jonáša
+        Volkswagen, VW2
     ]
     /subservice 3 [
-        prisandbergu
-        hradistna
-        milanamarecka
-        stefanakralika
-        tpkolakovica
-        ocbory
-        mokrohajska
-        patronka
-        podstanicou
-        racianskemyto
-        krizna
-        autobusovastanica
+        Pri Sandbergu
+        Hradištná
+        Milana Marečka
+        Štefana Králika
+        T. P. Kolakoviča
+        OC Bory
+        Mokrohájska
+        Patrónka
+        Pod stanicou
+        Račianske mýto
+        Krížna
+        Autobusová stanica
     ]
     /subservice 4 [
-        vw2
-        janajonasa
-        vw1
-        zamajerske
-        stndevnovaves
-        mlynska
-        novoveska
-        hradistna
-        milanamarecka
-        stefanakralika
-        tpkolakovica
-        ocbory
-        mokrohajska
-        patronka
-        podstanicou
-        racianskemyto
-        krizna
-        autobusovastanica
+        Volkswagen, VW2
+        Jána Jonáša
+        Jána Jonáša, VW1
+        Zamajerské
+        Stn. Dev. Nová Ves
+        Mlynská
+        Novoveská
+        Hradištná
+        Milana Marečka
+        Štefana Králika
+        T. P. Kolakoviča
+        OC Bory
+        Mokrohájska
+        Patrónka
+        Pod stanicou
+        Račianske mýto
+        Krížna
+        Autobusová stanica
     ]
 }
-
+ 
 /line 23 {
     /subservice 1 [
-        lamac
-        klanec
-        studenohorska
-        podhaj
-        bakosova
-        vrancovicova
-        podnasypom
-        kupaliskolamac
-        segnare
-        podnasypom
-        stnlamac
-        bilikova
-        alexyho
-        drobneho
-        podvornice
-        prikrizi
-        agatova
-        technickesklo
-        tpkolakovica
-        velkoluckypotok
-        napajiska
-        janajonasa
-        vw1
-        zamajerske
-        stndevnovaves
-        vapencova
-        rakyta
-        mlaka
+        Lamač
+        Klanec
+        Studenohorská
+        Podháj
+        Bakošova
+        Vrančovičova
+        Pod násypom
+        Kúpalisko Lamač
+        Segnáre
+        Pod násypom
+        Stn. Lamač
+        Bilíkova
+        Alexyho
+        Drobného
+        Podvornice
+        Pri kríži
+        Agátová
+        Technické sklo
+        T. P. Kolakoviča
+        Veľkolúcky potok
+        Napájiská
+        Jána Jonáša
+        Jána Jonáša, VW1
+        Zamajerské
+        Stn. Dev. Nová Ves
+        Vápencová
+        Rakyta
+        Mláka
     ]
     /subservice 2 [
-        mlaka
-        rakyta
-        vapencova
-        stndevnovaves
-        zamajerske
-        vw1
-        janajonasa
-        napajiska
-        velkoluckypotok
-        tpkolakovica
-        technickesklo
-        agatova
-        prikrizi
-        podvornice
-        drobneho
-        alexyho
-        stnlamac
-        podnasypom
-        kupaliskolamac
-        segnare
-        podnasypom
-        vrancovicova
-        bakosova
-        podhaj
-        studenohorska
-        klanec
-        lamac
+        Mláka
+        Rakyta
+        Vápencová
+        Stn. Dev. Nová Ves
+        Zamajerské
+        Jána Jonáša, VW1
+        Jána Jonáša
+        Napájiská
+        Veľkolúcky potok
+        T. P. Kolakoviča
+        Technické sklo
+        Agátová
+        Pri kríži
+        Podvornice
+        Drobného
+        Alexyho
+        Stn. Lamač
+        Pod násypom
+        Kúpalisko Lamač
+        Segnáre
+        Pod násypom
+        Vrančovičova
+        Bakošova
+        Podháj
+        Studenohorská
+        Klanec
+        Lamač
     ]
 }
-
+ 
 /line 25 {
     /subservice 1 [
-        autobusovastanica
-        krizna
-        racianskemyto
-        podstanicou
-        patronka
-        vrancovicova
-        ocbory
-        velkoluckypotok
-        vw2
+        Autobusová stanica
+        Krížna
+        Račianske mýto
+        Pod stanicou
+        Patrónka
+        Vrančovičova
+        OC Bory
+        Veľkolúcky potok
+        Volkswagen, VW2
     ]
     /subservice 2 [
-        autobusovastanica
-        krizna
-        racianskemyto
-        podstanicou
-        patronka
-        vrancovicova
-        ocbory
-        stndevnovaves
-        panske
-        paulinske
-        opetalovavw5
-        vw1
+        Autobusová stanica
+        Krížna
+        Račianske mýto
+        Pod stanicou
+        Patrónka
+        Vrančovičova
+        OC Bory
+        Stn. Dev. Nová Ves
+        Panské
+        Paulinské
+        Opletalova, VW5
+        Jána Jonáša, VW1
     ]
     /subservice 3 [
-        vw2
-        velkoluckypotok
-        ocbory
-        vrancovicova
-        patronka
-        podstanicou
-        racianskemyto
-        krizna
-        autobusovastanica
+        Volkswagen, VW2
+        Veľkolúcky potok
+        OC Bory
+        Vrančovičova
+        Patrónka
+        Pod stanicou
+        Račianske mýto
+        Krížna
+        Autobusová stanica
     ]
     /subservice 4 [
-        vw1
-        opetalovavw5
-        paulinske
-        panske
-        stndevnovaves
-        ocbory
-        vrancovicova
-        patronka
-        podstanicou
-        racianskemyto
-        krizna
-        autobusovastanica
+        Jána Jonáša, VW1
+        Opletalova, VW5
+        Paulinské
+        Panské
+        Stn. Dev. Nová Ves
+        OC Bory
+        Vrančovičova
+        Patrónka
+        Pod stanicou
+        Račianske mýto
+        Krížna
+        Autobusová stanica
     ]
 }
-
+ 
 /line 26 {
     /subservice 1 [
-        homolova
-        stepna
-        zatevna
-        pernikova
-        podvornice
-        prikrizi
-        velkoluckypotok
-        vw2
+        Homolova
+        Štepná
+        žatevná
+        Pekníkova
+        Podvornice
+        Pri kríži
+        Veľkolúcky potok
+        Volkswagen, VW2
     ]
     /subservice 2 [
-        homolova
-        stepna
-        zatevna
-        pernikova
-        podvornice
-        prikrizi
-        stndevnovaves
-        panske
-        paulinske
-        opetalovavw5
-        vw1
+        Homolova
+        Štepná
+        žatevná
+        Pekníkova
+        Podvornice
+        Pri kríži
+        Stn. Dev. Nová Ves
+        Panské
+        Paulinské
+        Opletalova, VW5
+        Jána Jonáša, VW1
     ]
     /subservice 3 [
-        vw2
-        velkoluckypotok
-        prikrizi
-        podvornice
-        pernikova
-        zatevna
-        stepna
-        homolova
+        Volkswagen, VW2
+        Veľkolúcky potok
+        Pri kríži
+        Podvornice
+        Pekníkova
+        žatevná
+        Štepná
+        Homolova
     ]
     /subservice 4 [
-        vw1
-        opetalovavw5
-        paulinske
-        panske
-        stndevnovaves
-        prikrizi
-        podvornice
-        pernikova
-        zatevna
-        stepna
-        homolova
+        Jána Jonáša, VW1
+        Opletalova, VW5
+        Paulinské
+        Panské
+        Stn. Dev. Nová Ves
+        Pri kríži
+        Podvornice
+        Pekníkova
+        žatevná
+        Štepná
+        Homolova
     ]
 }
-
+ 
 /line 29 {
     /subservice 1 [
-        malascena
-        safarikovonam
-        namlstura
-        mostsnp
-        chatamsofer
-        kralovskeudolie
-        lafranconi
-        botanickazahrada
-        riviera
-        jurigrad
-        sihot
-        kadlecik
-        zlateschody
-        hajovna
-        prizahradach
-        novykamenolom
-        starykamenolom
-        dolnekoruny
-        kzlatemurohu
-        slovanskenabr
-        cyrilametod
-        strbska
-        hraddevin
-        poddevkobylou
-        waitovlom
-        morava
-        prisandbergu
-        uhrovecka
-        novoveska
-        mlynska
-        stndevnovaves
-        bystricka
-        panske
-        paulinske
-        opetalovavw5
+        Malá scéna
+        Šafárikovo nám.
+        Nám. Ľ. Štúra
+        Most SNP
+        Chatam Sófer
+        Kráľovské údolie
+        Lanfranconi
+        Botanická záhrada
+        Riviéra
+        Jurigrad
+        Sihoť
+        Kadlečík
+        Zlaté schody
+        Hájovňa
+        Pri záhradách
+        Nový kameňolom
+        Starý kameňolom
+        Dolné koruny
+        K Zlatému rohu
+        Slovanské nábr.
+        Cyril a Metod
+        Štrbská
+        Hrad Devín
+        Pod Dev. Kobylou
+        Waitov lom
+        Morava
+        Pri Sandbergu
+        Uhrovecká
+        Novoveská
+        Mlynská
+        Stn. Dev. Nová Ves
+        Bystrická
+        Panské
+        Paulinské
+        Opletalova, VW5
     ]
     /subservice 2 [
-        malascena
-        safarikovonam
-        namlstura
-        mostsnp
-        chatamsofer
-        kralovskeudolie
-        lafranconi
-        botanickazahrada
-        riviera
-        jurigrad
-        sihot
-        kadlecik
-        zlateschody
-        hajovna
-        prizahradach
-        novykamenolom
-        starykamenolom
-        dolnekoruny
-        kzlatemurohu
-        slovanskenabr
-        cyrilametod
-        strbska
-        hraddevin
-        poddevkobylou
-        waitovlom
-        morava
-        prisandbergu
-        ivanabukovcana
-        nagrbe
-        novoveska
-        mlynska
-        stndevnovaves
-        bystricka
-        panske
-        paulinske
-        opetalovavw5
+        Malá scéna
+        Šafárikovo nám.
+        Nám. Ľ. Štúra
+        Most SNP
+        Chatam Sófer
+        Kráľovské údolie
+        Lanfranconi
+        Botanická záhrada
+        Riviéra
+        Jurigrad
+        Sihoť
+        Kadlečík
+        Zlaté schody
+        Hájovňa
+        Pri záhradách
+        Nový kameňolom
+        Starý kameňolom
+        Dolné koruny
+        K Zlatému rohu
+        Slovanské nábr.
+        Cyril a Metod
+        Štrbská
+        Hrad Devín
+        Pod Dev. Kobylou
+        Waitov lom
+        Morava
+        Pri Sandbergu
+        Ivana Bukovčana
+        Na Grbe
+        Novoveská
+        Mlynská
+        Stn. Dev. Nová Ves
+        Bystrická
+        Panské
+        Paulinské
+        Opletalova, VW5
     ]
     /subservice 3 [
-        opetalovavw5
-        paulinske
-        panske
-        bystricka
-        stndevnovaves
-        mlynska
-        novoveska
-        uhrovecka
-        prisandbergu
-        morava
-        waitovlom
-        poddevkobylou
-        hraddevin
-        strbska
-        cyrilametod
-        slovanskenabr
-        kzlatemurohu
-        dolnekoruny
-        starykamenolom
-        novykamenolom
-        prizahradach
-        hajovna
-        zlateschody
-        kadlecik
-        sihot
-        jurigrad
-        riviera
-        botanickazahrada
-        lafranconi
-        kralovskeudolie
-        chatamsofer
-        mostsnp
-        namlstura
-        safarikovonam
-        malascena
+        Opletalova, VW5
+        Paulinské
+        Panské
+        Bystrická
+        Stn. Dev. Nová Ves
+        Mlynská
+        Novoveská
+        Uhrovecká
+        Pri Sandbergu
+        Morava
+        Waitov lom
+        Pod Dev. Kobylou
+        Hrad Devín
+        Štrbská
+        Cyril a Metod
+        Slovanské nábr.
+        K Zlatému rohu
+        Dolné koruny
+        Starý kameňolom
+        Nový kameňolom
+        Pri záhradách
+        Hájovňa
+        Zlaté schody
+        Kadlečík
+        Sihoť
+        Jurigrad
+        Riviéra
+        Botanická záhrada
+        Lanfranconi
+        Kráľovské údolie
+        Chatam Sófer
+        Most SNP
+        Nám. Ľ. Štúra
+        Šafárikovo nám.
+        Malá scéna
     ]
     /subservice 4 [
-        opetalovavw5
-        paulinske
-        panske
-        bystricka
-        stndevnovaves
-        mlynska
-        novoveska
-        nagrbe
-        ivanabukovcana
-        prisandbergu
-        morava
-        waitovlom
-        poddevkobylou
-        hraddevin
-        strbska
-        cyrilametod
-        slovanskenabr
-        kzlatemurohu
-        dolnekoruny
-        starykamenolom
-        novykamenolom
-        prizahradach
-        hajovna
-        zlateschody
-        kadlecik
-        sihot
-        jurigrad
-        riviera
-        botanickazahrada
-        lafranconi
-        kralovskeudolie
-        chatamsofer
-        mostsnp
-        namlstura
-        safarikovonam
-        malascena
+        Opletalova, VW5
+        Paulinské
+        Panské
+        Bystrická
+        Stn. Dev. Nová Ves
+        Mlynská
+        Novoveská
+        Na Grbe
+        Ivana Bukovčana
+        Pri Sandbergu
+        Morava
+        Waitov lom
+        Pod Dev. Kobylou
+        Hrad Devín
+        Štrbská
+        Cyril a Metod
+        Slovanské nábr.
+        K Zlatému rohu
+        Dolné koruny
+        Starý kameňolom
+        Nový kameňolom
+        Pri záhradách
+        Hájovňa
+        Zlaté schody
+        Kadlečík
+        Sihoť
+        Jurigrad
+        Riviéra
+        Botanická záhrada
+        Lanfranconi
+        Kráľovské údolie
+        Chatam Sófer
+        Most SNP
+        Nám. Ľ. Štúra
+        Šafárikovo nám.
+        Malá scéna
     ]
 }
-
+ 
 /line 30 {
     /subservice 1 [
-        podvornice
-        prikrizi
-        agatova
-        hrubeluky
-        vladimirajukla
-        nemocnicabory
-        ocbory
-        hodoninska
-        bakosova
-        podhaj
-        studenohorska
-        klanec
-        lamac
-        vrancovicova
-        podnasypom
-        kupaliskolamac
-        segnare
-        podnasypom
-        stnlamac
-        pridanky
-        tescolamac
-        mokrohajska
-        patronka
+        Podvornice
+        Pri kríži
+        Agátová
+        Hrubé lúky
+        Vladimíra Jukla
+        Nemocnica Bory
+        OC Bory
+        Hodonínska
+        Bakošova
+        Podháj
+        Studenohorská
+        Klanec
+        Lamač
+        Vrančovičova
+        Pod násypom
+        Kúpalisko Lamač
+        Segnáre
+        Pod násypom
+        Stn. Lamač
+        Pridánky
+        Tesco Lamač
+        Mokrohájska
+        Patrónka
     ]
     /subservice 2 [
-        patronka
-        mokrohajska
-        tescolamac
-        pridanky
-        skerlicova
-        stnlamac
-        podnasypom
-        kupaliskolamac
-        segnare
-        podnasypom
-        vrancovicova
-        lamac
-        klanec
-        studenohorska
-        podhaj
-        bakosova
-        hodoninska
-        ocbory
-        nemocnicabory
-        vladimirajukla
-        hrubeluky
-        agatova
-        prikrizi
-        podvornice
+        Patrónka
+        Mokrohájska
+        Tesco Lamač
+        Pridánky
+        Skerličova
+        Stn. Lamač
+        Pod násypom
+        Kúpalisko Lamač
+        Segnáre
+        Pod násypom
+        Vrančovičova
+        Lamač
+        Klanec
+        Studenohorská
+        Podháj
+        Bakošova
+        Hodonínska
+        OC Bory
+        Nemocnica Bory
+        Vladimíra Jukla
+        Hrubé lúky
+        Agátová
+        Pri kríži
+        Podvornice
     ]
 }
-
+ 
 /line 31 {
     /subservice 1 [
-        cintorinslavicie
-        televizia
-        zoo
-        lafranconi
-        kralovskeudolie
-        chatamsofer
-        zochova
-        kollarovonam
-        blumental
-        namslobody
-        kollarovonam
-        zochova
-        chatamsofer
-        kralovskeudolie
-        lafranconi
-        zoo
-        televizia
-        cintorinslavicie
+        Cintorín Slávičie
+        Televízia
+        Zoo
+        Lanfranconi
+        Kráľovské údolie
+        Chatam Sófer
+        Zochova
+        Kollárovo nám.
+        Blumentál
+        Nám. slobody
+        Kollárovo nám.
+        Zochova
+        Chatam Sófer
+        Kráľovské údolie
+        Lanfranconi
+        Zoo
+        Televízia
+        Cintorín Slávičie
     ]
 }
-
+ 
 /line 32 {
     /subservice 1 [
-        dlhediely
-        zsmajernikova
-        matejkova
-        tomankova
-        hanymelickovej
-        pripodchode
-        janotova
-        riviera
-        botanickazahrada
-        zoo
-        habanskymlyn
-        suchymlyn
-        nemocnicakramare
-        magurska
-        bardosova
-        sokolska
-        hlavnastanica
+        Dlhé diely
+        ZŠ Majerníkova
+        Matejkova
+        Tománkova
+        Hany Meličkovej
+        Pri podchode
+        Janotova
+        Riviéra
+        Botanická záhrada
+        Zoo
+        Habánsky mlyn
+        Suchý mlyn
+        Nemocnica Kramáre
+        Magurská
+        Bárdošova
+        Sokolská
+        Hlavná stanica
     ]
     /subservice 2 [
-        hlavnastanica
-        podstanicou
-        sokolska
-        bardosova
-        magurska
-        nemocnicakramare
-        suchymlyn
-        habanskymlyn
-        zoo
-        botanickazahrada
-        riviera
-        janotova
-        pripodchode
-        hanymelickovej
-        tomankova
-        matejkova
-        zsmajernikova
-        dlhediely
+        Hlavná stanica
+        Pod stanicou
+        Sokolská
+        Bárdošova
+        Magurská
+        Nemocnica Kramáre
+        Suchý mlyn
+        Habánsky mlyn
+        Zoo
+        Botanická záhrada
+        Riviéra
+        Janotova
+        Pri podchode
+        Hany Meličkovej
+        Tománkova
+        Matejkova
+        ZŠ Majerníkova
+        Dlhé diely
     ]
 }
-
+ 
 /line 35 {
     /subservice 1 [
-        dlhediely
-        podkralovouhorou
-        kuklovska
-        solosnicka
-        sastinska
-        kutiky
-        borska
-        dolnekrcace
-        hornekrcace
-        harmincova
-        lipskeho
-        polianky
-        dubravskacesta
+        Dlhé diely
+        Pod Kráľovou horou
+        Kuklovská
+        Sološnická
+        Šaštínska
+        Kútiky
+        Borská
+        Dolné Krčace
+        Horné Krčace
+        Harmincova
+        Lipského
+        Polianky
+        Dúbravská cesta
     ]
     /subservice 2 [
-        dubravskacesta
-        polianky
-        lipskeho
-        harmincova
-        hornekrcace
-        dolnekrcace
-        kutiky
-        borska
-        solosnicka
-        sastinska
-        kuklovska
-        podkralovouhorou
-        dlhediely
+        Dúbravská cesta
+        Polianky
+        Lipského
+        Harmincova
+        Horné Krčace
+        Dolné Krčace
+        Kútiky
+        Borská
+        Sološnická
+        Šaštínska
+        Kuklovská
+        Pod Kráľovou horou
+        Dlhé diely
     ]
 }
-
+ 
 /line 36 {
     /subservice 1 [
-        strmevrsky
-        bystrickesady
-        podvrskami
-        rudavska
-        krce
-        miuzahbystrica
-        zahorska
-        krce
-        rudavska
-        bystrickesady
-        strmevrsky
+        Strmé vŕšky
+        Bystrické sady
+        Pod vŕškami
+        Rudavská
+        Krče
+        MiÚ Záh. Bystrica
+        Záhorská
+        Krče
+        Rudavská
+        Bystrické sady
+        Strmé vŕšky
     ]
 }
-
+ 
 /line 37 {
     /color e31e24
     /subservice 1 [
-        mostsnp
-        chatamsofer
-        kralovskeudolie
-        lafranconi
-        zoo
-        habanskymlyn
-        patronka
-        mokrohajska
-        tescolamac
-        pridanky
-        skerlicova
-        stnlamac
-        podnasypom
-        vrancovicova
-        hodoninska
-        prikrematoriu
-        podkerepusky
-        kulhan
-        dievcihradok
-        bratislavska
-        krce
-        miuzahbystrica
-        zahorska
-        zahorskabystrica
+        Most SNP
+        Chatam Sófer
+        Kráľovské údolie
+        Lanfranconi
+        Zoo
+        Habánsky mlyn
+        Patrónka
+        Mokrohájska
+        Tesco Lamač
+        Pridánky
+        Skerličova
+        Stn. Lamač
+        Pod násypom
+        Vrančovičova
+        Hodonínska
+        Pri krematóriu
+        Podkerepušky
+        Kulháň
+        Dievčí hrádok
+        Bratislavská
+        Krče
+        MiÚ Záh. Bystrica
+        Záhorská
+        Záhorská Bystrica
     ]
     /subservice 2 [
-        zahorskabystrica
-        zahorska
-        krce
-        bratislavska
-        dievcihradok
-        kulhan
-        podkerepusky
-        prikrematoriu
-        hodoninska
-        vrancovicova
-        podnasypom
-        stnlamac
-        pridanky
-        mokrohajska
-        patronka
-        habanskymlyn
-        zoo
-        lafranconi
-        kralovskeudolie
-        chatamsofer
-        mostsnp
+        Záhorská Bystrica
+        Záhorská
+        Krče
+        Bratislavská
+        Dievčí hrádok
+        Kulháň
+        Podkerepušky
+        Pri krematóriu
+        Hodonínska
+        Vrančovičova
+        Pod násypom
+        Stn. Lamač
+        Pridánky
+        Mokrohájska
+        Patrónka
+        Habánsky mlyn
+        Zoo
+        Lanfranconi
+        Kráľovské údolie
+        Chatam Sófer
+        Most SNP
     ]
 }
-
+ 
 /line 39 {
     /subservice 1 [
-        cintorinslavicie
-        televizia
-        zoo
-        lafranconi
-        kralovskeudolie
-        chatamsofer
-        zochova
-        kollarovonam
-        blumental
-        racianskemyto
-        trnavskemyto
-        zimnystadion
-        bajkalska
-        sabinovska
-        klientskecentrum
-        trnavskacesta
-        martinskycintorin
-        clementisova
-        planet
-        suhvezdna
+        Cintorín Slávičie
+        Televízia
+        Zoo
+        Lanfranconi
+        Kráľovské údolie
+        Chatam Sófer
+        Zochova
+        Kollárovo nám.
+        Blumentál
+        Račianske mýto
+        Trnavské mýto
+        Zimný štadión
+        Bajkalská
+        Sabinovská
+        Klientske centrum
+        Trnavská cesta
+        Martinský cintorín
+        Clementisova
+        Planét
+        Súhvezdná
     ]
     /subservice 2 [
-        suhvezdna
-        planet
-        clementisova
-        martinskycintorin
-        trnavskacesta
-        klientskecentrum
-        sabinovska
-        bajkalska
-        zimnystadion
-        trnavskemyto
-        racianskemyto
-        povraznicka
-        namslobody
-        kollarovonam
-        zochova
-        chatamsofer
-        kralovskeudolie
-        lafranconi
-        zoo
-        televizia
-        cintorinslavicie
+        Súhvezdná
+        Planét
+        Clementisova
+        Martinský cintorín
+        Trnavská cesta
+        Klientske centrum
+        Sabinovská
+        Bajkalská
+        Zimný štadión
+        Trnavské mýto
+        Račianske mýto
+        Povraznícka
+        Nám. slobody
+        Kollárovo nám.
+        Zochova
+        Chatam Sófer
+        Kráľovské údolie
+        Lanfranconi
+        Zoo
+        Televízia
+        Cintorín Slávičie
     ]
 }
-
+ 
 /line 41 {
     /subservice 1 [
-        hlavnastanica
-        podstanicou
-        sokolska
-        hrobonova
-        prokopavelkeho
-        depohrobonova
-        subezna
-        bubnovka
-        slovnararchiv
-        safranova
-        prvosienkova
-        nahrebienku
-        budkova
+        Hlavná stanica
+        Pod stanicou
+        Sokolská
+        Hroboňova
+        Prokopa Veľkého
+        Depo Hroboňova
+        Súbežná
+        Bubnovka
+        Slov. nár. archív
+        Šafranová
+        Prvosienková
+        Na hrebienku
+        Búdková
     ]
     /subservice 2 [
-        budkova
-        nahrebienku
-        prvosienkova
-        safranova
-        slovnararchiv
-        bubnovka
-        subezna
-        depohrobonova
-        hrobonova
-        sokolska
-        hlavnastanica
+        Búdková
+        Na hrebienku
+        Prvosienková
+        Šafranová
+        Slov. nár. archív
+        Bubnovka
+        Súbežná
+        Depo Hroboňova
+        Hroboňova
+        Sokolská
+        Hlavná stanica
     ]
 }
-
+ 
 /line 43 {
     /subservice 1 [
-        patronka
-        cervenymost
-        partizanskaluka
-        klepac
-        deviatymlyn
-        zeleznastudnicka
-        kacinskadolina
-        kacin
+        Patrónka
+        Červený most
+        Partizánska lúka
+        Klepáč
+        Deviaty mlyn
+        železná studnička
+        Kačínska Dolina
+        Kačín
     ]
     /subservice 2 [
-        patronka
-        cervenymost
-        partizanskaluka
-        klepac
-        deviatymlyn
-        zeleznastudnicka
-        bukva
-        drienovskeluky
-        lanovka
-        kamenolom
-        lesopark
+        Patrónka
+        Červený most
+        Partizánska lúka
+        Klepáč
+        Deviaty mlyn
+        železná studnička
+        Bukva
+        Drieňovské lúky
+        Lanovka
+        Kameňolom
+        Lesopark
     ]
     /subservice 3 [
-        kacin
-        kacinskadolina
-        zeleznastudnicka
-        deviatymlyn
-        klepac
-        partizanskaluka
-        cervenymost
-        patronka
+        Kačín
+        Kačínska Dolina
+        železná studnička
+        Deviaty mlyn
+        Klepáč
+        Partizánska lúka
+        Červený most
+        Patrónka
     ]
     /subservice 4 [
-        lesopark
-        kamenolom
-        lanovka
-        drienovskeluky
-        bukva
-        zeleznastudnicka
-        deviatymlyn
-        klepac
-        partizanskaluka
-        cervenymost
-        patronka
+        Lesopark
+        Kameňolom
+        Lanovka
+        Drieňovské lúky
+        Bukva
+        železná studnička
+        Deviaty mlyn
+        Klepáč
+        Partizánska lúka
+        Červený most
+        Patrónka
     ]
 }
-
+ 
 /line 50 {
     /color 57a7b3
     /subservice 1 [
-        kukucinova
-        slovany
-        halkova
-        miunovemesto
-        stnnovemesto
-        klientskecentrum
-        haburska
-        maximilianahella
-        tomasikova
-        herlianska
-        nemocnicaruzinov
-        liscienivy
-        trhovisko
-        dulovonam
-        kosicka
-        autobusovastanica
-        culenova
-        landererova
-        mostapollo
-        oceinsteinova
+        Kukučínova
+        Slovany
+        Hálkova
+        MiÚ Nové Mesto
+        Stn. Nové Mesto
+        Klientske centrum
+        Haburská
+        Maximiliána Hella
+        Tomášikova
+        Herlianska
+        Nemocnica Ružinov
+        Líščie nivy
+        Trhovisko
+        Dulovo nám.
+        Košická
+        Autobusová stanica
+        Čulenova
+        Landererová
+        Most Apollo
+        OC Einsteinova
     ]
     /subservice 2 [
-        oceinsteinova
-        mostsnp
-        namlstura
-        safarikovonam
-        malascena
-        culenova
-        autobusovastanica
-        kosicka
-        cvernovka
-        dulovonam
-        trhovisko
-        liscienivy
-        nemocnicaruzinov
-        herlianska
-        tomasikova
-        maximilianahella
-        zaluzicka
-        haburska
-        klientskecentrum
-        stnnovemesto
-        miunovemesto
-        halkova
-        slovany
-        kukucinova
+        OC Einsteinova
+        Most SNP
+        Nám. Ľ. Štúra
+        Šafárikovo nám.
+        Malá scéna
+        Čulenova
+        Autobusová stanica
+        Košická
+        Cvernovka
+        Dulovo nám.
+        Trhovisko
+        Líščie nivy
+        Nemocnica Ružinov
+        Herlianska
+        Tomášikova
+        Maximiliána Hella
+        Zálužická
+        Haburská
+        Klientske centrum
+        Stn. Nové Mesto
+        MiÚ Nové Mesto
+        Hálkova
+        Slovany
+        Kukučínova
     ]
 }
-
+ 
 /line 51 {
     /subservice 1 [
-        trnavskemyto
-        tehelna
-        kukucinova
-        slovany
-        halkova
-        miunovemesto
-        kuchajda
-        odborarska
-        stareihrisko
-        trojdomy
-        nobelova
-        depokrasnany
+        Trnavské mýto
+        Tehelná
+        Kukučínova
+        Slovany
+        Hálkova
+        MiÚ Nové Mesto
+        Kuchajda
+        Odborárska
+        Staré ihrisko
+        Trojdomy
+        Nobelova
+        Depo Krasňany
     ]
     /subservice 2 [
-        depokrasnany
-        nobelova
-        trojdomy
-        stareihrisko
-        odborarska
-        kuchajda
-        miunovemesto
-        halkova
-        slovany
-        kukucinova
-        tehelna
-        trnavskemyto
+        Depo Krasňany
+        Nobelova
+        Trojdomy
+        Staré ihrisko
+        Odborárska
+        Kuchajda
+        MiÚ Nové Mesto
+        Hálkova
+        Slovany
+        Kukučínova
+        Tehelná
+        Trnavské mýto
     ]
 }
-
+ 
 /line 52 {
     /subservice 1 [
-        stnvajnory
-        primlyne
-        pracanska
-        uhliska
-        ocvajnory
-        stareletisko
-        rusnovedepo2
-        napasekach
-        vychodne
-        rusnovedepo1
-        sklabinska
-        prisajbach
-        pastierska
-        stolarska
-        detvianska
-        zavadska
-        tbiliska
-        drozdova
-        zvoncekova
-        potocna
+        Stn. Vajnory
+        Pri mlyne
+        Pračanská
+        Uhliská
+        OC Vajnory
+        Staré letisko
+        Rušňové depo II
+        Na pasekách
+        Východné
+        Rušňové depo I
+        Sklabinská
+        Pri Šajbách
+        Pastierska
+        Stolárska
+        Detvianska
+        Závadská
+        Tbiliská
+        Drozdová
+        Zvončeková
+        Potočná
     ]
     /subservice 2 [
-        potocna
-        zvoncekova
-        drozdova
-        tbiliska
-        zavadska
-        detvianska
-        ihriskova
-        pastierska
-        prisajbach
-        sklabinska
-        rusnovedepo1
-        vychodne
-        napasekach
-        rusnovedepo2
-        stareletisko
-        ocvajnory
-        uhliska
-        ciernychodnik
-        pracanska
-        stnvajnory
+        Potočná
+        Zvončeková
+        Drozdová
+        Tbiliská
+        Závadská
+        Detvianska
+        Ihrisková
+        Pastierska
+        Pri Šajbách
+        Sklabinská
+        Rušňové depo I
+        Východné
+        Na pasekách
+        Rušňové depo II
+        Staré letisko
+        OC Vajnory
+        Uhliská
+        Čierny chodník
+        Pračanská
+        Stn. Vajnory
     ]
 }
-
+ 
 /line 53 {
     /subservice 1 [
-        vajnory
-        rolnicka
-        hospodarska
-        miuvajnory
-        uhliska
-        ocvajnory
-        vajnorynadjazd
-        tuhovska
-        zlatepiesky
-        ocroznavska
-        bojnicka
-        depotrnavka
-        slovinska
-        klientskecentrum
-        sabinovska
-        bajkalska
-        zimnystadion
-        trnavskemyto
-        novadoba
-        bajkalska
-        sabinovska
-        klientskecentrum
-        slovinska
-        depotrnavka
-        bojnicka
-        ocroznavska
-        zlatepiesky
-        dvojstudnovepolia
-        vajnorynadjazd
-        ocvajnory
-        uhliska
-        miuvajnory
-        hospodarska
-        rolnicka
-        vajnory
+        Vajnory
+        Roľnícka
+        Hospodárska
+        MiÚ Vajnory
+        Uhliská
+        OC Vajnory
+        Vajnory, nadjazd
+        Tuhovská
+        Zlaté piesky
+        OC Rožňavská
+        Bojnická
+        Depo Trnávka
+        Slovinská
+        Klientske centrum
+        Sabinovská
+        Bajkalská
+        Zimný štadión
+        Trnavské mýto
+        Nová doba
+        Bajkalská
+        Sabinovská
+        Klientske centrum
+        Slovinská
+        Depo Trnávka
+        Bojnická
+        OC Rožňavská
+        Zlaté piesky
+        Dvojstudňové polia
+        Vajnory, nadjazd
+        OC Vajnory
+        Uhliská
+        MiÚ Vajnory
+        Hospodárska
+        Roľnícka
+        Vajnory
     ]
 }
-
+ 
 /line 56 {
     /subservice 1 [
-        studena
-        studenazastavka
-        shoppingpalace
-        zlatepiesky
-        dvojstudnovepolia
-        vajnorynadjazd
-        ocvajnory
-        stareletisko
-        rusnovedepo2
-        napasekach
-        vychodne
-        rusnovedepo1
-        sklabinska
-        prisajbach
-        pastierska
-        stolarska
-        detvianska
-        namahlinku
-        baronka
-        kubacovankd
-        miuraca
-        zavadska
-        tbiliska
-        karpatskenam
-        puchovska
-        ocraca
+        Studená
+        Studená, zastávka
+        Shopping Palace
+        Zlaté piesky
+        Dvojstudňové polia
+        Vajnory, nadjazd
+        OC Vajnory
+        Staré letisko
+        Rušňové depo II
+        Na pasekách
+        Východné
+        Rušňové depo I
+        Sklabinská
+        Pri Šajbách
+        Pastierska
+        Stolárska
+        Detvianska
+        Nám. A.Hlinku
+        Barónka
+        Kubačova, NKD
+        MiÚ Rača
+        Závadská
+        Tbiliská
+        Karpatské nám.
+        Púchovská
+        OC Rača
     ]
     /subservice 2 [
-        ocraca
-        puchovska
-        karpatskenam
-        tbiliska
-        zavadska
-        namahlinku
-        baronka
-        kubacovankd
-        miuraca
-        detvianska
-        ihriskova
-        pastierska
-        prisajbach
-        sklabinska
-        rusnovedepo1
-        vychodne
-        napasekach
-        rusnovedepo2
-        stareletisko
-        ocvajnory
-        vajnorynadjazd
-        tuhovska
-        zlatepiesky
-        shoppingpalace
-        studenazastavka
-        studena
+        OC Rača
+        Púchovská
+        Karpatské nám.
+        Tbiliská
+        Závadská
+        Nám. A.Hlinku
+        Barónka
+        Kubačova, NKD
+        MiÚ Rača
+        Detvianska
+        Ihrisková
+        Pastierska
+        Pri Šajbách
+        Sklabinská
+        Rušňové depo I
+        Východné
+        Na pasekách
+        Rušňové depo II
+        Staré letisko
+        OC Vajnory
+        Vajnory, nadjazd
+        Tuhovská
+        Zlaté piesky
+        Shopping Palace
+        Studená, zastávka
+        Studená
     ]
 }
-
+ 
 /line 57 {
     /subservice 1 [
-        depojurajovdvor
-        jurajovdvor
-        prinadjazde
-        pribylinska
-        stavitelska
-        staviva
-        kalnejazero
-        spadovisko1
-        spadovisko2
-        zlatepiesky
-        shoppingpalace
-        staravajnorska
-        ocstaravajnorska
-        jurajovdvor
-        depojurajovdvor
+        Depo Jurajov dvor
+        Jurajov dvor
+        Pri nadjazde
+        Pribylinská
+        Staviteľská
+        Stavivá
+        Kalné jazero
+        Spádovisko I
+        Spádovisko II
+        Zlaté piesky
+        Shopping Palace
+        Stará Vajnorská
+        OC Stará Vajnorská
+        Jurajov dvor
+        Depo Jurajov dvor
     ]
     /subservice 2 [
-        depojurajovdvor
-        jurajovdvor
-        prinadjazde
-        mokrad
-        mikulasovdvor
-        zabimajer
-        mikulasovdvor
-        mokrad
-        pribylinska
-        stavitelska
-        staviva
-        kalnejazero
-        spadovisko1
-        spadovisko2
-        zlatepiesky
-        shoppingpalace
-        staravajnorska
-        ocstaravajnorska
-        jurajovdvor
-        depojurajovdvor
+        Depo Jurajov dvor
+        Jurajov dvor
+        Pri nadjazde
+        Mokraď
+        Mikulášov dvor
+        žabí majer
+        Mikulášov dvor
+        Mokraď
+        Pribylinská
+        Staviteľská
+        Stavivá
+        Kalné jazero
+        Spádovisko I
+        Spádovisko II
+        Zlaté piesky
+        Shopping Palace
+        Stará Vajnorská
+        OC Stará Vajnorská
+        Jurajov dvor
+        Depo Jurajov dvor
     ]
     /subservice 3 [
-        zabimajer
-        mikulasovdvor
-        mokrad
-        prinadjazde
-        jurajovdvor
-        depojurajovdvor
+        žabí majer
+        Mikulášov dvor
+        Mokraď
+        Pri nadjazde
+        Jurajov dvor
+        Depo Jurajov dvor
     ]
 }
-
+ 
 /line 59 {
     /subservice 1 [
-        antolska
-        nemocnicaantolska
-        lubovnianska
-        lucanka
-        znievska
-        budatinska
-        luky2
-        smolenicka
-        jiraskova
-        stnpetrzalka
-        dvory
-        racianskemyto
-        pionierska
-        stnvinohrady
-        peknacesta
-        travna
-        puchovska
-        rybnicna
-        napantochskoly
-        napantochstred
-        napantoch
+        Antolská
+        Nemocnica Antolská
+        Ľubovnianska
+        Lúčanka
+        Znievska
+        Budatínska
+        Lúky II
+        Smolenická
+        Jiráskova
+        Stn. Petržalka
+        Dvory
+        Račianske mýto
+        Pionierska
+        Stn. Vinohrady
+        Pekná cesta
+        Trávna
+        Púchovská
+        Rybničná
+        Na pántoch, školy
+        Na pántoch, stred
+        Na pántoch
     ]
     /subservice 2 [
-        napantoch
-        napantochstred
-        napantochskoly
-        rybnicna
-        puchovska
-        travna
-        peknacesta
-        stnvinohrady
-        pionierska
-        racianskemyto
-        dvory
-        stnpetrzalka
-        jiraskova
-        smolenicka
-        luky2
-        budatinska
-        znievska
-        lucanka
-        lubovnianska
-        nemocnicaantolska
-        antolska
+        Na pántoch
+        Na pántoch, stred
+        Na pántoch, školy
+        Rybničná
+        Púchovská
+        Trávna
+        Pekná cesta
+        Stn. Vinohrady
+        Pionierska
+        Račianske mýto
+        Dvory
+        Stn. Petržalka
+        Jiráskova
+        Smolenická
+        Lúky II
+        Budatínska
+        Znievska
+        Lúčanka
+        Ľubovnianska
+        Nemocnica Antolská
+        Antolská
     ]
 }
-
+ 
 /line 61 {
     /color ec6a6d
     /subservice 1 [
-        letisko
-        farfuny
-        priletisku
-        avionikea
-        avionshoppark
-        ivanskacesta
-        nakrizovatkach
-        prizvonici
-        bulharska
-        spolocenska
-        hanacka
-        slovinska
-        klientskecentrum
-        sabinovska
-        bajkalska
-        zimnystadion
-        trnavskemyto
-        racianskemyto
-        karpatska
-        hlavnastanica
+        Letisko / Airport
+        Fafruny
+        Pri Letisku
+        AVION, IKEA
+        Avion Shop. Park
+        Ivanská cesta
+        Na križovatkách
+        Pri zvonici
+        Bulharská
+        Spoločenská
+        Hanácka
+        Slovinská
+        Klientske centrum
+        Sabinovská
+        Bajkalská
+        Zimný štadión
+        Trnavské mýto
+        Račianske mýto
+        Karpatská
+        Hlavná stanica
     ]
     /subservice 2 [
-        hlavnastanica
-        podstanicou
-        karpatska
-        racianskemyto
-        trnavskemyto
-        zimnystadion
-        bajkalska
-        sabinovska
-        klientskecentrum
-        slovinska
-        hanacka
-        spolocenska
-        bulharska
-        prizvonici
-        nakrizovatkach
-        avionshoppark
-        avionikea
-        priletisku
-        farfuny
-        letisko
+        Hlavná stanica
+        Pod stanicou
+        Karpatská
+        Račianske mýto
+        Trnavské mýto
+        Zimný štadión
+        Bajkalská
+        Sabinovská
+        Klientske centrum
+        Slovinská
+        Hanácka
+        Spoločenská
+        Bulharská
+        Pri zvonici
+        Na križovatkách
+        Avion Shop. Park
+        AVION, IKEA
+        Pri Letisku
+        Fafruny
+        Letisko / Airport
     ]
 }
-
+ 
 /line 63 {
     /color ae4a84
     /subservice 1 [
-        avionshoppark
-        ivanskacesta
-        slowackeho
-        clementisova
-        martinskycintorin
-        trnavskacesta
-        klientskecentrum
-        sabinovska
-        bajkalska
-        zimnystadion
-        trnavskemyto
-        racianskemyto
-        podstanicou
-        hrobonova
-        patronka
-        stnlamac
-        vrancovicova
-        bakosova
-        podhaj
-        studenohorska
-        klanec
-        lamac
+        Avion Shop. Park
+        Ivanská cesta
+        Slowackého
+        Clementisova
+        Martinský cintorín
+        Trnavská cesta
+        Klientske centrum
+        Sabinovská
+        Bajkalská
+        Zimný štadión
+        Trnavské mýto
+        Račianske mýto
+        Pod stanicou
+        Hroboňova
+        Patrónka
+        Stn. Lamač
+        Vrančovičova
+        Bakošova
+        Podháj
+        Studenohorská
+        Klanec
+        Lamač
     ]
     /subservice 2 [
-        lamac
-        klanec
-        studenohorska
-        podhaj
-        bakosova
-        vrancovicova
-        stnlamac
-        patronka
-        hrobonova
-        podstanicou
-        racianskemyto
-        trnavskemyto
-        zimnystadion
-        bajkalska
-        sabinovska
-        klientskecentrum
-        trnavskacesta
-        martinskycintorin
-        clementisova
-        slowackeho
-        avionshoppark
+        Lamač
+        Klanec
+        Studenohorská
+        Podháj
+        Bakošova
+        Vrančovičova
+        Stn. Lamač
+        Patrónka
+        Hroboňova
+        Pod stanicou
+        Račianske mýto
+        Trnavské mýto
+        Zimný štadión
+        Bajkalská
+        Sabinovská
+        Klientske centrum
+        Trnavská cesta
+        Martinský cintorín
+        Clementisova
+        Slowackého
+        Avion Shop. Park
     ]
 }
-
+ 
 /line 65 {
     /subservice 1 [
-        tbiliska
-        zavadska
-        detvianska
-        travna
-        puchovska
-        napantoch
-        napantochstred
-        napantochskoly
-        rybnicna
-        sprinzlovmajer
-        regrutska
-        koniarkova
-        osloboditelska
-        uhliska
-        ocvajnory
-        vajnorynadjazd
-        tuhovska
-        zlatepiesky
-        shoppingpalace
-        staravajnorska
-        ocstaravajnorska
-        jurajovdvor
-        bojnicka
-        radiova
-        bulharska
-        prizvonici
-        nakrizovatkach
-        avionshoppark
-        ribezlova
-        cintorinvrakuna
-        slovnaftska
-        podzahradna
-        hronska
-        dudvazska
-        cilizska
+        Tbiliská
+        Závadská
+        Detvianska
+        Trávna
+        Púchovská
+        Na pántoch
+        Na pántoch, stred
+        Na pántoch, školy
+        Rybničná
+        Šprinclov majer
+        Regrútska
+        Koniarkova
+        Osloboditeľská
+        Uhliská
+        OC Vajnory
+        Vajnory, nadjazd
+        Tuhovská
+        Zlaté piesky
+        Shopping Palace
+        Stará Vajnorská
+        OC Stará Vajnorská
+        Jurajov dvor
+        Bojnická
+        Rádiová
+        Bulharská
+        Pri zvonici
+        Na križovatkách
+        Avion Shop. Park
+        Ríbezľová
+        Cintorín Vrakuňa
+        Slovnaftská
+        Podzáhradná
+        Hronská
+        Dudvážska
+        Čiližská
     ]
     /subservice 2 [
-        cilizska
-        zitavska
-        dudvazska
-        hronska
-        podzahradna
-        slovnaftska
-        cintorinvrakuna
-        ribezlova
-        ivanskacesta
-        nakrizovatkach
-        prizvonici
-        bulharska
-        radiova
-        bojnicka
-        jurajovdvor
-        ocstaravajnorska
-        staravajnorska
-        shoppingpalace
-        zlatepiesky
-        tuhovska
-        vajnorynadjazd
-        ocvajnory
-        uhliska
-        osloboditelska
-        koniarkova
-        regrutska
-        sprinzlovmajer
-        rybnicna
-        napantoch
-        napantochstred
-        napantochskoly
-        vajnorskypotok
-        puchovska
-        travna
-        detvianska
-        zavadska
-        tbiliska
+        Čiližská
+        žitavská
+        Dudvážska
+        Hronská
+        Podzáhradná
+        Slovnaftská
+        Cintorín Vrakuňa
+        Ríbezľová
+        Ivanská cesta
+        Na križovatkách
+        Pri zvonici
+        Bulharská
+        Rádiová
+        Bojnická
+        Jurajov dvor
+        OC Stará Vajnorská
+        Stará Vajnorská
+        Shopping Palace
+        Zlaté piesky
+        Tuhovská
+        Vajnory, nadjazd
+        OC Vajnory
+        Uhliská
+        Osloboditeľská
+        Koniarkova
+        Regrútska
+        Šprinclov majer
+        Rybničná
+        Na pántoch
+        Na pántoch, stred
+        Na pántoch, školy
+        Vajnorský potok
+        Púchovská
+        Trávna
+        Detvianska
+        Závadská
+        Tbiliská
     ]
 }
-
+ 
 /line 66 {
     /subservice 1 [
-        grofskaniva
-        stachanovska
-        hranicna
-        pazitkova
-        prievozska
-        mliekarenska
-        ruzovadolina
-        trhovisko
-        liscienivy
-        drienova
-        uradbsk
-        solivarska
-        maximilianahella
-        dkruzinov
-        nevadzova
-        mierova
-        krasna
-        syslia
-        stnuns
-        domkarska
+        Grófska Niva
+        Stachanovská
+        Hraničná
+        Pažítková
+        Prievozská
+        Mliekarenská
+        Ružová dolina
+        Trhovisko
+        Líščie nivy
+        Drieňová
+        Úrad BSK
+        Solivarská
+        Maximiliána Hella
+        DK Ružinov
+        Nevädzová
+        Mierová
+        Krásna
+        Syslia
+        Stn. ÚNS
+        Domkárska
     ]
     /subservice 2 [
-        domkarska
-        stnuns
-        syslia
-        krasna
-        mierova
-        nevadzova
-        dkruzinov
-        maximilianahella
-        solivarska
-        uradbsk
-        drienova
-        liscienivy
-        trhovisko
-        ruzovadolina
-        mliekarenska
-        prievozska
-        hranicna
-        stachanovska
-        grofskaniva
+        Domkárska
+        Stn. ÚNS
+        Syslia
+        Krásna
+        Mierová
+        Nevädzová
+        DK Ružinov
+        Maximiliána Hella
+        Solivarská
+        Úrad BSK
+        Drieňová
+        Líščie nivy
+        Trhovisko
+        Ružová dolina
+        Mliekarenská
+        Prievozská
+        Hraničná
+        Stachanovská
+        Grófska Niva
     ]
 }
-
+ 
 /line 67 {
     /subservice 1 [
-        astronomicka
-        suhvezdna
-        podgastanmi
-        podpriehradna
-        majerska
-        sipova
-        zeleznicna
-        cilizska
-        zitavska
-        dudvazska
-        hronska
-        bodrocka
-        korytnicka
-        nakupna
-        ucitelska
-        miupbiskupice
-        devatinova
-        vinohradnicka
-        ligurcekova
-        ovciarska
-        farmarska
-        vinohradnicka
-        devatinova
-        miupbiskupice
-        nakupna
-        korytnicka
-        bodrocka
-        hronska
-        dudvazska
-        cilizska
-        zeleznicna
-        sipova
-        majerska
-        podpriehradna
-        podgastanmi
-        astronomicka
+        Astronomická
+        Súhvezdná
+        Pod gaštanmi
+        Podpriehradná
+        Majerská
+        Šípová
+        železničná
+        Čiližská
+        žitavská
+        Dudvážska
+        Hronská
+        Bodrocká
+        Korytnická
+        Nákupná
+        Učiteľská
+        MiÚ P. Biskupice
+        Devätinová
+        Vinohradnícka
+        Ligurčeková
+        Ovčiarska
+        Farmárska
+        Vinohradnícka
+        Devätinová
+        MiÚ P. Biskupice
+        Nákupná
+        Korytnická
+        Bodrocká
+        Hronská
+        Dudvážska
+        Čiližská
+        železničná
+        Šípová
+        Majerská
+        Podpriehradná
+        Pod gaštanmi
+        Astronomická
     ]
 }
-
+ 
 /line 68 {
     /color c7bc6a
     /subservice 1 [
-        holicska
-        smolenicka
-        svabinskeho
-        markova
-        romanova
-        hrobakova
-        starohajska
-        lachova
-        sustekova
-        bulikova
-        ekonomuniverzita
-        mostapollo
-        pristavna
-        kosicka
-        dulovonam
-        trhovisko
-        saleziani
-        krizna
-        trnavskemyto
-        saleziani
-        trhovisko
-        dulovonam
-        kosicka
-        mostapollo
-        ekonomuniverzita
-        bulikova
-        sustekova
-        lachova
-        starohajska
-        hrobakova
-        romanova
-        markova
-        svabinskeho
-        smolenicka
-        holicska
+        Holíčska
+        Smolenická
+        Švabinského
+        Markova
+        Romanova
+        Hrobákova
+        Starohájska
+        Lachova
+        Šustekova
+        Bulíkova
+        Ekonom. univerzita
+        Most Apollo
+        Prístavná
+        Košická
+        Dulovo nám.
+        Trhovisko
+        Saleziáni
+        Krížna
+        Trnavské mýto
+        Saleziáni
+        Trhovisko
+        Dulovo nám.
+        Košická
+        Most Apollo
+        Ekonom. univerzita
+        Bulíkova
+        Šustekova
+        Lachova
+        Starohájska
+        Hrobákova
+        Romanova
+        Markova
+        Švabinského
+        Smolenická
+        Holíčska
     ]
 }
-
+ 
 /line 69 {
     /subservice 1 [
-        avionshoppark
-        galvaniho
-        krizovepolia
-        pharos
-        letiskocargo
-        letovesluzby
-        priletisku
-        avionikea
-        avionshoppark
+        Avion Shop. Park
+        Galvaniho
+        Krížové polia
+        Pharos
+        Letisko, cargo
+        Letové služby
+        Pri Letisku
+        AVION, IKEA
+        Avion Shop. Park
     ]
 }
-
+ 
 /line 70 {
     /subservice 1 [
-        mostsnp
-        namlstura
-        safarikovonam
-        malascena
-        culenova
-        autobusovastanica
-        kosicka
-        novohradska
-        mileticova
-        prievozska
-        pristavnymost
-        palenisko
-        piesciny
-        cienyles
-        vlciehrdlo
-        vhrdlointernat
-        zavodna
-        ocslovnaftska
-        slovnaftska
-        sikma
-        nempbiskupice
-        miupbiskupice
-        8maja
-        stnpbiskupice
+        Most SNP
+        Nám. Ľ. Štúra
+        Šafárikovo nám.
+        Malá scéna
+        Čulenova
+        Autobusová stanica
+        Košická
+        Novohradská
+        Miletičova
+        Prievozská
+        Prístavný most
+        Pálenisko
+        Piesčiny
+        Čierny les
+        Vlčie hrdlo
+        V. hrdlo, internát
+        Závodná
+        OC Slovnaftská
+        Slovnaftská
+        Šikmá
+        Nem. P. Biskupice
+        MiÚ P. Biskupice
+        8. mája
+        Stn. P. Biskupice
     ]
     /subservice 2 [
-        stnpbiskupice
-        petofiho
-        ucitelska
-        miupbiskupice
-        nempbiskupice
-        sikma
-        slovnaftska
-        ocslovnaftska
-        zavodna
-        vhrdlointernat
-        vlciehrdlo
-        cienyles
-        piesciny
-        pristavnymost
-        prievozska
-        mileticova
-        novohradska
-        kosicka
-        autobusovastanica
-        culenova
-        safarikovonam
-        namlstura
-        mostsnp
+        Stn. P. Biskupice
+        Petőfiho
+        Učiteľská
+        MiÚ P. Biskupice
+        Nem. P. Biskupice
+        Šikmá
+        Slovnaftská
+        OC Slovnaftská
+        Závodná
+        V. hrdlo, internát
+        Vlčie hrdlo
+        Čierny les
+        Piesčiny
+        Prístavný most
+        Prievozská
+        Miletičova
+        Novohradská
+        Košická
+        Autobusová stanica
+        Čulenova
+        Šafárikovo nám.
+        Nám. Ľ. Štúra
+        Most SNP
     ]
 }
-
+ 
 /line 75 {
     /subservice 1 [
-        cilizska
-        zitavska
-        dudvazska
-        hronska
-        toryska
-        komarovska
-        priekopnicka
-        cintorinvrakuna
-        ondrejovova
-        brodna
-        nevadzova
-        herlianska
-        nemocnicaruzinov
-        drienova
-        bajkalska
-        novadoba
-        pionierska
-        mladagarda
-        stnvinohrady
-        hubeneho
-        kadnarova
+        Čiližská
+        žitavská
+        Dudvážska
+        Hronská
+        Toryská
+        Komárovská
+        Priekopnícka
+        Cintorín Vrakuňa
+        Ondrejovova
+        Brodná
+        Nevädzová
+        Herlianska
+        Nemocnica Ružinov
+        Drieňová
+        Bajkalská
+        Nová doba
+        Pionierska
+        Mladá garda
+        Stn. Vinohrady
+        Hubeného
+        Kadnárova
     ]
     /subservice 2 [
-        kadnarova
-        hubeneho
-        stnvinohrady
-        mladagarda
-        pionierska
-        novadoba
-        bajkalska
-        drienova
-        nemocnicaruzinov
-        herlianska
-        nevadzova
-        brodna
-        ondrejovova
-        cintorinvrakuna
-        priekopnicka
-        komarovska
-        toryska
-        hronska
-        dudvazska
-        cilizska
+        Kadnárova
+        Hubeného
+        Stn. Vinohrady
+        Mladá garda
+        Pionierska
+        Nová doba
+        Bajkalská
+        Drieňová
+        Nemocnica Ružinov
+        Herlianska
+        Nevädzová
+        Brodná
+        Ondrejovova
+        Cintorín Vrakuňa
+        Priekopnícka
+        Komárovská
+        Toryská
+        Hronská
+        Dudvážska
+        Čiližská
     ]
 }
-
+ 
 /line 77 {
     /subservice 1 [
-        vlciehrdlo
-        zajacie
-        lodenica
-        povodiedunaja
+        Vlčie hrdlo
+        Zajačie
+        Lodenica
+        Povodie Dunaja
     ]
     /subservice 2 [
-        vlciehrdlo
-        zajacie
-        vhrdlozahrady
-        micherovmajer
-        covvlciehrdlo
-        spalovna
+        Vlčie hrdlo
+        Zajačie
+        V. hrdlo, záhrady
+        Micherov majer
+        ČOV Vlčie hrdlo
+        Spaľovňa
     ]
     /subservice 3 [
-        povodiedunaja
-        lodenica
-        zajacie
-        vlciehrdlo
+        Povodie Dunaja
+        Lodenica
+        Zajačie
+        Vlčie hrdlo
     ]
     /subservice 4 [
-        spalovna
-        covvlciehrdlo
-        micherovmajer
-        vhrdlozahrady
-        zajacie
-        vlciehrdlo
+        Spaľovňa
+        ČOV Vlčie hrdlo
+        Micherov majer
+        V. hrdlo, záhrady
+        Zajačie
+        Vlčie hrdlo
     ]
 }
-
+ 
 /line 78 {
     /subservice 1 [
-        stnpbiskupice
-        dudvazska
-        hronska
-        toryska
-        stavbarska
-        estonska
-        miuvrakuna
-        sipova
-        majerska
-        podpriehradna
-        podgastanmi
-        astronomicka
-        sumracna
-        maximilianahella
-        solivarska
-        uradbsk
-        drienova
-        bajkalska
-        zimnystadion
-        trnavskemyto
-        krizna
-        soltesovej
-        malytrh
-        culenova
-        novesnd
+        Stn. P. Biskupice
+        Dudvážska
+        Hronská
+        Toryská
+        Stavbárska
+        Estónska
+        MiÚ Vrakuňa
+        Šípová
+        Majerská
+        Podpriehradná
+        Pod gaštanmi
+        Astronomická
+        Súmračná
+        Maximiliána Hella
+        Solivarská
+        Úrad BSK
+        Drieňová
+        Bajkalská
+        Zimný štadión
+        Trnavské mýto
+        Krížna
+        Šoltésovej
+        Malý trh
+        Čulenova
+        Nové SND
     ]
     /subservice 2 [
-        novesnd
-        culenova
-        malytrh
-        soltesovej
-        krizna
-        trnavskemyto
-        zimnystadion
-        bajkalska
-        uradbsk
-        solivarska
-        maximilianahella
-        sumracna
-        astronomicka
-        podgastanmi
-        podpriehradna
-        majerska
-        sipova
-        miuvrakuna
-        estonska
-        stavbarska
-        toryska
-        hronska
-        dudvazska
-        stnpbiskupice
+        Nové SND
+        Čulenova
+        Malý trh
+        Šoltésovej
+        Krížna
+        Trnavské mýto
+        Zimný štadión
+        Bajkalská
+        Úrad BSK
+        Solivarská
+        Maximiliána Hella
+        Súmračná
+        Astronomická
+        Pod gaštanmi
+        Podpriehradná
+        Majerská
+        Šípová
+        MiÚ Vrakuňa
+        Estónska
+        Stavbárska
+        Toryská
+        Hronská
+        Dudvážska
+        Stn. P. Biskupice
     ]
 }
-
+ 
 /line 79 {
     /subservice 1 [
-        stnpbiskupice
-        petofiho
-        ucitelska
-        miupbiskupice
-        lieskovskacesta
-        pdpbiskupice
-        janskehony
-        plniarenplynu
-        lieskovec
+        Stn. P. Biskupice
+        Petőfiho
+        Učiteľská
+        MiÚ P. Biskupice
+        Lieskovská cesta
+        PD P. Biskupice
+        Jánske hony
+        Plniareň plynu
+        Lieskovec
     ]
     /subservice 2 [
-        lieskovec
-        plniarenplynu
-        janskehony
-        pdpbiskupice
-        lieskovskacesta
-        miupbiskupice
-        8maja
-        stnpbiskupice
+        Lieskovec
+        Plniareň plynu
+        Jánske hony
+        PD P. Biskupice
+        Lieskovská cesta
+        MiÚ P. Biskupice
+        8. mája
+        Stn. P. Biskupice
     ]
 }
-
+ 
 /line 80 {
     /color f7aa47
     /subservice 1 [
-        kollarovonam
-        zochova
-        einsteinova
-        kremnicka
-        zaporozska
-        stnpetrzalka
-        kapitulskydvor
-        dargovska
-        cintorinpetrzalka
+        Kollárovo nám.
+        Zochova
+        Einsteinova
+        Kremnická
+        Záporožská
+        Stn. Petržalka
+        Kapitulský dvor
+        Dargovská
+        Cintorín Petržalka
     ]
     /subservice 2 [
-        kollarovonam
-        zochova
-        einsteinova
-        kremnicka
-        zaporozska
-        stnpetrzalka
-        kopcianskastred
-        kopcanysidlisko
-        kopcianska
-        nesto
+        Kollárovo nám.
+        Zochova
+        Einsteinova
+        Kremnická
+        Záporožská
+        Stn. Petržalka
+        Kopčianska, stred
+        Kopčany, sídlisko
+        Kopčianska
+        Nesto
     ]
     /subservice 3 [
-        cintorinpetrzalka
-        dargovska
-        kapitulskydvor
-        stnpetrzalka
-        zaporozska
-        kremnicka
-        einsteinova
-        prisade
-        zochova
-        kollarovonam
+        Cintorín Petržalka
+        Dargovská
+        Kapitulský dvor
+        Stn. Petržalka
+        Záporožská
+        Kremnická
+        Einsteinova
+        Pri Sade
+        Zochova
+        Kollárovo nám.
     ]
     /subservice 4 [
-        nesto
-        kopcianska
-        kopcanysidlisko
-        kopcianskastred
-        stnpetrzalka
-        zaporozska
-        kremnicka
-        einsteinova
-        prisade
-        zochova
-        kollarovonam
+        Nesto
+        Kopčianska
+        Kopčany, sídlisko
+        Kopčianska, stred
+        Stn. Petržalka
+        Záporožská
+        Kremnická
+        Einsteinova
+        Pri Sade
+        Zochova
+        Kollárovo nám.
     ]
 }
-
+ 
 /line 83 {
     /color 008dd2
     /subservice 1 [
-        kutlikova
-        bradacova
-        romanova
-        hrobakova
-        namhraniciarov
-        jungmannova
-        halova
-        dvory
-        prisade
-        zochova
-        hodzovonam
-        podstanicou
-        sokolska
-        hrobonova
-        dubova
-        patronka
-        mokrohajska
-        huscavova
-        lipskeho
-        zaluhy
-        svantnerova
-        alexyho
-        drobneho
-        pernikova
-        zatevna
-        stepna
-        homolova
-        prikrizi
+        Kutlíkova
+        Bradáčova
+        Romanova
+        Hrobákova
+        Nám. hraničiarov
+        Jungmannova
+        Hálova
+        Dvory
+        Pri Sade
+        Zochova
+        Hodžovo nám.
+        Pod stanicou
+        Sokolská
+        Hroboňova
+        Dubová
+        Patrónka
+        Mokrohájska
+        Húščavova
+        Lipského
+        Záluhy
+        Švantnerova
+        Alexyho
+        Drobného
+        Pekníkova
+        žatevná
+        Štepná
+        Homolova
+        Pri kríži
     ]
     /subservice 2 [
-        prikrizi
-        homolova
-        stepna
-        zatevna
-        pernikova
-        drobneho
-        alexyho
-        svantnerova
-        zaluhy
-        lipskeho
-        huscavova
-        mokrohajska
-        patronka
-        dubova
-        hrobonova
-        sokolska
-        podstanicou
-        hodzovonam
-        zochova
-        prisade
-        dvory
-        halova
-        jungmannova
-        namhraniciarov
-        hrobakova
-        romanova
-        bradacova
-        kutlikova
+        Pri kríži
+        Homolova
+        Štepná
+        žatevná
+        Pekníkova
+        Drobného
+        Alexyho
+        Švantnerova
+        Záluhy
+        Lipského
+        Húščavova
+        Mokrohájska
+        Patrónka
+        Dubová
+        Hroboňova
+        Sokolská
+        Pod stanicou
+        Hodžovo nám.
+        Zochova
+        Pri Sade
+        Dvory
+        Hálova
+        Jungmannova
+        Nám. hraničiarov
+        Hrobákova
+        Romanova
+        Bradáčova
+        Kutlíkova
     ]
 }
-
+ 
 /line 84 {
     /color 008dd2
     /subservice 1 [
-        ovsiste
-        ovsistskenam
-        bulikova
-        sustekova
-        bosakova
-        mlynarovicova
-        farskeho
-        jungmannova
-        halova
-        dvory
-        prisade
-        zochova
-        hodzovonam
-        podstanicou
-        sokolska
-        hrobonova
-        dubova
-        patronka
-        mokrohajska
-        huscavova
-        lipskeho
-        zaluhy
-        svantnerova
-        alexyho
-        drobneho
-        podvornice
-        prikrizi
+        Ovsište
+        Ovsištské nám.
+        Bulíkova
+        Šustekova
+        Bosákova
+        Mlynarovičova
+        Farského
+        Jungmannova
+        Hálova
+        Dvory
+        Pri Sade
+        Zochova
+        Hodžovo nám.
+        Pod stanicou
+        Sokolská
+        Hroboňova
+        Dubová
+        Patrónka
+        Mokrohájska
+        Húščavova
+        Lipského
+        Záluhy
+        Švantnerova
+        Alexyho
+        Drobného
+        Podvornice
+        Pri kríži
     ]
     /subservice 2 [
-        prikrizi
-        podvornice
-        drobneho
-        alexyho
-        svantnerova
-        zaluhy
-        lipskeho
-        huscavova
-        mokrohajska
-        patronka
-        dubova
-        hrobonova
-        sokolska
-        podstanicou
-        hodzovonam
-        zochova
-        prisade
-        dvory
-        halova
-        jungmannova
-        farskeho
-        mlynarovicova
-        sustekova
-        bulikova
-        ovsistskenam
-        ovsiste
+        Pri kríži
+        Podvornice
+        Drobného
+        Alexyho
+        Švantnerova
+        Záluhy
+        Lipského
+        Húščavova
+        Mokrohájska
+        Patrónka
+        Dubová
+        Hroboňova
+        Sokolská
+        Pod stanicou
+        Hodžovo nám.
+        Zochova
+        Pri Sade
+        Dvory
+        Hálova
+        Jungmannova
+        Farského
+        Mlynarovičova
+        Šustekova
+        Bulíkova
+        Ovsištské nám.
+        Ovsište
     ]
 }
-
+ 
 /line 87 {
     /subservice 1 [
-        bodvianska
-        toryska
-        podzahradna
-        slovnaftska
-        ocslovnaftska
-        zavodna
-        vhrdlointernat
-        vlciehrdlo
-        cienyles
-        piesciny
-        palenisko
-        alejova
-        nakladnypristav
-        plynarenska
-        mostapollo
-        ekonomuniverzita
-        ovsistskenam
-        ovsiste
+        Bodvianska
+        Toryská
+        Podzáhradná
+        Slovnaftská
+        OC Slovnaftská
+        Závodná
+        V. hrdlo, internát
+        Vlčie hrdlo
+        Čierny les
+        Piesčiny
+        Pálenisko
+        Alejová
+        Nákladný prístav
+        Plynárenská
+        Most Apollo
+        Ekonom. univerzita
+        Ovsištské nám.
+        Ovsište
     ]
     /subservice 2 [
-        ovsiste
-        ovsistskenam
-        ekonomuniverzita
-        mostapollo
-        pristavna
-        plynarenska
-        nakladnypristav
-        alejova
-        palenisko
-        piesciny
-        cienyles
-        vlciehrdlo
-        vhrdlointernat
-        zavodna
-        ocslovnaftska
-        slovnaftska
-        podzahradna
-        toryska
-        bodvianska
+        Ovsište
+        Ovsištské nám.
+        Ekonom. univerzita
+        Most Apollo
+        Prístavná
+        Plynárenská
+        Nákladný prístav
+        Alejová
+        Pálenisko
+        Piesčiny
+        Čierny les
+        Vlčie hrdlo
+        V. hrdlo, internát
+        Závodná
+        OC Slovnaftská
+        Slovnaftská
+        Podzáhradná
+        Toryská
+        Bodvianska
     ]
 }
-
+ 
 /line 88 {
     /color ae4a84
     /subservice 1 [
-        mostsnp
-        einsteinova
-        kremnicka
-        zaporozska
-        gercenova
-        halova
-        jungmannova
-        namhraniciarov
-        lachova
-        sustekova
-        bulikova
-        ekonomuniverzita
-        mostapollo
-        pristavna
-        landererova
-        culenova
-        autobusovastanica
+        Most SNP
+        Einsteinova
+        Kremnická
+        Záporožská
+        Gercenova
+        Hálova
+        Jungmannova
+        Nám. hraničiarov
+        Lachova
+        Šustekova
+        Bulíkova
+        Ekonom. univerzita
+        Most Apollo
+        Prístavná
+        Landererová
+        Čulenova
+        Autobusová stanica
     ]
     /subservice 2 [
-        autobusovastanica
-        culenova
-        landererova
-        mostapollo
-        ekonomuniverzita
-        bulikova
-        sustekova
-        lachova
-        namhraniciarov
-        jungmannova
-        halova
-        gercenova
-        zaporozska
-        kremnicka
-        einsteinova
-        prisade
-        mostsnp
+        Autobusová stanica
+        Čulenova
+        Landererová
+        Most Apollo
+        Ekonom. univerzita
+        Bulíkova
+        Šustekova
+        Lachova
+        Nám. hraničiarov
+        Jungmannova
+        Hálova
+        Gercenova
+        Záporožská
+        Kremnická
+        Einsteinova
+        Pri Sade
+        Most SNP
     ]
 }
-
+ 
 /line 90 {
     /subservice 1 [
-        novesnd
-        landererova
-        mostapollo
-        ekonomuniverzita
-        zehrianska
-        zlta
-        jarovcezahrady
-        strelnica
-        pila
-        jarovce
-        ovocna
-        kovacsova
-        vyvojova
-        gerulata
-        kastielrusovce
-        stnrusovce
-        gastanovaaleja
-        pieskovyhon
-        cunovskejazera
-        schengenska
-        cunovozahrady
-        cunovopriehrada
-        mvemoson
-        vecunovo
-        arealvodsportov
-        danubiana
+        Nové SND
+        Landererová
+        Most Apollo
+        Ekonom. univerzita
+        žehrianska
+        žltá
+        Jarovce, záhrady
+        Strelnica
+        Píla
+        Jarovce
+        Ovocná
+        Kovácsova
+        Vývojová
+        Gerulata
+        Kaštieľ Rusovce
+        Stn. Rusovce
+        Gaštanová aleja
+        Pieskový hon
+        Čunovské jazerá
+        Schengenská
+        Čunovo, záhrady
+        Čunovo, Priehrada
+        MVE Mošoň
+        VE Čunovo
+        Areál vod. športov
+        Danubiana
     ]
     /subservice 2 [
-        danubiana
-        arealvodsportov
-        vecunovo
-        mvemoson
-        cunovopriehrada
-        cunovozahrady
-        schengenska
-        cunovskejazera
-        pieskovyhon
-        gastanovaaleja
-        kastielrusovce
-        gerulata
-        vyvojova
-        kovacsova
-        ovocna
-        jarovce
-        pila
-        strelnica
-        jarovcezahrady
-        zlta
-        jasovska
-        zehrianska
-        ekonomuniverzita
-        mostapollo
-        pristavna
-        novesnd
+        Danubiana
+        Areál vod. športov
+        VE Čunovo
+        MVE Mošoň
+        Čunovo, Priehrada
+        Čunovo, záhrady
+        Schengenská
+        Čunovské jazerá
+        Pieskový hon
+        Gaštanová aleja
+        Kaštieľ Rusovce
+        Gerulata
+        Vývojová
+        Kovácsova
+        Ovocná
+        Jarovce
+        Píla
+        Strelnica
+        Jarovce, záhrady
+        žltá
+        Jasovská
+        žehrianska
+        Ekonom. univerzita
+        Most Apollo
+        Prístavná
+        Nové SND
     ]
     /subservice 3 [
-        stnrusovce
-        kastielrusovce
-        gerulata
-        vyvojova
-        kovacsova
-        ovocna
-        jarovce
-        pila
-        strelnica
-        jarovcezahrady
-        zlta
-        jasovska
-        zehrianska
-        ekonomuniverzita
-        mostapollo
-        pristavna
-        novesnd
+        Stn. Rusovce
+        Kaštieľ Rusovce
+        Gerulata
+        Vývojová
+        Kovácsova
+        Ovocná
+        Jarovce
+        Píla
+        Strelnica
+        Jarovce, záhrady
+        žltá
+        Jasovská
+        žehrianska
+        Ekonom. univerzita
+        Most Apollo
+        Prístavná
+        Nové SND
     ]
 }
-
+ 
 /line 91 {
     /subservice 1 [
-        mostsnp
-        prisade
-        dvory
-        stnpetrzalka
-        kolma
-        ocluky
-        jasovska
-        zlta
-        jarovcezahrady
-        strelnica
-        pila
-        jarovce
-        ovocna
-        kovacsova
-        vyvojova
-        gerulata
-        kastielrusovce
-        stnrusovce
-        gastanovaaleja
-        pieskovyhon
-        cunovskejazera
-        konopiska
-        miucunovo
-        cunovokostol
-        cunovo
+        Most SNP
+        Pri Sade
+        Dvory
+        Stn. Petržalka
+        Kolmá
+        OC Lúky
+        Jasovská
+        žltá
+        Jarovce, záhrady
+        Strelnica
+        Píla
+        Jarovce
+        Ovocná
+        Kovácsova
+        Vývojová
+        Gerulata
+        Kaštieľ Rusovce
+        Stn. Rusovce
+        Gaštanová aleja
+        Pieskový hon
+        Čunovské jazerá
+        Konopiská
+        MiÚ Čunovo
+        Čunovo, kostol
+        Čunovo
     ]
     /subservice 2 [
-        cunovo
-        cunovokostol
-        miucunovo
-        konopiska
-        cunovskejazera
-        pieskovyhon
-        gastanovaaleja
-        kastielrusovce
-        gerulata
-        vyvojova
-        kovacsova
-        ovocna
-        jarovce
-        pila
-        strelnica
-        jarovcezahrady
-        zlta
-        jasovska
-        ocluky
-        kolma
-        stnpetrzalka
-        dvory
-        prisade
-        mostsnp
+        Čunovo
+        Čunovo, kostol
+        MiÚ Čunovo
+        Konopiská
+        Čunovské jazerá
+        Pieskový hon
+        Gaštanová aleja
+        Kaštieľ Rusovce
+        Gerulata
+        Vývojová
+        Kovácsova
+        Ovocná
+        Jarovce
+        Píla
+        Strelnica
+        Jarovce, záhrady
+        žltá
+        Jasovská
+        OC Lúky
+        Kolmá
+        Stn. Petržalka
+        Dvory
+        Pri Sade
+        Most SNP
     ]
 }
-
+ 
 /line 93 {
     /color e5097f
     /subservice 1 [
-        hlavnastanica
-        podstanicou
-        hodzovonam
-        zochova
-        prisade
-        dvory
-        rusovskacesta
-        stnpetrzalka
-        sevcenkova
-        jiraskova
-        smolenicka
-        luky2
-        zsbudatinska
-        budatinska
-        luky5
-        vysehradska
+        Hlavná stanica
+        Pod stanicou
+        Hodžovo nám.
+        Zochova
+        Pri Sade
+        Dvory
+        Rusovská cesta
+        Stn. Petržalka
+        Ševčenkova
+        Jiráskova
+        Smolenická
+        Lúky II
+        ZŠ Budatínska
+        Budatínska
+        Lúky V
+        Vyšehradská
     ]
     /subservice 2 [
-        vysehradska
-        luky5
-        budatinska
-        zsbudatinska
-        luky2
-        smolenicka
-        jiraskova
-        sevcenkova
-        stnpetrzalka
-        rusovskacesta
-        dvory
-        prisade
-        zochova
-        hodzovonam
-        podstanicou
-        hlavnastanica
+        Vyšehradská
+        Lúky V
+        Budatínska
+        ZŠ Budatínska
+        Lúky II
+        Smolenická
+        Jiráskova
+        Ševčenkova
+        Stn. Petržalka
+        Rusovská cesta
+        Dvory
+        Pri Sade
+        Zochova
+        Hodžovo nám.
+        Pod stanicou
+        Hlavná stanica
     ]
 }
-
+ 
 /line 94 {
     /color e5097f
     /subservice 1 [
-        holicska
-        smolenicka
-        jiraskova
-        sevcenkova
-        stnpetrzalka
-        rusovskacesta
-        dvory
-        prisade
-        zochova
-        kollarovonam
-        blumental
-        namslobody
-        kollarovonam
-        zochova
-        prisade
-        dvory
-        rusovskacesta
-        stnpetrzalka
-        sevcenkova
-        jiraskova
-        smolenicka
-        holicska
+        Holíčska
+        Smolenická
+        Jiráskova
+        Ševčenkova
+        Stn. Petržalka
+        Rusovská cesta
+        Dvory
+        Pri Sade
+        Zochova
+        Kollárovo nám.
+        Blumentál
+        Nám. slobody
+        Kollárovo nám.
+        Zochova
+        Pri Sade
+        Dvory
+        Rusovská cesta
+        Stn. Petržalka
+        Ševčenkova
+        Jiráskova
+        Smolenická
+        Holíčska
     ]
 }
-
+ 
 /line 95 {
     /color ff6600
     /subservice 1 [
-        vysehradska
-        lucanka
-        strecnianska
-        sintavska
-        topolcianska
-        kutlikova
-        bradacova
-        romanova
-        hrobakova
-        namhraniciarov
-        farskeho
-        muchovonam
+        Vyšehradská
+        Lúčanka
+        Strečnianska
+        Šintavská
+        Topoľčianska
+        Kutlíkova
+        Bradáčova
+        Romanova
+        Hrobákova
+        Nám. hraničiarov
+        Farského
+        Muchovo nám.
     ]
     /subservice 2 [
-        muchovonam
-        farskeho
-        namhraniciarov
-        hrobakova
-        romanova
-        bradacova
-        kutlikova
-        topolcianska
-        sintavska
-        strecnianska
-        lucanka
-        vysehradska
+        Muchovo nám.
+        Farského
+        Nám. hraničiarov
+        Hrobákova
+        Romanova
+        Bradáčova
+        Kutlíkova
+        Topoľčianska
+        Šintavská
+        Strečnianska
+        Lúčanka
+        Vyšehradská
     ]
 }
-
+ 
 /line 96 {
     /color 66c3d0
     /subservice 1 [
-        prokofievova
-        markova
-        romanova
-        hrobakova
-        starohajska
-        lachova
-        bosakova
-        pristavnymost
-        prievozska
-        hranicna
-        nevadzova
-        dkruzinov
-        maximilianahella
-        zaluzicka
-        haburska
-        slovinska
-        depotrnavka
-        bojnicka
-        nakrizovatkach
-        avionshoppark
+        Prokofievova
+        Markova
+        Romanova
+        Hrobákova
+        Starohájska
+        Lachova
+        Bosákova
+        Prístavný most
+        Prievozská
+        Hraničná
+        Nevädzová
+        DK Ružinov
+        Maximiliána Hella
+        Zálužická
+        Haburská
+        Slovinská
+        Depo Trnávka
+        Bojnická
+        Na križovatkách
+        Avion Shop. Park
     ]
     /subservice 2 [
-        avionshoppark
-        ivanskacesta
-        nakrizovatkach
-        bojnicka
-        depotrnavka
-        slovinska
-        klientskecentrum
-        haburska
-        maximilianahella
-        dkruzinov
-        nevadzova
-        gagarinova
-        hranicna
-        pazitkova
-        prievozska
-        pristavnymost
-        bosakova
-        lachova
-        starohajska
-        hrobakova
-        romanova
-        markova
-        prokofievova
+        Avion Shop. Park
+        Ivanská cesta
+        Na križovatkách
+        Bojnická
+        Depo Trnávka
+        Slovinská
+        Klientske centrum
+        Haburská
+        Maximiliána Hella
+        DK Ružinov
+        Nevädzová
+        Gagarinova
+        Hraničná
+        Pažítková
+        Prievozská
+        Prístavný most
+        Bosákova
+        Lachova
+        Starohájska
+        Hrobákova
+        Romanova
+        Markova
+        Prokofievova
     ]
 }
-
+ 
 /line 98 {
     /color cc6f3c
     /subservice 1 [
-        jasovska
-        zehrianska
-        bzovicka
-        lubovnianska
-        lucanka
-        znievska
-        budatinska
-        zsbudatinska
-        luky2
-        smolenicka
-        tupolevova
-        kutlikova
-        malydrazdiak
-        staryhaj
-        ovsistskenam
-        ekonomuniverzita
-        pristavnymost
-        mliekarenska
-        drienova
-        bajkalska
-        novadoba
-        miunovemesto
-        halkova
-        slovany
-        kukucinova
-        novadoba
-        bajkalska
-        drienova
-        mliekarenska
-        pristavnymost
-        ekonomuniverzita
-        ovsistskenam
-        staryhaj
-        malydrazdiak
-        kutlikova
-        tupolevova
-        smolenicka
-        luky2
-        zsbudatinska
-        budatinska
-        znievska
-        lucanka
-        lubovnianska
-        bzovicka
-        zehrianska
-        jasovska
+        Jasovská
+        žehrianska
+        Bzovícka
+        Ľubovnianska
+        Lúčanka
+        Znievska
+        Budatínska
+        ZŠ Budatínska
+        Lúky II
+        Smolenická
+        Tupolevova
+        Kutlíkova
+        Malý Draždiak
+        Starý háj
+        Ovsištské nám.
+        Ekonom. univerzita
+        Prístavný most
+        Mliekarenská
+        Drieňová
+        Bajkalská
+        Nová doba
+        MiÚ Nové Mesto
+        Hálkova
+        Slovany
+        Kukučínova
+        Nová doba
+        Bajkalská
+        Drieňová
+        Mliekarenská
+        Prístavný most
+        Ekonom. univerzita
+        Ovsištské nám.
+        Starý háj
+        Malý Draždiak
+        Kutlíkova
+        Tupolevova
+        Smolenická
+        Lúky II
+        ZŠ Budatínska
+        Budatínska
+        Znievska
+        Lúčanka
+        Ľubovnianska
+        Bzovícka
+        žehrianska
+        Jasovská
     ]
 }
-
+ 
 /line 99 {
     /color f5b5d2
     /subservice 1 [
-        ovsiste
-        ovsistskenam
-        bulikova
-        sustekova
-        bosakova
-        mlynarovicova
-        farskeho
-        jungmannova
-        halova
-        gercenova
-        stnpetrzalka
-        kopcianskastred
-        bratska
-        jiraskova
-        svabinskeho
-        markova
-        romanova
-        bradacova
-        kutlikova
-        topolcianska
-        sintavska
-        holicska
-        luky2
-        zsbudatinska
-        budatinska
-        znievska
-        lucanka
-        lubovnianska
-        nemocnicaantolska
-        antolska
+        Ovsište
+        Ovsištské nám.
+        Bulíkova
+        Šustekova
+        Bosákova
+        Mlynarovičova
+        Farského
+        Jungmannova
+        Hálova
+        Gercenova
+        Stn. Petržalka
+        Kopčianska, stred
+        Bratská
+        Jiráskova
+        Švabinského
+        Markova
+        Romanova
+        Bradáčova
+        Kutlíkova
+        Topoľčianska
+        Šintavská
+        Holíčska
+        Lúky II
+        ZŠ Budatínska
+        Budatínska
+        Znievska
+        Lúčanka
+        Ľubovnianska
+        Nemocnica Antolská
+        Antolská
     ]
     /subservice 2 [
-        antolska
-        nemocnicaantolska
-        lubovnianska
-        lucanka
-        znievska
-        budatinska
-        zsbudatinska
-        luky2
-        holicska
-        sintavska
-        topolcianska
-        kutlikova
-        bradacova
-        romanova
-        markova
-        svabinskeho
-        jiraskova
-        bratska
-        kopcianskastred
-        stnpetrzalka
-        gercenova
-        halova
-        jungmannova
-        farskeho
-        mlynarovicova
-        sustekova
-        bulikova
-        ovsistskenam
-        ovsiste
+        Antolská
+        Nemocnica Antolská
+        Ľubovnianska
+        Lúčanka
+        Znievska
+        Budatínska
+        ZŠ Budatínska
+        Lúky II
+        Holíčska
+        Šintavská
+        Topoľčianska
+        Kutlíkova
+        Bradáčova
+        Romanova
+        Markova
+        Švabinského
+        Jiráskova
+        Bratská
+        Kopčianska, stred
+        Stn. Petržalka
+        Gercenova
+        Hálova
+        Jungmannova
+        Farského
+        Mlynarovičova
+        Šustekova
+        Bulíkova
+        Ovsištské nám.
+        Ovsište
     ]
 }
-
+ 
 /line 139 {
     /subservice 1 [
-        cintorinslavicie
-        rudolfamocka
-        konvalinkova
-        vretenova
-        nasitine
-        nadvinicami
-        bedlova
-        tonava
-        panorama
-        riviera
-        jurigovonam
-        hajnicka
-        panorama
-        tonava
-        bedlova
-        nadvinicami
-        nasitine
-        vretenova
-        konvalinkova
-        rudolfamocka
-        cintorinslavicie
+        Cintorín Slávičie
+        Rudolfa Mocka
+        Konvalinková
+        Vretenová
+        Na Sitine
+        Nad vinicami
+        Bedľová
+        Tôňava
+        Panoráma
+        Riviéra
+        Jurigovo nám.
+        Hájnická
+        Panoráma
+        Tôňava
+        Bedľová
+        Nad vinicami
+        Na Sitine
+        Vretenová
+        Konvalinková
+        Rudolfa Mocka
+        Cintorín Slávičie
     ]
 }
-
+ 
 /line 144 {
     /subservice 1 [
-        koliba
-        kolibaparkandride
-        kamzik
+        Koliba
+        Koliba P+R
+        Kamzík
     ]
     /subservice 2 [
-        kamzik
-        koliba
+        Kamzík
+        Koliba
     ]
 }
-
+ 
 /line 145 {
     /subservice 1 [
-        koliba
-        julova
-        narevine
-        junova
-        guothova
-        bardosova
-        stromova
-        cestanakamzik
-        jaskovyrad
-        matuskova
-        zabotova
-        cestanakamzik
-        stromova
-        bardosova
-        guothova
-        junova
-        narevine
-        julova
-        koliba
+        Koliba
+        Júlová
+        Na Revíne
+        Júnová
+        Guothova
+        Bárdošova
+        Stromová
+        Cesta na Kamzík
+        Jaskový rad
+        Matúškova
+        žabotova
+        Cesta na Kamzík
+        Stromová
+        Bárdošova
+        Guothova
+        Júnová
+        Na Revíne
+        Júlová
+        Koliba
     ]
 }
-
+ 
 /line 147 {
     /subservice 1 [
-        budkova
-        staravinarska
-        slavin
-        havlickova
-        misikova
-        donovalova
-        sulekova
-        kozia
-        hodzovonam
-        zochova
-        sulekova
-        donovalova
-        misikova
-        havlickova
-        kalvaria
-        gorazdova
-        kalvaria
-        havlickova
-        slavin
-        staravinarska
-        budkova
+        Búdková
+        Stará vinárska
+        Slavín
+        Havlíčkova
+        Mišíkova
+        Donovalova
+        Šulekova
+        Kozia
+        Hodžovo nám.
+        Zochova
+        Šulekova
+        Donovalova
+        Mišíkova
+        Havlíčkova
+        Kalvária
+        Gorazdova
+        Kalvária
+        Havlíčkova
+        Slavín
+        Stará vinárska
+        Búdková
     ]
 }
-
+ 
 /line 151 {
     /subservice 1 [
-        lopenicka
-        mustova
-        sliacska
-        slovany
-        kukucinova
-        tehelna
-        trnavskemyto
+        Lopenícka
+        Muštová
+        Sliačska
+        Slovany
+        Kukučínova
+        Tehelná
+        Trnavské mýto
     ]
     /subservice 2 [
-        trnavskemyto
-        tehelna
-        kukucinova
-        pionierska
-        sliacska
-        mustova
-        briezky
-        krahulcia
-        lopenicka
+        Trnavské mýto
+        Tehelná
+        Kukučínova
+        Pionierska
+        Sliačska
+        Muštová
+        Briežky
+        Krahulčia
+        Lopenícka
     ]
 }
-
+ 
 /line 154 {
     /subservice 1 [
-        hubeneho
-        slanec
-        municnesklady
-        horarenkrasnany
+        Hubeného
+        Slanec
+        Muničné sklady
+        Horáreň Krasňany
     ]
     /subservice 2 [
-        horarenkrasnany
-        municnesklady
-        slanec
-        hubeneho
+        Horáreň Krasňany
+        Muničné sklady
+        Slanec
+        Hubeného
     ]
 }
-
+ 
 /line 191 {
     /subservice 1 [
-        mostsnp
-        prisade
-        dvory
-        stnpetrzalka
-        kolma
-        ocluky
-        jasovska
-        zlta
-        jarovcezahrady
-        strelnica
-        pila
-        jarovce
-        ovocna
-        kovacsova
-        vyvojova
-        gerulata
-        kastielrusovce
-        stnrusovce
+        Most SNP
+        Pri Sade
+        Dvory
+        Stn. Petržalka
+        Kolmá
+        OC Lúky
+        Jasovská
+        žltá
+        Jarovce, záhrady
+        Strelnica
+        Píla
+        Jarovce
+        Ovocná
+        Kovácsova
+        Vývojová
+        Gerulata
+        Kaštieľ Rusovce
+        Stn. Rusovce
     ]
     /subservice 2 [
-        stnrusovce
-        kastielrusovce
-        gerulata
-        vyvojova
-        kovacsova
-        ovocna
-        jarovce
-        pila
-        strelnica
-        jarovcezahrady
-        zlta
-        jasovska
-        ocluky
-        kolma
-        stnpetrzalka
-        dvory
-        prisade
-        mostsnp
+        Stn. Rusovce
+        Kaštieľ Rusovce
+        Gerulata
+        Vývojová
+        Kovácsova
+        Ovocná
+        Jarovce
+        Píla
+        Strelnica
+        Jarovce, záhrady
+        žltá
+        Jasovská
+        OC Lúky
+        Kolmá
+        Stn. Petržalka
+        Dvory
+        Pri Sade
+        Most SNP
     ]
 }
-
+ 
 /line 192 {
     /subservice 1 [
-        cervenymost
-        patronka
-        habanskymlyn
-        zoo
-        einsteinova
-        dvory
-        halova
-        jungmannova
-        namhraniciarov
-        hrobakova
-        bradacova
-        kutlikova
-        topolcianska
-        sintavska
-        strecnianska
-        lucanka
-        lubovnianska
-        bzovicka
-        betliarska
-        depopetrzalka
+        Červený most
+        Patrónka
+        Habánsky mlyn
+        Zoo
+        Einsteinova
+        Dvory
+        Hálova
+        Jungmannova
+        Nám. hraničiarov
+        Hrobákova
+        Bradáčova
+        Kutlíkova
+        Topoľčianska
+        Šintavská
+        Strečnianska
+        Lúčanka
+        Ľubovnianska
+        Bzovícka
+        Betliarska
+        Depo Petržalka
     ]
     /subservice 2 [
-        depopetrzalka
-        betliarska
-        bzovicka
-        lubovnianska
-        lucanka
-        strecnianska
-        sintavska
-        topolcianska
-        kutlikova
-        bradacova
-        hrobakova
-        namhraniciarov
-        jungmannova
-        halova
-        dvory
-        einsteinova
-        zoo
-        habanskymlyn
-        patronka
-        cervenymost
+        Depo Petržalka
+        Betliarska
+        Bzovícka
+        Ľubovnianska
+        Lúčanka
+        Strečnianska
+        Šintavská
+        Topoľčianska
+        Kutlíkova
+        Bradáčova
+        Hrobákova
+        Nám. hraničiarov
+        Jungmannova
+        Hálova
+        Dvory
+        Einsteinova
+        Zoo
+        Habánsky mlyn
+        Patrónka
+        Červený most
     ]
 }

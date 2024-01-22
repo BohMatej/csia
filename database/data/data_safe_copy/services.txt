@@ -1,0 +1,3337 @@
+/line 1 {
+    /color ff6600
+    /subservice 1 [
+        hlavnastanica
+        podstanicou
+        uradvladysr
+        stu
+        vysoka
+        postova
+        centrum
+        jesenskeho
+        namlstura
+        safarikovonam
+        centrum
+        postova
+        vysoka
+        stu
+        uradvladysr
+        podstanicou
+        hlavnastanica
+    ]
+}
+
+/line 3 {
+    /color e31e24
+    /subservice 1 [
+        komisarky
+        puchovska
+        zahumenice
+        detvianska
+        hybesova
+        heckova
+        cernockeho
+        peknacesta
+        malokrasnanska
+        depokrasnany
+        stnvinohrady
+        nambielykriz
+        mladagarda
+        riazanska
+        pionierska
+        ursinyho
+        racianskemyto
+        blumental
+        americkenam
+        marianska
+        safarikovonam
+        sadjankakrala
+        farskeho
+        jungmannova
+    ]
+    /subservice 2 [
+        jungmannova
+        farskeho
+        sadjankakrala
+        safarikovonam
+        marianska
+        americkenam
+        blumental
+        racianskemyto
+        ursinyho
+        pionierska
+        riazanska
+        mladagarda
+        nambielykriz
+        stnvinohrady
+        depokrasnany
+        malokrasnanska
+        peknacesta
+        cernockeho
+        heckova
+        hybesova
+        detvianska
+        zahumenice
+        puchovska
+        komisarky
+    ]
+}
+
+/line 4 {
+    /color 7690c9
+    /subservice 1 [
+        prikrizi
+        podvornice
+        drobneho
+        alexyho
+        svantnerova
+        zaluhy
+        hornekrcace
+        dolnekrcace
+        kutiky
+        borska
+        namsvfrantiska
+        nadluckami
+        segnerova
+        riviera
+        botanickazahrada
+        lafranconi
+        kralovskeudolie
+        chatamsofer
+        mostsnp
+        safarikovonam
+        centrum
+        marianska
+        americkenam
+        krizna
+        trnavskemyto
+        ceska
+        novadoba
+        miunovemesto
+        kuchajda
+        stnnovemesto
+    ]
+    /subservice 2 [
+        prikrizi
+        podvornice
+        drobneho
+        alexyho
+        svantnerova
+        zaluhy
+        hornekrcace
+        dolnekrcace
+        kutiky
+        borska
+        namsvfrantiska
+        nadluckami
+        segnerova
+        riviera
+        botanickazahrada
+        lafranconi
+        kralovskeudolie
+        chatamsofer
+        mostsnp
+        safarikovonam
+        centrum
+        marianska
+        americkenam
+        krizna
+        trnavskemyto
+        ceska
+        novadoba
+        miunovemesto
+        kuchajda
+        odborarska
+        magnetova
+        jurajovdvor
+        vajnorska
+        shoppingpalace
+        zlatepiesky
+    ]
+    /subservice 3 [
+        stnnovemesto
+        kuchajda
+        miunovemesto
+        novadoba
+        ceska
+        trnavskemyto
+        krizna
+        americkenam
+        marianska
+        centrum
+        jesenskeho
+        namlstura
+        mostsnp
+        chatamsofer
+        kralovskeudolie
+        lafranconi
+        botanickazahrada
+        riviera
+        segnerova
+        nadluckami
+        namsvfrantiska
+        borska
+        kutiky
+        dolnekrcace
+        hornekrcace
+        zaluhy
+        svantnerova
+        alexyho
+        drobneho
+        podvornice
+        prikrizi
+    ]
+    /subservice 4 [
+        zlatepiesky
+        shoppingpalace
+        vajnorska
+        jurajovdvor
+        magnetova
+        odborarska
+        kuchajda
+        miunovemesto
+        novadoba
+        ceska
+        trnavskemyto
+        krizna
+        americkenam
+        marianska
+        centrum
+        jesenskeho
+        namlstura
+        mostsnp
+        chatamsofer
+        kralovskeudolie
+        lafranconi
+        botanickazahrada
+        riviera
+        segnerova
+        nadluckami
+        namsvfrantiska
+        borska
+        kutiky
+        dolnekrcace
+        hornekrcace
+        zaluhy
+        svantnerova
+        alexyho
+        drobneho
+        podvornice
+        prikrizi
+    ]
+}
+
+/line 7 {
+    /color ffed00
+    /subservice 1 [
+        komisarky
+        puchovska
+        zahumenice
+        detvianska
+        hybesova
+        heckova
+        cernockeho
+        peknacesta
+        malokrasnanska
+        depokrasnany
+        stnvinohrady
+        nambielykriz
+        mladagarda
+        riazanska
+        pionierska
+        ursinyho
+        racianskemyto
+        blumental
+        stu
+        uradvladysr
+        podstanicou
+        hlavnastanica
+    ]
+    /subservice 2 [
+        hlavnastanica
+        podstanicou
+        uradvladysr
+        blumental
+        racianskemyto
+        ursinyho
+        pionierska
+        riazanska
+        mladagarda
+        nambielykriz
+        stnvinohrady
+        depokrasnany
+        malokrasnanska
+        peknacesta
+        cernockeho
+        heckova
+        hybesova
+        detvianska
+        zahumenice
+        puchovska
+        komisarky
+    ]
+}
+
+/line 9 {
+    /color b0cb1f
+    /subservice 1 [
+        kutiky
+        borska
+        namsvfrantiska
+        nadluckami
+        segnerova
+        riviera
+        botanickazahrada
+        lafranconi
+        kralovskeudolie
+        kapucinska
+        postova
+        vysoka
+        blumental
+        krizna
+        trnavskemyto
+        saleziani
+        liscienivy
+        nemocnicaruzinov
+        herlianska
+        tomasikova
+        sumracna
+        chlumeckeho
+        astronomicka
+    ]
+    /subservice 2 [
+        astronomicka
+        chlumeckeho
+        sumracna
+        tomasikova
+        herlianska
+        nemocnicaruzinov
+        liscienivy
+        saleziani
+        trnavskemyto
+        krizna
+        blumental
+        stu
+        vysoka
+        postova
+        kapucinska
+        kralovskeudolie
+        lafranconi
+        botanickazahrada
+        riviera
+        segnerova
+        nadluckami
+        namsvfrantiska
+        borska
+        kutiky
+    ]
+}
+
+/line 33 {
+    /color a79ecd
+    /subservice 1 [
+        dlhediely
+        zsmajernikova
+        matejkova
+        tomankova
+        hanymelickovej
+        pripodchode
+        janotova
+        riviera
+    ]
+    /subservice 2 [
+        riviera
+        janotova
+        pripodchode
+        hanymelickovej
+        tomankova
+        matejkova
+        zsmajernikova
+        dlhediely
+    ]
+}
+
+/line 40 {
+    /color e51a4b
+    /subservice 1 [
+        hlavnastanica
+        podstanicou
+        karpatska
+        racianskemyto
+        krizna
+        soltesovej
+        autobusovastanica
+        culenova
+        novesnd
+    ]
+    /subservice 2 [
+        novesnd
+        culenova
+        autobusovastanica
+        malytrh
+        soltesovej
+        krizna
+        racianskemyto
+        karpatska
+        hlavnastanica
+    ]
+}
+
+/line 42 {
+    /color a65430
+    /subservice 1 [
+        cervenymost
+        patronka
+        suchymlyn
+        nemocnicakramare
+        magurska
+        bardosova
+        sokolska
+        podstanicou
+        hodzovonam
+        kollarovonam
+        spitalska
+        ondrejskycintorin
+        autobusovastanica
+        kosicka
+        novohradska
+        mileticova
+        prievozska
+        hranicna
+        miuruzinov
+        mierova
+        radnicnenam
+        strojnicka
+        hrachova
+        prievozmost
+        cintorinvrakuna
+    ]
+    /subservice 2 [
+        cintorinvrakuna
+        prievozmost
+        hrachova
+        strojnicka
+        radnicnenam
+        mierova
+        miuruzinov
+        hranicna
+        pazitkova
+        prievozska
+        mileticova
+        novohradska
+        kosicka
+        autobusovastanica
+        ondrejskycintorin
+        spitalska
+        kollarovonam
+        hodzovonam
+        podstanicou
+        sokolska
+        stromova
+        bardosova
+        magurska
+        nemocnicakramare
+        suchymlyn
+        patronka
+        cervenymost
+    ]
+}
+
+/line 44 {
+    /color ce82b5
+    /subservice 1 [
+        budkova
+        cervenykriz
+        hummelova
+        radvanska
+        inovecka
+        hrad
+        zamocka
+        svoradova
+        kozia
+        hodzovonam
+        prezidentskazahrada
+        uradvladysr
+        karpatska
+        tupeho
+        jeseniova
+        cremchova
+        husova
+        koliba
+    ]
+    /subservice 2 [
+        koliba
+        husova
+        cremchova
+        jeseniova
+        tupeho
+        karpatska
+        uradvladysr
+        prezidentskazahrada
+        hodzovonam
+        kozia
+        svoradova
+        zamocka
+        hrad
+        inovecka
+        radvanska
+        hummelova
+        cervenykriz
+        budkova
+    ]
+}
+
+/line 45 {
+    /subservice 1 [
+        cervenymost
+        patronka
+        suchymlyn
+        nemocnicakramare
+        vlarska
+        klenova
+        narodnyonkologickyustav
+    ]
+    /subservice 2 [
+        narodnyonkologickyustav
+        klenova
+        vlarska
+        nemocnicakramare
+        suchymlyn
+        patronka
+        cervenymost
+    ]
+}
+
+/line 47 {
+    /color eabd00
+    /subservice 1 [
+        cervenymost
+        patronka
+        hyrosova
+        valasska
+        lovinskeho
+        depohrobonova
+        horskypark
+        budkova
+        cervenykriz
+        hummelova
+        radvanska
+        inovecka
+        hrad
+        zamocka
+        svoradova
+        kozia
+        hodzovonam
+        kollarovonam
+        americkenam
+        karadzicova
+        kvacalova
+        saleziani
+        zimnystadion
+    ]
+    /subservice 2 [
+        zimnystadion
+        saleziani
+        kvacalova
+        karadzicova
+        americkenam
+        kollarovonam
+        hodzovonam
+        kozia
+        svoradova
+        zamocka
+        hrad
+        inovecka
+        radvanska
+        hummelova
+        cervenykriz
+        budkova
+        horskypark
+        depohrobonova
+        lovinskeho
+        valasska
+        patronka
+        cervenymost
+    ]
+}
+
+/line 49 {
+    /color ef7f1a
+    /subservice 1 [
+        narodnyonkologickyustav
+        klenova
+        vlarska
+        magurska
+        bardosova
+        sokolska
+        podstanicou
+        karpatska
+        racianskemyto
+        trnavskemyto
+        saleziani
+        trhovisko
+        ruzovadolina
+        mliekarenska
+    ]
+    /subservice 2 [
+        nusch
+        vlarska
+        magurska
+        bardosova
+        sokolska
+        podstanicou
+        karpatska
+        racianskemyto
+        trnavskemyto
+        saleziani
+        trhovisko
+        ruzovadolina
+        mliekarenska
+    ]
+    /subservice 3 [
+        mliekarenska
+        ruzovadolina
+        trhovisko
+        saleziani
+        trnavskemyto
+        racianskemyto
+        karpatska
+        podstanicou
+        sokolska
+        stromova
+        bardosova
+        magurska
+        vlarska
+        nusch
+    ]
+    /subservice 4 [
+        mliekarenska
+        ruzovadolina
+        trhovisko
+        saleziani
+        trnavskemyto
+        racianskemyto
+        karpatska
+        podstanicou
+        sokolska
+        stromova
+        bardosova
+        magurska
+        vlarska
+        klenova
+        narodnyonkologickyustav
+    ]
+}
+
+/line 60 {
+    /color 2a4493
+    /subservice 1 [
+        radiova
+        bulharska
+        spolocenska
+        hanacka
+        slovinska
+        klientskecentrum
+        sabinovska
+        bajkalska
+        zimnystadion
+        saleziani
+        kvacalova
+        kuliskova
+        cvernovka
+        kosicka
+        autobusovastanica
+        ondrejskycintorin
+        rajska
+    ]
+    /subservice 2 [
+        rajska
+        ondrejskycintorin
+        autobusovastanica
+        kosicka
+        cvernovka
+        kuliskova
+        kvacalova
+        saleziani
+        zimnystadion
+        bajkalska
+        sabinovska
+        klientskecentrum
+        slovinska
+        hanacka
+        spolocenska
+        bulharska
+        radiova
+    ]
+}
+
+/line 64 {
+    /color 009846
+    /subservice 1 [
+        jelacicova
+        trnavskemyto
+        racianskemyto
+        karpatska
+        podstanicou
+        sokolska
+        stromova
+        bardosova
+        magurska
+        nemocnicakramare
+        suchymlyn
+        hyrosova
+        valasska
+    ]
+    /subservice 2 [
+        valasska
+        suchymlyn
+        nemocnicakramare
+        magurska
+        bardosova
+        sokolska
+        podstanicou
+        karpatska
+        racianskemyto
+        trnavskemyto
+        jelacicova
+    ]
+}
+
+/line 71 {
+    /color 00a0e3
+    /subservice 1 [
+        hlavnastanica
+        podstanicou
+        karpatska
+        racianskemyto
+        trnavskemyto
+        saleziani
+        trhovisko
+        mileticova
+        prievozska
+        hranicna
+        gagarinova
+        brodna
+        ondrejovova
+        ribezlova
+        cintorinvrakuna
+        priekopnicka
+        komarovska
+        toryska
+        hronska
+        dudvazska
+        cilizska
+    ]
+    /subservice 2 [
+        cilizska
+        zitavska
+        dudvazska
+        hronska
+        toryska
+        komarovska
+        priekopnicka
+        cintorinvrakuna
+        ribezlova
+        ondrejovova
+        brodna
+        gagarinova
+        hranicna
+        pazitkova
+        prievozska
+        mileticova
+        trencianska
+        trhovisko
+        saleziani
+        trnavskemyto
+        racianskemyto
+        karpatska
+        hlavnastanica
+    ]
+}
+
+/line 72 {
+    /color b0cb1f
+    /subservice 1 [
+        rajska
+        ondrejskycintorin
+        autobusovastanica
+        kosicka
+        novohradska
+        mileticova
+        prievozska
+        hranicna
+        gagarinova
+        brodna
+        ondrejovova
+        ribezlova
+        cintorinvrakuna
+        priekopnicka
+        komarovska
+        toryska
+        hronska
+        dudvazska
+        cilizska
+    ]
+    /subservice 2 [
+        cilizska
+        zitavska
+        dudvazska
+        hronska
+        toryska
+        komarovska
+        priekopnicka
+        cintorinvrakuna
+        ribezlova
+        ondrejovova
+        brodna
+        gagarinova
+        hranicna
+        pazitkova
+        prievozska
+        mileticova
+        novohradska
+        kosicka
+        autobusovastanica
+        ondrejskycintorin
+        rajska
+    ]
+}
+
+/line 20 {
+    /subservice 1 [
+        opetalovavw5
+        paulinske
+        panske
+        bystricka
+        stndevnovaves
+        mlynska
+        novoveska
+        uhrovecka
+        hradistna
+        milanamarecka
+        stefanakralika
+        vapenka
+        krpas
+        kamenace
+        tpkolakovica
+        agatova
+        prikrizi
+        podvornice
+        drobneho
+        alexyho
+        svantnerova
+        zaluhy
+        lipskeho
+        huscavova
+        tescolamac
+    ]
+    /subservice 2 [
+        tescolamac
+        huscavova
+        lipskeho
+        zaluhy
+        svantnerova
+        alexyho
+        drobneho
+        podvornice
+        prikrizi
+        agatova
+        tpkolakovica
+        kamenace
+        krpas
+        vapenka
+        stefanakralika
+        milanamarecka
+        hradistna
+        uhrovecka
+        novoveska
+        mlynska
+        stndevnovaves
+        bystricka
+        panske
+        paulinske
+        opetalovavw5
+    ]
+}
+
+/line 21 {
+    /color 338632
+    /subservice 1 [
+        autobusovastanica
+        krizna
+        racianskemyto
+        podstanicou
+        patronka
+        mokrohajska
+        ocbory
+        tpkolakovica
+        stefanakralika
+        milanamarecka
+        hradistna
+        prisandbergu
+    ]
+    /subservice 2 [
+        autobusovastanica
+        krizna
+        racianskemyto
+        podstanicou
+        patronka
+        mokrohajska
+        ocbory
+        tpkolakovica
+        stefanakralika
+        milanamarecka
+        hradistna
+        novoveska
+        mlynska
+        stndevnovaves
+        zamajerske
+        vw1
+        janajonasa
+        vw2
+    ]
+    /subservice 3 [
+        prisandbergu
+        hradistna
+        milanamarecka
+        stefanakralika
+        tpkolakovica
+        ocbory
+        mokrohajska
+        patronka
+        podstanicou
+        racianskemyto
+        krizna
+        autobusovastanica
+    ]
+    /subservice 4 [
+        vw2
+        janajonasa
+        vw1
+        zamajerske
+        stndevnovaves
+        mlynska
+        novoveska
+        hradistna
+        milanamarecka
+        stefanakralika
+        tpkolakovica
+        ocbory
+        mokrohajska
+        patronka
+        podstanicou
+        racianskemyto
+        krizna
+        autobusovastanica
+    ]
+}
+
+/line 23 {
+    /subservice 1 [
+        lamac
+        klanec
+        studenohorska
+        podhaj
+        bakosova
+        vrancovicova
+        podnasypom
+        kupaliskolamac
+        segnare
+        podnasypom
+        stnlamac
+        bilikova
+        alexyho
+        drobneho
+        podvornice
+        prikrizi
+        agatova
+        technickesklo
+        tpkolakovica
+        velkoluckypotok
+        napajiska
+        janajonasa
+        vw1
+        zamajerske
+        stndevnovaves
+        vapencova
+        rakyta
+        mlaka
+    ]
+    /subservice 2 [
+        mlaka
+        rakyta
+        vapencova
+        stndevnovaves
+        zamajerske
+        vw1
+        janajonasa
+        napajiska
+        velkoluckypotok
+        tpkolakovica
+        technickesklo
+        agatova
+        prikrizi
+        podvornice
+        drobneho
+        alexyho
+        stnlamac
+        podnasypom
+        kupaliskolamac
+        segnare
+        podnasypom
+        vrancovicova
+        bakosova
+        podhaj
+        studenohorska
+        klanec
+        lamac
+    ]
+}
+
+/line 25 {
+    /subservice 1 [
+        autobusovastanica
+        krizna
+        racianskemyto
+        podstanicou
+        patronka
+        vrancovicova
+        ocbory
+        velkoluckypotok
+        vw2
+    ]
+    /subservice 2 [
+        autobusovastanica
+        krizna
+        racianskemyto
+        podstanicou
+        patronka
+        vrancovicova
+        ocbory
+        stndevnovaves
+        panske
+        paulinske
+        opetalovavw5
+        vw1
+    ]
+    /subservice 3 [
+        vw2
+        velkoluckypotok
+        ocbory
+        vrancovicova
+        patronka
+        podstanicou
+        racianskemyto
+        krizna
+        autobusovastanica
+    ]
+    /subservice 4 [
+        vw1
+        opetalovavw5
+        paulinske
+        panske
+        stndevnovaves
+        ocbory
+        vrancovicova
+        patronka
+        podstanicou
+        racianskemyto
+        krizna
+        autobusovastanica
+    ]
+}
+
+/line 26 {
+    /subservice 1 [
+        homolova
+        stepna
+        zatevna
+        pernikova
+        podvornice
+        prikrizi
+        velkoluckypotok
+        vw2
+    ]
+    /subservice 2 [
+        homolova
+        stepna
+        zatevna
+        pernikova
+        podvornice
+        prikrizi
+        stndevnovaves
+        panske
+        paulinske
+        opetalovavw5
+        vw1
+    ]
+    /subservice 3 [
+        vw2
+        velkoluckypotok
+        prikrizi
+        podvornice
+        pernikova
+        zatevna
+        stepna
+        homolova
+    ]
+    /subservice 4 [
+        vw1
+        opetalovavw5
+        paulinske
+        panske
+        stndevnovaves
+        prikrizi
+        podvornice
+        pernikova
+        zatevna
+        stepna
+        homolova
+    ]
+}
+
+/line 29 {
+    /subservice 1 [
+        malascena
+        safarikovonam
+        namlstura
+        mostsnp
+        chatamsofer
+        kralovskeudolie
+        lafranconi
+        botanickazahrada
+        riviera
+        jurigrad
+        sihot
+        kadlecik
+        zlateschody
+        hajovna
+        prizahradach
+        novykamenolom
+        starykamenolom
+        dolnekoruny
+        kzlatemurohu
+        slovanskenabr
+        cyrilametod
+        strbska
+        hraddevin
+        poddevkobylou
+        waitovlom
+        morava
+        prisandbergu
+        uhrovecka
+        novoveska
+        mlynska
+        stndevnovaves
+        bystricka
+        panske
+        paulinske
+        opetalovavw5
+    ]
+    /subservice 2 [
+        malascena
+        safarikovonam
+        namlstura
+        mostsnp
+        chatamsofer
+        kralovskeudolie
+        lafranconi
+        botanickazahrada
+        riviera
+        jurigrad
+        sihot
+        kadlecik
+        zlateschody
+        hajovna
+        prizahradach
+        novykamenolom
+        starykamenolom
+        dolnekoruny
+        kzlatemurohu
+        slovanskenabr
+        cyrilametod
+        strbska
+        hraddevin
+        poddevkobylou
+        waitovlom
+        morava
+        prisandbergu
+        ivanabukovcana
+        nagrbe
+        novoveska
+        mlynska
+        stndevnovaves
+        bystricka
+        panske
+        paulinske
+        opetalovavw5
+    ]
+    /subservice 3 [
+        opetalovavw5
+        paulinske
+        panske
+        bystricka
+        stndevnovaves
+        mlynska
+        novoveska
+        uhrovecka
+        prisandbergu
+        morava
+        waitovlom
+        poddevkobylou
+        hraddevin
+        strbska
+        cyrilametod
+        slovanskenabr
+        kzlatemurohu
+        dolnekoruny
+        starykamenolom
+        novykamenolom
+        prizahradach
+        hajovna
+        zlateschody
+        kadlecik
+        sihot
+        jurigrad
+        riviera
+        botanickazahrada
+        lafranconi
+        kralovskeudolie
+        chatamsofer
+        mostsnp
+        namlstura
+        safarikovonam
+        malascena
+    ]
+    /subservice 4 [
+        opetalovavw5
+        paulinske
+        panske
+        bystricka
+        stndevnovaves
+        mlynska
+        novoveska
+        nagrbe
+        ivanabukovcana
+        prisandbergu
+        morava
+        waitovlom
+        poddevkobylou
+        hraddevin
+        strbska
+        cyrilametod
+        slovanskenabr
+        kzlatemurohu
+        dolnekoruny
+        starykamenolom
+        novykamenolom
+        prizahradach
+        hajovna
+        zlateschody
+        kadlecik
+        sihot
+        jurigrad
+        riviera
+        botanickazahrada
+        lafranconi
+        kralovskeudolie
+        chatamsofer
+        mostsnp
+        namlstura
+        safarikovonam
+        malascena
+    ]
+}
+
+/line 30 {
+    /subservice 1 [
+        podvornice
+        prikrizi
+        agatova
+        hrubeluky
+        vladimirajukla
+        nemocnicabory
+        ocbory
+        hodoninska
+        bakosova
+        podhaj
+        studenohorska
+        klanec
+        lamac
+        vrancovicova
+        podnasypom
+        kupaliskolamac
+        segnare
+        podnasypom
+        stnlamac
+        pridanky
+        tescolamac
+        mokrohajska
+        patronka
+    ]
+    /subservice 2 [
+        patronka
+        mokrohajska
+        tescolamac
+        pridanky
+        skerlicova
+        stnlamac
+        podnasypom
+        kupaliskolamac
+        segnare
+        podnasypom
+        vrancovicova
+        lamac
+        klanec
+        studenohorska
+        podhaj
+        bakosova
+        hodoninska
+        ocbory
+        nemocnicabory
+        vladimirajukla
+        hrubeluky
+        agatova
+        prikrizi
+        podvornice
+    ]
+}
+
+/line 31 {
+    /subservice 1 [
+        cintorinslavicie
+        televizia
+        zoo
+        lafranconi
+        kralovskeudolie
+        chatamsofer
+        zochova
+        kollarovonam
+        blumental
+        namslobody
+        kollarovonam
+        zochova
+        chatamsofer
+        kralovskeudolie
+        lafranconi
+        zoo
+        televizia
+        cintorinslavicie
+    ]
+}
+
+/line 32 {
+    /subservice 1 [
+        dlhediely
+        zsmajernikova
+        matejkova
+        tomankova
+        hanymelickovej
+        pripodchode
+        janotova
+        riviera
+        botanickazahrada
+        zoo
+        habanskymlyn
+        suchymlyn
+        nemocnicakramare
+        magurska
+        bardosova
+        sokolska
+        hlavnastanica
+    ]
+    /subservice 2 [
+        hlavnastanica
+        podstanicou
+        sokolska
+        bardosova
+        magurska
+        nemocnicakramare
+        suchymlyn
+        habanskymlyn
+        zoo
+        botanickazahrada
+        riviera
+        janotova
+        pripodchode
+        hanymelickovej
+        tomankova
+        matejkova
+        zsmajernikova
+        dlhediely
+    ]
+}
+
+/line 35 {
+    /subservice 1 [
+        dlhediely
+        podkralovouhorou
+        kuklovska
+        solosnicka
+        sastinska
+        kutiky
+        borska
+        dolnekrcace
+        hornekrcace
+        harmincova
+        lipskeho
+        polianky
+        dubravskacesta
+    ]
+    /subservice 2 [
+        dubravskacesta
+        polianky
+        lipskeho
+        harmincova
+        hornekrcace
+        dolnekrcace
+        kutiky
+        borska
+        solosnicka
+        sastinska
+        kuklovska
+        podkralovouhorou
+        dlhediely
+    ]
+}
+
+/line 36 {
+    /subservice 1 [
+        strmevrsky
+        bystrickesady
+        podvrskami
+        rudavska
+        krce
+        miuzahbystrica
+        zahorska
+        krce
+        rudavska
+        bystrickesady
+        strmevrsky
+    ]
+}
+
+/line 37 {
+    /color e31e24
+    /subservice 1 [
+        mostsnp
+        chatamsofer
+        kralovskeudolie
+        lafranconi
+        zoo
+        habanskymlyn
+        patronka
+        mokrohajska
+        tescolamac
+        pridanky
+        skerlicova
+        stnlamac
+        podnasypom
+        vrancovicova
+        hodoninska
+        prikrematoriu
+        podkerepusky
+        kulhan
+        dievcihradok
+        bratislavska
+        krce
+        miuzahbystrica
+        zahorska
+        zahorskabystrica
+    ]
+    /subservice 2 [
+        zahorskabystrica
+        zahorska
+        krce
+        bratislavska
+        dievcihradok
+        kulhan
+        podkerepusky
+        prikrematoriu
+        hodoninska
+        vrancovicova
+        podnasypom
+        stnlamac
+        pridanky
+        mokrohajska
+        patronka
+        habanskymlyn
+        zoo
+        lafranconi
+        kralovskeudolie
+        chatamsofer
+        mostsnp
+    ]
+}
+
+/line 39 {
+    /subservice 1 [
+        cintorinslavicie
+        televizia
+        zoo
+        lafranconi
+        kralovskeudolie
+        chatamsofer
+        zochova
+        kollarovonam
+        blumental
+        racianskemyto
+        trnavskemyto
+        zimnystadion
+        bajkalska
+        sabinovska
+        klientskecentrum
+        trnavskacesta
+        martinskycintorin
+        clementisova
+        planet
+        suhvezdna
+    ]
+    /subservice 2 [
+        suhvezdna
+        planet
+        clementisova
+        martinskycintorin
+        trnavskacesta
+        klientskecentrum
+        sabinovska
+        bajkalska
+        zimnystadion
+        trnavskemyto
+        racianskemyto
+        povraznicka
+        namslobody
+        kollarovonam
+        zochova
+        chatamsofer
+        kralovskeudolie
+        lafranconi
+        zoo
+        televizia
+        cintorinslavicie
+    ]
+}
+
+/line 41 {
+    /subservice 1 [
+        hlavnastanica
+        podstanicou
+        sokolska
+        hrobonova
+        prokopavelkeho
+        depohrobonova
+        subezna
+        bubnovka
+        slovnararchiv
+        safranova
+        prvosienkova
+        nahrebienku
+        budkova
+    ]
+    /subservice 2 [
+        budkova
+        nahrebienku
+        prvosienkova
+        safranova
+        slovnararchiv
+        bubnovka
+        subezna
+        depohrobonova
+        hrobonova
+        sokolska
+        hlavnastanica
+    ]
+}
+
+/line 43 {
+    /subservice 1 [
+        patronka
+        cervenymost
+        partizanskaluka
+        klepac
+        deviatymlyn
+        zeleznastudnicka
+        kacinskadolina
+        kacin
+    ]
+    /subservice 2 [
+        patronka
+        cervenymost
+        partizanskaluka
+        klepac
+        deviatymlyn
+        zeleznastudnicka
+        bukva
+        drienovskeluky
+        lanovka
+        kamenolom
+        lesopark
+    ]
+    /subservice 3 [
+        kacin
+        kacinskadolina
+        zeleznastudnicka
+        deviatymlyn
+        klepac
+        partizanskaluka
+        cervenymost
+        patronka
+    ]
+    /subservice 4 [
+        lesopark
+        kamenolom
+        lanovka
+        drienovskeluky
+        bukva
+        zeleznastudnicka
+        deviatymlyn
+        klepac
+        partizanskaluka
+        cervenymost
+        patronka
+    ]
+}
+
+/line 50 {
+    /color 57a7b3
+    /subservice 1 [
+        kukucinova
+        slovany
+        halkova
+        miunovemesto
+        stnnovemesto
+        klientskecentrum
+        haburska
+        maximilianahella
+        tomasikova
+        herlianska
+        nemocnicaruzinov
+        liscienivy
+        trhovisko
+        dulovonam
+        kosicka
+        autobusovastanica
+        culenova
+        landererova
+        mostapollo
+        oceinsteinova
+    ]
+    /subservice 2 [
+        oceinsteinova
+        mostsnp
+        namlstura
+        safarikovonam
+        malascena
+        culenova
+        autobusovastanica
+        kosicka
+        cvernovka
+        dulovonam
+        trhovisko
+        liscienivy
+        nemocnicaruzinov
+        herlianska
+        tomasikova
+        maximilianahella
+        zaluzicka
+        haburska
+        klientskecentrum
+        stnnovemesto
+        miunovemesto
+        halkova
+        slovany
+        kukucinova
+    ]
+}
+
+/line 51 {
+    /subservice 1 [
+        trnavskemyto
+        tehelna
+        kukucinova
+        slovany
+        halkova
+        miunovemesto
+        kuchajda
+        odborarska
+        stareihrisko
+        trojdomy
+        nobelova
+        depokrasnany
+    ]
+    /subservice 2 [
+        depokrasnany
+        nobelova
+        trojdomy
+        stareihrisko
+        odborarska
+        kuchajda
+        miunovemesto
+        halkova
+        slovany
+        kukucinova
+        tehelna
+        trnavskemyto
+    ]
+}
+
+/line 52 {
+    /subservice 1 [
+        stnvajnory
+        primlyne
+        pracanska
+        uhliska
+        ocvajnory
+        stareletisko
+        rusnovedepo2
+        napasekach
+        vychodne
+        rusnovedepo1
+        sklabinska
+        prisajbach
+        pastierska
+        stolarska
+        detvianska
+        zavadska
+        tbiliska
+        drozdova
+        zvoncekova
+        potocna
+    ]
+    /subservice 2 [
+        potocna
+        zvoncekova
+        drozdova
+        tbiliska
+        zavadska
+        detvianska
+        ihriskova
+        pastierska
+        prisajbach
+        sklabinska
+        rusnovedepo1
+        vychodne
+        napasekach
+        rusnovedepo2
+        stareletisko
+        ocvajnory
+        uhliska
+        ciernychodnik
+        pracanska
+        stnvajnory
+    ]
+}
+
+/line 53 {
+    /subservice 1 [
+        vajnory
+        rolnicka
+        hospodarska
+        miuvajnory
+        uhliska
+        ocvajnory
+        vajnorynadjazd
+        tuhovska
+        zlatepiesky
+        ocroznavska
+        bojnicka
+        depotrnavka
+        slovinska
+        klientskecentrum
+        sabinovska
+        bajkalska
+        zimnystadion
+        trnavskemyto
+        novadoba
+        bajkalska
+        sabinovska
+        klientskecentrum
+        slovinska
+        depotrnavka
+        bojnicka
+        ocroznavska
+        zlatepiesky
+        dvojstudnovepolia
+        vajnorynadjazd
+        ocvajnory
+        uhliska
+        miuvajnory
+        hospodarska
+        rolnicka
+        vajnory
+    ]
+}
+
+/line 56 {
+    /subservice 1 [
+        studena
+        studenazastavka
+        shoppingpalace
+        zlatepiesky
+        dvojstudnovepolia
+        vajnorynadjazd
+        ocvajnory
+        stareletisko
+        rusnovedepo2
+        napasekach
+        vychodne
+        rusnovedepo1
+        sklabinska
+        prisajbach
+        pastierska
+        stolarska
+        detvianska
+        namahlinku
+        baronka
+        kubacovankd
+        miuraca
+        zavadska
+        tbiliska
+        karpatskenam
+        puchovska
+        ocraca
+    ]
+    /subservice 2 [
+        ocraca
+        puchovska
+        karpatskenam
+        tbiliska
+        zavadska
+        namahlinku
+        baronka
+        kubacovankd
+        miuraca
+        detvianska
+        ihriskova
+        pastierska
+        prisajbach
+        sklabinska
+        rusnovedepo1
+        vychodne
+        napasekach
+        rusnovedepo2
+        stareletisko
+        ocvajnory
+        vajnorynadjazd
+        tuhovska
+        zlatepiesky
+        shoppingpalace
+        studenazastavka
+        studena
+    ]
+}
+
+/line 57 {
+    /subservice 1 [
+        depojurajovdvor
+        jurajovdvor
+        prinadjazde
+        pribylinska
+        stavitelska
+        staviva
+        kalnejazero
+        spadovisko1
+        spadovisko2
+        zlatepiesky
+        shoppingpalace
+        staravajnorska
+        ocstaravajnorska
+        jurajovdvor
+        depojurajovdvor
+    ]
+    /subservice 2 [
+        depojurajovdvor
+        jurajovdvor
+        prinadjazde
+        mokrad
+        mikulasovdvor
+        zabimajer
+        mikulasovdvor
+        mokrad
+        pribylinska
+        stavitelska
+        staviva
+        kalnejazero
+        spadovisko1
+        spadovisko2
+        zlatepiesky
+        shoppingpalace
+        staravajnorska
+        ocstaravajnorska
+        jurajovdvor
+        depojurajovdvor
+    ]
+    /subservice 3 [
+        zabimajer
+        mikulasovdvor
+        mokrad
+        prinadjazde
+        jurajovdvor
+        depojurajovdvor
+    ]
+}
+
+/line 59 {
+    /subservice 1 [
+        antolska
+        nemocnicaantolska
+        lubovnianska
+        lucanka
+        znievska
+        budatinska
+        luky2
+        smolenicka
+        jiraskova
+        stnpetrzalka
+        dvory
+        racianskemyto
+        pionierska
+        stnvinohrady
+        peknacesta
+        travna
+        puchovska
+        rybnicna
+        napantochskoly
+        napantochstred
+        napantoch
+    ]
+    /subservice 2 [
+        napantoch
+        napantochstred
+        napantochskoly
+        rybnicna
+        puchovska
+        travna
+        peknacesta
+        stnvinohrady
+        pionierska
+        racianskemyto
+        dvory
+        stnpetrzalka
+        jiraskova
+        smolenicka
+        luky2
+        budatinska
+        znievska
+        lucanka
+        lubovnianska
+        nemocnicaantolska
+        antolska
+    ]
+}
+
+/line 61 {
+    /color ec6a6d
+    /subservice 1 [
+        letisko
+        farfuny
+        priletisku
+        avionikea
+        avionshoppark
+        ivanskacesta
+        nakrizovatkach
+        prizvonici
+        bulharska
+        spolocenska
+        hanacka
+        slovinska
+        klientskecentrum
+        sabinovska
+        bajkalska
+        zimnystadion
+        trnavskemyto
+        racianskemyto
+        karpatska
+        hlavnastanica
+    ]
+    /subservice 2 [
+        hlavnastanica
+        podstanicou
+        karpatska
+        racianskemyto
+        trnavskemyto
+        zimnystadion
+        bajkalska
+        sabinovska
+        klientskecentrum
+        slovinska
+        hanacka
+        spolocenska
+        bulharska
+        prizvonici
+        nakrizovatkach
+        avionshoppark
+        avionikea
+        priletisku
+        farfuny
+        letisko
+    ]
+}
+
+/line 63 {
+    /color ae4a84
+    /subservice 1 [
+        avionshoppark
+        ivanskacesta
+        slowackeho
+        clementisova
+        martinskycintorin
+        trnavskacesta
+        klientskecentrum
+        sabinovska
+        bajkalska
+        zimnystadion
+        trnavskemyto
+        racianskemyto
+        podstanicou
+        hrobonova
+        patronka
+        stnlamac
+        vrancovicova
+        bakosova
+        podhaj
+        studenohorska
+        klanec
+        lamac
+    ]
+    /subservice 2 [
+        lamac
+        klanec
+        studenohorska
+        podhaj
+        bakosova
+        vrancovicova
+        stnlamac
+        patronka
+        hrobonova
+        podstanicou
+        racianskemyto
+        trnavskemyto
+        zimnystadion
+        bajkalska
+        sabinovska
+        klientskecentrum
+        trnavskacesta
+        martinskycintorin
+        clementisova
+        slowackeho
+        avionshoppark
+    ]
+}
+
+/line 65 {
+    /subservice 1 [
+        tbiliska
+        zavadska
+        detvianska
+        travna
+        puchovska
+        napantoch
+        napantochstred
+        napantochskoly
+        rybnicna
+        sprinzlovmajer
+        regrutska
+        koniarkova
+        osloboditelska
+        uhliska
+        ocvajnory
+        vajnorynadjazd
+        tuhovska
+        zlatepiesky
+        shoppingpalace
+        staravajnorska
+        ocstaravajnorska
+        jurajovdvor
+        bojnicka
+        radiova
+        bulharska
+        prizvonici
+        nakrizovatkach
+        avionshoppark
+        ribezlova
+        cintorinvrakuna
+        slovnaftska
+        podzahradna
+        hronska
+        dudvazska
+        cilizska
+    ]
+    /subservice 2 [
+        cilizska
+        zitavska
+        dudvazska
+        hronska
+        podzahradna
+        slovnaftska
+        cintorinvrakuna
+        ribezlova
+        ivanskacesta
+        nakrizovatkach
+        prizvonici
+        bulharska
+        radiova
+        bojnicka
+        jurajovdvor
+        ocstaravajnorska
+        staravajnorska
+        shoppingpalace
+        zlatepiesky
+        tuhovska
+        vajnorynadjazd
+        ocvajnory
+        uhliska
+        osloboditelska
+        koniarkova
+        regrutska
+        sprinzlovmajer
+        rybnicna
+        napantoch
+        napantochstred
+        napantochskoly
+        vajnorskypotok
+        puchovska
+        travna
+        detvianska
+        zavadska
+        tbiliska
+    ]
+}
+
+/line 66 {
+    /subservice 1 [
+        grofskaniva
+        stachanovska
+        hranicna
+        pazitkova
+        prievozska
+        mliekarenska
+        ruzovadolina
+        trhovisko
+        liscienivy
+        drienova
+        uradbsk
+        solivarska
+        maximilianahella
+        dkruzinov
+        nevadzova
+        mierova
+        krasna
+        syslia
+        stnuns
+        domkarska
+    ]
+    /subservice 2 [
+        domkarska
+        stnuns
+        syslia
+        krasna
+        mierova
+        nevadzova
+        dkruzinov
+        maximilianahella
+        solivarska
+        uradbsk
+        drienova
+        liscienivy
+        trhovisko
+        ruzovadolina
+        mliekarenska
+        prievozska
+        hranicna
+        stachanovska
+        grofskaniva
+    ]
+}
+
+/line 67 {
+    /subservice 1 [
+        astronomicka
+        suhvezdna
+        podgastanmi
+        podpriehradna
+        majerska
+        sipova
+        zeleznicna
+        cilizska
+        zitavska
+        dudvazska
+        hronska
+        bodrocka
+        korytnicka
+        nakupna
+        ucitelska
+        miupbiskupice
+        devatinova
+        vinohradnicka
+        ligurcekova
+        ovciarska
+        farmarska
+        vinohradnicka
+        devatinova
+        miupbiskupice
+        nakupna
+        korytnicka
+        bodrocka
+        hronska
+        dudvazska
+        cilizska
+        zeleznicna
+        sipova
+        majerska
+        podpriehradna
+        podgastanmi
+        astronomicka
+    ]
+}
+
+/line 68 {
+    /color c7bc6a
+    /subservice 1 [
+        holicska
+        smolenicka
+        svabinskeho
+        markova
+        romanova
+        hrobakova
+        starohajska
+        lachova
+        sustekova
+        bulikova
+        ekonomuniverzita
+        mostapollo
+        pristavna
+        kosicka
+        dulovonam
+        trhovisko
+        saleziani
+        krizna
+        trnavskemyto
+        saleziani
+        trhovisko
+        dulovonam
+        kosicka
+        mostapollo
+        ekonomuniverzita
+        bulikova
+        sustekova
+        lachova
+        starohajska
+        hrobakova
+        romanova
+        markova
+        svabinskeho
+        smolenicka
+        holicska
+    ]
+}
+
+/line 69 {
+    /subservice 1 [
+        avionshoppark
+        galvaniho
+        krizovepolia
+        pharos
+        letiskocargo
+        letovesluzby
+        priletisku
+        avionikea
+        avionshoppark
+    ]
+}
+
+/line 70 {
+    /subservice 1 [
+        mostsnp
+        namlstura
+        safarikovonam
+        malascena
+        culenova
+        autobusovastanica
+        kosicka
+        novohradska
+        mileticova
+        prievozska
+        pristavnymost
+        palenisko
+        piesciny
+        cienyles
+        vlciehrdlo
+        vhrdlointernat
+        zavodna
+        ocslovnaftska
+        slovnaftska
+        sikma
+        nempbiskupice
+        miupbiskupice
+        8maja
+        stnpbiskupice
+    ]
+    /subservice 2 [
+        stnpbiskupice
+        petofiho
+        ucitelska
+        miupbiskupice
+        nempbiskupice
+        sikma
+        slovnaftska
+        ocslovnaftska
+        zavodna
+        vhrdlointernat
+        vlciehrdlo
+        cienyles
+        piesciny
+        pristavnymost
+        prievozska
+        mileticova
+        novohradska
+        kosicka
+        autobusovastanica
+        culenova
+        safarikovonam
+        namlstura
+        mostsnp
+    ]
+}
+
+/line 75 {
+    /subservice 1 [
+        cilizska
+        zitavska
+        dudvazska
+        hronska
+        toryska
+        komarovska
+        priekopnicka
+        cintorinvrakuna
+        ondrejovova
+        brodna
+        nevadzova
+        herlianska
+        nemocnicaruzinov
+        drienova
+        bajkalska
+        novadoba
+        pionierska
+        mladagarda
+        stnvinohrady
+        hubeneho
+        kadnarova
+    ]
+    /subservice 2 [
+        kadnarova
+        hubeneho
+        stnvinohrady
+        mladagarda
+        pionierska
+        novadoba
+        bajkalska
+        drienova
+        nemocnicaruzinov
+        herlianska
+        nevadzova
+        brodna
+        ondrejovova
+        cintorinvrakuna
+        priekopnicka
+        komarovska
+        toryska
+        hronska
+        dudvazska
+        cilizska
+    ]
+}
+
+/line 77 {
+    /subservice 1 [
+        vlciehrdlo
+        zajacie
+        lodenica
+        povodiedunaja
+    ]
+    /subservice 2 [
+        vlciehrdlo
+        zajacie
+        vhrdlozahrady
+        micherovmajer
+        covvlciehrdlo
+        spalovna
+    ]
+    /subservice 3 [
+        povodiedunaja
+        lodenica
+        zajacie
+        vlciehrdlo
+    ]
+    /subservice 4 [
+        spalovna
+        covvlciehrdlo
+        micherovmajer
+        vhrdlozahrady
+        zajacie
+        vlciehrdlo
+    ]
+}
+
+/line 78 {
+    /subservice 1 [
+        stnpbiskupice
+        dudvazska
+        hronska
+        toryska
+        stavbarska
+        estonska
+        miuvrakuna
+        sipova
+        majerska
+        podpriehradna
+        podgastanmi
+        astronomicka
+        sumracna
+        maximilianahella
+        solivarska
+        uradbsk
+        drienova
+        bajkalska
+        zimnystadion
+        trnavskemyto
+        krizna
+        soltesovej
+        malytrh
+        culenova
+        novesnd
+    ]
+    /subservice 2 [
+        novesnd
+        culenova
+        malytrh
+        soltesovej
+        krizna
+        trnavskemyto
+        zimnystadion
+        bajkalska
+        uradbsk
+        solivarska
+        maximilianahella
+        sumracna
+        astronomicka
+        podgastanmi
+        podpriehradna
+        majerska
+        sipova
+        miuvrakuna
+        estonska
+        stavbarska
+        toryska
+        hronska
+        dudvazska
+        stnpbiskupice
+    ]
+}
+
+/line 79 {
+    /subservice 1 [
+        stnpbiskupice
+        petofiho
+        ucitelska
+        miupbiskupice
+        lieskovskacesta
+        pdpbiskupice
+        janskehony
+        plniarenplynu
+        lieskovec
+    ]
+    /subservice 2 [
+        lieskovec
+        plniarenplynu
+        janskehony
+        pdpbiskupice
+        lieskovskacesta
+        miupbiskupice
+        8maja
+        stnpbiskupice
+    ]
+}
+
+/line 80 {
+    /color f7aa47
+    /subservice 1 [
+        kollarovonam
+        zochova
+        einsteinova
+        kremnicka
+        zaporozska
+        stnpetrzalka
+        kapitulskydvor
+        dargovska
+        cintorinpetrzalka
+    ]
+    /subservice 2 [
+        kollarovonam
+        zochova
+        einsteinova
+        kremnicka
+        zaporozska
+        stnpetrzalka
+        kopcianskastred
+        kopcanysidlisko
+        kopcianska
+        nesto
+    ]
+    /subservice 3 [
+        cintorinpetrzalka
+        dargovska
+        kapitulskydvor
+        stnpetrzalka
+        zaporozska
+        kremnicka
+        einsteinova
+        prisade
+        zochova
+        kollarovonam
+    ]
+    /subservice 4 [
+        nesto
+        kopcianska
+        kopcanysidlisko
+        kopcianskastred
+        stnpetrzalka
+        zaporozska
+        kremnicka
+        einsteinova
+        prisade
+        zochova
+        kollarovonam
+    ]
+}
+
+/line 83 {
+    /color 008dd2
+    /subservice 1 [
+        kutlikova
+        bradacova
+        romanova
+        hrobakova
+        namhraniciarov
+        jungmannova
+        halova
+        dvory
+        prisade
+        zochova
+        hodzovonam
+        podstanicou
+        sokolska
+        hrobonova
+        dubova
+        patronka
+        mokrohajska
+        huscavova
+        lipskeho
+        zaluhy
+        svantnerova
+        alexyho
+        drobneho
+        pernikova
+        zatevna
+        stepna
+        homolova
+        prikrizi
+    ]
+    /subservice 2 [
+        prikrizi
+        homolova
+        stepna
+        zatevna
+        pernikova
+        drobneho
+        alexyho
+        svantnerova
+        zaluhy
+        lipskeho
+        huscavova
+        mokrohajska
+        patronka
+        dubova
+        hrobonova
+        sokolska
+        podstanicou
+        hodzovonam
+        zochova
+        prisade
+        dvory
+        halova
+        jungmannova
+        namhraniciarov
+        hrobakova
+        romanova
+        bradacova
+        kutlikova
+    ]
+}
+
+/line 84 {
+    /color 008dd2
+    /subservice 1 [
+        ovsiste
+        ovsistskenam
+        bulikova
+        sustekova
+        bosakova
+        mlynarovicova
+        farskeho
+        jungmannova
+        halova
+        dvory
+        prisade
+        zochova
+        hodzovonam
+        podstanicou
+        sokolska
+        hrobonova
+        dubova
+        patronka
+        mokrohajska
+        huscavova
+        lipskeho
+        zaluhy
+        svantnerova
+        alexyho
+        drobneho
+        podvornice
+        prikrizi
+    ]
+    /subservice 2 [
+        prikrizi
+        podvornice
+        drobneho
+        alexyho
+        svantnerova
+        zaluhy
+        lipskeho
+        huscavova
+        mokrohajska
+        patronka
+        dubova
+        hrobonova
+        sokolska
+        podstanicou
+        hodzovonam
+        zochova
+        prisade
+        dvory
+        halova
+        jungmannova
+        farskeho
+        mlynarovicova
+        sustekova
+        bulikova
+        ovsistskenam
+        ovsiste
+    ]
+}
+
+/line 87 {
+    /subservice 1 [
+        bodvianska
+        toryska
+        podzahradna
+        slovnaftska
+        ocslovnaftska
+        zavodna
+        vhrdlointernat
+        vlciehrdlo
+        cienyles
+        piesciny
+        palenisko
+        alejova
+        nakladnypristav
+        plynarenska
+        mostapollo
+        ekonomuniverzita
+        ovsistskenam
+        ovsiste
+    ]
+    /subservice 2 [
+        ovsiste
+        ovsistskenam
+        ekonomuniverzita
+        mostapollo
+        pristavna
+        plynarenska
+        nakladnypristav
+        alejova
+        palenisko
+        piesciny
+        cienyles
+        vlciehrdlo
+        vhrdlointernat
+        zavodna
+        ocslovnaftska
+        slovnaftska
+        podzahradna
+        toryska
+        bodvianska
+    ]
+}
+
+/line 88 {
+    /color ae4a84
+    /subservice 1 [
+        mostsnp
+        einsteinova
+        kremnicka
+        zaporozska
+        gercenova
+        halova
+        jungmannova
+        namhraniciarov
+        lachova
+        sustekova
+        bulikova
+        ekonomuniverzita
+        mostapollo
+        pristavna
+        landererova
+        culenova
+        autobusovastanica
+    ]
+    /subservice 2 [
+        autobusovastanica
+        culenova
+        landererova
+        mostapollo
+        ekonomuniverzita
+        bulikova
+        sustekova
+        lachova
+        namhraniciarov
+        jungmannova
+        halova
+        gercenova
+        zaporozska
+        kremnicka
+        einsteinova
+        prisade
+        mostsnp
+    ]
+}
+
+/line 90 {
+    /subservice 1 [
+        novesnd
+        landererova
+        mostapollo
+        ekonomuniverzita
+        zehrianska
+        zlta
+        jarovcezahrady
+        strelnica
+        pila
+        jarovce
+        ovocna
+        kovacsova
+        vyvojova
+        gerulata
+        kastielrusovce
+        stnrusovce
+        gastanovaaleja
+        pieskovyhon
+        cunovskejazera
+        schengenska
+        cunovozahrady
+        cunovopriehrada
+        mvemoson
+        vecunovo
+        arealvodsportov
+        danubiana
+    ]
+    /subservice 2 [
+        danubiana
+        arealvodsportov
+        vecunovo
+        mvemoson
+        cunovopriehrada
+        cunovozahrady
+        schengenska
+        cunovskejazera
+        pieskovyhon
+        gastanovaaleja
+        kastielrusovce
+        gerulata
+        vyvojova
+        kovacsova
+        ovocna
+        jarovce
+        pila
+        strelnica
+        jarovcezahrady
+        zlta
+        jasovska
+        zehrianska
+        ekonomuniverzita
+        mostapollo
+        pristavna
+        novesnd
+    ]
+    /subservice 3 [
+        stnrusovce
+        kastielrusovce
+        gerulata
+        vyvojova
+        kovacsova
+        ovocna
+        jarovce
+        pila
+        strelnica
+        jarovcezahrady
+        zlta
+        jasovska
+        zehrianska
+        ekonomuniverzita
+        mostapollo
+        pristavna
+        novesnd
+    ]
+}
+
+/line 91 {
+    /subservice 1 [
+        mostsnp
+        prisade
+        dvory
+        stnpetrzalka
+        kolma
+        ocluky
+        jasovska
+        zlta
+        jarovcezahrady
+        strelnica
+        pila
+        jarovce
+        ovocna
+        kovacsova
+        vyvojova
+        gerulata
+        kastielrusovce
+        stnrusovce
+        gastanovaaleja
+        pieskovyhon
+        cunovskejazera
+        konopiska
+        miucunovo
+        cunovokostol
+        cunovo
+    ]
+    /subservice 2 [
+        cunovo
+        cunovokostol
+        miucunovo
+        konopiska
+        cunovskejazera
+        pieskovyhon
+        gastanovaaleja
+        kastielrusovce
+        gerulata
+        vyvojova
+        kovacsova
+        ovocna
+        jarovce
+        pila
+        strelnica
+        jarovcezahrady
+        zlta
+        jasovska
+        ocluky
+        kolma
+        stnpetrzalka
+        dvory
+        prisade
+        mostsnp
+    ]
+}
+
+/line 93 {
+    /color e5097f
+    /subservice 1 [
+        hlavnastanica
+        podstanicou
+        hodzovonam
+        zochova
+        prisade
+        dvory
+        rusovskacesta
+        stnpetrzalka
+        sevcenkova
+        jiraskova
+        smolenicka
+        luky2
+        zsbudatinska
+        budatinska
+        luky5
+        vysehradska
+    ]
+    /subservice 2 [
+        vysehradska
+        luky5
+        budatinska
+        zsbudatinska
+        luky2
+        smolenicka
+        jiraskova
+        sevcenkova
+        stnpetrzalka
+        rusovskacesta
+        dvory
+        prisade
+        zochova
+        hodzovonam
+        podstanicou
+        hlavnastanica
+    ]
+}
+
+/line 94 {
+    /color e5097f
+    /subservice 1 [
+        holicska
+        smolenicka
+        jiraskova
+        sevcenkova
+        stnpetrzalka
+        rusovskacesta
+        dvory
+        prisade
+        zochova
+        kollarovonam
+        blumental
+        namslobody
+        kollarovonam
+        zochova
+        prisade
+        dvory
+        rusovskacesta
+        stnpetrzalka
+        sevcenkova
+        jiraskova
+        smolenicka
+        holicska
+    ]
+}
+
+/line 95 {
+    /color ff6600
+    /subservice 1 [
+        vysehradska
+        lucanka
+        strecnianska
+        sintavska
+        topolcianska
+        kutlikova
+        bradacova
+        romanova
+        hrobakova
+        namhraniciarov
+        farskeho
+        muchovonam
+    ]
+    /subservice 2 [
+        muchovonam
+        farskeho
+        namhraniciarov
+        hrobakova
+        romanova
+        bradacova
+        kutlikova
+        topolcianska
+        sintavska
+        strecnianska
+        lucanka
+        vysehradska
+    ]
+}
+
+/line 96 {
+    /color 66c3d0
+    /subservice 1 [
+        prokofievova
+        markova
+        romanova
+        hrobakova
+        starohajska
+        lachova
+        bosakova
+        pristavnymost
+        prievozska
+        hranicna
+        nevadzova
+        dkruzinov
+        maximilianahella
+        zaluzicka
+        haburska
+        slovinska
+        depotrnavka
+        bojnicka
+        nakrizovatkach
+        avionshoppark
+    ]
+    /subservice 2 [
+        avionshoppark
+        ivanskacesta
+        nakrizovatkach
+        bojnicka
+        depotrnavka
+        slovinska
+        klientskecentrum
+        haburska
+        maximilianahella
+        dkruzinov
+        nevadzova
+        gagarinova
+        hranicna
+        pazitkova
+        prievozska
+        pristavnymost
+        bosakova
+        lachova
+        starohajska
+        hrobakova
+        romanova
+        markova
+        prokofievova
+    ]
+}
+
+/line 98 {
+    /color cc6f3c
+    /subservice 1 [
+        jasovska
+        zehrianska
+        bzovicka
+        lubovnianska
+        lucanka
+        znievska
+        budatinska
+        zsbudatinska
+        luky2
+        smolenicka
+        tupolevova
+        kutlikova
+        malydrazdiak
+        staryhaj
+        ovsistskenam
+        ekonomuniverzita
+        pristavnymost
+        mliekarenska
+        drienova
+        bajkalska
+        novadoba
+        miunovemesto
+        halkova
+        slovany
+        kukucinova
+        novadoba
+        bajkalska
+        drienova
+        mliekarenska
+        pristavnymost
+        ekonomuniverzita
+        ovsistskenam
+        staryhaj
+        malydrazdiak
+        kutlikova
+        tupolevova
+        smolenicka
+        luky2
+        zsbudatinska
+        budatinska
+        znievska
+        lucanka
+        lubovnianska
+        bzovicka
+        zehrianska
+        jasovska
+    ]
+}
+
+/line 99 {
+    /color f5b5d2
+    /subservice 1 [
+        ovsiste
+        ovsistskenam
+        bulikova
+        sustekova
+        bosakova
+        mlynarovicova
+        farskeho
+        jungmannova
+        halova
+        gercenova
+        stnpetrzalka
+        kopcianskastred
+        bratska
+        jiraskova
+        svabinskeho
+        markova
+        romanova
+        bradacova
+        kutlikova
+        topolcianska
+        sintavska
+        holicska
+        luky2
+        zsbudatinska
+        budatinska
+        znievska
+        lucanka
+        lubovnianska
+        nemocnicaantolska
+        antolska
+    ]
+    /subservice 2 [
+        antolska
+        nemocnicaantolska
+        lubovnianska
+        lucanka
+        znievska
+        budatinska
+        zsbudatinska
+        luky2
+        holicska
+        sintavska
+        topolcianska
+        kutlikova
+        bradacova
+        romanova
+        markova
+        svabinskeho
+        jiraskova
+        bratska
+        kopcianskastred
+        stnpetrzalka
+        gercenova
+        halova
+        jungmannova
+        farskeho
+        mlynarovicova
+        sustekova
+        bulikova
+        ovsistskenam
+        ovsiste
+    ]
+}
+
+/line 139 {
+    /subservice 1 [
+        cintorinslavicie
+        rudolfamocka
+        konvalinkova
+        vretenova
+        nasitine
+        nadvinicami
+        bedlova
+        tonava
+        panorama
+        riviera
+        jurigovonam
+        hajnicka
+        panorama
+        tonava
+        bedlova
+        nadvinicami
+        nasitine
+        vretenova
+        konvalinkova
+        rudolfamocka
+        cintorinslavicie
+    ]
+}
+
+/line 144 {
+    /subservice 1 [
+        koliba
+        kolibaparkandride
+        kamzik
+    ]
+    /subservice 2 [
+        kamzik
+        koliba
+    ]
+}
+
+/line 145 {
+    /subservice 1 [
+        koliba
+        julova
+        narevine
+        junova
+        guothova
+        bardosova
+        stromova
+        cestanakamzik
+        jaskovyrad
+        matuskova
+        zabotova
+        cestanakamzik
+        stromova
+        bardosova
+        guothova
+        junova
+        narevine
+        julova
+        koliba
+    ]
+}
+
+/line 147 {
+    /subservice 1 [
+        budkova
+        staravinarska
+        slavin
+        havlickova
+        misikova
+        donovalova
+        sulekova
+        kozia
+        hodzovonam
+        zochova
+        sulekova
+        donovalova
+        misikova
+        havlickova
+        kalvaria
+        gorazdova
+        kalvaria
+        havlickova
+        slavin
+        staravinarska
+        budkova
+    ]
+}
+
+/line 151 {
+    /subservice 1 [
+        lopenicka
+        mustova
+        sliacska
+        slovany
+        kukucinova
+        tehelna
+        trnavskemyto
+    ]
+    /subservice 2 [
+        trnavskemyto
+        tehelna
+        kukucinova
+        pionierska
+        sliacska
+        mustova
+        briezky
+        krahulcia
+        lopenicka
+    ]
+}
+
+/line 154 {
+    /subservice 1 [
+        hubeneho
+        slanec
+        municnesklady
+        horarenkrasnany
+    ]
+    /subservice 2 [
+        horarenkrasnany
+        municnesklady
+        slanec
+        hubeneho
+    ]
+}
+
+/line 191 {
+    /subservice 1 [
+        mostsnp
+        prisade
+        dvory
+        stnpetrzalka
+        kolma
+        ocluky
+        jasovska
+        zlta
+        jarovcezahrady
+        strelnica
+        pila
+        jarovce
+        ovocna
+        kovacsova
+        vyvojova
+        gerulata
+        kastielrusovce
+        stnrusovce
+    ]
+    /subservice 2 [
+        stnrusovce
+        kastielrusovce
+        gerulata
+        vyvojova
+        kovacsova
+        ovocna
+        jarovce
+        pila
+        strelnica
+        jarovcezahrady
+        zlta
+        jasovska
+        ocluky
+        kolma
+        stnpetrzalka
+        dvory
+        prisade
+        mostsnp
+    ]
+}
+
+/line 192 {
+    /subservice 1 [
+        cervenymost
+        patronka
+        habanskymlyn
+        zoo
+        einsteinova
+        dvory
+        halova
+        jungmannova
+        namhraniciarov
+        hrobakova
+        bradacova
+        kutlikova
+        topolcianska
+        sintavska
+        strecnianska
+        lucanka
+        lubovnianska
+        bzovicka
+        betliarska
+        depopetrzalka
+    ]
+    /subservice 2 [
+        depopetrzalka
+        betliarska
+        bzovicka
+        lubovnianska
+        lucanka
+        strecnianska
+        sintavska
+        topolcianska
+        kutlikova
+        bradacova
+        hrobakova
+        namhraniciarov
+        jungmannova
+        halova
+        dvory
+        einsteinova
+        zoo
+        habanskymlyn
+        patronka
+        cervenymost
+    ]
+}
