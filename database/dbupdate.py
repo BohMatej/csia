@@ -44,6 +44,7 @@ def updateAllDatabase():
         # loop through rows in services.txt
         for row in services:
             row = row.strip().split(" ")
+            print(row)
 
             # ignore newlines in services.txt
             if len(row[0]) == 0:
@@ -98,8 +99,8 @@ def updateAllDatabase():
             
             # sort out each subservice's stops
             else:
-                row = " ".join(row)
-                stop_id = cur.execute("SELECT stop_id FROM stops WHERE truename = ?", (row,)).fetchone()[0]
+                stop_id = " ".join(row)
+                #stop_id = cur.execute("SELECT stop_id FROM stops WHERE truename = ?", (row,)).fetchone()[0]
                 services_tuples.append((linenumber, stop_id, subservicenumber, order_in_subservice,))
                 order_in_subservice += 1
 
@@ -145,7 +146,7 @@ def updateAllDatabase():
 
     # execute query on services table
     cur.executemany("INSERT OR REPLACE INTO services (line_label, stop_id, subservice, order_in_subservice) VALUES (?, ?, ?, ?)", services_tuples)
-                
+        
     # execute query to remove unwanted values from lines table
     mylist = []
     for tuple in lines_tuples:
@@ -170,7 +171,6 @@ def updateAllDatabase():
                                   AND stoptwo_id = ?
                                   AND walktime = ?""", tuple).fetchone()[0])
     cur.execute("DELETE FROM nearstops WHERE nearstops_id NOT IN (%s)" % ','.join('?'*len(mylist)), mylist)
-
 
     # commit queries
     conn.commit()

@@ -1,3337 +1,3337 @@
 /line 1 {
     /color ff6600
     /subservice 1 [
-        Hlavná stanica
-        Pod stanicou
-        Úrad vlády SR
-        STU
-        Vysoká
-        Poštová
-        Centrum
-        Jesenského
-        Nám. Ľ. Štúra
-        Šafárikovo nám.
-        Centrum
-        Poštová
-        Vysoká
-        STU
-        Úrad vlády SR
-        Pod stanicou
-        Hlavná stanica
+        93
+        306
+        714
+        422
+        473
+        302
+        139
+        130
+        248
+        394
+        139
+        302
+        473
+        422
+        714
+        306
+        93
     ]
 }
- 
+
 /line 3 {
     /color e31e24
     /subservice 1 [
-        Komisárky
-        Púchovská
-        Záhumenice
-        Detvianska
-        Hybešova
-        Hečkova
-        Černockého
-        Pekná cesta
-        Malokrasňanská
-        Depo Krasňany
-        Stn. Vinohrady
-        Nám. Biely kríž
-        Mladá garda
-        Riazanská
-        Pionierska
-        Ursínyho
-        Račianske mýto
-        Blumentál
-        Americké nám.
-        Mariánska
-        Šafárikovo nám.
-        Sad Janka Kráľa
-        Farského
-        Jungmannova
+        156
+        425
+        484
+        713
+        111
+        91
+        36
+        287
+        262
+        465
+        522
+        245
+        224
+        337
+        293
+        446
+        332
+        80
+        3
+        209
+        394
+        348
+        79
+        132
     ]
     /subservice 2 [
-        Jungmannova
-        Farského
-        Sad Janka Kráľa
-        Šafárikovo nám.
-        Mariánska
-        Americké nám.
-        Blumentál
-        Račianske mýto
-        Ursínyho
-        Pionierska
-        Riazanská
-        Mladá garda
-        Nám. Biely kríž
-        Stn. Vinohrady
-        Depo Krasňany
-        Malokrasňanská
-        Pekná cesta
-        Černockého
-        Hečkova
-        Hybešova
-        Detvianska
-        Záhumenice
-        Púchovská
-        Komisárky
+        132
+        79
+        348
+        394
+        209
+        3
+        80
+        332
+        446
+        293
+        337
+        224
+        245
+        522
+        465
+        262
+        287
+        36
+        91
+        111
+        713
+        484
+        425
+        156
     ]
 }
- 
+
 /line 4 {
     /color 7690c9
     /subservice 1 [
-        Pri kríži
-        Podvornice
-        Drobného
-        Alexyho
-        Švantnerova
-        Záluhy
-        Horné Krčace
-        Dolné Krčace
-        Kútiky
-        Borská
-        Nám. sv. Františka
-        Nad lúčkami
-        Segnerova
-        Riviéra
-        Botanická záhrada
-        Lanfranconi
-        Kráľovské údolie
-        Chatam Sófer
-        Most SNP
-        Šafárikovo nám.
-        Centrum
-        Mariánska
-        Americké nám.
-        Krížna
-        Trnavské mýto
-        Česká
-        Nová doba
-        MiÚ Nové Mesto
-        Kuchajda
-        Stn. Nové Mesto
+        310
+        265
+        68
+        1
+        418
+        51
+        98
+        60
+        143
+        19
+        180
+        240
+        353
+        230
+        21
+        181
+        281
+        439
+        261
+        394
+        139
+        209
+        3
+        173
+        437
+        267
+        257
+        213
+        488
+        515
     ]
     /subservice 2 [
-        Pri kríži
-        Podvornice
-        Drobného
-        Alexyho
-        Švantnerova
-        Záluhy
-        Horné Krčace
-        Dolné Krčace
-        Kútiky
-        Borská
-        Nám. sv. Františka
-        Nad lúčkami
-        Segnerova
-        Riviéra
-        Botanická záhrada
-        Lanfranconi
-        Kráľovské údolie
-        Chatam Sófer
-        Most SNP
-        Šafárikovo nám.
-        Centrum
-        Mariánska
-        Americké nám.
-        Krížna
-        Trnavské mýto
-        Česká
-        Nová doba
-        MiÚ Nové Mesto
-        Kuchajda
-        Odborárska
-        Magnetová
-        Jurajov dvor
-        Vajnorská
-        Shopping Palace
-        Zlaté piesky
+        310
+        265
+        68
+        1
+        418
+        51
+        98
+        60
+        143
+        19
+        180
+        240
+        353
+        230
+        21
+        181
+        281
+        439
+        261
+        394
+        139
+        209
+        3
+        173
+        437
+        267
+        257
+        213
+        488
+        268
+        205
+        133
+        616
+        341
+        497
     ]
     /subservice 3 [
-        Stn. Nové Mesto
-        Kuchajda
-        MiÚ Nové Mesto
-        Nová doba
-        Česká
-        Trnavské mýto
-        Krížna
-        Americké nám.
-        Mariánska
-        Centrum
-        Jesenského
-        Nám. Ľ. Štúra
-        Most SNP
-        Chatam Sófer
-        Kráľovské údolie
-        Lanfranconi
-        Botanická záhrada
-        Riviéra
-        Segnerova
-        Nad lúčkami
-        Nám. sv. Františka
-        Borská
-        Kútiky
-        Dolné Krčace
-        Horné Krčace
-        Záluhy
-        Švantnerova
-        Alexyho
-        Drobného
-        Podvornice
-        Pri kríži
+        515
+        488
+        213
+        257
+        267
+        437
+        173
+        3
+        209
+        139
+        130
+        248
+        261
+        439
+        281
+        181
+        21
+        230
+        353
+        240
+        180
+        19
+        143
+        60
+        98
+        51
+        418
+        1
+        68
+        265
+        310
     ]
     /subservice 4 [
-        Zlaté piesky
-        Shopping Palace
-        Vajnorská
-        Jurajov dvor
-        Magnetová
-        Odborárska
-        Kuchajda
-        MiÚ Nové Mesto
-        Nová doba
-        Česká
-        Trnavské mýto
-        Krížna
-        Americké nám.
-        Mariánska
-        Centrum
-        Jesenského
-        Nám. Ľ. Štúra
-        Most SNP
-        Chatam Sófer
-        Kráľovské údolie
-        Lanfranconi
-        Botanická záhrada
-        Riviéra
-        Segnerova
-        Nad lúčkami
-        Nám. sv. Františka
-        Borská
-        Kútiky
-        Dolné Krčace
-        Horné Krčace
-        Záluhy
-        Švantnerova
-        Alexyho
-        Drobného
-        Podvornice
-        Pri kríži
+        497
+        341
+        616
+        133
+        205
+        268
+        488
+        213
+        257
+        267
+        437
+        173
+        3
+        209
+        139
+        130
+        248
+        261
+        439
+        281
+        181
+        21
+        230
+        353
+        240
+        180
+        19
+        143
+        60
+        98
+        51
+        418
+        1
+        68
+        265
+        310
     ]
 }
- 
+
 /line 7 {
     /color ffed00
     /subservice 1 [
-        Komisárky
-        Púchovská
-        Záhumenice
-        Detvianska
-        Hybešova
-        Hečkova
-        Černockého
-        Pekná cesta
-        Malokrasňanská
-        Depo Krasňany
-        Stn. Vinohrady
-        Nám. Biely kríž
-        Mladá garda
-        Riazanská
-        Pionierska
-        Ursínyho
-        Račianske mýto
-        Blumentál
-        STU
-        Úrad vlády SR
-        Pod stanicou
-        Hlavná stanica
+        156
+        425
+        484
+        713
+        111
+        91
+        36
+        287
+        262
+        465
+        522
+        245
+        224
+        337
+        293
+        446
+        332
+        80
+        422
+        714
+        306
+        93
     ]
     /subservice 2 [
-        Hlavná stanica
-        Pod stanicou
-        Úrad vlády SR
-        Blumentál
-        Račianske mýto
-        Ursínyho
-        Pionierska
-        Riazanská
-        Mladá garda
-        Nám. Biely kríž
-        Stn. Vinohrady
-        Depo Krasňany
-        Malokrasňanská
-        Pekná cesta
-        Černockého
-        Hečkova
-        Hybešova
-        Detvianska
-        Záhumenice
-        Púchovská
-        Komisárky
+        93
+        306
+        714
+        80
+        332
+        446
+        293
+        337
+        224
+        245
+        522
+        465
+        262
+        287
+        36
+        91
+        111
+        713
+        484
+        425
+        156
     ]
 }
- 
+
 /line 9 {
     /color b0cb1f
     /subservice 1 [
-        Kútiky
-        Borská
-        Nám. sv. Františka
-        Nad lúčkami
-        Segnerova
-        Riviéra
-        Botanická záhrada
-        Lanfranconi
-        Kráľovské údolie
-        Kapucínska
-        Poštová
-        Vysoká
-        Blumentál
-        Krížna
-        Trnavské mýto
-        Saleziáni
-        Líščie nivy
-        Nemocnica Ružinov
-        Herlianska
-        Tomášikova
-        Súmračná
-        Chlumeckého
-        Astronomická
+        143
+        19
+        180
+        240
+        353
+        230
+        21
+        181
+        281
+        141
+        302
+        473
+        80
+        173
+        437
+        482
+        234
+        308
+        92
+        432
+        391
+        115
+        6
     ]
     /subservice 2 [
-        Astronomická
-        Chlumeckého
-        Súmračná
-        Tomášikova
-        Herlianska
-        Nemocnica Ružinov
-        Líščie nivy
-        Saleziáni
-        Trnavské mýto
-        Krížna
-        Blumentál
-        STU
-        Vysoká
-        Poštová
-        Kapucínska
-        Kráľovské údolie
-        Lanfranconi
-        Botanická záhrada
-        Riviéra
-        Segnerova
-        Nad lúčkami
-        Nám. sv. Františka
-        Borská
-        Kútiky
+        6
+        115
+        391
+        432
+        92
+        308
+        234
+        482
+        437
+        173
+        80
+        422
+        473
+        302
+        141
+        281
+        181
+        21
+        230
+        353
+        240
+        180
+        19
+        143
     ]
 }
- 
+
 /line 33 {
     /color a79ecd
     /subservice 1 [
-        Dlhé diely
-        ZŠ Majerníkova
-        Matejkova
-        Tománkova
-        Hany Meličkovej
-        Pri podchode
-        Janotova
-        Riviéra
+        175
+        503
+        212
+        431
+        89
+        313
+        124
+        230
     ]
     /subservice 2 [
-        Riviéra
-        Janotova
-        Pri podchode
-        Hany Meličkovej
-        Tománkova
-        Matejkova
-        ZŠ Majerníkova
-        Dlhé diely
+        230
+        124
+        313
+        89
+        431
+        212
+        503
+        175
     ]
 }
- 
+
 /line 40 {
     /color e51a4b
     /subservice 1 [
-        Hlavná stanica
-        Pod stanicou
-        Karpatská
-        Račianske mýto
-        Krížna
-        Šoltésovej
-        Autobusová stanica
-        Čulenova
-        Nové SND
+        93
+        306
+        144
+        332
+        173
+        402
+        5
+        46
+        607
     ]
     /subservice 2 [
-        Nové SND
-        Čulenova
-        Autobusová stanica
-        Malý trh
-        Šoltésovej
-        Krížna
-        Račianske mýto
-        Karpatská
-        Hlavná stanica
+        607
+        46
+        5
+        228
+        402
+        173
+        332
+        144
+        93
     ]
 }
- 
+
 /line 42 {
     /color a65430
     /subservice 1 [
-        Červený most
-        Patrónka
-        Suchý mlyn
-        Nemocnica Kramáre
-        Magurská
-        Bárdošova
-        Sokolská
-        Pod stanicou
-        Hodžovo nám.
-        Kollárovo nám.
-        Špitálska
-        Ondrejský cintorín
-        Autobusová stanica
-        Košická
-        Novohradská
-        Miletičova
-        Prievozská
-        Hraničná
-        MiÚ Ružinov
-        Mierová
-        Radničné nám.
-        Strojnícka
-        Hrachová
-        Prievoz, most
-        Cintorín Vrakuňa
+        462
+        284
+        315
+        164
+        206
+        11
+        368
+        306
+        95
+        152
+        403
+        33
+        5
+        160
+        258
+        222
+        325
+        104
+        147
+        218
+        334
+        386
+        720
+        324
+        32
     ]
     /subservice 2 [
-        Cintorín Vrakuňa
-        Prievoz, most
-        Hrachová
-        Strojnícka
-        Radničné nám.
-        Mierová
-        MiÚ Ružinov
-        Hraničná
-        Pažítková
-        Prievozská
-        Miletičova
-        Novohradská
-        Košická
-        Autobusová stanica
-        Ondrejský cintorín
-        Špitálska
-        Kollárovo nám.
-        Hodžovo nám.
-        Pod stanicou
-        Sokolská
-        Stromová
-        Bárdošova
-        Magurská
-        Nemocnica Kramáre
-        Suchý mlyn
-        Patrónka
-        Červený most
+        32
+        324
+        720
+        386
+        334
+        218
+        147
+        104
+        285
+        325
+        222
+        258
+        160
+        5
+        33
+        403
+        152
+        95
+        306
+        368
+        388
+        11
+        206
+        164
+        315
+        284
+        462
     ]
 }
- 
+
 /line 44 {
     /color ce82b5
     /subservice 1 [
-        Búdková
-        Červený kríž
-        Hummelova
-        Radvanská
-        Inovecká
-        Hrad
-        Zámocká
-        Svoradová
-        Kozia
-        Hodžovo nám.
-        Prezident. záhrada
-        Úrad vlády SR
-        Karpatská
-        Tupého
-        Jeséniova
-        Čremchová
-        Husova
-        Koliba
+        69
+        38
+        109
+        335
+        119
+        101
+        486
+        744
+        163
+        95
+        250
+        714
+        144
+        440
+        129
+        45
+        110
+        151
     ]
     /subservice 2 [
-        Koliba
-        Husova
-        Čremchová
-        Jeséniova
-        Tupého
-        Karpatská
-        Úrad vlády SR
-        Prezident. záhrada
-        Hodžovo nám.
-        Kozia
-        Svoradová
-        Zámocká
-        Hrad
-        Inovecká
-        Radvanská
-        Hummelova
-        Červený kríž
-        Búdková
+        151
+        110
+        45
+        129
+        440
+        144
+        714
+        250
+        95
+        163
+        744
+        486
+        101
+        119
+        335
+        109
+        38
+        69
     ]
 }
- 
+
 /line 45 {
     /subservice 1 [
-        Červený most
-        Patrónka
-        Suchý mlyn
-        Nemocnica Kramáre
-        Vlárska
-        Klenová
-        Nár. onkol. ústav
+        462
+        284
+        315
+        164
+        459
+        149
+        252
     ]
     /subservice 2 [
-        Nár. onkol. ústav
-        Klenová
-        Vlárska
-        Nemocnica Kramáre
-        Suchý mlyn
-        Patrónka
-        Červený most
+        252
+        149
+        459
+        164
+        315
+        284
+        462
     ]
 }
- 
+
 /line 47 {
     /color eabd00
     /subservice 1 [
-        Červený most
-        Patrónka
-        Hýrošova
-        Valašská
-        Lovinského
-        Depo Hroboňova
-        Horský park
-        Búdková
-        Červený kríž
-        Hummelova
-        Radvanská
-        Inovecká
-        Hrad
-        Zámocká
-        Svoradová
-        Kozia
-        Hodžovo nám.
-        Kollárovo nám.
-        Americké nám.
-        Karadžičova
-        Kvačalova
-        Saleziáni
-        Zimný štadión
+        462
+        284
+        114
+        452
+        198
+        4
+        99
+        69
+        38
+        109
+        335
+        119
+        101
+        486
+        744
+        163
+        95
+        152
+        3
+        142
+        179
+        482
+        495
     ]
     /subservice 2 [
-        Zimný štadión
-        Saleziáni
-        Kvačalova
-        Karadžičova
-        Americké nám.
-        Kollárovo nám.
-        Hodžovo nám.
-        Kozia
-        Svoradová
-        Zámocká
-        Hrad
-        Inovecká
-        Radvanská
-        Hummelova
-        Červený kríž
-        Búdková
-        Horský park
-        Depo Hroboňova
-        Lovinského
-        Valašská
-        Patrónka
-        Červený most
+        495
+        482
+        179
+        142
+        3
+        152
+        95
+        163
+        744
+        486
+        101
+        119
+        335
+        109
+        38
+        69
+        99
+        4
+        198
+        452
+        284
+        462
     ]
 }
- 
+
 /line 49 {
     /color ef7f1a
     /subservice 1 [
-        Nár. onkol. ústav
-        Klenová
-        Vlárska
-        Magurská
-        Bárdošova
-        Sokolská
-        Pod stanicou
-        Karpatská
-        Račianske mýto
-        Trnavské mýto
-        Saleziáni
-        Trhovisko
-        Ružová dolina
-        Mliekarenská
+        252
+        149
+        459
+        206
+        11
+        368
+        306
+        144
+        332
+        437
+        482
+        582
+        345
+        225
     ]
     /subservice 2 [
-        NÚSCH
-        Vlárska
-        Magurská
-        Bárdošova
-        Sokolská
-        Pod stanicou
-        Karpatská
-        Račianske mýto
-        Trnavské mýto
-        Saleziáni
-        Trhovisko
-        Ružová dolina
-        Mliekarenská
+        392
+        459
+        206
+        11
+        368
+        306
+        144
+        332
+        437
+        482
+        582
+        345
+        225
     ]
     /subservice 3 [
-        Mliekarenská
-        Ružová dolina
-        Trhovisko
-        Saleziáni
-        Trnavské mýto
-        Račianske mýto
-        Karpatská
-        Pod stanicou
-        Sokolská
-        Stromová
-        Bárdošova
-        Magurská
-        Vlárska
-        NÚSCH
+        225
+        345
+        582
+        482
+        437
+        332
+        144
+        306
+        368
+        388
+        11
+        206
+        459
+        392
     ]
     /subservice 4 [
-        Mliekarenská
-        Ružová dolina
-        Trhovisko
-        Saleziáni
-        Trnavské mýto
-        Račianske mýto
-        Karpatská
-        Pod stanicou
-        Sokolská
-        Stromová
-        Bárdošova
-        Magurská
-        Vlárska
-        Klenová
-        Nár. onkol. ústav
+        225
+        345
+        582
+        482
+        437
+        332
+        144
+        306
+        368
+        388
+        11
+        206
+        459
+        149
+        252
     ]
 }
- 
+
 /line 60 {
     /color 2a4493
     /subservice 1 [
-        Rádiová
-        Bulharská
-        Spoločenská
-        Hanácka
-        Slovinská
-        Klientske centrum
-        Sabinovská
-        Bajkalská
-        Zimný štadión
-        Saleziáni
-        Kvačalova
-        Kulíškova
-        Cvernovka
-        Košická
-        Autobusová stanica
-        Ondrejský cintorín
-        Rajská
+        333
+        26
+        373
+        88
+        361
+        117
+        347
+        8
+        495
+        482
+        179
+        177
+        280
+        160
+        5
+        33
+        336
     ]
     /subservice 2 [
-        Rajská
-        Ondrejský cintorín
-        Autobusová stanica
-        Košická
-        Cvernovka
-        Kulíškova
-        Kvačalova
-        Saleziáni
-        Zimný štadión
-        Bajkalská
-        Sabinovská
-        Klientske centrum
-        Slovinská
-        Hanácka
-        Spoločenská
-        Bulharská
-        Rádiová
+        336
+        33
+        5
+        160
+        280
+        177
+        179
+        482
+        495
+        8
+        347
+        117
+        361
+        88
+        373
+        26
+        333
     ]
 }
- 
+
 /line 64 {
     /color 009846
     /subservice 1 [
-        Jelačičová
-        Trnavské mýto
-        Račianske mýto
-        Karpatská
-        Pod stanicou
-        Sokolská
-        Stromová
-        Bárdošova
-        Magurská
-        Nemocnica Kramáre
-        Suchý mlyn
-        Hýrošova
-        Valašská
+        757
+        437
+        332
+        144
+        306
+        368
+        388
+        11
+        206
+        164
+        315
+        114
+        452
     ]
     /subservice 2 [
-        Valašská
-        Suchý mlyn
-        Nemocnica Kramáre
-        Magurská
-        Bárdošova
-        Sokolská
-        Pod stanicou
-        Karpatská
-        Račianske mýto
-        Trnavské mýto
-        Jelačičová
+        452
+        315
+        164
+        206
+        11
+        368
+        306
+        144
+        332
+        437
+        757
     ]
 }
- 
+
 /line 71 {
     /color 00a0e3
     /subservice 1 [
-        Hlavná stanica
-        Pod stanicou
-        Karpatská
-        Račianske mýto
-        Trnavské mýto
-        Saleziáni
-        Trhovisko
-        Miletičova
-        Prievozská
-        Hraničná
-        Gagarinova
-        Brodná
-        Ondrejovova
-        Ríbezľová
-        Cintorín Vrakuňa
-        Priekopnícka
-        Komárovská
-        Toryská
-        Hronská
-        Dudvážska
-        Čiližská
+        93
+        306
+        144
+        332
+        437
+        482
+        582
+        222
+        325
+        104
+        82
+        23
+        271
+        338
+        32
+        321
+        155
+        434
+        107
+        71
+        42
     ]
     /subservice 2 [
-        Čiližská
-        žitavská
-        Dudvážska
-        Hronská
-        Toryská
-        Komárovská
-        Priekopnícka
-        Cintorín Vrakuňa
-        Ríbezľová
-        Ondrejovova
-        Brodná
-        Gagarinova
-        Hraničná
-        Pažítková
-        Prievozská
-        Miletičova
-        Trenčianska
-        Trhovisko
-        Saleziáni
-        Trnavské mýto
-        Račianske mýto
-        Karpatská
-        Hlavná stanica
+        42
+        512
+        71
+        107
+        434
+        155
+        321
+        32
+        338
+        271
+        23
+        82
+        104
+        285
+        325
+        222
+        436
+        582
+        482
+        437
+        332
+        144
+        93
     ]
 }
- 
+
 /line 72 {
     /color b0cb1f
     /subservice 1 [
-        Rajská
-        Ondrejský cintorín
-        Autobusová stanica
-        Košická
-        Novohradská
-        Miletičova
-        Prievozská
-        Hraničná
-        Gagarinova
-        Brodná
-        Ondrejovova
-        Ríbezľová
-        Cintorín Vrakuňa
-        Priekopnícka
-        Komárovská
-        Toryská
-        Hronská
-        Dudvážska
-        Čiližská
+        336
+        33
+        5
+        160
+        258
+        222
+        325
+        104
+        82
+        23
+        271
+        338
+        32
+        321
+        155
+        434
+        107
+        71
+        42
     ]
     /subservice 2 [
-        Čiližská
-        žitavská
-        Dudvážska
-        Hronská
-        Toryská
-        Komárovská
-        Priekopnícka
-        Cintorín Vrakuňa
-        Ríbezľová
-        Ondrejovova
-        Brodná
-        Gagarinova
-        Hraničná
-        Pažítková
-        Prievozská
-        Miletičova
-        Novohradská
-        Košická
-        Autobusová stanica
-        Ondrejský cintorín
-        Rajská
+        42
+        512
+        71
+        107
+        434
+        155
+        321
+        32
+        338
+        271
+        23
+        82
+        104
+        285
+        325
+        222
+        258
+        160
+        5
+        33
+        336
     ]
 }
- 
+
 /line 20 {
     /subservice 1 [
-        Opletalova, VW5
-        Paulinské
-        Panské
-        Bystrická
-        Stn. Dev. Nová Ves
-        Mlynská
-        Novoveská
-        Uhrovecká
-        Hradištná
-        Milana Marečka
-        Štefana Králika
-        Vápenka
-        Krpáš
-        Kamenáče
-        T. P. Kolakoviča
-        Agátová
-        Pri kríži
-        Podvornice
-        Drobného
-        Alexyho
-        Švantnerova
-        Záluhy
-        Lipského
-        Húščavova
-        Tesco Lamač
+        710
+        554
+        387
+        28
+        513
+        227
+        259
+        54
+        102
+        221
+        410
+        453
+        174
+        301
+        694
+        81
+        310
+        265
+        68
+        1
+        418
+        51
+        193
+        382
+        574
     ]
     /subservice 2 [
-        Tesco Lamač
-        Húščavova
-        Lipského
-        Záluhy
-        Švantnerova
-        Alexyho
-        Drobného
-        Podvornice
-        Pri kríži
-        Agátová
-        T. P. Kolakoviča
-        Kamenáče
-        Krpáš
-        Vápenka
-        Štefana Králika
-        Milana Marečka
-        Hradištná
-        Uhrovecká
-        Novoveská
-        Mlynská
-        Stn. Dev. Nová Ves
-        Bystrická
-        Panské
-        Paulinské
-        Opletalova, VW5
+        574
+        382
+        193
+        51
+        418
+        1
+        68
+        265
+        310
+        81
+        694
+        301
+        174
+        453
+        410
+        221
+        102
+        54
+        259
+        227
+        513
+        28
+        387
+        554
+        710
     ]
 }
- 
+
 /line 21 {
     /color 338632
     /subservice 1 [
-        Autobusová stanica
-        Krížna
-        Račianske mýto
-        Pod stanicou
-        Patrónka
-        Mokrohájska
-        OC Bory
-        T. P. Kolakoviča
-        Štefana Králika
-        Milana Marečka
-        Hradištná
-        Pri Sandbergu
+        5
+        173
+        332
+        306
+        284
+        229
+        700
+        694
+        410
+        221
+        102
+        237
     ]
     /subservice 2 [
-        Autobusová stanica
-        Krížna
-        Račianske mýto
-        Pod stanicou
-        Patrónka
-        Mokrohájska
-        OC Bory
-        T. P. Kolakoviča
-        Štefana Králika
-        Milana Marečka
-        Hradištná
-        Novoveská
-        Mlynská
-        Stn. Dev. Nová Ves
-        Zamajerské
-        Jána Jonáša, VW1
-        Jána Jonáša
-        Volkswagen, VW2
+        5
+        173
+        332
+        306
+        284
+        229
+        700
+        694
+        410
+        221
+        102
+        259
+        227
+        513
+        635
+        471
+        354
+        572
     ]
     /subservice 3 [
-        Pri Sandbergu
-        Hradištná
-        Milana Marečka
-        Štefana Králika
-        T. P. Kolakoviča
-        OC Bory
-        Mokrohájska
-        Patrónka
-        Pod stanicou
-        Račianske mýto
-        Krížna
-        Autobusová stanica
+        237
+        102
+        221
+        410
+        694
+        700
+        229
+        284
+        306
+        332
+        173
+        5
     ]
     /subservice 4 [
-        Volkswagen, VW2
-        Jána Jonáša
-        Jána Jonáša, VW1
-        Zamajerské
-        Stn. Dev. Nová Ves
-        Mlynská
-        Novoveská
-        Hradištná
-        Milana Marečka
-        Štefana Králika
-        T. P. Kolakoviča
-        OC Bory
-        Mokrohájska
-        Patrónka
-        Pod stanicou
-        Račianske mýto
-        Krížna
-        Autobusová stanica
+        572
+        354
+        471
+        635
+        513
+        227
+        259
+        102
+        221
+        410
+        694
+        700
+        229
+        284
+        306
+        332
+        173
+        5
     ]
 }
- 
+
 /line 23 {
     /subservice 1 [
-        Lamač
-        Klanec
-        Studenohorská
-        Podháj
-        Bakošova
-        Vrančovičova
-        Pod násypom
-        Kúpalisko Lamač
-        Segnáre
-        Pod násypom
-        Stn. Lamač
-        Bilíkova
-        Alexyho
-        Drobného
-        Podvornice
-        Pri kríži
-        Agátová
-        Technické sklo
-        T. P. Kolakoviča
-        Veľkolúcky potok
-        Napájiská
-        Jána Jonáša
-        Jána Jonáša, VW1
-        Zamajerské
-        Stn. Dev. Nová Ves
-        Vápencová
-        Rakyta
-        Mláka
+        183
+        148
+        389
+        296
+        9
+        469
+        295
+        721
+        352
+        295
+        485
+        15
+        1
+        68
+        265
+        310
+        81
+        424
+        694
+        670
+        762
+        354
+        471
+        635
+        513
+        531
+        316
+        370
     ]
     /subservice 2 [
-        Mláka
-        Rakyta
-        Vápencová
-        Stn. Dev. Nová Ves
-        Zamajerské
-        Jána Jonáša, VW1
-        Jána Jonáša
-        Napájiská
-        Veľkolúcky potok
-        T. P. Kolakoviča
-        Technické sklo
-        Agátová
-        Pri kríži
-        Podvornice
-        Drobného
-        Alexyho
-        Stn. Lamač
-        Pod násypom
-        Kúpalisko Lamač
-        Segnáre
-        Pod násypom
-        Vrančovičova
-        Bakošova
-        Podháj
-        Studenohorská
-        Klanec
-        Lamač
+        370
+        316
+        531
+        513
+        635
+        471
+        354
+        762
+        670
+        694
+        424
+        81
+        310
+        265
+        68
+        1
+        485
+        295
+        721
+        352
+        295
+        469
+        9
+        296
+        389
+        148
+        183
     ]
 }
- 
+
 /line 25 {
     /subservice 1 [
-        Autobusová stanica
-        Krížna
-        Račianske mýto
-        Pod stanicou
-        Patrónka
-        Vrančovičova
-        OC Bory
-        Veľkolúcky potok
-        Volkswagen, VW2
+        5
+        173
+        332
+        306
+        284
+        469
+        700
+        670
+        572
     ]
     /subservice 2 [
-        Autobusová stanica
-        Krížna
-        Račianske mýto
-        Pod stanicou
-        Patrónka
-        Vrančovičova
-        OC Bory
-        Stn. Dev. Nová Ves
-        Panské
-        Paulinské
-        Opletalova, VW5
-        Jána Jonáša, VW1
+        5
+        173
+        332
+        306
+        284
+        469
+        700
+        513
+        387
+        554
+        710
+        471
     ]
     /subservice 3 [
-        Volkswagen, VW2
-        Veľkolúcky potok
-        OC Bory
-        Vrančovičova
-        Patrónka
-        Pod stanicou
-        Račianske mýto
-        Krížna
-        Autobusová stanica
+        572
+        670
+        700
+        469
+        284
+        306
+        332
+        173
+        5
     ]
     /subservice 4 [
-        Jána Jonáša, VW1
-        Opletalova, VW5
-        Paulinské
-        Panské
-        Stn. Dev. Nová Ves
-        OC Bory
-        Vrančovičova
-        Patrónka
-        Pod stanicou
-        Račianske mýto
-        Krížna
-        Autobusová stanica
+        471
+        710
+        554
+        387
+        513
+        700
+        469
+        284
+        306
+        332
+        173
+        5
     ]
 }
- 
+
 /line 26 {
     /subservice 1 [
-        Homolova
-        Štepná
-        žatevná
-        Pekníkova
-        Podvornice
-        Pri kríži
-        Veľkolúcky potok
-        Volkswagen, VW2
+        97
+        412
+        505
+        288
+        265
+        310
+        670
+        572
     ]
     /subservice 2 [
-        Homolova
-        Štepná
-        žatevná
-        Pekníkova
-        Podvornice
-        Pri kríži
-        Stn. Dev. Nová Ves
-        Panské
-        Paulinské
-        Opletalova, VW5
-        Jána Jonáša, VW1
+        97
+        412
+        505
+        288
+        265
+        310
+        513
+        387
+        554
+        710
+        471
     ]
     /subservice 3 [
-        Volkswagen, VW2
-        Veľkolúcky potok
-        Pri kríži
-        Podvornice
-        Pekníkova
-        žatevná
-        Štepná
-        Homolova
+        572
+        670
+        310
+        265
+        288
+        505
+        412
+        97
     ]
     /subservice 4 [
-        Jána Jonáša, VW1
-        Opletalova, VW5
-        Paulinské
-        Panské
-        Stn. Dev. Nová Ves
-        Pri kríži
-        Podvornice
-        Pekníkova
-        žatevná
-        Štepná
-        Homolova
+        471
+        710
+        554
+        387
+        513
+        310
+        265
+        288
+        505
+        412
+        97
     ]
 }
- 
+
 /line 29 {
     /subservice 1 [
-        Malá scéna
-        Šafárikovo nám.
-        Nám. Ľ. Štúra
-        Most SNP
-        Chatam Sófer
-        Kráľovské údolie
-        Lanfranconi
-        Botanická záhrada
-        Riviéra
-        Jurigrad
-        Sihoť
-        Kadlečík
-        Zlaté schody
-        Hájovňa
-        Pri záhradách
-        Nový kameňolom
-        Starý kameňolom
-        Dolné koruny
-        K Zlatému rohu
-        Slovanské nábr.
-        Cyril a Metod
-        Štrbská
-        Hrad Devín
-        Pod Dev. Kobylou
-        Waitov lom
-        Morava
-        Pri Sandbergu
-        Uhrovecká
-        Novoveská
-        Mlynská
-        Stn. Dev. Nová Ves
-        Bystrická
-        Panské
-        Paulinské
-        Opletalova, VW5
+        208
+        394
+        248
+        261
+        439
+        281
+        181
+        21
+        230
+        135
+        460
+        137
+        498
+        85
+        317
+        260
+        377
+        477
+        170
+        57
+        249
+        413
+        56
+        231
+        58
+        350
+        237
+        54
+        259
+        227
+        513
+        28
+        387
+        554
+        710
     ]
     /subservice 2 [
-        Malá scéna
-        Šafárikovo nám.
-        Nám. Ľ. Štúra
-        Most SNP
-        Chatam Sófer
-        Kráľovské údolie
-        Lanfranconi
-        Botanická záhrada
-        Riviéra
-        Jurigrad
-        Sihoť
-        Kadlečík
-        Zlaté schody
-        Hájovňa
-        Pri záhradách
-        Nový kameňolom
-        Starý kameňolom
-        Dolné koruny
-        K Zlatému rohu
-        Slovanské nábr.
-        Cyril a Metod
-        Štrbská
-        Hrad Devín
-        Pod Dev. Kobylou
-        Waitov lom
-        Morava
-        Pri Sandbergu
-        Ivana Bukovčana
-        Na Grbe
-        Novoveská
-        Mlynská
-        Stn. Dev. Nová Ves
-        Bystrická
-        Panské
-        Paulinské
-        Opletalova, VW5
+        208
+        394
+        248
+        261
+        439
+        281
+        181
+        21
+        230
+        135
+        460
+        137
+        498
+        85
+        317
+        260
+        377
+        477
+        170
+        57
+        249
+        413
+        56
+        231
+        58
+        350
+        237
+        121
+        236
+        259
+        227
+        513
+        28
+        387
+        554
+        710
     ]
     /subservice 3 [
-        Opletalova, VW5
-        Paulinské
-        Panské
-        Bystrická
-        Stn. Dev. Nová Ves
-        Mlynská
-        Novoveská
-        Uhrovecká
-        Pri Sandbergu
-        Morava
-        Waitov lom
-        Pod Dev. Kobylou
-        Hrad Devín
-        Štrbská
-        Cyril a Metod
-        Slovanské nábr.
-        K Zlatému rohu
-        Dolné koruny
-        Starý kameňolom
-        Nový kameňolom
-        Pri záhradách
-        Hájovňa
-        Zlaté schody
-        Kadlečík
-        Sihoť
-        Jurigrad
-        Riviéra
-        Botanická záhrada
-        Lanfranconi
-        Kráľovské údolie
-        Chatam Sófer
-        Most SNP
-        Nám. Ľ. Štúra
-        Šafárikovo nám.
-        Malá scéna
+        710
+        554
+        387
+        28
+        513
+        227
+        259
+        54
+        237
+        350
+        58
+        231
+        56
+        413
+        249
+        57
+        170
+        477
+        377
+        260
+        317
+        85
+        498
+        137
+        460
+        135
+        230
+        21
+        181
+        281
+        439
+        261
+        248
+        394
+        208
     ]
     /subservice 4 [
-        Opletalova, VW5
-        Paulinské
-        Panské
-        Bystrická
-        Stn. Dev. Nová Ves
-        Mlynská
-        Novoveská
-        Na Grbe
-        Ivana Bukovčana
-        Pri Sandbergu
-        Morava
-        Waitov lom
-        Pod Dev. Kobylou
-        Hrad Devín
-        Štrbská
-        Cyril a Metod
-        Slovanské nábr.
-        K Zlatému rohu
-        Dolné koruny
-        Starý kameňolom
-        Nový kameňolom
-        Pri záhradách
-        Hájovňa
-        Zlaté schody
-        Kadlečík
-        Sihoť
-        Jurigrad
-        Riviéra
-        Botanická záhrada
-        Lanfranconi
-        Kráľovské údolie
-        Chatam Sófer
-        Most SNP
-        Nám. Ľ. Štúra
-        Šafárikovo nám.
-        Malá scéna
+        710
+        554
+        387
+        28
+        513
+        227
+        259
+        236
+        121
+        237
+        350
+        58
+        231
+        56
+        413
+        249
+        57
+        170
+        477
+        377
+        260
+        317
+        85
+        498
+        137
+        460
+        135
+        230
+        21
+        181
+        281
+        439
+        261
+        248
+        394
+        208
     ]
 }
- 
+
 /line 30 {
     /subservice 1 [
-        Podvornice
-        Pri kríži
-        Agátová
-        Hrubé lúky
-        Vladimíra Jukla
-        Nemocnica Bory
-        OC Bory
-        Hodonínska
-        Bakošova
-        Podháj
-        Studenohorská
-        Klanec
-        Lamač
-        Vrančovičova
-        Pod násypom
-        Kúpalisko Lamač
-        Segnáre
-        Pod násypom
-        Stn. Lamač
-        Pridánky
-        Tesco Lamač
-        Mokrohájska
-        Patrónka
+        265
+        310
+        81
+        723
+        750
+        767
+        700
+        263
+        9
+        296
+        389
+        148
+        183
+        469
+        295
+        721
+        352
+        295
+        485
+        320
+        574
+        229
+        284
     ]
     /subservice 2 [
-        Patrónka
-        Mokrohájska
-        Tesco Lamač
-        Pridánky
-        Skerličova
-        Stn. Lamač
-        Pod násypom
-        Kúpalisko Lamač
-        Segnáre
-        Pod násypom
-        Vrančovičova
-        Lamač
-        Klanec
-        Studenohorská
-        Podháj
-        Bakošova
-        Hodonínska
-        OC Bory
-        Nemocnica Bory
-        Vladimíra Jukla
-        Hrubé lúky
-        Agátová
-        Pri kríži
-        Podvornice
+        284
+        229
+        574
+        320
+        514
+        485
+        295
+        721
+        352
+        295
+        469
+        183
+        148
+        389
+        296
+        9
+        263
+        700
+        767
+        750
+        723
+        81
+        310
+        265
     ]
 }
- 
+
 /line 31 {
     /subservice 1 [
-        Cintorín Slávičie
-        Televízia
-        Zoo
-        Lanfranconi
-        Kráľovské údolie
-        Chatam Sófer
-        Zochova
-        Kollárovo nám.
-        Blumentál
-        Nám. slobody
-        Kollárovo nám.
-        Zochova
-        Chatam Sófer
-        Kráľovské údolie
-        Lanfranconi
-        Zoo
-        Televízia
-        Cintorín Slávičie
+        357
+        427
+        358
+        181
+        281
+        439
+        500
+        152
+        80
+        740
+        152
+        500
+        439
+        281
+        181
+        358
+        427
+        357
     ]
 }
- 
+
 /line 32 {
     /subservice 1 [
-        Dlhé diely
-        ZŠ Majerníkova
-        Matejkova
-        Tománkova
-        Hany Meličkovej
-        Pri podchode
-        Janotova
-        Riviéra
-        Botanická záhrada
-        Zoo
-        Habánsky mlyn
-        Suchý mlyn
-        Nemocnica Kramáre
-        Magurská
-        Bárdošova
-        Sokolská
-        Hlavná stanica
+        175
+        503
+        212
+        431
+        89
+        313
+        124
+        230
+        21
+        358
+        501
+        315
+        164
+        206
+        11
+        368
+        93
     ]
     /subservice 2 [
-        Hlavná stanica
-        Pod stanicou
-        Sokolská
-        Bárdošova
-        Magurská
-        Nemocnica Kramáre
-        Suchý mlyn
-        Habánsky mlyn
-        Zoo
-        Botanická záhrada
-        Riviéra
-        Janotova
-        Pri podchode
-        Hany Meličkovej
-        Tománkova
-        Matejkova
-        ZŠ Majerníkova
-        Dlhé diely
+        93
+        306
+        368
+        11
+        206
+        164
+        315
+        501
+        358
+        21
+        230
+        124
+        313
+        89
+        431
+        212
+        503
+        175
     ]
 }
- 
+
 /line 35 {
     /subservice 1 [
-        Dlhé diely
-        Pod Kráľovou horou
-        Kuklovská
-        Sološnická
-        Šaštínska
-        Kútiky
-        Borská
-        Dolné Krčace
-        Horné Krčace
-        Harmincova
-        Lipského
-        Polianky
-        Dúbravská cesta
+        175
+        625
+        626
+        627
+        628
+        143
+        19
+        60
+        98
+        90
+        193
+        298
+        192
     ]
     /subservice 2 [
-        Dúbravská cesta
-        Polianky
-        Lipského
-        Harmincova
-        Horné Krčace
-        Dolné Krčace
-        Kútiky
-        Borská
-        Sološnická
-        Šaštínska
-        Kuklovská
-        Pod Kráľovou horou
-        Dlhé diely
+        192
+        298
+        193
+        90
+        98
+        60
+        143
+        19
+        627
+        628
+        626
+        625
+        175
     ]
 }
- 
+
 /line 36 {
     /subservice 1 [
-        Strmé vŕšky
-        Bystrické sady
-        Pod vŕškami
-        Rudavská
-        Krče
-        MiÚ Záh. Bystrica
-        Záhorská
-        Krče
-        Rudavská
-        Bystrické sady
-        Strmé vŕšky
+        371
+        755
+        752
+        701
+        168
+        606
+        479
+        168
+        701
+        755
+        371
     ]
 }
- 
+
 /line 37 {
     /color e31e24
     /subservice 1 [
-        Most SNP
-        Chatam Sófer
-        Kráľovské údolie
-        Lanfranconi
-        Zoo
-        Habánsky mlyn
-        Patrónka
-        Mokrohájska
-        Tesco Lamač
-        Pridánky
-        Skerličova
-        Stn. Lamač
-        Pod násypom
-        Vrančovičova
-        Hodonínska
-        Pri krematóriu
-        Podkerepušky
-        Kulháň
-        Dievčí hrádok
-        Bratislavská
-        Krče
-        MiÚ Záh. Bystrica
-        Záhorská
-        Záhorská Bystrica
+        261
+        439
+        281
+        181
+        358
+        501
+        284
+        229
+        574
+        320
+        514
+        485
+        295
+        469
+        263
+        309
+        356
+        771
+        59
+        441
+        168
+        606
+        479
+        481
     ]
     /subservice 2 [
-        Záhorská Bystrica
-        Záhorská
-        Krče
-        Bratislavská
-        Dievčí hrádok
-        Kulháň
-        Podkerepušky
-        Pri krematóriu
-        Hodonínska
-        Vrančovičova
-        Pod násypom
-        Stn. Lamač
-        Pridánky
-        Mokrohájska
-        Patrónka
-        Habánsky mlyn
-        Zoo
-        Lanfranconi
-        Kráľovské údolie
-        Chatam Sófer
-        Most SNP
+        481
+        479
+        168
+        441
+        59
+        771
+        356
+        309
+        263
+        469
+        295
+        485
+        320
+        229
+        284
+        501
+        358
+        181
+        281
+        439
+        261
     ]
 }
- 
+
 /line 39 {
     /subservice 1 [
-        Cintorín Slávičie
-        Televízia
-        Zoo
-        Lanfranconi
-        Kráľovské údolie
-        Chatam Sófer
-        Zochova
-        Kollárovo nám.
-        Blumentál
-        Račianske mýto
-        Trnavské mýto
-        Zimný štadión
-        Bajkalská
-        Sabinovská
-        Klientske centrum
-        Trnavská cesta
-        Martinský cintorín
-        Clementisova
-        Planét
-        Súhvezdná
+        357
+        427
+        358
+        181
+        281
+        439
+        500
+        152
+        80
+        332
+        437
+        495
+        8
+        347
+        117
+        491
+        211
+        34
+        122
+        344
     ]
     /subservice 2 [
-        Súhvezdná
-        Planét
-        Clementisova
-        Martinský cintorín
-        Trnavská cesta
-        Klientske centrum
-        Sabinovská
-        Bajkalská
-        Zimný štadión
-        Trnavské mýto
-        Račianske mýto
-        Povraznícka
-        Nám. slobody
-        Kollárovo nám.
-        Zochova
-        Chatam Sófer
-        Kráľovské údolie
-        Lanfranconi
-        Zoo
-        Televízia
-        Cintorín Slávičie
+        344
+        122
+        34
+        211
+        491
+        117
+        347
+        8
+        495
+        437
+        332
+        304
+        740
+        152
+        500
+        439
+        281
+        181
+        358
+        427
+        357
     ]
 }
- 
+
 /line 41 {
     /subservice 1 [
-        Hlavná stanica
-        Pod stanicou
-        Sokolská
-        Hroboňova
-        Prokopa Veľkého
-        Depo Hroboňova
-        Súbežná
-        Bubnovka
-        Slov. nár. archív
-        Šafranová
-        Prvosienková
-        Na hrebienku
-        Búdková
+        93
+        306
+        368
+        106
+        330
+        4
+        560
+        608
+        360
+        395
+        561
+        618
+        69
     ]
     /subservice 2 [
-        Búdková
-        Na hrebienku
-        Prvosienková
-        Šafranová
-        Slov. nár. archív
-        Bubnovka
-        Súbežná
-        Depo Hroboňova
-        Hroboňova
-        Sokolská
-        Hlavná stanica
+        69
+        618
+        561
+        395
+        360
+        608
+        560
+        4
+        106
+        368
+        93
     ]
 }
- 
+
 /line 43 {
     /subservice 1 [
-        Patrónka
-        Červený most
-        Partizánska lúka
-        Klepáč
-        Deviaty mlyn
-        železná studnička
-        Kačínska Dolina
-        Kačín
+        284
+        462
+        693
+        150
+        30
+        507
+        742
+        773
     ]
     /subservice 2 [
-        Patrónka
-        Červený most
-        Partizánska lúka
-        Klepáč
-        Deviaty mlyn
-        železná studnička
-        Bukva
-        Drieňovské lúky
-        Lanovka
-        Kameňolom
-        Lesopark
+        284
+        462
+        693
+        150
+        30
+        507
+        187
+        346
+        184
+        140
+        188
     ]
     /subservice 3 [
-        Kačín
-        Kačínska Dolina
-        železná studnička
-        Deviaty mlyn
-        Klepáč
-        Partizánska lúka
-        Červený most
-        Patrónka
+        773
+        742
+        507
+        30
+        150
+        693
+        462
+        284
     ]
     /subservice 4 [
-        Lesopark
-        Kameňolom
-        Lanovka
-        Drieňovské lúky
-        Bukva
-        železná studnička
-        Deviaty mlyn
-        Klepáč
-        Partizánska lúka
-        Červený most
-        Patrónka
+        188
+        140
+        184
+        346
+        187
+        507
+        30
+        150
+        693
+        462
+        284
     ]
 }
- 
+
 /line 50 {
     /color 57a7b3
     /subservice 1 [
-        Kukučínova
-        Slovany
-        Hálkova
-        MiÚ Nové Mesto
-        Stn. Nové Mesto
-        Klientske centrum
-        Haburská
-        Maximiliána Hella
-        Tomášikova
-        Herlianska
-        Nemocnica Ružinov
-        Líščie nivy
-        Trhovisko
-        Dulovo nám.
-        Košická
-        Autobusová stanica
-        Čulenova
-        Landererová
-        Most Apollo
-        OC Einsteinova
+        266
+        176
+        86
+        213
+        515
+        117
+        84
+        214
+        432
+        92
+        308
+        234
+        582
+        72
+        160
+        5
+        46
+        307
+        581
+        753
     ]
     /subservice 2 [
-        OC Einsteinova
-        Most SNP
-        Nám. Ľ. Štúra
-        Šafárikovo nám.
-        Malá scéna
-        Čulenova
-        Autobusová stanica
-        Košická
-        Cvernovka
-        Dulovo nám.
-        Trhovisko
-        Líščie nivy
-        Nemocnica Ružinov
-        Herlianska
-        Tomášikova
-        Maximiliána Hella
-        Zálužická
-        Haburská
-        Klientske centrum
-        Stn. Nové Mesto
-        MiÚ Nové Mesto
-        Hálkova
-        Slovany
-        Kukučínova
+        753
+        261
+        248
+        394
+        208
+        46
+        5
+        160
+        280
+        72
+        582
+        234
+        308
+        92
+        432
+        214
+        457
+        84
+        117
+        515
+        213
+        86
+        176
+        266
     ]
 }
- 
+
 /line 51 {
     /subservice 1 [
-        Trnavské mýto
-        Tehelná
-        Kukučínova
-        Slovany
-        Hálkova
-        MiÚ Nové Mesto
-        Kuchajda
-        Odborárska
-        Staré ihrisko
-        Trojdomy
-        Nobelova
-        Depo Krasňany
+        437
+        420
+        266
+        176
+        86
+        213
+        488
+        268
+        375
+        438
+        256
+        465
     ]
     /subservice 2 [
-        Depo Krasňany
-        Nobelova
-        Trojdomy
-        Staré ihrisko
-        Odborárska
-        Kuchajda
-        MiÚ Nové Mesto
-        Hálkova
-        Slovany
-        Kukučínova
-        Tehelná
-        Trnavské mýto
+        465
+        256
+        438
+        375
+        268
+        488
+        213
+        86
+        176
+        266
+        420
+        437
     ]
 }
- 
+
 /line 52 {
     /subservice 1 [
-        Stn. Vajnory
-        Pri mlyne
-        Pračanská
-        Uhliská
-        OC Vajnory
-        Staré letisko
-        Rušňové depo II
-        Na pasekách
-        Východné
-        Rušňové depo I
-        Sklabinská
-        Pri Šajbách
-        Pastierska
-        Stolárska
-        Detvianska
-        Závadská
-        Tbiliská
-        Drozdová
-        Zvončeková
-        Potočná
+        521
+        311
+        305
+        443
+        314
+        510
+        196
+        238
+        472
+        195
+        355
+        493
+        283
+        383
+        713
+        489
+        419
+        743
+        504
+        524
     ]
     /subservice 2 [
-        Potočná
-        Zvončeková
-        Drozdová
-        Tbiliská
-        Závadská
-        Detvianska
-        Ihrisková
-        Pastierska
-        Pri Šajbách
-        Sklabinská
-        Rušňové depo I
-        Východné
-        Na pasekách
-        Rušňové depo II
-        Staré letisko
-        OC Vajnory
-        Uhliská
-        Čierny chodník
-        Pračanská
-        Stn. Vajnory
+        524
+        504
+        743
+        419
+        489
+        713
+        116
+        283
+        493
+        355
+        195
+        472
+        238
+        196
+        510
+        314
+        443
+        41
+        305
+        521
     ]
 }
- 
+
 /line 53 {
     /subservice 1 [
-        Vajnory
-        Roľnícka
-        Hospodárska
-        MiÚ Vajnory
-        Uhliská
-        OC Vajnory
-        Vajnory, nadjazd
-        Tuhovská
-        Zlaté piesky
-        OC Rožňavská
-        Bojnická
-        Depo Trnávka
-        Slovinská
-        Klientske centrum
-        Sabinovská
-        Bajkalská
-        Zimný štadión
-        Trnavské mýto
-        Nová doba
-        Bajkalská
-        Sabinovská
-        Klientske centrum
-        Slovinská
-        Depo Trnávka
-        Bojnická
-        OC Rožňavská
-        Zlaté piesky
-        Dvojstudňové polia
-        Vajnory, nadjazd
-        OC Vajnory
-        Uhliská
-        MiÚ Vajnory
-        Hospodárska
-        Roľnícka
-        Vajnory
+        451
+        449
+        100
+        450
+        443
+        314
+        242
+        603
+        497
+        52
+        18
+        466
+        361
+        117
+        347
+        8
+        495
+        437
+        257
+        8
+        347
+        117
+        361
+        466
+        18
+        52
+        497
+        494
+        242
+        314
+        443
+        450
+        100
+        449
+        451
     ]
 }
- 
+
 /line 56 {
     /subservice 1 [
-        Studená
-        Studená, zastávka
-        Shopping Palace
-        Zlaté piesky
-        Dvojstudňové polia
-        Vajnory, nadjazd
-        OC Vajnory
-        Staré letisko
-        Rušňové depo II
-        Na pasekách
-        Východné
-        Rušňové depo I
-        Sklabinská
-        Pri Šajbách
-        Pastierska
-        Stolárska
-        Detvianska
-        Nám. A.Hlinku
-        Barónka
-        Kubačova, NKD
-        MiÚ Rača
-        Závadská
-        Tbiliská
-        Karpatské nám.
-        Púchovská
-        OC Rača
+        456
+        223
+        341
+        497
+        494
+        242
+        314
+        510
+        196
+        238
+        472
+        195
+        355
+        493
+        283
+        383
+        713
+        247
+        12
+        458
+        331
+        489
+        419
+        665
+        425
+        715
     ]
     /subservice 2 [
-        OC Rača
-        Púchovská
-        Karpatské nám.
-        Tbiliská
-        Závadská
-        Nám. A.Hlinku
-        Barónka
-        Kubačova, NKD
-        MiÚ Rača
-        Detvianska
-        Ihrisková
-        Pastierska
-        Pri Šajbách
-        Sklabinská
-        Rušňové depo I
-        Východné
-        Na pasekách
-        Rušňové depo II
-        Staré letisko
-        OC Vajnory
-        Vajnory, nadjazd
-        Tuhovská
-        Zlaté piesky
-        Shopping Palace
-        Studená, zastávka
-        Studená
+        715
+        425
+        665
+        419
+        489
+        247
+        12
+        458
+        331
+        713
+        116
+        283
+        493
+        355
+        195
+        472
+        238
+        196
+        510
+        314
+        242
+        603
+        497
+        341
+        223
+        456
     ]
 }
- 
+
 /line 57 {
     /subservice 1 [
-        Depo Jurajov dvor
-        Jurajov dvor
-        Pri nadjazde
-        Pribylinská
-        Staviteľská
-        Stavivá
-        Kalné jazero
-        Spádovisko I
-        Spádovisko II
-        Zlaté piesky
-        Shopping Palace
-        Stará Vajnorská
-        OC Stará Vajnorská
-        Jurajov dvor
-        Depo Jurajov dvor
+        464
+        133
+        312
+        319
+        380
+        381
+        632
+        633
+        634
+        497
+        341
+        496
+        233
+        133
+        464
     ]
     /subservice 2 [
-        Depo Jurajov dvor
-        Jurajov dvor
-        Pri nadjazde
-        Mokraď
-        Mikulášov dvor
-        žabí majer
-        Mikulášov dvor
-        Mokraď
-        Pribylinská
-        Staviteľská
-        Stavivá
-        Kalné jazero
-        Spádovisko I
-        Spádovisko II
-        Zlaté piesky
-        Shopping Palace
-        Stará Vajnorská
-        OC Stará Vajnorská
-        Jurajov dvor
-        Depo Jurajov dvor
+        464
+        133
+        312
+        768
+        322
+        279
+        322
+        768
+        319
+        380
+        381
+        632
+        633
+        634
+        497
+        341
+        496
+        233
+        133
+        464
     ]
     /subservice 3 [
-        žabí majer
-        Mikulášov dvor
-        Mokraď
-        Pri nadjazde
-        Jurajov dvor
-        Depo Jurajov dvor
+        279
+        322
+        768
+        312
+        133
+        464
     ]
 }
- 
+
 /line 59 {
     /subservice 1 [
-        Antolská
-        Nemocnica Antolská
-        Ľubovnianska
-        Lúčanka
-        Znievska
-        Budatínska
-        Lúky II
-        Smolenická
-        Jiráskova
-        Stn. Petržalka
-        Dvory
-        Račianske mýto
-        Pionierska
-        Stn. Vinohrady
-        Pekná cesta
-        Trávna
-        Púchovská
-        Rybničná
-        Na pántoch, školy
-        Na pántoch, stred
-        Na pántoch
+        523
+        253
+        199
+        200
+        499
+        24
+        202
+        367
+        131
+        517
+        74
+        332
+        293
+        522
+        287
+        435
+        425
+        14
+        274
+        275
+        215
     ]
     /subservice 2 [
-        Na pántoch
-        Na pántoch, stred
-        Na pántoch, školy
-        Rybničná
-        Púchovská
-        Trávna
-        Pekná cesta
-        Stn. Vinohrady
-        Pionierska
-        Račianske mýto
-        Dvory
-        Stn. Petržalka
-        Jiráskova
-        Smolenická
-        Lúky II
-        Budatínska
-        Znievska
-        Lúčanka
-        Ľubovnianska
-        Nemocnica Antolská
-        Antolská
+        215
+        275
+        274
+        14
+        425
+        435
+        287
+        522
+        293
+        332
+        74
+        517
+        131
+        367
+        202
+        24
+        499
+        200
+        199
+        253
+        523
     ]
 }
- 
+
 /line 61 {
     /color ec6a6d
     /subservice 1 [
-        Letisko / Airport
-        Fafruny
-        Pri Letisku
-        AVION, IKEA
-        Avion Shop. Park
-        Ivanská cesta
-        Na križovatkách
-        Pri zvonici
-        Bulharská
-        Spoločenská
-        Hanácka
-        Slovinská
-        Klientske centrum
-        Sabinovská
-        Bajkalská
-        Zimný štadión
-        Trnavské mýto
-        Račianske mýto
-        Karpatská
-        Hlavná stanica
+        189
+        483
+        774
+        290
+        553
+        83
+        374
+        318
+        26
+        373
+        88
+        361
+        117
+        347
+        8
+        495
+        437
+        332
+        144
+        93
     ]
     /subservice 2 [
-        Hlavná stanica
-        Pod stanicou
-        Karpatská
-        Račianske mýto
-        Trnavské mýto
-        Zimný štadión
-        Bajkalská
-        Sabinovská
-        Klientske centrum
-        Slovinská
-        Hanácka
-        Spoločenská
-        Bulharská
-        Pri zvonici
-        Na križovatkách
-        Avion Shop. Park
-        AVION, IKEA
-        Pri Letisku
-        Fafruny
-        Letisko / Airport
+        93
+        306
+        144
+        332
+        437
+        495
+        8
+        347
+        117
+        361
+        88
+        373
+        26
+        318
+        374
+        553
+        290
+        774
+        483
+        189
     ]
 }
- 
+
 /line 63 {
     /color ae4a84
     /subservice 1 [
-        Avion Shop. Park
-        Ivanská cesta
-        Slowackého
-        Clementisova
-        Martinský cintorín
-        Trnavská cesta
-        Klientske centrum
-        Sabinovská
-        Bajkalská
-        Zimný štadión
-        Trnavské mýto
-        Račianske mýto
-        Pod stanicou
-        Hroboňova
-        Patrónka
-        Stn. Lamač
-        Vrančovičova
-        Bakošova
-        Podháj
-        Studenohorská
-        Klanec
-        Lamač
+        553
+        83
+        365
+        34
+        211
+        491
+        117
+        347
+        8
+        495
+        437
+        332
+        306
+        106
+        284
+        485
+        469
+        9
+        296
+        389
+        148
+        183
     ]
     /subservice 2 [
-        Lamač
-        Klanec
-        Studenohorská
-        Podháj
-        Bakošova
-        Vrančovičova
-        Stn. Lamač
-        Patrónka
-        Hroboňova
-        Pod stanicou
-        Račianske mýto
-        Trnavské mýto
-        Zimný štadión
-        Bajkalská
-        Sabinovská
-        Klientske centrum
-        Trnavská cesta
-        Martinský cintorín
-        Clementisova
-        Slowackého
-        Avion Shop. Park
+        183
+        148
+        389
+        296
+        9
+        469
+        485
+        284
+        106
+        306
+        332
+        437
+        495
+        8
+        347
+        117
+        491
+        211
+        34
+        365
+        553
     ]
 }
- 
+
 /line 65 {
     /subservice 1 [
-        Tbiliská
-        Závadská
-        Detvianska
-        Trávna
-        Púchovská
-        Na pántoch
-        Na pántoch, stred
-        Na pántoch, školy
-        Rybničná
-        Šprinclov majer
-        Regrútska
-        Koniarkova
-        Osloboditeľská
-        Uhliská
-        OC Vajnory
-        Vajnory, nadjazd
-        Tuhovská
-        Zlaté piesky
-        Shopping Palace
-        Stará Vajnorská
-        OC Stará Vajnorská
-        Jurajov dvor
-        Bojnická
-        Rádiová
-        Bulharská
-        Pri zvonici
-        Na križovatkách
-        Avion Shop. Park
-        Ríbezľová
-        Cintorín Vrakuňa
-        Slovnaftská
-        Podzáhradná
-        Hronská
-        Dudvážska
-        Čiližská
+        419
+        489
+        713
+        435
+        425
+        215
+        275
+        274
+        14
+        404
+        463
+        157
+        273
+        443
+        314
+        242
+        603
+        497
+        341
+        496
+        233
+        133
+        18
+        333
+        26
+        318
+        374
+        553
+        338
+        32
+        364
+        297
+        107
+        71
+        42
     ]
     /subservice 2 [
-        Čiližská
-        žitavská
-        Dudvážska
-        Hronská
-        Podzáhradná
-        Slovnaftská
-        Cintorín Vrakuňa
-        Ríbezľová
-        Ivanská cesta
-        Na križovatkách
-        Pri zvonici
-        Bulharská
-        Rádiová
-        Bojnická
-        Jurajov dvor
-        OC Stará Vajnorská
-        Stará Vajnorská
-        Shopping Palace
-        Zlaté piesky
-        Tuhovská
-        Vajnory, nadjazd
-        OC Vajnory
-        Uhliská
-        Osloboditeľská
-        Koniarkova
-        Regrútska
-        Šprinclov majer
-        Rybničná
-        Na pántoch
-        Na pántoch, stred
-        Na pántoch, školy
-        Vajnorský potok
-        Púchovská
-        Trávna
-        Detvianska
-        Závadská
-        Tbiliská
+        42
+        512
+        71
+        107
+        297
+        364
+        32
+        338
+        83
+        374
+        318
+        26
+        333
+        18
+        133
+        233
+        496
+        341
+        497
+        603
+        242
+        314
+        443
+        273
+        157
+        463
+        404
+        14
+        215
+        275
+        274
+        596
+        425
+        435
+        713
+        489
+        419
     ]
 }
- 
+
 /line 66 {
     /subservice 1 [
-        Grófska Niva
-        Stachanovská
-        Hraničná
-        Pažítková
-        Prievozská
-        Mliekarenská
-        Ružová dolina
-        Trhovisko
-        Líščie nivy
-        Drieňová
-        Úrad BSK
-        Solivarská
-        Maximiliána Hella
-        DK Ružinov
-        Nevädzová
-        Mierová
-        Krásna
-        Syslia
-        Stn. ÚNS
-        Domkárska
+        748
+        754
+        104
+        285
+        325
+        225
+        345
+        582
+        234
+        67
+        430
+        369
+        214
+        264
+        255
+        218
+        165
+        525
+        519
+        63
     ]
     /subservice 2 [
-        Domkárska
-        Stn. ÚNS
-        Syslia
-        Krásna
-        Mierová
-        Nevädzová
-        DK Ružinov
-        Maximiliána Hella
-        Solivarská
-        Úrad BSK
-        Drieňová
-        Líščie nivy
-        Trhovisko
-        Ružová dolina
-        Mliekarenská
-        Prievozská
-        Hraničná
-        Stachanovská
-        Grófska Niva
+        63
+        519
+        525
+        165
+        218
+        255
+        264
+        214
+        369
+        430
+        67
+        234
+        582
+        345
+        225
+        325
+        104
+        754
+        748
     ]
 }
- 
+
 /line 67 {
     /subservice 1 [
-        Astronomická
-        Súhvezdná
-        Pod gaštanmi
-        Podpriehradná
-        Majerská
-        Šípová
-        železničná
-        Čiližská
-        žitavská
-        Dudvážska
-        Hronská
-        Bodrocká
-        Korytnická
-        Nákupná
-        Učiteľská
-        MiÚ P. Biskupice
-        Devätinová
-        Vinohradnícka
-        Ligurčeková
-        Ovčiarska
-        Farmárska
-        Vinohradnícka
-        Devätinová
-        MiÚ P. Biskupice
-        Nákupná
-        Korytnická
-        Bodrocká
-        Hronská
-        Dudvážska
-        Čiližská
-        železničná
-        Šípová
-        Majerská
-        Podpriehradná
-        Pod gaštanmi
-        Astronomická
+        6
+        344
+        447
+        467
+        207
+        400
+        508
+        42
+        512
+        71
+        107
+        17
+        159
+        243
+        442
+        278
+        55
+        429
+        756
+        763
+        759
+        429
+        55
+        278
+        243
+        159
+        17
+        107
+        71
+        42
+        508
+        400
+        207
+        467
+        447
+        6
     ]
 }
- 
+
 /line 68 {
     /color c7bc6a
     /subservice 1 [
-        Holíčska
-        Smolenická
-        Švabinského
-        Markova
-        Romanova
-        Hrobákova
-        Starohájska
-        Lachova
-        Šustekova
-        Bulíkova
-        Ekonom. univerzita
-        Most Apollo
-        Prístavná
-        Košická
-        Dulovo nám.
-        Trhovisko
-        Saleziáni
-        Krížna
-        Trnavské mýto
-        Saleziáni
-        Trhovisko
-        Dulovo nám.
-        Košická
-        Most Apollo
-        Ekonom. univerzita
-        Bulíkova
-        Šustekova
-        Lachova
-        Starohájska
-        Hrobákova
-        Romanova
-        Markova
-        Švabinského
-        Smolenická
-        Holíčska
+        96
+        367
+        417
+        210
+        340
+        105
+        376
+        182
+        416
+        27
+        77
+        581
+        327
+        160
+        72
+        582
+        482
+        173
+        437
+        482
+        582
+        72
+        160
+        581
+        77
+        27
+        416
+        182
+        376
+        105
+        340
+        210
+        417
+        367
+        96
     ]
 }
- 
+
 /line 69 {
     /subservice 1 [
-        Avion Shop. Park
-        Galvaniho
-        Krížové polia
-        Pharos
-        Letisko, cargo
-        Letové služby
-        Pri Letisku
-        AVION, IKEA
-        Avion Shop. Park
+        553
+        728
+        725
+        705
+        726
+        727
+        774
+        290
+        553
     ]
 }
- 
+
 /line 70 {
     /subservice 1 [
-        Most SNP
-        Nám. Ľ. Štúra
-        Šafárikovo nám.
-        Malá scéna
-        Čulenova
-        Autobusová stanica
-        Košická
-        Novohradská
-        Miletičova
-        Prievozská
-        Prístavný most
-        Pálenisko
-        Piesčiny
-        Čierny les
-        Vlčie hrdlo
-        V. hrdlo, internát
-        Závodná
-        OC Slovnaftská
-        Slovnaftská
-        Šikmá
-        Nem. P. Biskupice
-        MiÚ P. Biskupice
-        8. mája
-        Stn. P. Biskupice
+        261
+        248
+        394
+        208
+        46
+        5
+        160
+        258
+        222
+        325
+        328
+        765
+        428
+        286
+        362
+        120
+        112
+        696
+        364
+        398
+        254
+        278
+        445
+        516
     ]
     /subservice 2 [
-        Stn. P. Biskupice
-        Petőfiho
-        Učiteľská
-        MiÚ P. Biskupice
-        Nem. P. Biskupice
-        Šikmá
-        Slovnaftská
-        OC Slovnaftská
-        Závodná
-        V. hrdlo, internát
-        Vlčie hrdlo
-        Čierny les
-        Piesčiny
-        Prístavný most
-        Prievozská
-        Miletičova
-        Novohradská
-        Košická
-        Autobusová stanica
-        Čulenova
-        Šafárikovo nám.
-        Nám. Ľ. Štúra
-        Most SNP
+        516
+        291
+        442
+        278
+        254
+        398
+        364
+        696
+        112
+        120
+        362
+        286
+        428
+        328
+        325
+        222
+        258
+        160
+        5
+        46
+        394
+        248
+        261
     ]
 }
- 
+
 /line 75 {
     /subservice 1 [
-        Čiližská
-        žitavská
-        Dudvážska
-        Hronská
-        Toryská
-        Komárovská
-        Priekopnícka
-        Cintorín Vrakuňa
-        Ondrejovova
-        Brodná
-        Nevädzová
-        Herlianska
-        Nemocnica Ružinov
-        Drieňová
-        Bajkalská
-        Nová doba
-        Pionierska
-        Mladá garda
-        Stn. Vinohrady
-        Hubeného
-        Kadnárova
+        42
+        512
+        71
+        107
+        434
+        155
+        321
+        32
+        271
+        23
+        255
+        92
+        308
+        67
+        8
+        257
+        293
+        224
+        522
+        108
+        138
     ]
     /subservice 2 [
-        Kadnárova
-        Hubeného
-        Stn. Vinohrady
-        Mladá garda
-        Pionierska
-        Nová doba
-        Bajkalská
-        Drieňová
-        Nemocnica Ružinov
-        Herlianska
-        Nevädzová
-        Brodná
-        Ondrejovova
-        Cintorín Vrakuňa
-        Priekopnícka
-        Komárovská
-        Toryská
-        Hronská
-        Dudvážska
-        Čiližská
+        138
+        108
+        522
+        224
+        293
+        257
+        8
+        67
+        308
+        92
+        255
+        23
+        271
+        32
+        321
+        155
+        434
+        107
+        71
+        42
     ]
 }
- 
+
 /line 77 {
     /subservice 1 [
-        Vlčie hrdlo
-        Zajačie
-        Lodenica
-        Povodie Dunaja
+        362
+        363
+        194
+        303
     ]
     /subservice 2 [
-        Vlčie hrdlo
-        Zajačie
-        V. hrdlo, záhrady
-        Micherov majer
-        ČOV Vlčie hrdlo
-        Spaľovňa
+        362
+        363
+        609
+        220
+        44
+        372
     ]
     /subservice 3 [
-        Povodie Dunaja
-        Lodenica
-        Zajačie
-        Vlčie hrdlo
+        303
+        194
+        363
+        362
     ]
     /subservice 4 [
-        Spaľovňa
-        ČOV Vlčie hrdlo
-        Micherov majer
-        V. hrdlo, záhrady
-        Zajačie
-        Vlčie hrdlo
+        372
+        44
+        220
+        609
+        363
+        362
     ]
 }
- 
+
 /line 78 {
     /subservice 1 [
-        Stn. P. Biskupice
-        Dudvážska
-        Hronská
-        Toryská
-        Stavbárska
-        Estónska
-        MiÚ Vrakuňa
-        Šípová
-        Majerská
-        Podpriehradná
-        Pod gaštanmi
-        Astronomická
-        Súmračná
-        Maximiliána Hella
-        Solivarská
-        Úrad BSK
-        Drieňová
-        Bajkalská
-        Zimný štadión
-        Trnavské mýto
-        Krížna
-        Šoltésovej
-        Malý trh
-        Čulenova
-        Nové SND
+        516
+        71
+        107
+        434
+        378
+        78
+        401
+        400
+        207
+        467
+        447
+        6
+        391
+        214
+        369
+        430
+        67
+        8
+        495
+        437
+        173
+        402
+        228
+        46
+        607
     ]
     /subservice 2 [
-        Nové SND
-        Čulenova
-        Malý trh
-        Šoltésovej
-        Krížna
-        Trnavské mýto
-        Zimný štadión
-        Bajkalská
-        Úrad BSK
-        Solivarská
-        Maximiliána Hella
-        Súmračná
-        Astronomická
-        Pod gaštanmi
-        Podpriehradná
-        Majerská
-        Šípová
-        MiÚ Vrakuňa
-        Estónska
-        Stavbárska
-        Toryská
-        Hronská
-        Dudvážska
-        Stn. P. Biskupice
+        607
+        46
+        228
+        402
+        173
+        437
+        495
+        8
+        430
+        369
+        214
+        391
+        6
+        447
+        467
+        207
+        400
+        401
+        78
+        378
+        434
+        107
+        71
+        516
     ]
 }
- 
+
 /line 79 {
     /subservice 1 [
-        Stn. P. Biskupice
-        Petőfiho
-        Učiteľská
-        MiÚ P. Biskupice
-        Lieskovská cesta
-        PD P. Biskupice
-        Jánske hony
-        Plniareň plynu
-        Lieskovec
+        516
+        291
+        442
+        278
+        13
+        299
+        113
+        329
+        191
     ]
     /subservice 2 [
-        Lieskovec
-        Plniareň plynu
-        Jánske hony
-        PD P. Biskupice
-        Lieskovská cesta
-        MiÚ P. Biskupice
-        8. mája
-        Stn. P. Biskupice
+        191
+        329
+        113
+        299
+        13
+        278
+        445
+        516
     ]
 }
- 
+
 /line 80 {
     /color f7aa47
     /subservice 1 [
-        Kollárovo nám.
-        Zochova
-        Einsteinova
-        Kremnická
-        Záporožská
-        Stn. Petržalka
-        Kapitulský dvor
-        Dargovská
-        Cintorín Petržalka
+        152
+        500
+        76
+        172
+        487
+        517
+        178
+        617
+        579
     ]
     /subservice 2 [
-        Kollárovo nám.
-        Zochova
-        Einsteinova
-        Kremnická
-        Záporožská
-        Stn. Petržalka
-        Kopčianska, stred
-        Kopčany, sídlisko
-        Kopčianska
-        Nesto
+        152
+        500
+        76
+        172
+        487
+        517
+        490
+        158
+        528
+        770
     ]
     /subservice 3 [
-        Cintorín Petržalka
-        Dargovská
-        Kapitulský dvor
-        Stn. Petržalka
-        Záporožská
-        Kremnická
-        Einsteinova
-        Pri Sade
-        Zochova
-        Kollárovo nám.
+        579
+        617
+        178
+        517
+        487
+        172
+        76
+        390
+        500
+        152
     ]
     /subservice 4 [
-        Nesto
-        Kopčianska
-        Kopčany, sídlisko
-        Kopčianska, stred
-        Stn. Petržalka
-        Záporožská
-        Kremnická
-        Einsteinova
-        Pri Sade
-        Zochova
-        Kollárovo nám.
+        770
+        528
+        158
+        490
+        517
+        487
+        172
+        76
+        390
+        500
+        152
     ]
 }
- 
+
 /line 83 {
     /color 008dd2
     /subservice 1 [
-        Kutlíkova
-        Bradáčova
-        Romanova
-        Hrobákova
-        Nám. hraničiarov
-        Jungmannova
-        Hálova
-        Dvory
-        Pri Sade
-        Zochova
-        Hodžovo nám.
-        Pod stanicou
-        Sokolská
-        Hroboňova
-        Dubová
-        Patrónka
-        Mokrohájska
-        Húščavova
-        Lipského
-        Záluhy
-        Švantnerova
-        Alexyho
-        Drobného
-        Pekníkova
-        žatevná
-        Štepná
-        Homolova
-        Pri kríži
+        426
+        22
+        340
+        105
+        246
+        132
+        87
+        74
+        390
+        500
+        95
+        306
+        368
+        106
+        70
+        284
+        229
+        382
+        193
+        51
+        418
+        1
+        68
+        288
+        505
+        412
+        97
+        310
     ]
     /subservice 2 [
-        Pri kríži
-        Homolova
-        Štepná
-        žatevná
-        Pekníkova
-        Drobného
-        Alexyho
-        Švantnerova
-        Záluhy
-        Lipského
-        Húščavova
-        Mokrohájska
-        Patrónka
-        Dubová
-        Hroboňova
-        Sokolská
-        Pod stanicou
-        Hodžovo nám.
-        Zochova
-        Pri Sade
-        Dvory
-        Hálova
-        Jungmannova
-        Nám. hraničiarov
-        Hrobákova
-        Romanova
-        Bradáčova
-        Kutlíkova
+        310
+        97
+        412
+        505
+        288
+        68
+        1
+        418
+        51
+        193
+        382
+        229
+        284
+        70
+        106
+        368
+        306
+        95
+        500
+        390
+        74
+        87
+        132
+        246
+        105
+        340
+        22
+        426
     ]
 }
- 
+
 /line 84 {
     /color 008dd2
     /subservice 1 [
-        Ovsište
-        Ovsištské nám.
-        Bulíkova
-        Šustekova
-        Bosákova
-        Mlynarovičova
-        Farského
-        Jungmannova
-        Hálova
-        Dvory
-        Pri Sade
-        Zochova
-        Hodžovo nám.
-        Pod stanicou
-        Sokolská
-        Hroboňova
-        Dubová
-        Patrónka
-        Mokrohájska
-        Húščavova
-        Lipského
-        Záluhy
-        Švantnerova
-        Alexyho
-        Drobného
-        Podvornice
-        Pri kríži
+        276
+        277
+        27
+        416
+        20
+        226
+        79
+        132
+        87
+        74
+        390
+        500
+        95
+        306
+        368
+        106
+        70
+        284
+        229
+        382
+        193
+        51
+        418
+        1
+        68
+        265
+        310
     ]
     /subservice 2 [
-        Pri kríži
-        Podvornice
-        Drobného
-        Alexyho
-        Švantnerova
-        Záluhy
-        Lipského
-        Húščavova
-        Mokrohájska
-        Patrónka
-        Dubová
-        Hroboňova
-        Sokolská
-        Pod stanicou
-        Hodžovo nám.
-        Zochova
-        Pri Sade
-        Dvory
-        Hálova
-        Jungmannova
-        Farského
-        Mlynarovičova
-        Šustekova
-        Bulíkova
-        Ovsištské nám.
-        Ovsište
+        310
+        265
+        68
+        1
+        418
+        51
+        193
+        382
+        229
+        284
+        70
+        106
+        368
+        306
+        95
+        500
+        390
+        74
+        87
+        132
+        79
+        226
+        416
+        27
+        277
+        276
     ]
 }
- 
+
 /line 87 {
     /subservice 1 [
-        Bodvianska
-        Toryská
-        Podzáhradná
-        Slovnaftská
-        OC Slovnaftská
-        Závodná
-        V. hrdlo, internát
-        Vlčie hrdlo
-        Čierny les
-        Piesčiny
-        Pálenisko
-        Alejová
-        Nákladný prístav
-        Plynárenská
-        Most Apollo
-        Ekonom. univerzita
-        Ovsištské nám.
-        Ovsište
+        761
+        434
+        297
+        364
+        696
+        112
+        120
+        362
+        286
+        428
+        765
+        758
+        326
+        294
+        581
+        77
+        277
+        276
     ]
     /subservice 2 [
-        Ovsište
-        Ovsištské nám.
-        Ekonom. univerzita
-        Most Apollo
-        Prístavná
-        Plynárenská
-        Nákladný prístav
-        Alejová
-        Pálenisko
-        Piesčiny
-        Čierny les
-        Vlčie hrdlo
-        V. hrdlo, internát
-        Závodná
-        OC Slovnaftská
-        Slovnaftská
-        Podzáhradná
-        Toryská
-        Bodvianska
+        276
+        277
+        77
+        581
+        327
+        294
+        326
+        758
+        765
+        428
+        286
+        362
+        120
+        112
+        696
+        364
+        297
+        434
+        761
     ]
 }
- 
+
 /line 88 {
     /color ae4a84
     /subservice 1 [
-        Most SNP
-        Einsteinova
-        Kremnická
-        Záporožská
-        Gercenova
-        Hálova
-        Jungmannova
-        Nám. hraničiarov
-        Lachova
-        Šustekova
-        Bulíkova
-        Ekonom. univerzita
-        Most Apollo
-        Prístavná
-        Landererová
-        Čulenova
-        Autobusová stanica
+        261
+        76
+        172
+        487
+        619
+        87
+        132
+        246
+        182
+        416
+        27
+        77
+        581
+        327
+        307
+        46
+        5
     ]
     /subservice 2 [
-        Autobusová stanica
-        Čulenova
-        Landererová
-        Most Apollo
-        Ekonom. univerzita
-        Bulíkova
-        Šustekova
-        Lachova
-        Nám. hraničiarov
-        Jungmannova
-        Hálova
-        Gercenova
-        Záporožská
-        Kremnická
-        Einsteinova
-        Pri Sade
-        Most SNP
+        5
+        46
+        307
+        581
+        77
+        27
+        416
+        182
+        246
+        132
+        87
+        619
+        487
+        172
+        76
+        390
+        261
     ]
 }
- 
+
 /line 90 {
     /subservice 1 [
-        Nové SND
-        Landererová
-        Most Apollo
-        Ekonom. univerzita
-        žehrianska
-        žltá
-        Jarovce, záhrady
-        Strelnica
-        Píla
-        Jarovce
-        Ovocná
-        Kovácsova
-        Vývojová
-        Gerulata
-        Kaštieľ Rusovce
-        Stn. Rusovce
-        Gaštanová aleja
-        Pieskový hon
-        Čunovské jazerá
-        Schengenská
-        Čunovo, záhrady
-        Čunovo, Priehrada
-        MVE Mošoň
-        VE Čunovo
-        Areál vod. športov
-        Danubiana
+        607
+        307
+        581
+        77
+        506
+        691
+        126
+        385
+        292
+        125
+        746
+        161
+        476
+        342
+        492
+        518
+        409
+        604
+        50
+        671
+        646
+        741
+        708
+        559
+        568
+        558
     ]
     /subservice 2 [
-        Danubiana
-        Areál vod. športov
-        VE Čunovo
-        MVE Mošoň
-        Čunovo, Priehrada
-        Čunovo, záhrady
-        Schengenská
-        Čunovské jazerá
-        Pieskový hon
-        Gaštanová aleja
-        Kaštieľ Rusovce
-        Gerulata
-        Vývojová
-        Kovácsova
-        Ovocná
-        Jarovce
-        Píla
-        Strelnica
-        Jarovce, záhrady
-        žltá
-        Jasovská
-        žehrianska
-        Ekonom. univerzita
-        Most Apollo
-        Prístavná
-        Nové SND
+        558
+        568
+        559
+        708
+        741
+        646
+        671
+        50
+        604
+        409
+        492
+        342
+        476
+        161
+        746
+        125
+        292
+        385
+        126
+        691
+        127
+        506
+        77
+        581
+        327
+        607
     ]
     /subservice 3 [
-        Stn. Rusovce
-        Kaštieľ Rusovce
-        Gerulata
-        Vývojová
-        Kovácsova
-        Ovocná
-        Jarovce
-        Píla
-        Strelnica
-        Jarovce, záhrady
-        žltá
-        Jasovská
-        žehrianska
-        Ekonom. univerzita
-        Most Apollo
-        Prístavná
-        Nové SND
+        518
+        492
+        342
+        476
+        161
+        746
+        125
+        292
+        385
+        126
+        691
+        127
+        506
+        77
+        581
+        327
+        607
     ]
 }
- 
+
 /line 91 {
     /subservice 1 [
-        Most SNP
-        Pri Sade
-        Dvory
-        Stn. Petržalka
-        Kolmá
-        OC Lúky
-        Jasovská
-        žltá
-        Jarovce, záhrady
-        Strelnica
-        Píla
-        Jarovce
-        Ovocná
-        Kovácsova
-        Vývojová
-        Gerulata
-        Kaštieľ Rusovce
-        Stn. Rusovce
-        Gaštanová aleja
-        Pieskový hon
-        Čunovské jazerá
-        Konopiská
-        MiÚ Čunovo
-        Čunovo, kostol
-        Čunovo
+        261
+        390
+        74
+        517
+        153
+        241
+        127
+        691
+        126
+        385
+        292
+        125
+        746
+        161
+        476
+        342
+        492
+        518
+        409
+        604
+        50
+        749
+        48
+        49
+        47
     ]
     /subservice 2 [
-        Čunovo
-        Čunovo, kostol
-        MiÚ Čunovo
-        Konopiská
-        Čunovské jazerá
-        Pieskový hon
-        Gaštanová aleja
-        Kaštieľ Rusovce
-        Gerulata
-        Vývojová
-        Kovácsova
-        Ovocná
-        Jarovce
-        Píla
-        Strelnica
-        Jarovce, záhrady
-        žltá
-        Jasovská
-        OC Lúky
-        Kolmá
-        Stn. Petržalka
-        Dvory
-        Pri Sade
-        Most SNP
+        47
+        49
+        48
+        749
+        50
+        604
+        409
+        492
+        342
+        476
+        161
+        746
+        125
+        292
+        385
+        126
+        691
+        127
+        241
+        153
+        517
+        74
+        390
+        261
     ]
 }
- 
+
 /line 93 {
     /color e5097f
     /subservice 1 [
-        Hlavná stanica
-        Pod stanicou
-        Hodžovo nám.
-        Zochova
-        Pri Sade
-        Dvory
-        Rusovská cesta
-        Stn. Petržalka
-        Ševčenkova
-        Jiráskova
-        Smolenická
-        Lúky II
-        ZŠ Budatínska
-        Budatínska
-        Lúky V
-        Vyšehradská
+        93
+        306
+        95
+        500
+        390
+        74
+        343
+        517
+        605
+        131
+        367
+        202
+        502
+        24
+        203
+        475
     ]
     /subservice 2 [
-        Vyšehradská
-        Lúky V
-        Budatínska
-        ZŠ Budatínska
-        Lúky II
-        Smolenická
-        Jiráskova
-        Ševčenkova
-        Stn. Petržalka
-        Rusovská cesta
-        Dvory
-        Pri Sade
-        Zochova
-        Hodžovo nám.
-        Pod stanicou
-        Hlavná stanica
+        475
+        203
+        24
+        502
+        202
+        367
+        131
+        605
+        517
+        343
+        74
+        390
+        500
+        95
+        306
+        93
     ]
 }
- 
+
 /line 94 {
     /color e5097f
     /subservice 1 [
-        Holíčska
-        Smolenická
-        Jiráskova
-        Ševčenkova
-        Stn. Petržalka
-        Rusovská cesta
-        Dvory
-        Pri Sade
-        Zochova
-        Kollárovo nám.
-        Blumentál
-        Nám. slobody
-        Kollárovo nám.
-        Zochova
-        Pri Sade
-        Dvory
-        Rusovská cesta
-        Stn. Petržalka
-        Ševčenkova
-        Jiráskova
-        Smolenická
-        Holíčska
+        96
+        367
+        131
+        605
+        517
+        343
+        74
+        390
+        500
+        152
+        80
+        740
+        152
+        500
+        390
+        74
+        343
+        517
+        605
+        131
+        367
+        96
     ]
 }
- 
+
 /line 95 {
     /color ff6600
     /subservice 1 [
-        Vyšehradská
-        Lúčanka
-        Strečnianska
-        Šintavská
-        Topoľčianska
-        Kutlíkova
-        Bradáčova
-        Romanova
-        Hrobákova
-        Nám. hraničiarov
-        Farského
-        Muchovo nám.
+        475
+        200
+        384
+        399
+        433
+        426
+        22
+        340
+        105
+        246
+        79
+        235
     ]
     /subservice 2 [
-        Muchovo nám.
-        Farského
-        Nám. hraničiarov
-        Hrobákova
-        Romanova
-        Bradáčova
-        Kutlíkova
-        Topoľčianska
-        Šintavská
-        Strečnianska
-        Lúčanka
-        Vyšehradská
+        235
+        79
+        246
+        105
+        340
+        22
+        426
+        433
+        399
+        384
+        200
+        475
     ]
 }
- 
+
 /line 96 {
     /color 66c3d0
     /subservice 1 [
-        Prokofievova
-        Markova
-        Romanova
-        Hrobákova
-        Starohájska
-        Lachova
-        Bosákova
-        Prístavný most
-        Prievozská
-        Hraničná
-        Nevädzová
-        DK Ružinov
-        Maximiliána Hella
-        Zálužická
-        Haburská
-        Slovinská
-        Depo Trnávka
-        Bojnická
-        Na križovatkách
-        Avion Shop. Park
+        527
+        210
+        340
+        105
+        376
+        182
+        20
+        328
+        325
+        104
+        255
+        264
+        214
+        457
+        84
+        361
+        466
+        18
+        374
+        553
     ]
     /subservice 2 [
-        Avion Shop. Park
-        Ivanská cesta
-        Na križovatkách
-        Bojnická
-        Depo Trnávka
-        Slovinská
-        Klientske centrum
-        Haburská
-        Maximiliána Hella
-        DK Ružinov
-        Nevädzová
-        Gagarinova
-        Hraničná
-        Pažítková
-        Prievozská
-        Prístavný most
-        Bosákova
-        Lachova
-        Starohájska
-        Hrobákova
-        Romanova
-        Markova
-        Prokofievova
+        553
+        83
+        374
+        18
+        466
+        361
+        117
+        84
+        214
+        264
+        255
+        82
+        104
+        285
+        325
+        328
+        20
+        182
+        376
+        105
+        340
+        210
+        527
     ]
 }
- 
+
 /line 98 {
     /color cc6f3c
     /subservice 1 [
-        Jasovská
-        žehrianska
-        Bzovícka
-        Ľubovnianska
-        Lúčanka
-        Znievska
-        Budatínska
-        ZŠ Budatínska
-        Lúky II
-        Smolenická
-        Tupolevova
-        Kutlíkova
-        Malý Draždiak
-        Starý háj
-        Ovsištské nám.
-        Ekonom. univerzita
-        Prístavný most
-        Mliekarenská
-        Drieňová
-        Bajkalská
-        Nová doba
-        MiÚ Nové Mesto
-        Hálkova
-        Slovany
-        Kukučínova
-        Nová doba
-        Bajkalská
-        Drieňová
-        Mliekarenská
-        Prístavný most
-        Ekonom. univerzita
-        Ovsištské nám.
-        Starý háj
-        Malý Draždiak
-        Kutlíkova
-        Tupolevova
-        Smolenická
-        Lúky II
-        ZŠ Budatínska
-        Budatínska
-        Znievska
-        Lúčanka
-        Ľubovnianska
-        Bzovícka
-        žehrianska
-        Jasovská
+        127
+        506
+        29
+        199
+        200
+        499
+        24
+        502
+        202
+        367
+        204
+        426
+        366
+        66
+        277
+        77
+        328
+        225
+        67
+        8
+        257
+        213
+        86
+        176
+        266
+        257
+        8
+        67
+        225
+        328
+        77
+        277
+        66
+        366
+        426
+        204
+        367
+        202
+        502
+        24
+        499
+        200
+        199
+        29
+        506
+        127
     ]
 }
- 
+
 /line 99 {
     /color f5b5d2
     /subservice 1 [
-        Ovsište
-        Ovsištské nám.
-        Bulíkova
-        Šustekova
-        Bosákova
-        Mlynarovičova
-        Farského
-        Jungmannova
-        Hálova
-        Gercenova
-        Stn. Petržalka
-        Kopčianska, stred
-        Bratská
-        Jiráskova
-        Švabinského
-        Markova
-        Romanova
-        Bradáčova
-        Kutlíkova
-        Topoľčianska
-        Šintavská
-        Holíčska
-        Lúky II
-        ZŠ Budatínska
-        Budatínska
-        Znievska
-        Lúčanka
-        Ľubovnianska
-        Nemocnica Antolská
-        Antolská
+        276
+        277
+        27
+        416
+        20
+        226
+        79
+        132
+        87
+        619
+        517
+        490
+        769
+        131
+        417
+        210
+        340
+        22
+        426
+        433
+        399
+        96
+        202
+        502
+        24
+        499
+        200
+        199
+        253
+        523
     ]
     /subservice 2 [
-        Antolská
-        Nemocnica Antolská
-        Ľubovnianska
-        Lúčanka
-        Znievska
-        Budatínska
-        ZŠ Budatínska
-        Lúky II
-        Holíčska
-        Šintavská
-        Topoľčianska
-        Kutlíkova
-        Bradáčova
-        Romanova
-        Markova
-        Švabinského
-        Jiráskova
-        Bratská
-        Kopčianska, stred
-        Stn. Petržalka
-        Gercenova
-        Hálova
-        Jungmannova
-        Farského
-        Mlynarovičova
-        Šustekova
-        Bulíkova
-        Ovsištské nám.
-        Ovsište
+        523
+        253
+        199
+        200
+        499
+        24
+        502
+        202
+        96
+        399
+        433
+        426
+        22
+        340
+        210
+        417
+        131
+        769
+        490
+        517
+        619
+        87
+        132
+        79
+        226
+        416
+        27
+        277
+        276
     ]
 }
- 
+
 /line 139 {
     /subservice 1 [
-        Cintorín Slávičie
-        Rudolfa Mocka
-        Konvalinková
-        Vretenová
-        Na Sitine
-        Nad vinicami
-        Bedľová
-        Tôňava
-        Panoráma
-        Riviéra
-        Jurigovo nám.
-        Hájnická
-        Panoráma
-        Tôňava
-        Bedľová
-        Nad vinicami
-        Na Sitine
-        Vretenová
-        Konvalinková
-        Rudolfa Mocka
-        Cintorín Slávičie
+        357
+        662
+        663
+        657
+        658
+        664
+        659
+        661
+        660
+        230
+        134
+        656
+        660
+        661
+        659
+        664
+        658
+        657
+        663
+        662
+        357
     ]
 }
- 
+
 /line 144 {
     /subservice 1 [
-        Koliba
-        Koliba P+R
-        Kamzík
+        151
+        719
+        641
     ]
     /subservice 2 [
-        Kamzík
-        Koliba
+        641
+        151
     ]
 }
- 
+
 /line 145 {
     /subservice 1 [
-        Koliba
-        Júlová
-        Na Revíne
-        Júnová
-        Guothova
-        Bárdošova
-        Stromová
-        Cesta na Kamzík
-        Jaskový rad
-        Matúškova
-        žabotova
-        Cesta na Kamzík
-        Stromová
-        Bárdošova
-        Guothova
-        Júnová
-        Na Revíne
-        Júlová
-        Koliba
+        151
+        647
+        585
+        586
+        594
+        11
+        388
+        587
+        588
+        589
+        590
+        587
+        388
+        11
+        594
+        586
+        585
+        647
+        151
     ]
 }
- 
+
 /line 147 {
     /subservice 1 [
-        Búdková
-        Stará vinárska
-        Slavín
-        Havlíčkova
-        Mišíkova
-        Donovalova
-        Šulekova
-        Kozia
-        Hodžovo nám.
-        Zochova
-        Šulekova
-        Donovalova
-        Mišíkova
-        Havlíčkova
-        Kalvária
-        Gorazdova
-        Kalvária
-        Havlíčkova
-        Slavín
-        Stará vinárska
-        Búdková
+        69
+        562
+        563
+        564
+        565
+        566
+        415
+        163
+        95
+        500
+        415
+        566
+        565
+        564
+        584
+        760
+        584
+        564
+        563
+        562
+        69
     ]
 }
- 
+
 /line 151 {
     /subservice 1 [
-        Lopenícka
-        Muštová
-        Sliačska
-        Slovany
-        Kukučínova
-        Tehelná
-        Trnavské mýto
+        197
+        724
+        359
+        176
+        266
+        420
+        437
     ]
     /subservice 2 [
-        Trnavské mýto
-        Tehelná
-        Kukučínova
-        Pionierska
-        Sliačska
-        Muštová
-        Briežky
-        Krahulčia
-        Lopenícka
+        437
+        420
+        266
+        293
+        359
+        724
+        592
+        272
+        197
     ]
 }
- 
+
 /line 154 {
     /subservice 1 [
-        Hubeného
-        Slanec
-        Muničné sklady
-        Horáreň Krasňany
+        108
+        751
+        775
+        764
     ]
     /subservice 2 [
-        Horáreň Krasňany
-        Muničné sklady
-        Slanec
-        Hubeného
+        764
+        775
+        751
+        108
     ]
 }
- 
+
 /line 191 {
     /subservice 1 [
-        Most SNP
-        Pri Sade
-        Dvory
-        Stn. Petržalka
-        Kolmá
-        OC Lúky
-        Jasovská
-        žltá
-        Jarovce, záhrady
-        Strelnica
-        Píla
-        Jarovce
-        Ovocná
-        Kovácsova
-        Vývojová
-        Gerulata
-        Kaštieľ Rusovce
-        Stn. Rusovce
+        261
+        390
+        74
+        517
+        153
+        241
+        127
+        691
+        126
+        385
+        292
+        125
+        746
+        161
+        476
+        342
+        492
+        518
     ]
     /subservice 2 [
-        Stn. Rusovce
-        Kaštieľ Rusovce
-        Gerulata
-        Vývojová
-        Kovácsova
-        Ovocná
-        Jarovce
-        Píla
-        Strelnica
-        Jarovce, záhrady
-        žltá
-        Jasovská
-        OC Lúky
-        Kolmá
-        Stn. Petržalka
-        Dvory
-        Pri Sade
-        Most SNP
+        518
+        492
+        342
+        476
+        161
+        746
+        125
+        292
+        385
+        126
+        691
+        127
+        241
+        153
+        517
+        74
+        390
+        261
     ]
 }
- 
+
 /line 192 {
     /subservice 1 [
-        Červený most
-        Patrónka
-        Habánsky mlyn
-        Zoo
-        Einsteinova
-        Dvory
-        Hálova
-        Jungmannova
-        Nám. hraničiarov
-        Hrobákova
-        Bradáčova
-        Kutlíkova
-        Topoľčianska
-        Šintavská
-        Strečnianska
-        Lúčanka
-        Ľubovnianska
-        Bzovícka
-        Betliarska
-        Depo Petržalka
+        462
+        284
+        501
+        358
+        76
+        74
+        87
+        132
+        246
+        105
+        22
+        426
+        433
+        399
+        384
+        200
+        199
+        29
+        631
+        61
     ]
     /subservice 2 [
-        Depo Petržalka
-        Betliarska
-        Bzovícka
-        Ľubovnianska
-        Lúčanka
-        Strečnianska
-        Šintavská
-        Topoľčianska
-        Kutlíkova
-        Bradáčova
-        Hrobákova
-        Nám. hraničiarov
-        Jungmannova
-        Hálova
-        Dvory
-        Einsteinova
-        Zoo
-        Habánsky mlyn
-        Patrónka
-        Červený most
+        61
+        631
+        29
+        199
+        200
+        384
+        399
+        433
+        426
+        22
+        105
+        246
+        132
+        87
+        74
+        76
+        358
+        501
+        284
+        462
     ]
 }

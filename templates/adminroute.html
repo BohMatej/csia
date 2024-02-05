@@ -5,7 +5,7 @@
 {% endblock %}
 
 {% block modalheader %}
-    Welcome to the MHDle Daily Admin Panel!
+    Welcome to the MHDle Route Admin Panel!
 {% endblock %}
 
 {% block modalbody %}
@@ -13,10 +13,120 @@
 {% endblock %}
 
 {% block main %}
+<div class="container">
+    <div class="row mb-3">
+        <button id="admin_saveroutechanges" type="button" class="btn btn-success" onclick="TODO">Save All Changes</button>
+    </div>
+
+    <div class="row"x>
+        <div class="col" id="leftside" style="margin-right: 10px;">
+            <div class="row">
+                <h2>
+                    Edit Lines
+                </h2>        
+            </div>
+            <div class="row">
+
+                <div class="dropdown">
+                    <button id="admin_addline" type="button" class="btn btn-primary dropdown-toggle" style="margin-right: 20px" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">
+                        Add Line
+                    </button>
+                    <div class="dropdown-menu p-4">
+                        <div class="mb-3">
+                            <label for="form_linelabel" class="form-label">Label</label>
+                            <input type="text" class="form-control" id="form_linelabel" placeholder="Line Label">
+                        </div>
+                        <div class="mb-3">
+                            <label for="form_color" class="form-label">Color (Hexadecimal, No Alpha)</label>
+                            <input type="text" class="form-control" id="form_color" placeholder="#abcdef">
+                        </div>
+                        <div class="mb-3">
+                            <label>Line Icon (.png)
+                                <input type="file" name="lineicon" accept="image/png">
+                            </label>
+                        </div>
+                        <div class="mb-3">
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="dropdownCheck1">
+                                <label class="form-check-label" for="dropdownCheck1">
+                                    Is Grey
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="dropdownCheck2">
+                                <label class="form-check-label" for="dropdownCheck2">
+                                    Is Looping
+                                </label>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary" onclick="TODO">Add</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row" id="linecontainer">
+                
+            </div>
+        </div>
+        <div class="col" id="rightside" style="margin-left: 10px;">
+            <div class="row">
+                <h2>
+                    Edit Stops
+                </h2>
+            </div>
+            <div class="row">
+                <div class="row mb-2">
+                    <button id='admin_editnearstops' type='button' class="btn btn-primary" data-bs-toggle='collapse' data-bs-target='#nearstopstablecontainer' onclick="loadNearstops()">
+                        Edit Nearstops
+                    </button>
+                    <span id='nearstopstablecontainer' class='collapse'>
+                        <p>
+                            You're probably not supposed to see this
+                        </p>
+                    </span>
+                </div>
+                <div class="row">
+                    <div class="dropdown">
+                        <button id="admin_addline" type="button" class="btn btn-primary dropdown-toggle" style="margin-right: 20px" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">
+                            Add Stop
+                        </button>
+                        <div class="dropdown-menu p-4">
+                            <div class="mb-3">
+                                <label for="form_stopname" class="form-label">Stop Name</label>
+                                <input type="text" class="form-control" id="form_stopname" placeholder="Pod Stanicou, Zochova, ...">
+                            </div>
+                            <div class="mb-3">
+                                <label for="form_district" class="form-label">District (exact name!)</label>
+                                <input type="text" class="form-control" id="form_district" placeholder="Staré Mesto, Ružinov, ...">
+                            </div>
+                            <button type="submit" class="btn btn-primary" onclick="TODO">Add</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" id="stopcontainer">
+
+            </div>
+        </div>
+    </div>
+</div>
 <script>
     // Initialize Sortable on the button group
     var buttonGroup = new Sortable(document.getElementById('buttonGroup'), {
       animation: 150, // animation duration in milliseconds
     });
+</script>
+<!-- <script src="../static/jquery.js"></script> -->
+<script type="text/javascript">
+    var lines = JSON.parse({{ lines|tojson|safe }});
+    console.log(lines);
+    var stops = JSON.parse({{ stops|tojson|safe }});
+    console.log(stops);
+    var nearstops = JSON.parse({{ nearstops|tojson|safe }});
+    console.log(nearstops);
+</script>
+<script src="../static/adminroute.js"></script>
+<script type="text/javascript">
+    loadLines();
+    loadStops();
 </script>
 {% endblock %}

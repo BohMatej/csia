@@ -252,6 +252,62 @@ def changepassword():
         return redirect("/")
     else:
         return render_template("change_password.html")
+
+@app.route("/admin-servicemod", methods=["GET", "POST"])
+@admin_required
+def admin_servicemod():
+    if request.method == "POST":
+        pass
+    else:
+        rawlines = query_database(
+            os.path.join(DIRNAME, "database/mhdle.db"),
+            "SELECT label, looping_status, color FROM lines",
+            False
+        )
+        rawstops = query_database(
+            os.path.join(DIRNAME, "database/mhdle.db"),
+            "SELECT stop_id, district, truename FROM stops ORDER BY truename",
+            False
+        )
+        rawnearstops = query_database(
+            os.path.join(DIRNAME, "database/mhdle.db"),
+            "SELECT nearstops_id, stopone_id, stoptwo_id, walktime FROM nearstops",
+            False
+        )
+        lines = dict()
+        for line in rawlines:
+            subservices = dict()
+            rawservices = query_database(
+                os.path.join(DIRNAME, "database/mhdle.db"),
+                """SELECT services_id, stop_id, subservice, order_in_subservice 
+                FROM services WHERE line_label = ?
+                ORDER BY subservice, order_in_subservice""",
+                (line[0],)
+            )
+            currentSubservice = 0
+            for rawservice in rawservices:
+                if rawservice[2] > currentSubservice:
+                    currentSubservice += 1
+                    subservices[currentSubservice] = list()
+                subservices[currentSubservice].append(rawservice[1])
+                
+            lines[line[0]] = {"label": line[0], "looping_status": line[1], "color": line[2], "service": subservices}
+        print(lines)
+        #lines = [{"label": line[0], "looping_status": line[1], "color": line[2]} for line in rawlines]
+        
+        stops = dict()
+        for stop in rawstops:
+            stops[stop[0]] = {"district": stop[1], "truename": stop[2]}
+            
+        #stops = [{"stop_id": line[0], "district": line[1], "truename": line[2]} for line in rawstops]
+        nearstops = [{"nearstops_id": line[0], "stopone_id": line[1], "stoptwo_id": line[2], "walktime": line[3]} for line in rawnearstops]
+        return render_template("adminroute.html", 
+                               lines=json.dumps(lines, indent=4), 
+                               stops=json.dumps(stops, indent=4), 
+                               nearstops=json.dumps(nearstops, indent=4)
+        )
+        
+
     
 @app.route("/admin-daily", methods=["GET", "POST"])
 @admin_required

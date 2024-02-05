@@ -8,6 +8,18 @@
      crossorigin="anonymous"></script>
     <link href="../static/styles.css" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.14.0/Sortable.min.js"></script>
+
+    <!-- Include DataTables CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.7/css/jquery.dataTables.min.css">
+
+    <!-- Include jQuery (required by DataTables) -->
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+
+    <!-- Include DataTables JS -->
+    <script src="https://cdn.datatables.net/1.13.7/js/jquery.dataTables.min.js"></script>
+
+
+    
     <title>MHDle: {% block title %}{% endblock %}</title>
 </head>
 <body>
@@ -44,6 +56,7 @@
                         </li>
                         {% if session["user_id"] == 1%}
                             <li class="nav-item"><a class="nav-link" href="/admin-daily" style="color: #942327">Set Daily Routes</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/admin-servicemod" style="color: #942327">Set Stops and Services</a></li>
                         {% endif %}
                         <li class="nav-item"><a class="nav-link" href="/changepassword">Change Password</a></li>
                         <li class="nav-item"><a class="nav-link" href="/logout">Log Out</a></li>

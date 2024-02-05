@@ -70,3 +70,24 @@
 .img-help{
     max-width: 65%;
 }
+
+#leftside {
+    height: 75vh;
+    overflow-y: scroll;
+}
+/* 
+#rightside {
+    position: fixed;
+    bottom: 0;
+    top: 20%;
+    right: 0;
+    bottom: 0;
+    background-color: #f4f4f4;
+    padding: 20px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+} */
+#rightside {
+    height: 75vh;
+}
+
