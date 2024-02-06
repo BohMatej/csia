@@ -15,7 +15,7 @@
 {% block main %}
 <div class="container">
     <div class="row mb-3">
-        <button id="admin_saveroutechanges" type="button" class="btn btn-success" onclick="TODO">Save All Changes</button>
+        <button id="admin_saveroutechanges" type="button" class="btn btn-warning" onclick="TODO">Save All Changes</button>
     </div>
 
     <div class="row"x>
@@ -59,7 +59,8 @@
                                 </label>
                             </div>
                         </div>
-                        <button type="submit" class="btn btn-primary" onclick="TODO">Add</button>
+                        
+                        <span><h6 style="color: #942327">WARNING: Automatically saves and reloads</h6><button type="submit" class="btn btn-warning" onclick="TODO">Add Line</button></span>
                     </div>
                 </div>
             </div>
@@ -94,11 +95,10 @@
                                 <label for="form_stopname" class="form-label">Stop Name</label>
                                 <input type="text" class="form-control" id="form_stopname" placeholder="Pod Stanicou, Zochova, ...">
                             </div>
-                            <div class="mb-3">
-                                <label for="form_district" class="form-label">District (exact name!)</label>
-                                <input type="text" class="form-control" id="form_district" placeholder="Staré Mesto, Ružinov, ...">
+                            <div class="mb-3" id="thingamabob">
+                                <!-- A bit of spaghetti code never hurt anyone. This div is created in adminroute.js. -->
                             </div>
-                            <button type="submit" class="btn btn-primary" onclick="TODO">Add</button>
+                            <button type="submit" class="btn btn-primary" onclick="addStop(document.getElementById('form_stopname').value, document.getElementById('form_district').value)">Add</button>
                         </div>
                     </div>
                 </div>
@@ -118,10 +118,13 @@
 <!-- <script src="../static/jquery.js"></script> -->
 <script type="text/javascript">
     var lines = JSON.parse({{ lines|tojson|safe }});
+    console.log("lines:");
     console.log(lines);
     var stops = JSON.parse({{ stops|tojson|safe }});
+    console.log("stops:");
     console.log(stops);
     var nearstops = JSON.parse({{ nearstops|tojson|safe }});
+    console.log("nearstops:");
     console.log(nearstops);
 </script>
 <script src="../static/adminroute.js"></script>
