@@ -41,17 +41,6 @@
                             <input type="text" class="form-control" id="form_color" placeholder="#abcdef">
                         </div>
                         <div class="mb-3">
-                            <label>Line Icon (.png)
-                                <input type="file" name="lineicon" accept="image/png">
-                            </label>
-                        </div>
-                        <div class="mb-3">
-                            <div class="form-check">
-                                <input type="checkbox" class="form-check-input" id="dropdownCheck1">
-                                <label class="form-check-label" for="dropdownCheck1">
-                                    Is Grey
-                                </label>
-                            </div>
                             <div class="form-check">
                                 <input type="checkbox" class="form-check-input" id="dropdownCheck2">
                                 <label class="form-check-label" for="dropdownCheck2">
@@ -60,7 +49,7 @@
                             </div>
                         </div>
                         
-                        <span><h6 style="color: #942327">WARNING: Automatically saves and reloads</h6><button type="submit" class="btn btn-warning" onclick="TODO">Add Line</button></span>
+                        <button type="submit" class="btn btn-success" onclick="addLine(document.getElementById('form_linelabel').value, document.getElementById('form_color').value, document.getElementById('dropdownCheck2').checked)">Add Line</button>
                     </div>
                 </div>
             </div>
@@ -93,7 +82,7 @@
                         <div class="dropdown-menu p-4">
                             <div class="mb-3">
                                 <label for="form_stopname" class="form-label">Stop Name</label>
-                                <input type="text" class="form-control" id="form_stopname" placeholder="Pod Stanicou, Zochova, ...">
+                                <input type="text" class="form-control" id="form_stopname" placeholder="Pod Stanicou, Zochova, ..." minlength="8">
                             </div>
                             <div class="mb-3" id="thingamabob">
                                 <!-- A bit of spaghetti code never hurt anyone. This div is created in adminroute.js. -->
@@ -126,8 +115,10 @@
     var nearstops = JSON.parse({{ nearstops|tojson|safe }});
     console.log("nearstops:");
     console.log(nearstops);
+    var selectedIndexes = {"label": "-1", "subservice": "-1", "order": -1};
 </script>
 <script src="../static/adminroute.js"></script>
+<script src="../static/adminroute_editorfunctions.js"></script>
 <script type="text/javascript">
     loadLines();
     loadStops();

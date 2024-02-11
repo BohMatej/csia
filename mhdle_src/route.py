@@ -106,7 +106,6 @@ class Route:
         params1.append(self.data.stoplist[-1])
         params1.append(self.data.linelist[-1])
         currentStopServiceData = cur.execute("SELECT subservice, order_in_subservice FROM services WHERE stop_id = ? AND line_label = ?", params1).fetchall()
-        #print(currentStopServiceData)
 
         # get information about all stops on current line inside of the allowed area
         params2 = []

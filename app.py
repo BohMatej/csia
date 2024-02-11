@@ -8,7 +8,6 @@ import json
 import datetime
 from helpers import unpackStops, login_required, admin_required, daily_not_beaten_required, query_database, find_missing_consecutive_date, date_streaks
 from routegeneration import generateRoute, verifyRoute
-# from routehelpers import unpackStops
 
 DIRNAME = os.path.dirname(__file__)
 
