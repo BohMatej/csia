@@ -13,8 +13,6 @@ def main():
     print("---------------------------")
     # for i in range(40):
     #     print()
-    for i in range(40):
-            print()
     if myroute is None:
         print("Route is impossible.")
         return

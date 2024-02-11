@@ -54,12 +54,14 @@ class Route:
         else:
             possibleColorLines = cur.execute("SELECT label FROM lines WHERE color != '9e9e9e'").fetchall()
             lines = intersection(possibleAreaLines, possibleColorLines)
+        
+        print(possibleAreaLines)
+        print(possibleColorLines)
 
         out = []
         for t in lines:
             for item in t:
                 out.append(item)
-        
 
         cur.close()
         conn.close()

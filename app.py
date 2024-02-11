@@ -1,5 +1,6 @@
 import os
 import sys
+import csv
 sys.path.append("mhdle_src")
 from flask import Flask, redirect, render_template, request, session, url_for, jsonify, make_response
 from flask_session import Session
@@ -8,6 +9,8 @@ import json
 import datetime
 from helpers import unpackStops, login_required, admin_required, daily_not_beaten_required, query_database, find_missing_consecutive_date, date_streaks
 from routegeneration import generateRoute, verifyRoute
+sys.path.append("database")
+from dbupdate import DatabaseUpdate
 
 DIRNAME = os.path.dirname(__file__)
 
@@ -291,7 +294,7 @@ def admin_servicemod():
                 subservices[currentSubservice].append(rawservice[1])
                 
             lines[line[0]] = {"label": line[0], "looping_status": line[1], "color": line[2], "service": subservices}
-        print(lines)
+        #print(lines)
         #lines = [{"label": line[0], "looping_status": line[1], "color": line[2]} for line in rawlines]
         
         stops = dict()
@@ -306,7 +309,55 @@ def admin_servicemod():
                                nearstops=json.dumps(nearstops, indent=4)
         )
         
-
+@app.route("/admin-save-servicemod", methods=["POST"])
+@admin_required
+def admin_save_servicemod():
+    req = request.get_json()
+    loopers=[]
+    
+    # services
+    with open("database/data/services.txt", "w") as file:
+        for label in req["lines"]:
+            file.write(f"/line {label} {{\n")
+            if req['lines'][str(label)]['color'] != '9e9e9e':    
+                file.write(f"    /color {req['lines'][str(label)]['color']}\n")
+            if req['lines'][str(label)]['looping_status'] != 0:
+                loopers.append(label)  
+            for subservice in req['lines'][str(label)]['service']:
+                file.write(f"    /subservice {subservice} [\n")
+                for stopid in req['lines'][str(label)]['service'][subservice]:
+                    file.write(f"        {stopid}\n")
+                file.write("    ]\n")
+            file.write("}\n")
+            file.write("\n")
+    
+    # loops
+    with open("database/data/loops.csv", "w", newline='') as file:
+        csvwriter = csv.writer(file)
+        csvwriter.writerow(["alias", "looptype"])
+        for stopid in loopers:
+            csvwriter.writerow([stopid, 1])
+    
+    # stops
+    with open("database/data/stops.csv", "w", newline='') as file:
+        csvwriter = csv.writer(file)
+        csvwriter.writerow(["uid", "district", "truename"])
+        for stop in req['stops']:
+            csvwriter.writerow([stop, req['stops'][stop]['district'], req['stops'][stop]['truename']])
+            
+    # nearstops
+    with open("database/data/nearstops.csv", "w", newline='') as file:
+        csvwriter = csv.writer(file)
+        csvwriter.writerow(["first", "second", "walktime"]) 
+        for nearstops in req['nearstops']:
+            csvwriter.writerow([nearstops['stopone_id'], nearstops['stoptwo_id'], nearstops['walktime']])
+    
+    DatabaseUpdate.updateStopsDatabase()
+    DatabaseUpdate.updateAllDatabase()
+    
+    
+    
+    return make_response(json.dumps("Hooray!"), 200)
     
 @app.route("/admin-daily", methods=["GET", "POST"])
 @admin_required

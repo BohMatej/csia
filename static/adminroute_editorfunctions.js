@@ -224,5 +224,27 @@ function removeNearstops(nearstops_id){
 // save changes
 
 function saveChanges(){
-    alert("DANGER TODO")
+    const data = {"lines": lines, "stops": stops, "nearstops": nearstops}
+    fetch(`${window.origin}/admin-save-servicemod`, {
+        method: "POST",
+        credentials: "include",
+        body: JSON.stringify(data),
+        cache: "no-cache",
+        headers: new Headers({
+            "content-type": "application/json"
+        })
+    })
+    .then(function(response){
+        if (response.status !== 200) {
+            console.log(`Response was not 200: ${response.status}`);
+            return;
+        }
+        response.json().then(function(datastring){
+            alert("Changes saved!")
+            // data = datastring
+            // console.log("Data:");
+            // console.log(data);
+            // displayAllDailyRoutes();
+        })
+    })
 }
