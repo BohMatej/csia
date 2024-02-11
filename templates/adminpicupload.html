@@ -1,0 +1,29 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Upload Icons
+{% endblock %}
+
+{% block modalheader %}
+    Welcome to the Super Icon Uploader 4000!
+{% endblock %}
+
+{% block modalbody %}
+    Loads a interesting shite to do here!
+{% endblock %}
+
+{% block main %}
+    <h1>Upload Files</h1>
+    <h6 class="mb-3">(for icons, use "line#.png" as the name. For example, for line 123, the filename would be line123.png). Size should be 500x500 px.</h6>
+    <form action="/admin-picupload" method="post" enctype="multipart/form-data">
+        <div class="row">
+            <div class="mb-3">
+                <!-- <label for="formFileLg" class="form-label">Upload PNG</label> -->
+                <input class="form-control form-control-lg" id="formFileLg" name="file" type="file">
+            </div>
+        </div>
+        <div class="row">
+            <button class="btn btn-primary" type="submit">Submit</button>
+        </div>
+    </form>
+{% endblock %}

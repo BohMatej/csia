@@ -55,8 +55,15 @@
                         </a>
                         </li>
                         {% if session["user_id"] == 1%}
-                            <li class="nav-item"><a class="nav-link" href="/admin-daily" style="color: #942327">Set Daily Routes</a></li>
-                            <li class="nav-item"><a class="nav-link" href="/admin-servicemod" style="color: #942327">Set Stops and Services</a></li>
+                            <li class="nav-item dropdown" style="color: #942327">
+                                <a class="nav-link dropdown-toggle" style="color: #942327" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Admin Settings</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="/admin-daily" style="color: #942327">Set Daily Routes</a></li>
+                                    <li><a class="dropdown-item" href="/admin-servicemod" style="color: #942327">Set Stops and Services</a></li>
+                                    <li><a class="dropdown-item" href="/admin-picupload" style="color: #942327">Upload Line Icons</a></li>
+                                </ul>
+                            </li>
+
                         {% endif %}
                         <li class="nav-item"><a class="nav-link" href="/changepassword">Change Password</a></li>
                         <li class="nav-item"><a class="nav-link" href="/logout">Log Out</a></li>

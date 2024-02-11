@@ -12,13 +12,16 @@ from routegeneration import generateRoute, verifyRoute
 sys.path.append("database")
 from dbupdate import DatabaseUpdate
 
-DIRNAME = os.path.dirname(__file__)
 
 app = Flask(__name__)
+
 
 app.config["SESSION_PERMANENT"] = False
 app.config["SESSION_TYPE"] = "filesystem"
 Session(app)
+UPLOAD_FOLDER = 'static/line_icons'
+app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
+DIRNAME = os.path.dirname(__file__)
 
 @app.after_request
 def after_request(response):
@@ -524,6 +527,25 @@ def generateDailyRoute():
     
     out = make_response(jsonify(data), 200)
     return out
+
+@app.route('/admin-picupload', methods=["GET", "POST"])
+@admin_required
+def uploadIcons():
+    if request.method == "POST":
+        if 'file' not in request.files:
+            return 'No file has been uploaded'
+
+        file = request.files['file']
+
+        if file.filename == '':
+            return 'No selected file'
+
+        if file:
+            filename = file.filename
+            file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
+            return 'File uploaded successfully'
+    else:
+        return render_template("adminpicupload.html")
 
 @app.route('/viewDailyData', methods=["GET", "POST"])
 @login_required
