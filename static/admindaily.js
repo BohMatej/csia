@@ -7,7 +7,7 @@ if (data == 0){
 var generated_route;
 
 function generateRoute(){
-    fetch(`${window.origin}/generateDailyRoute`, {
+    fetch(`${window.origin}/admin-generateDailyRoute`, {
         method: "POST",
         credentials: "include",
         cache: "no-cache",

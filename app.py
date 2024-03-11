@@ -1,16 +1,17 @@
 import os
 import sys
 import csv
-sys.path.append("mhdle_src")
 from flask import Flask, redirect, render_template, request, session, url_for, jsonify, make_response
 from flask_session import Session
 from werkzeug.security import check_password_hash, generate_password_hash
 import json
 import datetime
-from helpers import unpackStops, login_required, admin_required, daily_not_beaten_required, query_database, find_missing_consecutive_date, date_streaks
-from routegeneration import generateRoute, verifyRoute
-sys.path.append("database")
-from dbupdate import DatabaseUpdate
+from mhdle_src.helpers import unpackStops, login_required, admin_required, daily_not_beaten_required, query_database, find_missing_consecutive_date, date_streaks
+from mhdle_src.routegeneration import generateRoute, verifyRoute
+
+
+from database.dbupdate import DatabaseUpdate
+
 
 
 app = Flask(__name__)
@@ -204,7 +205,7 @@ def register():
         )
 
         # Redirect user to home page
-        return redirect("/")
+        return redirect("/login")
 
     # User reached route via GET (as by clicking a link or via redirect)
     else:
@@ -253,8 +254,8 @@ def changepassword():
             (hashed_password, session["user_id"])
         )
 
-        # Redirect user to home page
-        return redirect("/")
+        # Redirect user to logout
+        return redirect("/logout")
     else:
         return render_template("change_password.html")
 
@@ -362,7 +363,7 @@ def admin_save_servicemod():
     
     return make_response(json.dumps("Hooray!"), 200)
     
-@app.route("/admin-daily", methods=["GET", "POST"])
+@app.route("/admin-daily", methods=["GET"])
 @admin_required
 def admin_daily():
     if request.method == "POST":
@@ -512,7 +513,8 @@ def logDailyProgress():
     )
     return make_response("kek2", 200)
 
-@app.route('/generateDailyRoute', methods=["POST"])
+@app.route('/admin-generateDailyRoute', methods=["POST"])
+@admin_required
 def generateDailyRoute():
     route = generateRoute()
     data = {
@@ -547,7 +549,7 @@ def uploadIcons():
     else:
         return render_template("adminpicupload.html")
 
-@app.route('/viewDailyData', methods=["GET", "POST"])
+@app.route('/viewDailyData', methods=["GET"])
 @login_required
 def viewDailyData():
     rawData = query_database(

@@ -1,4 +1,3 @@
-console.log(data);
 const ROUTE = data.linelist
 const ROUTELENGTH = ROUTE.length;
 var currentrow = 0
@@ -98,7 +97,7 @@ for (var i=0; i<ROUTELENGTH; i++){
 }
 
 if (data.gamemode == "daily"){
-    console.log(progress);
+    // console.log(progress);
     for (var i=0; i<progress.length; i++){
         clickLine(progress[i][1]);
         clickLine(progress[i][2]);
@@ -106,12 +105,12 @@ if (data.gamemode == "daily"){
         commitEntry();
     }
     document.getElementById("winnerModalFooter").innerHTML = `
-    <form action="/viewDailyData" method="post">
+    <form action="/viewDailyData" method="get">
     <button class="btn btn-secondary" type="submit">View Stats</button>
     </form>
     `
     document.getElementById("loserModalFooter").innerHTML = `
-    <form action="/viewDailyData" method="post">
+    <form action="/viewDailyData" method="get">
     <button class="btn btn-secondary" type="submit">View Stats</button>
     </form>
     `
@@ -194,8 +193,8 @@ function commitEntry(){
             isInterlined = true;
         }
 
-        console.log(isPresent)
-        console.log(isInterlined)
+        // console.log(isPresent)
+        // console.log(isInterlined)
 
         if (isPresent && isInterlined){
             document.getElementById(`guesscellcontainer_${currentrow}_${i}`).style.backgroundColor = "#f283f7";
@@ -302,9 +301,9 @@ function writeDatabaseWinOrLoss(status){
 }
 
 function logEverything(){
-    console.log(currentrow)
-    console.log(currentcolumn)
-    console.log(guess)
+    // console.log(currentrow)
+    // console.log(currentcolumn)
+    // console.log(guess)
 }
 
 window.addEventListener("keydown", function(event){
@@ -314,7 +313,7 @@ window.addEventListener("keydown", function(event){
     if (event.key === "Enter"){
         verifyEntry();
     }
-    if (event.key === " "){
-        logEverything();
-    }
+    // if (event.key === " "){
+    //     logEverything();
+    // }
 })

@@ -1,7 +1,7 @@
 import sqlite3
 import os
 from typing import Tuple, List, Dict
-from helpers import intersection, unpackAreaTuple, unpackStops
+from .helpers import intersection, unpackAreaTuple, unpackStops
 
 DIRNAME = os.path.dirname(__file__)
 
@@ -55,8 +55,8 @@ class Route:
             possibleColorLines = cur.execute("SELECT label FROM lines WHERE color != '9e9e9e'").fetchall()
             lines = intersection(possibleAreaLines, possibleColorLines)
         
-        print(possibleAreaLines)
-        print(possibleColorLines)
+        #print(possibleAreaLines)
+        #print(possibleColorLines)
 
         out = []
         for t in lines:

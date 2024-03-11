@@ -54,6 +54,9 @@ def admin_required(f):
             return redirect("/login")
         if session.get("user_id") != 1:
             return "Page is only accessible to the admin."
+            ''' this situation should never happen realistically, 
+                as buttons with links to these routes don't show for
+                non-admins. '''
         return f(*args, **kwargs)
     return decorated_function
 
@@ -94,9 +97,6 @@ def find_missing_consecutive_date(date_list):
 def date_streaks(date_list, latest_date):
     if not date_list or not latest_date:
         return (0, 0)
-
-    print(date_list)
-    print(latest_date)
     
     date_objects = [datetime.strptime(date, "%Y-%m-%d") for date in date_list]
     latest_date = datetime.strptime(latest_date, "%Y-%m-%d")
@@ -120,11 +120,9 @@ def date_streaks(date_list, latest_date):
 
         if (latest_date - date_objects[len(date_objects)-1]).days > 1:
             streak_including_previous_day = 0
-            print("nope!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
     elif len(date_objects) == 1:
         if (latest_date - date_objects[0]).days < 2: # only one day played, and it's either today od yesterday. Hence, keep 1 streak
             streak_including_previous_day = 1
-            print("yep!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
     else:
         return (0, 0)
     return (longest_streak, streak_including_previous_day)
