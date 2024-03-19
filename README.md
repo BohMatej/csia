@@ -12,4 +12,4 @@ Step 4: Initially, these databases also need to be populated with line and stop 
 
 Step 5: Now that all databases have been set up, run the server by executing `flask run` in the terminal. To open the website, navigate to http://127.0.0.1:5000 on your browser.
 
-Step 6: Register an account. The first account to be registered should have admin privileges.
+Step 6: Register an account. The first account to be registered should have admin privileges. Note that in order to play the daily gamemode, you will first have to generate daily routes yourself.
