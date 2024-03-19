@@ -38,7 +38,6 @@ def index():
 
 @app.route('/daily')
 @login_required
-# @daily_not_beaten_required
 def daily():
     
     rawdata = query_database(
@@ -80,6 +79,9 @@ def custom():
             area=tuple(request.form.getlist("area")),
             useGreyLines=ugl
         )
+        
+        if route == None:
+            return "Sorry, the conditions you picked cannot generate a route."
         
         data = {
             "gamemode": "custom",
@@ -238,7 +240,7 @@ def changepassword():
             )[0][0],
             request.form.get("old_password")
         ):
-            "Password does not match current password"
+            return "Password does not match current password"
 
         # Ensure confirmation is the same as password
         elif request.form.get("confirmation") != request.form.get("password"):
@@ -343,7 +345,7 @@ def admin_save_servicemod():
             csvwriter.writerow([stopid, 1])
     
     # stops
-    with open("database/data/stops.csv", "w", newline='') as file:
+    with open("database/data/stops.csv", "w", newline='', encoding='utf-8') as file:
         csvwriter = csv.writer(file)
         csvwriter.writerow(["uid", "district", "truename"])
         for stop in req['stops']:
@@ -366,26 +368,21 @@ def admin_save_servicemod():
 @app.route("/admin-daily", methods=["GET"])
 @admin_required
 def admin_daily():
-    if request.method == "POST":
-        pass
-            
+    raw = query_database(
+        os.path.join(DIRNAME, "database/mhdle_private.db"),
+        "SELECT routejson, routedate, route_id FROM dailyroutes WHERE routedate >= DATE('now') ORDER BY routedate DESC",
+        False
+        )
+    if len(raw) != 0:
+        #print(raw)
+        jsonobject = [{"routejson": json.loads(obj[0]), "routedate": obj[1], "route_id": obj[2]} for obj in raw]
     else:
-        raw = query_database(
-            os.path.join(DIRNAME, "database/mhdle_private.db"),
-            "SELECT routejson, routedate, route_id FROM dailyroutes WHERE routedate >= DATE('now') ORDER BY routedate DESC",
-            False
-            )
-        if len(raw) != 0:
-            #print(raw)
-            jsonobject = [{"routejson": json.loads(obj[0]), "routedate": obj[1], "route_id": obj[2]} for obj in raw]
-        else:
-            jsonobject = 0
-        
-        #print(jsonobject)
-        data = json.dumps(jsonobject, indent=4)
-        print(data)
-        
-        return render_template("admindaily.html", data = data)
+        jsonobject = 0
+    
+    #print(jsonobject)
+    data = json.dumps(jsonobject, indent=4)
+    print(data)
+    return render_template("admindaily.html", data = data)
 
 @app.route("/admin-writedailyroute", methods=["POST"])
 @admin_required
@@ -501,7 +498,9 @@ def logDailyRoute():
     #return make_response(render_template("custommenu.html"))
     #return redirect("/viewDailyData")
 
+# BACKEND (Python)
 @app.route('/logDailyProgress', methods=["POST"])
+@login_required
 def logDailyProgress():
     req = request.get_json()
     user_id = session.get("user_id")
@@ -511,7 +510,7 @@ def logDailyProgress():
         VALUES (?, ?, ?, ?, ?, ?)""",
         (datetime.date.today(), user_id, req["currentrow"], req["guess0"], req["guess1"], req["guess2"])
     )
-    return make_response("kek2", 200)
+    return make_response("Success", 200)
 
 @app.route('/admin-generateDailyRoute', methods=["POST"])
 @admin_required

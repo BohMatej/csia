@@ -176,6 +176,10 @@ function verifyEntry(){
 }
 
 function commitEntry(){
+    if (guess.length != ROUTELENGTH){
+        alert("Incomplete route!")
+        return
+    }
     wincon = 0
     for (var i=0; i<ROUTELENGTH; i++){
         if (guess[i] == ROUTE[i]){
@@ -243,6 +247,7 @@ function commitEntry(){
     }
 }
 
+// FRONTEND (JavaScript)
 function writeProgress(guess, currentrow){
     var entry = {
         guess0: guess[0],
@@ -264,7 +269,7 @@ function writeProgress(guess, currentrow){
             console.log(`Response was not 200: $(response.status)`);
             return;
         }
-        response.json().then(function(data){
+        response.json().then(function(){
             alert("Progress logged to database.")
         })
     })

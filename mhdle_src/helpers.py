@@ -56,7 +56,9 @@ def admin_required(f):
             return "Page is only accessible to the admin."
             ''' this situation should never happen realistically, 
                 as buttons with links to these routes don't show for
-                non-admins. '''
+                non-admins. However, it acts as a failsafe on the backend,
+                as a user with malicious intent that know the link to an
+                admin-only route could otherwise access it.'''
         return f(*args, **kwargs)
     return decorated_function
 

@@ -67,7 +67,7 @@ class Route:
         conn.close()
         return out
 
-    def generateFirstStops(self, selectedLine: str) -> Dict:
+    def generateFirstStops(self, selectedLine: str) -> List[Dict]:
         conn = sqlite3.connect(os.path.join(DIRNAME, "../database/mhdle.db"))
         cur = conn.cursor()
         params = []
@@ -174,7 +174,7 @@ class Route:
         conn.close()
         return out
 
-    def generateCoreStops(self, selectedLine: str) -> Dict:
+    def generateCoreStops(self, selectedLine: str) -> List[Dict]:
         conn = sqlite3.connect(os.path.join(DIRNAME, "../database/mhdle.db"))
         cur = conn.cursor()
 
@@ -216,21 +216,29 @@ class Route:
                                             (SELECT stop_id FROM services WHERE line_label = ?)""" % ','.join('?'*len(acceptableStops)), params3).fetchall()
         
         # select stops onto which walking transfer is possible
-
-        walkingTransferStopsRaw = cur.execute("""SELECT DISTINCT current.subservice, current.order_in_subservice, current.stop_id, transfered.stop_id, walktime
-                                            FROM services AS current 
-                                            JOIN nearstops ON nearstops.stopone_id = current.stop_id JOIN services AS transfered ON nearstops.stoptwo_id = transfered.stop_id
-                                            WHERE current.line_label = ?
-                                            AND current.stop_id IN (%s) 
-                                            AND transfered.stop_id IN (SELECT stop_id FROM services WHERE line_label = ?)
-                                            """ % ','.join('?'*len(acceptableStops)), params3).fetchall()
-        walkingTransferStopsRaw.extend(cur.execute("""SELECT DISTINCT current.subservice, current.order_in_subservice, current.stop_id, transfered.stop_id, walktime
-                                            FROM services AS current 
-                                            JOIN nearstops ON nearstops.stoptwo_id = current.stop_id JOIN services AS transfered ON nearstops.stopone_id = transfered.stop_id
-                                            WHERE current.line_label = ?
-                                            AND current.stop_id IN (%s) 
-                                            AND transfered.stop_id IN (SELECT stop_id FROM services WHERE line_label = ?)
-                                            """ % ','.join('?'*len(acceptableStops)), params3).fetchall())
+        
+        # first query: in case stopone is the current stop and stoptwo is the transferred stop in the nearstops table
+        walkingTransferStopsRaw = cur.execute(
+            """SELECT DISTINCT current.subservice, current.order_in_subservice, current.stop_id, transfered.stop_id, walktime
+            FROM services AS current 
+            JOIN nearstops ON nearstops.stopone_id = current.stop_id 
+            JOIN services AS transfered ON nearstops.stoptwo_id = transfered.stop_id
+            WHERE current.line_label = ?
+            AND current.stop_id IN (%s) 
+            AND transfered.stop_id IN (SELECT stop_id FROM services WHERE line_label = ?)
+            """ % ','.join('?'*len(acceptableStops)), params3).fetchall()
+        
+        # second query: in case stoptwo is the current stop and stopone is the transferred stop in the nearstops table
+        walkingTransferStopsRaw.extend(cur.execute(
+            """SELECT DISTINCT current.subservice, current.order_in_subservice, current.stop_id, transfered.stop_id, walktime
+            FROM services AS current 
+            JOIN nearstops ON nearstops.stoptwo_id = current.stop_id 
+            JOIN services AS transfered ON nearstops.stopone_id = transfered.stop_id
+            WHERE current.line_label = ?
+            AND current.stop_id IN (%s) 
+            AND transfered.stop_id IN (SELECT stop_id FROM services WHERE line_label = ?)
+            """ % ','.join('?'*len(acceptableStops)), params3).fetchall())
+        
         for tr in walkingTransferStopsRaw:
             print(f"{tr[0]}, {tr[1]}, {unpackStops(tr[2])}, {unpackStops(tr[3])}, {tr[4]}")
 
@@ -247,6 +255,7 @@ class Route:
         for service in currentStopServiceData:
             for rawstop in directTransferStopsRaw:
                 if rawstop[0] == service[0] and rawstop[1] > service[1]:
+                    # If 
                     transfers.append(None)
                     possibleStops.append(rawstop[2])
                     temp = cur.execute("""SELECT stop_id FROM services 
@@ -375,7 +384,7 @@ class Route:
         conn.close()
         return out
 
-    def generateFinalStops(self) -> Dict:
+    def generateFinalStops(self) -> List[Dict]:
         conn = sqlite3.connect(os.path.join(DIRNAME, "../database/mhdle.db"))
         cur = conn.cursor()
         

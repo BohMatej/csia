@@ -83,7 +83,6 @@ class DatabaseUpdate():
                             print(f"Error on line {rownumber} of services.txt. Line number not set for /color tag. Please fix.")
                             return
                         color = row[1]
-                        #cur.execute("UPDATE lines SET color = ? WHERE label = ?", (color, linenumber,))
                         colors_tuples.append((color, linenumber,))
                 elif row[0][0] == "]":
                     if linenumber == None:
@@ -93,17 +92,12 @@ class DatabaseUpdate():
                     linenumber = None
                     color = None
                     subservicenumber = None
-                # elif len(row) > 1:
-                #     print(f"Error on line {rownumber} of services.txt. Wrongly structured line. Please fix.")
-                #     return
-                
+                    
                 # sort out each subservice's stops
                 else:
                     stop_id = " ".join(row)
-                    #stop_id = cur.execute("SELECT stop_id FROM stops WHERE truename = ?", (row,)).fetchone()[0]
                     services_tuples.append((linenumber, stop_id, subservicenumber, order_in_subservice,))
                     order_in_subservice += 1
-
                 rownumber += 1
 
         # read loops.csv

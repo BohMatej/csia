@@ -53,12 +53,7 @@ function loadLines(){
                 <img src="/../static/line_icons/line${key}.png" alt='Line ${key}' width='40'>
             </button>
             <span id='line_editbox_${key}' class='collapse'>
-                <p>
-                    You're probably not supposed to see this
-                </p>
-                <p>
-                ${JSON.stringify(value)}
-                </p>
+                This is where the contents of the collapse will go.
             </span>
         `
     }

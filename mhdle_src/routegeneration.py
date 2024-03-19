@@ -39,8 +39,14 @@ def generateRoute(
         ) -> Route:
     
     if targetStop == None and useHardMode == False:
+        
+        # Print for debug purposes
         print(f"Starting standardGeneration of length {length}.")
+        
+        # create the Route object, passing the initial route generation conditions as parameters
         newroute = Route(length, area, useGreyLines, useHardMode, targetStop, False)
+        
+        # call the recursive standardGeneration function and return its output
         return standardGeneration(1, newroute)
 
 def verifyRoute(enteredLines: Tuple[str, ...]) -> Route:
@@ -121,13 +127,10 @@ def standardGeneration(recDepth: int, route: Route) -> Route:
         for selectedLine in lines:
             print("    " * recDepth + f"Selected line: {selectedLine}")
             # generate core stops 
-            # returns a dict because I'm a dumbass; "select" key represents the selected stop, and "passed" key represents a list of stops which were passed when traveling
+            # returns a dict; "select" key represents the selected stop, and "passed" key represents a list of stops which were passed when traveling
             print("    " * recDepth + "Generating core stops")
             stops = route.generateCoreStops(selectedLine)
             random.shuffle(stops)
-            #print(stops)
-            #print(type(stops))
-            #print(type(stops[0]["select"]))
 
             for selectedStop in stops:
                 print("    " * recDepth + f"Selected stop: {unpackStops(selectedStop['select'])}")
