@@ -602,4 +602,6 @@ def viewDailyData():
 
 with app.test_request_context():
     print("Hello")
-    
+
+if __name__ == '__main__':
+    app.run()
