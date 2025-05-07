@@ -111,14 +111,14 @@ class DatabaseUpdate():
         nearstops_tuples = []
         with open(os.path.join(DIRNAME, "data/nearstops.csv"), "r", encoding="utf-8") as nearstops:
             reader = csv.DictReader(nearstops)
-            rownumber = 2
+            rownumber = 2 # column headers are in the first row, which have to be skipped
             for row in reader:
                 stopone_id = row["first"]
                 stoptwo_id = row["second"]
-                if stopone_id == None:
+                if stopone_id == None: # only for debugging
                     print(f"Error in nearstops, at line {rownumber}: column \"first\" has undefined stop ID \"{row['first']}\".")
                     return
-                if stoptwo_id == None:
+                if stoptwo_id == None: # only for debugging
                     print(f"Error in nearstops, at line {rownumber}: column \"second\" has undefined ID \"{row['second']}\".")
                     return
                 nearstops_tuples.append((stopone_id, stoptwo_id, row["walktime"]))
