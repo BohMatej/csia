@@ -15,3 +15,13 @@ Step 4: Initially, these databases also need to be populated with line and stop 
 Step 5: Now that all databases have been set up, run the server by executing `flask run` in the terminal. To open the website, navigate to http://127.0.0.1:5000 on your browser.
 
 Step 6: Register an account. The first account to be registered should have admin privileges. Note that in order to play the daily gamemode, you will first have to generate daily routes yourself.
+
+<!-- ## Render deployment note
+
+This repository includes `database/init_private_db.py`, which initializes only the private database (`database/mhdle_private.db`) from `database/schema_private.sql`.
+
+For Render deployments, run it before starting Gunicorn:
+
+`python3 database/init_private_db.py && gunicorn --bind 0.0.0.0:$PORT app:app`
+
+This does not modify `database/mhdle.db`. -->

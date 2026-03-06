@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: mhdle
+    env: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python3 database/init_private_db.py && gunicorn --bind 0.0.0.0:$PORT app:app"
