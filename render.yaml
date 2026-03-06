@@ -1,6 +1,15 @@
+# Exported from Render on 2026-03-06T13:36:40Z
+version: "1"
 services:
-  - type: web
-    name: mhdle
-    env: python
-    buildCommand: "pip install -r requirements.txt"
-    startCommand: "python3 database/init_private_db.py && gunicorn --bind 0.0.0.0:$PORT app:app"
+- type: web
+  name: mhdle
+  runtime: python
+  repo: https://github.com/BohMatej/csia
+  plan: free
+  region: oregon
+  buildCommand: "pip install -r requirements.txt"
+  startCommand: "python3 database/init_private_db.py && gunicorn --bind 0.0.0.0:$PORT app:app"
+  domains:
+  - mhdle.matejmacula.com
+  autoDeployTrigger: commit
+
